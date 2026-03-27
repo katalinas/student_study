@@ -1,0 +1,422 @@
+[
+  {
+    "id": "intellect_q_1700",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "现在完成时"
+    ],
+    "subject": "english",
+    "stem": "I ____ already ____ my homework.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "have ... finish"
+      },
+      {
+        "label": "B",
+        "text": "have ... finished"
+      },
+      {
+        "label": "C",
+        "text": "has ... finished"
+      },
+      {
+        "label": "D",
+        "text": "had ... finish"
+      }
+    ],
+    "answer": "B",
+    "explanation": "现在完成时的结构是 \"have/has + 过去分词\"。主语 I 用 have，finish 的过去分词是 finished。already（已经）常用于现在完成时的肯定句中，放在 have 和过去分词之间。",
+    "hint": "现在完成时的构成：have/has + 动词的过去分词。I 后面用 have 还是 has？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1701",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "现在完成时"
+    ],
+    "subject": "english",
+    "stem": "She has lived in Beijing ____ 2018.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "since"
+      },
+      {
+        "label": "C",
+        "text": "in"
+      },
+      {
+        "label": "D",
+        "text": "from"
+      }
+    ],
+    "answer": "B",
+    "explanation": "现在完成时中，since 后接时间点（如 2018, last year, Monday），表示\"自从……以来\"。for 后接时间段（如 three years, two hours）。2018 是一个时间点，所以用 since。",
+    "hint": "since 后面跟时间点，for 后面跟时间段。2018 是时间点还是时间段？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1702",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "被动语态"
+    ],
+    "subject": "english",
+    "stem": "The bridge ____ in 1990.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "built"
+      },
+      {
+        "label": "B",
+        "text": "was built"
+      },
+      {
+        "label": "C",
+        "text": "is built"
+      },
+      {
+        "label": "D",
+        "text": "has built"
+      }
+    ],
+    "answer": "B",
+    "explanation": "桥是\"被建造\"的，要用被动语态。被动语态的结构是 \"be + 过去分词\"。因为时间是 1990 年（过去），所以用一般过去时的被动语态：was built。",
+    "hint": "桥不能自己建造自己，它是\"被建造\"的。过去时间用 was/were。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1703",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "被动语态"
+    ],
+    "subject": "english",
+    "stem": "English ____ all over the world.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "speaks"
+      },
+      {
+        "label": "B",
+        "text": "spoke"
+      },
+      {
+        "label": "C",
+        "text": "is spoken"
+      },
+      {
+        "label": "D",
+        "text": "is speaking"
+      }
+    ],
+    "answer": "C",
+    "explanation": "英语是\"被说\"的（被人们使用），要用被动语态。这是一个客观事实，用一般现在时的被动语态：is spoken。主语 English 是单数，所以用 is。",
+    "hint": "英语不是自己\"说\"自己，而是\"被（全世界的人）说\"。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1704",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "定语从句"
+    ],
+    "subject": "english",
+    "stem": "The boy ____ is wearing a red shirt is my brother.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "whom"
+      },
+      {
+        "label": "D",
+        "text": "what"
+      }
+    ],
+    "answer": "B",
+    "explanation": "先行词是 the boy（人），在定语从句中作主语，应该用关系代词 who。which 用于修饰物，whom 用于作宾语，what 不能引导定语从句。",
+    "hint": "先行词是人（boy），在从句中作主语（穿着红衬衫的是谁），应该用哪个关系代词？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1705",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "定语从句"
+    ],
+    "subject": "english",
+    "stem": "This is the book ____ I bought yesterday.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "what"
+      },
+      {
+        "label": "C",
+        "text": "which"
+      },
+      {
+        "label": "D",
+        "text": "where"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先行词是 the book（物），在定语从句中作 bought 的宾语，应该用关系代词 which（也可以用 that）。who 用于修饰人，what 不引导定语从句，where 引导地点状语从句。",
+    "hint": "先行词是物（book），用哪个关系代词来引导定语从句？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1706",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "现在完成时"
+    ],
+    "subject": "english",
+    "stem": "They have ____ (live) here for ten years. (用括号中单词的正确形式填空)",
+    "stem_image": null,
+    "options": null,
+    "answer": "lived",
+    "explanation": "现在完成时的结构是 have/has + 过去分词。live 的过去分词是 lived（规则变化，加 -d）。\"for ten years\" 是时间段，常与现在完成时连用。",
+    "hint": "have 后面需要跟动词的过去分词形式。live 的过去分词是什么？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1707",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "被动语态"
+    ],
+    "subject": "english",
+    "stem": "The classroom ____ (clean) by the students every day. (用括号中单词的被动语态形式填空)",
+    "stem_image": null,
+    "options": null,
+    "answer": "is cleaned",
+    "explanation": "教室是\"被打扫\"的，要用被动语态。\"every day\" 表示经常性动作，用一般现在时的被动语态。主语 the classroom 是单数第三人称，所以是 is cleaned。",
+    "hint": "被动语态：be + 过去分词。every day 表示一般现在时，单数主语用 is。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1708",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 5,
+    "tags": [
+      "english",
+      "完形填空"
+    ],
+    "subject": "english",
+    "stem": "Last week, Tom ____ (go) to the library. He ____ (borrow) two books and ____ (read) them at home. (用括号中单词的正确过去式填空，用逗号分隔三个答案)",
+    "stem_image": null,
+    "options": null,
+    "answer": "went, borrowed, read",
+    "explanation": "\"Last week\" 表示过去时间，三个动词都用过去式。go → went（不规则），borrow → borrowed（规则，加 -ed），read → read（不规则，过去式和原形拼写相同，但发音变为 /red/）。",
+    "hint": "三个动词的过去式分别是什么？注意 go 和 read 是不规则变化。",
+    "time_limit_seconds": 40,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1709",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 5,
+    "tags": [
+      "english",
+      "定语从句"
+    ],
+    "subject": "english",
+    "stem": "I have a friend ____ father is a doctor. (填入合适的关系代词)",
+    "stem_image": null,
+    "options": null,
+    "answer": "whose",
+    "explanation": "先行词是 a friend（人），后面的 father 是名词，需要一个表示所属关系的关系代词。whose 表示\"……的\"，\"whose father\" 即\"他/她的爸爸\"。整句意思是：我有一个朋友，他/她的爸爸是医生。",
+    "hint": "从句中 father 前面需要一个表示\"谁的\"的关系代词，who 的所有格是什么？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1710",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "现在完成时"
+    ],
+    "subject": "english",
+    "stem": "\"I have gone to Beijing\" and \"I have been to Beijing\" have the same meaning. (\"I have gone to Beijing\" 和 \"I have been to Beijing\" 意思相同。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "错误。这两句意思不同。\"I have gone to Beijing\" 意思是\"我去了北京（人还在北京，没有回来）\"。\"I have been to Beijing\" 意思是\"我去过北京（有过这个经历，人已经回来了）\"。",
+    "hint": "have gone to 和 have been to 是现在完成时的两个重要短语，它们的意思有区别。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1711",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "被动语态"
+    ],
+    "subject": "english",
+    "stem": "The sentence \"The cake was ate by Tom\" is grammatically correct. (句子 \"The cake was ate by Tom\" 语法正确。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "错误。被动语态的结构是 \"be + 过去分词\"，eat 的过去分词是 eaten（不是 ate，ate 是过去式）。正确的句子应该是 \"The cake was eaten by Tom.\"（蛋糕被 Tom 吃了。）",
+    "hint": "被动语态需要用过去分词，不是过去式。eat 的三种形式是：eat - ate - eaten。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

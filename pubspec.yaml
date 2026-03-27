@@ -1,0 +1,84 @@
+name: student_study
+description: "Cross-platform education app for K-9 students"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^15.1.2
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Local Database
+  drift: ^2.23.1
+  sqlite3_flutter_libs: ^0.5.28
+
+  # JSON Serialization
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  google_fonts: ^6.2.1
+  lottie: ^3.3.1
+
+  # Audio
+  just_audio: ^0.9.43
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Utilities
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.4.15
+  freezed: ^2.5.8
+  json_serializable: ^6.9.4
+  riverpod_generator: ^2.6.4
+  drift_dev: ^2.23.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/content/
+    - assets/content/intellect/
+    - assets/content/intellect/math/
+    - assets/content/intellect/chinese/
+    - assets/content/intellect/english/
+    - assets/content/tech/
+    - assets/content/tech/programming/
+    - assets/content/tech/ai_intro/
+    - assets/content/tech/virtual_lab/
+    - assets/content/tech/aerospace/
+    - assets/content/tech/timeline/
+    - assets/content/tech/science/
+    - assets/content/logic/
+    - assets/content/general/
+    - assets/content/moral/
+    - assets/content/moral/stories/
+    - assets/content/moral/values/
+    - assets/content/moral/tradition/
+    - assets/content/words/
+    - assets/images/
+    - assets/animations/
+    - assets/audio/

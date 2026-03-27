@@ -1,0 +1,533 @@
+[
+  {
+    "id": "intellect_q_1500",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "家庭"
+    ],
+    "subject": "english",
+    "stem": "My father's mother is my ____.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "aunt"
+      },
+      {
+        "label": "B",
+        "text": "sister"
+      },
+      {
+        "label": "C",
+        "text": "grandmother"
+      },
+      {
+        "label": "D",
+        "text": "mother"
+      }
+    ],
+    "answer": "C",
+    "explanation": "爸爸的妈妈就是奶奶（祖母），英文是 grandmother。aunt 是阿姨/姑姑，sister 是姐妹，mother 是妈妈。",
+    "hint": "father 是爸爸，father's mother 就是爸爸的妈妈，也就是……",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1501",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "食物"
+    ],
+    "subject": "english",
+    "stem": "Which one is a fruit? (哪个是水果？)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "bread"
+      },
+      {
+        "label": "B",
+        "text": "apple"
+      },
+      {
+        "label": "C",
+        "text": "rice"
+      },
+      {
+        "label": "D",
+        "text": "chicken"
+      }
+    ],
+    "answer": "B",
+    "explanation": "apple（苹果）是水果。bread 是面包，rice 是米饭，chicken 是鸡肉，它们都不是水果。",
+    "hint": "这种食物长在树上，红红的、圆圆的，很甜。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1502",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "身体"
+    ],
+    "subject": "english",
+    "stem": "We use our ____ to see things. (我们用____来看东西。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "ears"
+      },
+      {
+        "label": "B",
+        "text": "eyes"
+      },
+      {
+        "label": "C",
+        "text": "nose"
+      },
+      {
+        "label": "D",
+        "text": "mouth"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我们用眼睛（eyes）来看东西。ears 是耳朵（用来听），nose 是鼻子（用来闻），mouth 是嘴巴（用来说话和吃东西）。",
+    "hint": "看东西需要用到脸上的哪个器官？",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1503",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "简单句型"
+    ],
+    "subject": "english",
+    "stem": "Choose the correct sentence: (选择正确的句子)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "I am a student."
+      },
+      {
+        "label": "B",
+        "text": "I is a student."
+      },
+      {
+        "label": "C",
+        "text": "I are a student."
+      },
+      {
+        "label": "D",
+        "text": "I be a student."
+      }
+    ],
+    "answer": "A",
+    "explanation": "主语 I（我）后面要用 am。be 动词的搭配规则：I am, you are, he/she/it is。所以正确的说法是 \"I am a student.\"（我是一名学生。）",
+    "hint": "I 后面跟的 be 动词是什么形式？am, is, 还是 are？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1504",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "简单句型"
+    ],
+    "subject": "english",
+    "stem": "____ is a teacher. (He/She/It)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "He am"
+      },
+      {
+        "label": "B",
+        "text": "He is"
+      },
+      {
+        "label": "C",
+        "text": "He are"
+      },
+      {
+        "label": "D",
+        "text": "He be"
+      }
+    ],
+    "answer": "B",
+    "explanation": "He（他）后面要用 is。规则：I → am, He/She/It → is, You/We/They → are。所以 \"He is a teacher.\" 是正确的。",
+    "hint": "He, She, It 后面跟的 be 动词都是同一个形式。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1505",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "介词"
+    ],
+    "subject": "english",
+    "stem": "The cat is ____ the table. (猫在桌子下面。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "on"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "behind"
+      }
+    ],
+    "answer": "C",
+    "explanation": "\"在……下面\"用介词 under。on 是\"在……上面\"，in 是\"在……里面\"，behind 是\"在……后面\"。",
+    "hint": "中文说\"在桌子下面\"，想想\"下面\"对应的英文介词是什么。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1506",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "介词"
+    ],
+    "subject": "english",
+    "stem": "The book is ____ the bag. (书在书包里面。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "on"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
+    ],
+    "answer": "B",
+    "explanation": "\"在……里面\"用介词 in。\"The book is in the bag.\" 意思是书在书包里面。",
+    "hint": "书包是一个封闭的空间，书在里面，应该用哪个介词？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1507",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "食物"
+    ],
+    "subject": "english",
+    "stem": "I like to drink ____. (milk/水果) (我喜欢喝牛奶。请填英文单词)",
+    "stem_image": null,
+    "options": null,
+    "answer": "milk",
+    "explanation": "牛奶的英文是 milk。\"I like to drink milk.\" 意思是\"我喜欢喝牛奶。\"",
+    "hint": "牛奶是白色的液体，英文是 m 开头的四个字母。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1508",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "简单句型"
+    ],
+    "subject": "english",
+    "stem": "She ____ a nurse. (用 am/is/are 填空)",
+    "stem_image": null,
+    "options": null,
+    "answer": "is",
+    "explanation": "She（她）是第三人称单数，后面用 is。\"She is a nurse.\" 意思是\"她是一名护士。\"规则：I → am, He/She/It → is, You/We/They → are。",
+    "hint": "She 和 He, It 一样，都是第三人称单数，用哪个 be 动词？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1509",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "身体"
+    ],
+    "subject": "english",
+    "stem": "I have two ____ and two legs. (我有两只手和两条腿。请填英文单词)",
+    "stem_image": null,
+    "options": null,
+    "answer": "hands",
+    "explanation": "手的英文是 hand，两只手用复数形式 hands。\"I have two hands and two legs.\" 意思是\"我有两只手和两条腿。\"",
+    "hint": "手的英文是 hand，两只手需要加上复数的 s。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1510",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "日常词汇",
+      "家庭"
+    ],
+    "subject": "english",
+    "stem": "请将家庭成员的英文单词与中文意思连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "father"
+      },
+      {
+        "id": "L2",
+        "text": "mother"
+      },
+      {
+        "id": "L3",
+        "text": "brother"
+      },
+      {
+        "id": "L4",
+        "text": "sister"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "妈妈"
+      },
+      {
+        "id": "R2",
+        "text": "姐妹"
+      },
+      {
+        "id": "R3",
+        "text": "爸爸"
+      },
+      {
+        "id": "R4",
+        "text": "兄弟"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R3"
+      },
+      {
+        "left": "L2",
+        "right": "R1"
+      },
+      {
+        "left": "L3",
+        "right": "R4"
+      },
+      {
+        "left": "L4",
+        "right": "R2"
+      }
+    ],
+    "answer": null,
+    "explanation": "father = 爸爸，mother = 妈妈，brother = 兄弟，sister = 姐妹。这些都是最基本的家庭成员称呼。",
+    "hint": "father 和 mother 分别是爸爸和妈妈，brother 和 sister 是兄弟姐妹。",
+    "time_limit_seconds": 45,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1511",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "介词"
+    ],
+    "subject": "english",
+    "stem": "请将介词与对应的中文意思连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "in"
+      },
+      {
+        "id": "L2",
+        "text": "on"
+      },
+      {
+        "id": "L3",
+        "text": "under"
+      },
+      {
+        "id": "L4",
+        "text": "behind"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "在……上面"
+      },
+      {
+        "id": "R2",
+        "text": "在……后面"
+      },
+      {
+        "id": "R3",
+        "text": "在……里面"
+      },
+      {
+        "id": "R4",
+        "text": "在……下面"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R3"
+      },
+      {
+        "left": "L2",
+        "right": "R1"
+      },
+      {
+        "left": "L3",
+        "right": "R4"
+      },
+      {
+        "left": "L4",
+        "right": "R2"
+      }
+    ],
+    "answer": null,
+    "explanation": "in = 在……里面，on = 在……上面，under = 在……下面，behind = 在……后面。这四个是最常用的方位介词。",
+    "hint": "in 表示在里面（inside），on 表示接触在上面，under 在下面，behind 在后面。",
+    "time_limit_seconds": 45,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

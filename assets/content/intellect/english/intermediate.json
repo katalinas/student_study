@@ -1,0 +1,439 @@
+[
+  {
+    "id": "intellect_q_1600",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "一般现在时"
+    ],
+    "subject": "english",
+    "stem": "She ____ to school every day.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "goes"
+      },
+      {
+        "label": "C",
+        "text": "going"
+      },
+      {
+        "label": "D",
+        "text": "went"
+      }
+    ],
+    "answer": "B",
+    "explanation": "主语 She 是第三人称单数，在一般现在时中，动词要加 -s 或 -es。go 的第三人称单数形式是 goes。“every day” 表示经常性的动作，用一般现在时。",
+    "hint": "一般现在时中，当主语是 he/she/it 时，动词要变什么形式？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1601",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "一般过去时"
+    ],
+    "subject": "english",
+    "stem": "I ____ a movie yesterday.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "watch"
+      },
+      {
+        "label": "B",
+        "text": "watches"
+      },
+      {
+        "label": "C",
+        "text": "watched"
+      },
+      {
+        "label": "D",
+        "text": "watching"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“yesterday”（昨天）是过去时间的标志词，句子要用一般过去时。watch 的过去式是 watched（规则变化，加 -ed）。",
+    "hint": "注意时间词 “yesterday”，它提示我们应该用什么时态？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1602",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "比较级"
+    ],
+    "subject": "english",
+    "stem": "Tom is ____ than Jack.",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "tall"
+      },
+      {
+        "label": "B",
+        "text": "taller"
+      },
+      {
+        "label": "C",
+        "text": "tallest"
+      },
+      {
+        "label": "D",
+        "text": "more tall"
+      }
+    ],
+    "answer": "B",
+    "explanation": "两者比较用比较级，tall 的比较级是 taller（单音节词加 -er）。“than” 是比较级的标志词。tallest 是最高级，more tall 是错误形式（单音节词不用 more）。",
+    "hint": "看到 “than” 就要想到比较级。tall 是单音节词，比较级怎么变？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1603",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "比较级"
+    ],
+    "subject": "english",
+    "stem": "This book is ____ than that one. (interesting)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "interestinger"
+      },
+      {
+        "label": "B",
+        "text": "more interesting"
+      },
+      {
+        "label": "C",
+        "text": "most interesting"
+      },
+      {
+        "label": "D",
+        "text": "more interestinger"
+      }
+    ],
+    "answer": "B",
+    "explanation": "interesting 是多音节词，比较级要在前面加 more，变成 more interesting。多音节形容词（通常三个音节以上）的比较级用 “more + 原级”。",
+    "hint": "多音节的形容词（如 interesting, beautiful）变比较级时，不是加 -er，而是在前面加什么？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1604",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "情态动词"
+    ],
+    "subject": "english",
+    "stem": "You ____ finish your homework before you play. (你必须先完成作业再玩。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "would"
+      }
+    ],
+    "answer": "B",
+    "explanation": "must 表示“必须”，语气最强，表示义务或必要性。can 表示“能够”，may 表示“可以/也许”，would 表示“会/愿意”。这里强调“必须”完成作业，所以用 must。",
+    "hint": "句子的意思是“必须”先做完作业，哪个情态动词表示“必须”？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1605",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "情态动词"
+    ],
+    "subject": "english",
+    "stem": "____ I borrow your pen, please?",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Must"
+      },
+      {
+        "label": "B",
+        "text": "Should"
+      },
+      {
+        "label": "C",
+        "text": "Can"
+      },
+      {
+        "label": "D",
+        "text": "Will"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Can 在这里表示请求许可，“Can I borrow your pen?” 意思是“我可以借你的笔吗？”这是一种礼貌的请求方式。Must 表示“必须”，语气太强，不适合请求。",
+    "hint": "向别人借东西时，应该用礼貌的方式请求，哪个词表示“可以”？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1606",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 4,
+    "tags": [
+      "english",
+      "短文阅读"
+    ],
+    "subject": "english",
+    "stem": "Read the passage:\n\nMy name is Lily. I get up at 7:00 every morning. I have breakfast at 7:30. Then I go to school by bus. School starts at 8:30. I have lunch at school at 12:00. After school, I usually play with my friends. I go home at 5:00.\n\nHow does Lily go to school?",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "By bike"
+      },
+      {
+        "label": "B",
+        "text": "By bus"
+      },
+      {
+        "label": "C",
+        "text": "On foot"
+      },
+      {
+        "label": "D",
+        "text": "By car"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文中写道 “I go to school by bus”（我坐公交车去上学），所以 Lily 是坐公交车上学的。",
+    "hint": "仔细阅读短文中关于去上学方式的那句话。",
+    "time_limit_seconds": 45,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1607",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "一般过去时"
+    ],
+    "subject": "english",
+    "stem": "He ____ (go) to Beijing last summer. (用括号中单词的正确形式填空)",
+    "stem_image": null,
+    "options": null,
+    "answer": "went",
+    "explanation": "“last summer”（去年夏天）表示过去的时间，要用一般过去时。go 的过去式是 went（不规则变化）。",
+    "hint": "go 是不规则动词，它的过去式不是 goed，而是……",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1608",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "比较级"
+    ],
+    "subject": "english",
+    "stem": "An elephant is ____ (big) than a cat. (用括号中单词的比较级填空)",
+    "stem_image": null,
+    "options": null,
+    "answer": "bigger",
+    "explanation": "big 的比较级是 bigger。规则：以“辅音字母+元音字母+辅音字母”结尾的单音节词，要双写最后一个辅音字母再加 -er。所以 big → bigger。",
+    "hint": "big 变比较级时，要双写最后的字母 g，再加 -er。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1609",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "情态动词"
+    ],
+    "subject": "english",
+    "stem": "You ____ not play with fire. It's dangerous! (你____玩火。很危险！填入合适的情态动词)",
+    "stem_image": null,
+    "options": null,
+    "answer": "must",
+    "explanation": "must not（mustn't）表示“禁止、不许”，语气强烈。“You must not play with fire.” 意思是“你不许玩火。” 用 must not 表示严厉的禁止。",
+    "hint": "玩火很危险，需要用语气最强的情态动词来表示“禁止”。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1610",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 2,
+    "tags": [
+      "english",
+      "一般现在时"
+    ],
+    "subject": "english",
+    "stem": "In the sentence “He play football every Sunday”, the verb form is correct. (在句子 “He play football every Sunday” 中，动词形式是正确的。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "错误。主语 He 是第三人称单数，在一般现在时中动词要加 -s。正确的句子应该是 “He plays football every Sunday.”",
+    "hint": "第三人称单数（he/she/it）在一般现在时中，动词需要变化。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1611",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 5,
+    "grade_max": 6,
+    "difficulty": 3,
+    "tags": [
+      "english",
+      "比较级"
+    ],
+    "subject": "english",
+    "stem": "“Good” 的比较级是 “gooder”. (“Good” 的比较级形式是 “gooder”。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "错误。good 是不规则变化的形容词，它的比较级不是 gooder，而是 better。类似的不规则变化还有：bad → worse, many/much → more。",
+    "hint": "good 和 bad 的比较级都是不规则变化，不是直接加 -er。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

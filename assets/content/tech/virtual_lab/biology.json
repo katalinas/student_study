@@ -1,0 +1,347 @@
+[
+  {
+    "id": "tech_e_401",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "biology", "显微镜", "细胞", "洋葱"],
+    "title": "显微镜观察洋葱表皮",
+    "category": "生物实验",
+    "cover_image": null,
+    "description": "学习使用显微镜的基本操作，制作洋葱表皮临时装片，观察植物细胞的基本结构——细胞壁、细胞膜、细胞质、细胞核和液泡。",
+    "learning_goals": [
+      "掌握显微镜的正确使用方法和操作步骤",
+      "学会制作临时装片的技能",
+      "认识植物细胞的基本结构"
+    ],
+    "components": [
+      {"id": "microscope", "name": "光学显微镜", "icon": "microscope.png", "count": 1},
+      {"id": "onion", "name": "洋葱", "icon": "onion.png", "count": 1},
+      {"id": "slide", "name": "载玻片", "icon": "slide.png", "count": 2},
+      {"id": "coverslip", "name": "盖玻片", "icon": "coverslip.png", "count": 2},
+      {"id": "iodine", "name": "碘液", "icon": "iodine.png", "count": 1},
+      {"id": "dropper", "name": "滴管", "icon": "dropper.png", "count": 1},
+      {"id": "tweezers", "name": "镊子", "icon": "tweezers.png", "count": 1},
+      {"id": "filter_paper", "name": "吸水纸", "icon": "paper.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在载玻片中央滴一滴清水。用镊子从洋葱内表皮上撕下一小片薄膜（约指甲大小），平展放在水滴上。",
+        "validation": "specimen_placed"
+      },
+      {
+        "order": 2,
+        "instruction": "用镊子夹住盖玻片一侧，让另一侧先接触水滴，然后慢慢放下盖玻片，避免产生气泡。",
+        "validation": "coverslip_placed"
+      },
+      {
+        "order": 3,
+        "instruction": "在盖玻片一侧滴1-2滴碘液，在另一侧用吸水纸吸引，让碘液均匀渗透染色。等待1分钟。",
+        "validation": "staining_complete"
+      },
+      {
+        "order": 4,
+        "instruction": "将装片放在显微镜载物台上，先用低倍镜（4×或10×）对焦观察，找到细胞后再转换到高倍镜（40×）。调节细准焦螺旋使图像清晰。",
+        "validation": "cells_in_focus"
+      },
+      {
+        "order": 5,
+        "instruction": "观察并绘制看到的细胞结构。辨认：规则排列的方形细胞壁、被碘液染深色的细胞核、占据大面积的紫色液泡。",
+        "validation": "structures_identified"
+      }
+    ],
+    "success_condition": "structures_identified",
+    "fun_facts": [
+      "1665年英国科学家罗伯特·胡克用自制显微镜观察软木薄片，第一次看到了蜂窝状的小格子并命名为'cell'（细胞），意思是'小房间'。",
+      "一个洋葱表皮细胞的长度约为0.1-0.5毫米，需要放大100-400倍才能清楚看到内部结构。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "在显微镜下观察洋葱表皮细胞，碘液染色后颜色最深的结构是什么？",
+        "options": ["细胞壁", "细胞核", "液泡"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_402",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "biology", "种子", "发芽", "对照实验"],
+    "title": "种子发芽条件对照",
+    "category": "生物实验",
+    "cover_image": null,
+    "description": "设计对照实验，探究种子发芽需要哪些条件（水分、温度、空气），通过改变单一变量观察绿豆种子在不同条件下的发芽情况。",
+    "learning_goals": [
+      "了解种子发芽需要适宜的水分、温度和空气",
+      "学会设计对照实验和控制变量",
+      "培养长期观察记录和数据分析的能力"
+    ],
+    "components": [
+      {"id": "mung_beans", "name": "绿豆种子", "icon": "bean.png", "count": 40},
+      {"id": "petri_dish", "name": "小碟子或培养皿", "icon": "dish.png", "count": 4},
+      {"id": "cotton", "name": "棉花或纸巾", "icon": "cotton.png", "count": 4},
+      {"id": "plastic_wrap", "name": "保鲜膜", "icon": "wrap.png", "count": 1},
+      {"id": "water", "name": "清水", "icon": "water.png", "count": 1},
+      {"id": "notebook", "name": "观察记录本", "icon": "notebook.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在4个碟子中铺上湿棉花，每个碟中放10粒绿豆种子，标记为A、B、C、D四组。",
+        "validation": "groups_prepared"
+      },
+      {
+        "order": 2,
+        "instruction": "A组（对照组）：湿棉花，放在温暖（约25°C）通风处。B组（缺水组）：干棉花，放在温暖通风处。C组（低温组）：湿棉花，放入冰箱冷藏室（约4°C）。D组（缺氧组）：湿棉花，用保鲜膜完全密封后放在温暖处。",
+        "validation": "conditions_set"
+      },
+      {
+        "order": 3,
+        "instruction": "每天在固定时间观察各组种子的变化，记录发芽数量。A组保持棉花湿润，B组保持干燥。",
+        "validation": "daily_observation"
+      },
+      {
+        "order": 4,
+        "instruction": "持续观察5-7天后，统计各组发芽率。预期结果：A组发芽最好，B、C、D组发芽受阻。",
+        "validation": "data_collected"
+      },
+      {
+        "order": 5,
+        "instruction": "对比分析四组数据，得出结论：种子发芽需要适宜的水分、温度和充足的空气，三者缺一不可。",
+        "validation": "conclusion_drawn"
+      }
+    ],
+    "success_condition": "conclusion_drawn",
+    "fun_facts": [
+      "以色列科学家曾在马萨达古堡发现了2000年前的枣椰树种子，经过精心培育居然成功发芽了，它被命名为'玛土撒拉'。",
+      "有些沙漠植物的种子可以在土里'沉睡'几十年，等到一场大雨后才突然发芽开花，这叫'休眠'。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "以下哪组实验条件下绿豆种子最可能正常发芽？",
+        "options": ["干燥棉花+常温+通风", "湿润棉花+冰箱+通风", "湿润棉花+常温+通风"],
+        "answer": 2
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_403",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "biology", "光合作用", "水草", "氧气"],
+    "title": "植物光合作用（水草产氧）",
+    "category": "生物实验",
+    "cover_image": null,
+    "description": "将水草放在阳光下的水中，观察叶片释放的气泡，验证植物在光照下能进行光合作用产生氧气。通过对比光照和遮光条件来确认光是必要条件。",
+    "learning_goals": [
+      "验证绿色植物光合作用能产生氧气",
+      "理解光是光合作用的必要条件",
+      "学会通过收集气体来检验光合作用的产物"
+    ],
+    "components": [
+      {"id": "elodea", "name": "水草（金鱼藻）", "icon": "plant.png", "count": 2},
+      {"id": "beaker", "name": "透明玻璃杯", "icon": "beaker.png", "count": 2},
+      {"id": "water", "name": "清水", "icon": "water.png", "count": 1},
+      {"id": "funnel", "name": "小漏斗", "icon": "funnel.png", "count": 1},
+      {"id": "test_tube", "name": "试管", "icon": "tube.png", "count": 1},
+      {"id": "black_bag", "name": "黑色塑料袋", "icon": "bag.png", "count": 1},
+      {"id": "lamp", "name": "台灯", "icon": "lamp.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "将两杯装满清水，各放入一段新鲜水草。A杯放在明亮的阳光下或台灯下，B杯用黑色塑料袋完全遮光。",
+        "validation": "groups_set"
+      },
+      {
+        "order": 2,
+        "instruction": "在A杯中，将小漏斗倒扣在水草上方，再将装满水的试管倒扣在漏斗管口上（用于收集气泡）。",
+        "validation": "gas_collector_ready"
+      },
+      {
+        "order": 3,
+        "instruction": "等待30分钟，观察A杯中水草叶片表面不断冒出细小的气泡，气泡沿漏斗上升进入试管，逐渐将试管中的水排出。",
+        "validation": "bubbles_observed"
+      },
+      {
+        "order": 4,
+        "instruction": "打开B杯的黑色袋子，对比观察——B杯水草几乎没有气泡产生，说明无光照时光合作用无法进行。",
+        "validation": "comparison_made"
+      },
+      {
+        "order": 5,
+        "instruction": "总结实验结论：绿色植物在光照下通过光合作用将二氧化碳和水转化为有机物和氧气，光是光合作用的必要条件。",
+        "validation": "conclusion_reached"
+      }
+    ],
+    "success_condition": "conclusion_reached",
+    "fun_facts": [
+      "地球上约50%的氧气来自海洋中的浮游植物（藻类），而不是陆地上的大树——海洋才是地球最大的'氧气工厂'。",
+      "一棵成年大树每天通过光合作用产生的氧气约够2个成年人呼吸使用。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "水草在阳光下冒出的气泡是什么气体？",
+        "options": ["二氧化碳", "氧气", "氮气"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_404",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 2,
+    "tags": ["tech", "biology", "蚂蚁", "行为", "信息素"],
+    "title": "观察蚂蚁行为",
+    "category": "生物实验",
+    "cover_image": null,
+    "description": "在蚂蚁经过的路径上设置食物诱饵和障碍物，观察蚂蚁的觅食行为、沟通方式和团队协作，探究蚂蚁是如何利用信息素交流的。",
+    "learning_goals": [
+      "了解蚂蚁利用信息素进行沟通和导航",
+      "观察蚂蚁的群体协作行为和分工",
+      "培养对动物行为的科学观察能力"
+    ],
+    "components": [
+      {"id": "sugar", "name": "白砂糖", "icon": "sugar.png", "count": 1},
+      {"id": "cracker", "name": "饼干碎", "icon": "cracker.png", "count": 1},
+      {"id": "paper", "name": "白纸条", "icon": "paper.png", "count": 3},
+      {"id": "magnifier", "name": "放大镜", "icon": "magnifier.png", "count": 1},
+      {"id": "water_brush", "name": "湿毛笔", "icon": "brush.png", "count": 1},
+      {"id": "notebook", "name": "观察记录本", "icon": "notebook.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在户外找到蚂蚁经常出没的地方（如墙角、花坛边），先安静观察5分钟，记录蚂蚁的行进路线。",
+        "validation": "ant_trail_found"
+      },
+      {
+        "order": 2,
+        "instruction": "在蚂蚁路径旁分别放置一小堆白砂糖和一小块饼干碎，观察蚂蚁发现食物后的行为——它是直接搬运还是先回巢'通知'同伴？",
+        "validation": "food_response_observed"
+      },
+      {
+        "order": 3,
+        "instruction": "等蚂蚁形成稳定的取食路线后，用湿毛笔在路径中间横划一道水痕，打断信息素痕迹。观察蚂蚁到达水痕处时的反应——是否迷路、转圈？",
+        "validation": "pheromone_disrupted"
+      },
+      {
+        "order": 4,
+        "instruction": "放一块较大的饼干碎（单只蚂蚁搬不动的），观察蚂蚁如何合作搬运。用放大镜观察它们是否互相触碰触角。",
+        "validation": "cooperation_observed"
+      }
+    ],
+    "success_condition": "cooperation_observed",
+    "fun_facts": [
+      "蚂蚁的身体能分泌多种信息素，不同气味代表不同含义——有的表示'这里有食物'，有的表示'危险快跑'，有的表示'我是同巢伙伴'。",
+      "全世界蚂蚁的总重量估计与全人类的总重量相当！地球上约有20万亿只蚂蚁。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "用湿毛笔划断蚂蚁行进路线后，蚂蚁会在断点处迷路，这说明蚂蚁靠什么认路？",
+        "options": ["视觉记忆路线", "路径上留下的信息素气味", "听觉记忆同伴的声音"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_405",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "biology", "DNA", "提取", "草莓"],
+    "title": "DNA提取（草莓）",
+    "category": "生物实验",
+    "cover_image": null,
+    "description": "用家庭常见材料从草莓中提取DNA。通过捣碎、溶解细胞膜、过滤和酒精沉淀等步骤，最终用肉眼看到白色絮状的DNA丝。",
+    "learning_goals": [
+      "了解DNA是生物体内携带遗传信息的物质",
+      "学习从细胞中提取DNA的基本原理和步骤",
+      "理解洗涤剂破坏细胞膜、酒精使DNA沉淀的科学原理"
+    ],
+    "components": [
+      {"id": "strawberry", "name": "新鲜草莓", "icon": "strawberry.png", "count": 3},
+      {"id": "ziplock_bag", "name": "密封袋", "icon": "bag.png", "count": 1},
+      {"id": "dish_soap", "name": "洗洁精", "icon": "soap.png", "count": 1},
+      {"id": "salt", "name": "食盐", "icon": "salt.png", "count": 1},
+      {"id": "alcohol", "name": "冰冻高浓度酒精（>90%）", "icon": "alcohol.png", "count": 1},
+      {"id": "cup", "name": "透明玻璃杯", "icon": "cup.png", "count": 2},
+      {"id": "coffee_filter", "name": "咖啡滤纸或纱布", "icon": "filter.png", "count": 1},
+      {"id": "chopstick", "name": "竹筷", "icon": "chopstick.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "将3颗草莓放入密封袋中，用手反复捣碎约2分钟，直到变成均匀的糊状（这一步是为了破碎细胞）。",
+        "validation": "cells_broken"
+      },
+      {
+        "order": 2,
+        "instruction": "配制提取液：在半杯温水中加入1勺食盐和2勺洗洁精，轻轻搅拌（不要产生泡沫）。将提取液倒入密封袋中与草莓糊混合，轻柔翻转3分钟。",
+        "validation": "extraction_mixed"
+      },
+      {
+        "order": 3,
+        "instruction": "将咖啡滤纸放在另一个杯子上，将密封袋中的混合液缓慢倒入过滤，收集下方清亮的滤液（约2-3厘米深即可）。",
+        "validation": "filtration_done"
+      },
+      {
+        "order": 4,
+        "instruction": "将冰冻的高浓度酒精沿杯壁缓缓倒入滤液中（约等量），不要搅拌，让酒精形成上层。等待2-3分钟。",
+        "validation": "alcohol_layer_added"
+      },
+      {
+        "order": 5,
+        "instruction": "观察两层液体交界处出现白色絮状物——这就是草莓的DNA！用竹筷轻轻缠绕可以将DNA丝挑出来观察。",
+        "validation": "dna_visible"
+      }
+    ],
+    "success_condition": "dna_visible",
+    "fun_facts": [
+      "草莓是提取DNA的理想材料，因为草莓是八倍体植物——每个细胞里有8套染色体，含有比大多数生物更多的DNA。",
+      "如果把一个人体细胞里的所有DNA拉成一条直线，长度约2米。而全身约37万亿个细胞的DNA连起来，可以在太阳和地球之间往返约600次！"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "在DNA提取实验中，加入洗洁精的主要作用是什么？",
+        "options": ["给DNA染色", "溶解破坏细胞膜释放DNA", "让DNA溶解在水中"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

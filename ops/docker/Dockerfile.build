@@ -1,0 +1,42 @@
+# Dockerfile.build - CI build environment for Android APK
+#
+# Usage:
+#   docker build -f ops/docker/Dockerfile.build -t student-study-builder .
+#   docker run --rm -v $(pwd)/ops/dist:/app/ops/dist student-study-builder
+#
+# This image is intended for CI pipelines that need a reproducible
+# Android build environment. Windows builds require a Windows host
+# and cannot run inside this container.
+
+FROM ghcr.io/cirruslabs/flutter:stable AS builder
+
+# Install additional Android SDK components if needed
+RUN yes | sdkmanager --licenses || true
+
+WORKDIR /app
+
+# Copy dependency files first for layer caching
+COPY pubspec.yaml pubspec.lock* ./
+
+# Install dependencies (cached unless pubspec changes)
+RUN flutter pub get
+
+# Copy the rest of the project
+COPY . .
+
+# Ensure ops/dist directory exists
+RUN mkdir -p ops/dist
+
+# Build Android APK in release mode
+RUN flutter build apk --release
+
+# Copy artifact to dist
+RUN cp build/app/outputs/flutter-apk/app-release.apk ops/dist/student-study-release.apk
+
+# Final stage: slim image with just the artifact
+FROM alpine:3.19 AS artifact
+
+COPY --from=builder /app/ops/dist/ /dist/
+
+# Default command: list the built artifacts
+CMD ["ls", "-lh", "/dist/"]

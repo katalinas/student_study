@@ -1,0 +1,212 @@
+[
+  {
+    "id": "moral_quote_051",
+    "text": "天行健，君子以自强不息。",
+    "source": "《周易·乾卦》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_052",
+    "text": "地势坤，君子以厚德载物。",
+    "source": "《周易·坤卦》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_053",
+    "text": "上善若水，水善利万物而不争。",
+    "source": "《道德经·第八章》老子",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_054",
+    "text": "千里之行，始于足下。",
+    "source": "《道德经·第六十四章》老子",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_055",
+    "text": "知人者智，自知者明。",
+    "source": "《道德经·第三十三章》老子",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_056",
+    "text": "生于忧患，死于安乐。",
+    "source": "《孟子·告子下》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_057",
+    "text": "富贵不能淫，贫贱不能移，威武不能屈。",
+    "source": "《孟子·滕文公下》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_058",
+    "text": "穷则独善其身，达则兼济天下。",
+    "source": "《孟子·尽心上》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_059",
+    "text": "锲而舍之，朽木不折；锲而不舍，金石可镂。",
+    "source": "《荀子·劝学》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_060",
+    "text": "青，取之于蓝，而青于蓝。",
+    "source": "《荀子·劝学》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_061",
+    "text": "为天地立心，为生民立命，为往圣继绝学，为万世开太平。",
+    "source": "宋·张载《横渠四句》",
+    "grade_min": 6,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_062",
+    "text": "先天下之忧而忧，后天下之乐而乐。",
+    "source": "宋·范仲淹《岳阳楼记》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_063",
+    "text": "知之为知之，不知为不知，是知也。",
+    "source": "《论语·为政》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_064",
+    "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+    "source": "《中庸·第二十章》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_065",
+    "text": "格物致知，诚意正心。",
+    "source": "《大学》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_066",
+    "text": "横眉冷对千夫指，俯首甘为孺子牛。",
+    "source": "鲁迅《自嘲》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_067",
+    "text": "世上本没有路，走的人多了，也便成了路。",
+    "source": "鲁迅《故乡》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_068",
+    "text": "少年智则国智，少年强则国强。",
+    "source": "梁启超《少年中国说》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_069",
+    "text": "纵有千古，横有八荒；前途似海，来日方长。",
+    "source": "梁启超《少年中国说》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_070",
+    "text": "大胆地假设，小心地求证。",
+    "source": "胡适",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_071",
+    "text": "怕什么真理无穷，进一寸有一寸的欢喜。",
+    "source": "胡适《致毕业生》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_072",
+    "text": "真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血。",
+    "source": "鲁迅《记念刘和珍君》",
+    "grade_min": 6,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_073",
+    "text": "人固有一死，或重于泰山，或轻于鸿毛。",
+    "source": "汉·司马迁《报任安书》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_074",
+    "text": "我思故我在。",
+    "source": "法国·笛卡尔《第一哲学沉思集》",
+    "grade_min": 6,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_075",
+    "text": "知识就是力量。",
+    "source": "英国·弗朗西斯·培根",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_076",
+    "text": "天才是百分之一的灵感加上百分之九十九的汗水。",
+    "source": "美国·托马斯·爱迪生",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_077",
+    "text": "给我一个支点，我就能撬起整个地球。",
+    "source": "古希腊·阿基米德",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_078",
+    "text": "不管黑猫白猫，能捉老鼠的就是好猫。",
+    "source": "邓小平",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_079",
+    "text": "生活不是等待风暴过去，而是学会在雨中跳舞。",
+    "source": "维韦卡南达（意译）",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_080",
+    "text": "教育是一棵树摇动另一棵树，一朵云推动另一朵云，一个灵魂唤醒另一个灵魂。",
+    "source": "德国·卡尔·雅斯贝尔斯《什么是教育》",
+    "grade_min": 5,
+    "grade_max": 9
+  }
+]

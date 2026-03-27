@@ -1,0 +1,45 @@
+{
+  "_template_doc": "故事数据模板 - 复制此文件并填写具体内容",
+
+  "id": "{module}_{s}_{序号}",
+  "module": "{moral|general|tech}",
+  "type": "story",
+  "grade_min": 1,
+  "grade_max": 6,
+  "difficulty": 1,
+  "tags": [],
+
+  "title": "故事标题",
+  "category": "{idiom_story|fable|biography|tradition|tech_story}",
+  "cover_image": "assets/images/{module}/{文件名}.png",
+  "audio": "assets/audio/{module}/{文件名}.mp3",
+  "read_time_minutes": 3,
+
+  "sections": [
+    {
+      "order": 1,
+      "text": "第一段正文...",
+      "image": "assets/images/{module}/{图片}.png"
+    },
+    {
+      "order": 2,
+      "text": "第二段正文...",
+      "image": null
+    }
+  ],
+
+  "moral": "故事寓意/总结（1-2句话，适龄表达）",
+
+  "follow_up_questions": [
+    {
+      "stem": "阅读理解题目",
+      "options": ["选项A", "选项B", "选项C"],
+      "answer": 0
+    }
+  ],
+
+  "related_idiom": "相关成语（如有）",
+  "version": 1,
+  "created_at": "YYYY-MM-DD",
+  "updated_at": "YYYY-MM-DD"
+}

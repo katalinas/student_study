@@ -1,0 +1,842 @@
+[
+  {
+    "id": "words_g_061",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "岁月是一条长河，我们都是河里的摆渡人。",
+    "display_text": "岁月是一条长河，我们都是河里的___人。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "摆渡",
+        "options": ["摆渡", "漂流", "游泳", "钓鱼"],
+        "hint": "撑船渡河的人，有把人送到彼岸的含义"
+      }
+    ],
+    "appreciation": "赏析：\"摆渡人\"意味着我们不仅是随波逐流的旅人，更是主动掌舵、渡己渡人的人。\"漂流\"太被动，\"游泳\"太费力，\"钓鱼\"太悠闲。\"摆渡\"暗含了从此岸到彼岸的使命感和方向性。",
+    "context": "作文开头用比喻句能迅速吸引读者的注意力，\"摆渡人\"这一意象在文学作品中意义深远。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_062",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "记忆如同一座花园，有些花谢了，有些花正在盛放。",
+    "display_text": "记忆如同一座___，有些花谢了，有些花正在盛放。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "花园",
+        "options": ["花园", "仓库", "博物馆", "图书馆"],
+        "hint": "与后文\"花谢\"\"盛放\"的比喻保持一致"
+      }
+    ],
+    "appreciation": "赏析：\"花园\"与后文\"花谢\"\"盛放\"形成完整的比喻体系——记忆中的往事就像花园里的花，有盛有衰。\"仓库\"太冰冷，\"博物馆\"太静态，\"图书馆\"与花不搭。\"花园\"赋予记忆以生机和美感。",
+    "context": "写回忆类作文时，开头的比喻要与全文的意象保持统一，这叫\"贯穿式比喻\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_063",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "我始终相信，在那些看不见的角落，善意正在悄悄生长。",
+    "display_text": "我始终相信，在那些看不见的角落，___正在悄悄生长。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "善意",
+        "options": ["善意", "希望", "美好", "奇迹"],
+        "hint": "人与人之间友好的心意和行为"
+      }
+    ],
+    "appreciation": "赏析：\"善意\"是一个温暖而具体的词，比\"希望\"更有人情味，比\"美好\"更有指向性，比\"奇迹\"更贴近日常。\"善意正在悄悄生长\"用拟物手法让抽象的善意有了植物般的生命力，细腻动人。",
+    "context": "开头表达信念的句式适合写\"温暖\"\"善良\"\"美好\"等主题的作文，奠定全文温暖的基调。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_064",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "生命中总有一些瞬间，如同被时光镀了金边，在记忆中闪闪发光。",
+    "display_text": "生命中总有一些瞬间，如同被时光镀了___，在记忆中闪闪发光。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "金边",
+        "options": ["金边", "光环", "色彩", "印记"],
+        "hint": "给物品边缘镀上金色的装饰"
+      }
+    ],
+    "appreciation": "赏析：\"金边\"这个比喻极其精妙——时光不会让美好消逝，反而为它镀上金色的光芒，越久远越珍贵。\"光环\"太夸张，\"色彩\"太平淡，\"印记\"缺少光泽感。\"镀金边\"三字让读者仿佛看到了记忆在时光中闪耀的画面。",
+    "context": "优秀的开头不仅要抓人眼球，还要有独特的意象。\"时光镀金边\"是极具画面感的原创比喻。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_065",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "有些路注定要一个人走，但沿途的风景从不会辜负你的脚步。",
+    "display_text": "有些路注定要一个人走，但沿途的风景从不会___你的脚步。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "辜负",
+        "options": ["辜负", "忽略", "忘记", "阻挡"],
+        "hint": "对不起、让人失望的意思"
+      }
+    ],
+    "appreciation": "赏析：\"辜负\"将风景拟人化，仿佛风景懂得回报每一个行走的人。\"忽略\"\"忘记\"主客体关系倒转，\"阻挡\"意思相反。\"从不辜负\"写出了付出必有回报的温暖信念，让孤独的旅程不再寂寞。",
+    "context": "好的作文开头要有温度，\"注定\"\"但\"的转折让句子从沉重走向温暖，引人入胜。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_066",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "当我回望来时的路，才发现那些弯路，才是最美的风景。",
+    "display_text": "当我回望来时的路，才发现那些___，才是最美的风景。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "弯路",
+        "options": ["弯路", "挫折", "困难", "过往"],
+        "hint": "不是直路，曲折绕行的路"
+      }
+    ],
+    "appreciation": "赏析：\"弯路\"比\"挫折\"\"困难\"更有画面感，它既是实指（曲折的道路），也是虚指（人生的曲折经历）。\"过往\"太笼统。\"弯路\"与\"风景\"搭配自然——弯路上往往有意外的好风景——实现了双关的美妙效果。",
+    "context": "双关修辞是高级写作技巧，一个词同时有字面义和引申义，让文章的意蕴更加丰富。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_067",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "在这个喧嚣的世界里，安静是一种难得的力量。",
+    "display_text": "在这个___的世界里，安静是一种难得的力量。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "喧嚣",
+        "options": ["喧嚣", "忙碌", "热闹", "复杂"],
+        "hint": "形容声音嘈杂、纷乱的环境"
+      }
+    ],
+    "appreciation": "赏析：\"喧嚣\"写出了当下世界信息爆炸、纷扰不断的状态，与\"安静\"形成鲜明对比。\"忙碌\"只写节奏，\"热闹\"偏中性，\"复杂\"太理性。\"喧嚣\"一词有声音的画面感，让读者直觉感受到对比的冲击力。",
+    "context": "开篇设置对比是一种有效的写作策略，\"喧嚣\"与\"安静\"的对比立刻点明了文章的主题和立意。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_068",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["开头金句"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "童年是一本翻过就无法重来的书。",
+    "display_text": "童年是一本翻过就无法___的书。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "重来",
+        "options": ["重来", "回去", "翻回", "找到"],
+        "hint": "重新再来一次"
+      }
+    ],
+    "appreciation": "赏析：\"重来\"简洁有力地道出了时光不可逆的残酷真理。\"回去\"太口语，\"翻回\"虽切合\"书\"的比喻但破坏了延伸义，\"找到\"意思偏离。\"无法重来\"四字让人在惋惜中学会珍惜当下。",
+    "context": "将抽象的时光比作具体的书籍，是写\"珍惜\"\"回忆\"主题作文常用的经典开头方式。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_069",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "也许我们无法决定风的方向，但可以调整帆的角度。",
+    "display_text": "也许我们无法决定风的方向，但可以调整___的角度。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "帆",
+        "options": ["帆", "船", "舵", "桨"],
+        "hint": "船上借风力前进的装置"
+      }
+    ],
+    "appreciation": "赏析：\"帆\"与\"风\"搭配自然，比喻虽然无法控制外部环境，但可以调整自己的态度和方向。\"船\"太笼统，\"舵\"虽也行但\"调整舵的角度\"不如\"调整帆的角度\"有画面感，\"桨\"与\"风\"无关。\"帆\"精准地承接了\"风\"的比喻。",
+    "context": "结尾升华要点到为止，这种比喻式的总结既深刻又不说教，是考场作文结尾的上佳选择。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_070",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "故事的结局并不重要，重要的是，在故事里你成为了更好的自己。",
+    "display_text": "故事的结局并不重要，重要的是，在故事里你成为了更好的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "自己",
+        "options": ["自己", "别人", "样子", "角色"],
+        "hint": "你本人，最真实的那个人"
+      }
+    ],
+    "appreciation": "赏析：\"自己\"看似普通，放在此处却意味深长——一切经历的最终价值不在于结果，而在于你因此变成了什么样的人。\"别人\"逻辑不通，\"样子\"太表面，\"角色\"太戏剧化。\"更好的自己\"是最朴素也最有力的结尾。",
+    "context": "好的作文结尾要回归自我，将外在的故事升华为内在的成长，这是\"由事及理\"的写作技巧。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_071",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "我知道，那些被风吹散的蒲公英，终会在远方的土地上生根发芽。",
+    "display_text": "我知道，那些被风吹散的蒲公英，终会在远方的土地上___发芽。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "生根",
+        "options": ["生根", "落地", "扎根", "停留"],
+        "hint": "植物在土壤中长出根须"
+      }
+    ],
+    "appreciation": "赏析：\"生根\"与\"发芽\"是一组经典的植物意象，\"生根\"强调扎实稳固地安顿下来。\"落地\"只写到达，\"扎根\"虽近义但少了\"生\"的生机感，\"停留\"太消极。\"生根发芽\"四字写出了离别后重新开始的希望。",
+    "context": "以自然意象结尾是一种含蓄而优美的写法，让读者自己去体会其中的寓意，余味悠长。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_072",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "回首望去，那段时光虽然平淡，却是我最珍贵的宝藏。",
+    "display_text": "回首望去，那段时光虽然平淡，却是我最___的宝藏。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "珍贵",
+        "options": ["珍贵", "美好", "重要", "难忘"],
+        "hint": "价值极高、非常宝贵"
+      }
+    ],
+    "appreciation": "赏析：\"珍贵\"与\"宝藏\"搭配最为贴切——宝藏的核心特征就是珍贵。\"美好\"太主观，\"重要\"太理性，\"难忘\"写记忆而非价值。\"平淡\"与\"珍贵\"的对比，点出了生活中最平凡的日子往往最值得珍惜。",
+    "context": "结尾用\"虽然A却B\"的转折句式制造反差，能让情感表达更有层次和深度。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_073",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "愿你走过半生，归来仍是少年。",
+    "display_text": "愿你走过半生，归来仍是___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "少年",
+        "options": ["少年", "自己", "赢家", "英雄"],
+        "hint": "年轻的时候，保持初心不变"
+      }
+    ],
+    "appreciation": "赏析：\"少年\"在此不仅指年龄，更指年少时的纯真、热情和勇气。\"自己\"太笼统，\"赢家\"太功利，\"英雄\"太夸张。\"仍是少年\"表达了一种美好的祝愿——经历世事沧桑后，依然保持初心不变。",
+    "context": "这是近年来广泛流传的一句祝福语，用在作文结尾能产生强烈的情感共鸣。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_074",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "那些年的欢笑与泪水，都化作了今天眉眼间的从容。",
+    "display_text": "那些年的欢笑与泪水，都化作了今天眉眼间的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "从容",
+        "options": ["从容", "微笑", "成熟", "坚强"],
+        "hint": "不慌不忙、淡定自若的态度"
+      }
+    ],
+    "appreciation": "赏析：\"从容\"是经历了悲喜之后才能拥有的状态——不是麻木，而是历经风雨后的平静。\"微笑\"太表面，\"成熟\"太笼统，\"坚强\"偏硬朗。\"眉眼间的从容\"把抽象的心态写成了可观察的神态，细腻动人。",
+    "context": "好的结尾要有\"化实为虚\"的能力——从具体的\"欢笑与泪水\"升华为抽象的\"从容\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_075",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["结尾升华"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "人间值得，未来可期。",
+    "display_text": "人间值得，未来___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "可期",
+        "options": ["可期", "可待", "无限", "光明"],
+        "hint": "可以期待，值得等待"
+      }
+    ],
+    "appreciation": "赏析：\"可期\"即\"值得期待\"，与前面\"值得\"形成对仗——人间是值得的，未来是可期的。\"可待\"意思相近但不如\"可期\"常用和简洁，\"无限\"太夸张，\"光明\"太单一。八字结尾，对仗工整，铿锵有力。",
+    "context": "短句结尾有\"斩钉截铁\"的效果，\"人间值得\"四字已成为当代青年的流行语。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_076",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["过渡衔接"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "时间悄然流逝，但那份温暖却在心中永远驻留。",
+    "display_text": "时间悄然流逝，但那份温暖却在心中永远___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "驻留",
+        "options": ["驻留", "停留", "保存", "记住"],
+        "hint": "停驻、留存下来，比\"停留\"更正式"
+      }
+    ],
+    "appreciation": "赏析：\"驻留\"比\"停留\"更有分量，有\"驻扎\"\"扎根\"之意，暗示温暖不是暂时停留而是永久定居在心中。\"保存\"太机械，\"记住\"太主观。\"驻留\"把抽象的情感写成了实在的\"居住\"，鲜活有力。",
+    "context": "过渡句要承上启下，\"时间流逝\"承接上文的叙事，\"温暖驻留\"引出下文的感悟。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_077",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["过渡衔接"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "然而，生活总是在不经意间给你一个意想不到的转折。",
+    "display_text": "然而，生活总是在___间给你一个意想不到的转折。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "不经意",
+        "options": ["不经意", "不留神", "不知不觉", "一瞬"],
+        "hint": "没有注意到、不在意的时候"
+      }
+    ],
+    "appreciation": "赏析：\"不经意\"写出了生活转折的突然性和不可预测性。\"不留神\"太口语化，\"不知不觉\"虽好但字数过多，\"一瞬\"只强调速度。\"不经意间\"有一种漫不经心的优雅感，让转折显得自然而非刻意。",
+    "context": "过渡段中的转折句要自然流畅，\"然而\"开头加\"不经意间\"让叙事的转向有据可依。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_078",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["过渡衔接"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "风景在变，心情在变，唯一不变的是那份初心。",
+    "display_text": "风景在变，心情在变，唯一不变的是那份___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "初心",
+        "options": ["初心", "坚持", "信念", "执着"],
+        "hint": "最初的心意和愿望"
+      }
+    ],
+    "appreciation": "赏析：\"初心\"是一个充满力量的词，指最初的心愿和志向。\"坚持\"是动作，\"信念\"太抽象，\"执着\"偏于形容固执。\"初心\"与\"变\"\"不变\"的对比形成有力的过渡——外在万变，内心不变。",
+    "context": "用\"在变...不变\"的排比过渡句，从外在叙事自然过渡到内在感悟，结构清晰。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_079",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["过渡衔接"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "往事如烟，散入风中；但记忆的温度，依然触手可及。",
+    "display_text": "往事如烟，散入风中；但记忆的___，依然触手可及。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "温度",
+        "options": ["温度", "画面", "声音", "味道"],
+        "hint": "可以用皮肤感受到的冷热程度"
+      }
+    ],
+    "appreciation": "赏析：\"温度\"调动了触觉，与\"触手可及\"形成呼应——记忆不仅可以想到，还可以\"感受到\"。\"画面\"调动视觉，\"声音\"调动听觉，\"味道\"调动嗅觉，都可以但不如\"温度\"与\"触手可及\"搭配得自然。",
+    "context": "通感（调动不同感官）是高级写作技巧，\"记忆的温度\"把抽象的记忆变得可以触摸。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_080",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["过渡衔接"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "如果说童年是一首歌，那么成长就是这首歌的变奏。",
+    "display_text": "如果说童年是一首歌，那么成长就是这首歌的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "变奏",
+        "options": ["变奏", "旋律", "续集", "回声"],
+        "hint": "音乐术语，主题不变但节奏和风格变化"
+      }
+    ],
+    "appreciation": "赏析：\"变奏\"是音乐术语，指在保持主题的基础上变化演奏。用\"变奏\"比喻成长，意味着人生的主旋律不变，但每个阶段都有不同的演绎。\"旋律\"与\"歌\"重复，\"续集\"是影视用语，\"回声\"只是重复。\"变奏\"精准而有文化品位。",
+    "context": "借用其他艺术领域的术语来写作是一种跨域比喻技巧，能展现作者的知识广度。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_081",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["人物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "她的眼睛里仿佛藏着一汪清泉，澄澈而明亮。",
+    "display_text": "她的眼睛里仿佛藏着一汪___，澄澈而明亮。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "清泉",
+        "options": ["清泉", "湖水", "星光", "秋水"],
+        "hint": "清澈的泉水"
+      }
+    ],
+    "appreciation": "赏析：\"清泉\"比\"湖水\"更清澈纯净，比\"星光\"更有水的质感，比\"秋水\"虽意近但\"清泉\"更强调纯真。\"一汪清泉\"用量词\"汪\"字生动形象，让眼睛有了盈盈水光的灵动美感。",
+    "context": "写人物眼睛是刻画人物的最重要手段之一，\"以水喻目\"是中国文学的经典写法。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_082",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["人物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "他说话的声音低沉而有磁性，像大提琴在夜色中低吟。",
+    "display_text": "他说话的声音低沉而有磁性，像大提琴在夜色中___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "低吟",
+        "options": ["低吟", "演奏", "响起", "歌唱"],
+        "hint": "低声轻柔地哼唱"
+      }
+    ],
+    "appreciation": "赏析：\"低吟\"将大提琴拟人化，仿佛在夜色中轻声吟唱，完美对应了人声\"低沉而有磁性\"的特质。\"演奏\"太正式，\"响起\"太突然，\"歌唱\"太高亢。\"低吟\"的温柔与克制让画面和声音都充满了诗意。",
+    "context": "用乐器比喻人声是一种高级的通感写法，选择的乐器要与声音特质匹配。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_083",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["人物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "老师的白发在阳光下泛着银光，像岁月留下的勋章。",
+    "display_text": "老师的白发在阳光下泛着银光，像岁月留下的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "勋章",
+        "options": ["勋章", "痕迹", "礼物", "记号"],
+        "hint": "表彰功绩的荣誉标志"
+      }
+    ],
+    "appreciation": "赏析：\"勋章\"将白发从衰老的标志变为荣誉的象征，完全改变了白发的情感色彩。\"痕迹\"太中性，\"礼物\"太美化，\"记号\"太冷淡。\"勋章\"暗示每一根白发都记录着老师的付出和奉献，充满了敬意和深情。",
+    "context": "换一个比喻就能改变事物的情感色彩——白发可以是\"霜\"（悲凉），也可以是\"勋章\"（光荣）。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_084",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["人物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "她的笑容像春风一样，所到之处都会让人如沐春风。",
+    "display_text": "她的笑容像春风一样，所到之处都会让人___春风。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "如沐",
+        "options": ["如沐", "感受", "沐浴", "吹拂"],
+        "hint": "\"如同沐浴\"的缩写，形容感受到温暖舒适"
+      }
+    ],
+    "appreciation": "赏析：\"如沐\"即\"如同沐浴在...之中\"，比\"感受\"更有身临其境的浸润感，比\"沐浴\"更雅致简洁，比\"吹拂\"只写外在感觉。\"如沐春风\"是一个完整的成语，形容受到温和教诲或友善对待时的舒适感。",
+    "context": "\"如沐春风\"是描写人物亲和力的经典成语，在写人作文中恰当使用成语能提升语言品质。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_085",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["人物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "父亲的手掌粗糙而温暖，像老树的树皮一样布满了纹路。",
+    "display_text": "父亲的手掌粗糙而温暖，像老树的___一样布满了纹路。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "树皮",
+        "options": ["树皮", "树干", "年轮", "树根"],
+        "hint": "树木外面的一层保护层"
+      }
+    ],
+    "appreciation": "赏析：\"树皮\"与\"手掌\"在质感上高度相似——都是粗糙的、布满纹路的，但都起着保护的作用。\"树干\"太大太笼统，\"年轮\"在内部看不到，\"树根\"不符合\"纹路\"的特征。\"树皮\"的比喻让人同时感受到父亲的辛劳和温厚。",
+    "context": "好的比喻要在本体与喻体之间找到多个相似点，\"手掌\"与\"树皮\"在质地、纹路、保护功能上三重契合。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_086",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["景物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "小溪像一条银色的丝带，蜿蜒穿过翠绿的山谷。",
+    "display_text": "小溪像一条银色的___，蜿蜒穿过翠绿的山谷。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "丝带",
+        "options": ["丝带", "绳子", "长龙", "道路"],
+        "hint": "柔软、光滑、细长的装饰品"
+      }
+    ],
+    "appreciation": "赏析：\"丝带\"轻柔、光滑、飘逸，与小溪的形态完美匹配。\"绳子\"太粗糙，\"长龙\"太雄壮，\"道路\"太呆板。\"银色的丝带\"既写出了溪水的颜色（反光如银），又写出了溪水的形态（细长弯曲），视觉效果极佳。",
+    "context": "写景物要抓住事物最突出的特征来选择喻体，小溪的关键特征是细长、弯曲、闪亮。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_087",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["景物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "黄昏时分，天空像打翻了的调色盘，绚烂而多彩。",
+    "display_text": "黄昏时分，天空像打翻了的___，绚烂而多彩。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "调色盘",
+        "options": ["调色盘", "颜料桶", "彩虹", "花园"],
+        "hint": "画家用来调配颜色的圆盘"
+      }
+    ],
+    "appreciation": "赏析：\"调色盘\"比喻天空的多种颜色混合在一起，而\"打翻了\"更添一份随意和不规则的美感。\"颜料桶\"太粗糙，\"彩虹\"虽多彩但太规则，\"花园\"与天空关联弱。\"打翻的调色盘\"写出了黄昏天空色彩斑斓又不规则的独特美感。",
+    "context": "黄昏是作文中描写景物的高频场景，用新颖的比喻代替\"火烧云\"等老套表达能让文章出彩。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_088",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["景物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "春天的田野像一块巨大的绿毯，一直铺展到天边。",
+    "display_text": "春天的田野像一块巨大的绿毯，一直___到天边。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "铺展",
+        "options": ["铺展", "延伸", "生长", "蔓延"],
+        "hint": "像铺开毯子一样展开"
+      }
+    ],
+    "appreciation": "赏析：\"铺展\"与\"绿毯\"的比喻完美呼应——毯子就是铺开的，用\"铺展\"让比喻前后一致。\"延伸\"虽也可用但与\"毯\"不够搭配，\"生长\"偏植物，\"蔓延\"有负面含义。\"铺展到天边\"还写出了田野的辽阔无际。",
+    "context": "比喻的关键是前后一致——选了\"毯\"作喻体，后面的动词就要选与毯子相关的\"铺展\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_089",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["景物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "月光如水，倾泻在静谧的湖面上，泛起粼粼银波。",
+    "display_text": "月光如水，___在静谧的湖面上，泛起粼粼银波。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "倾泻",
+        "options": ["倾泻", "洒落", "照射", "投射"],
+        "hint": "像水流一样大量地涌下"
+      }
+    ],
+    "appreciation": "赏析：\"倾泻\"与\"如水\"呼应——既然月光像水，那就用水的动作来写光。\"洒落\"太轻太碎，\"照射\"太直接缺少诗意，\"投射\"太科学化。\"倾泻\"写出了月光的充沛和流动感，仿佛看到了银色的光流从天而降。",
+    "context": "\"月光如水\"后面接\"倾泻\"，是一种\"比喻+通感\"的复合修辞手法，让静态的光有了动态的流动感。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_090",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["景物描写"],
+    "source": "新概念作文风格",
+    "author": "",
+    "original_text": "秋天的枫叶像燃烧的火焰，把整座山坡都点燃了。",
+    "display_text": "秋天的枫叶像___的火焰，把整座山坡都点燃了。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "燃烧",
+        "options": ["燃烧", "跳动", "明亮", "红色"],
+        "hint": "火在烧的状态"
+      }
+    ],
+    "appreciation": "赏析：\"燃烧\"是\"火焰\"最本质的特征，与后文\"点燃\"形成完整的比喻链条。\"跳动\"虽也是火的特征但不如\"燃烧\"强烈，\"明亮\"只写亮度，\"红色\"是颜色非动态。\"燃烧的火焰\"写出了枫叶红得热烈、红得壮观的视觉冲击力。",
+    "context": "以火喻秋枫是经典写法，关键要让\"火\"的比喻贯穿前后——\"燃烧\"\"火焰\"\"点燃\"三位一体。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "id": "intellect_q_1300",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "文言文翻译"
+    ],
+    "subject": "chinese",
+    "stem": "“学而不思则罔，思而不学则殆”（《论语》）的正确翻译是：",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "学习和思考都很重要，缺一不可"
+      },
+      {
+        "label": "B",
+        "text": "只学习不思考就会迷惑，只思考不学习就会疑惑"
+      },
+      {
+        "label": "C",
+        "text": "学习的人很聪明，思考的人很危险"
+      },
+      {
+        "label": "D",
+        "text": "学习使人进步，思考使人退步"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“罔”意为迷惑、没有收获；“殆”意为疑惑、危险。孔子这句话强调学习与思考必须结合：只读书不思考会茫然无所得，只空想不读书会陷入疑惑而无所依据。",
+    "hint": "“罔”和“殆”是这句话的关键字，想想它们分别是什么意思。",
+    "time_limit_seconds": 35,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1301",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "文言文翻译"
+    ],
+    "subject": "chinese",
+    "stem": "“三人行，必有我师焉”中“焉”的意思是：",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "怎么"
+      },
+      {
+        "label": "B",
+        "text": "在其中"
+      },
+      {
+        "label": "C",
+        "text": "为什么"
+      },
+      {
+        "label": "D",
+        "text": "他们"
+      }
+    ],
+    "answer": "B",
+    "explanation": "这句话出自《论语·述而》，意思是“几个人一起走路，其中一定有可以当我老师的人”。这里的“焉”是兼词，相当于“于之”，即“在其中”的意思。",
+    "hint": "“焉”在文言文中有多种用法，在这里相当于“于之”。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1302",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "名著导读",
+      "西游记"
+    ],
+    "subject": "chinese",
+    "stem": "《西游记》中，孙悟空的第一个师父是谁？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "唐僧"
+      },
+      {
+        "label": "B",
+        "text": "菩提祖师"
+      },
+      {
+        "label": "C",
+        "text": "如来佛祖"
+      },
+      {
+        "label": "D",
+        "text": "太上老君"
+      }
+    ],
+    "answer": "B",
+    "explanation": "孙悟空最初拜菩提祖师为师，在菩提祖师处学会了七十二变和筋斗云等本领。后来大闹天宫被压五行山下，才被唐僧救出，拜唐僧为师西天取经。",
+    "hint": "孙悟空在花果山之后去了哪里学艺？那位教他本领的老师是谁？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1303",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "名著导读",
+      "水浒传"
+    ],
+    "subject": "chinese",
+    "stem": "《水浒传》中，“智取生辰纲”的主要策划者是谁？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "宋江"
+      },
+      {
+        "label": "B",
+        "text": "武松"
+      },
+      {
+        "label": "C",
+        "text": "吴用"
+      },
+      {
+        "label": "D",
+        "text": "林冲"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“智取生辰纲”是《水浒传》中的经典情节。吴用（绰号“智多星”）是这次行动的主要策划者，他设计用下了蒙汗药的酒，巧妙地劫取了梁中书送给蔡京的生辰纲（生日礼物）。",
+    "hint": "这个人物的绰号叫“智多星”，以足智多谋著称。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1304",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "诗词鉴赏"
+    ],
+    "subject": "chinese",
+    "stem": "杜甫的《春望》中“感时花溅泪，恨别鸟惊心”运用了什么表现手法？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "直抒胸臆"
+      },
+      {
+        "label": "B",
+        "text": "借景抒情（移情于物）"
+      },
+      {
+        "label": "C",
+        "text": "托物言志"
+      },
+      {
+        "label": "D",
+        "text": "动静结合"
+      }
+    ],
+    "answer": "B",
+    "explanation": "诗人将自己的悲伤之情投射到花和鸟身上：感伤时局连花都像在流泪，怨恨离别连鸟鸣都使人心惊。这是“移情于物”的手法，属于借景抒情，把主观感情融入客观景物之中。",
+    "hint": "花本不会流泪，鸟鸣本不会使人惊心，诗人把自己的感情赋予了景物。",
+    "time_limit_seconds": 35,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1305",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "议论文要素"
+    ],
+    "subject": "chinese",
+    "stem": "议论文的三要素是什么？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "时间、地点、人物"
+      },
+      {
+        "label": "B",
+        "text": "论点、论据、论证"
+      },
+      {
+        "label": "C",
+        "text": "开头、中间、结尾"
+      },
+      {
+        "label": "D",
+        "text": "记叙、描写、抒情"
+      }
+    ],
+    "answer": "B",
+    "explanation": "议论文的三要素是论点（作者的观点和主张）、论据（支持论点的材料和事实）、论证（用论据证明论点的过程和方法）。A是记叙文六要素中的三个，D是表达方式。",
+    "hint": "议论文的核心是“议论”，即提出观点并加以证明。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1306",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "文言文翻译"
+    ],
+    "subject": "chinese",
+    "stem": "翻译文言文词语：“温故而知新”中“故”的意思是____。",
+    "stem_image": null,
+    "options": null,
+    "answer": "旧的知识",
+    "explanation": "“温故而知新”出自《论语·为政》，意思是“温习旧的知识，从中获得新的理解和体会”。“故”在这里是形容词作名词，指“旧的知识”。",
+    "hint": "“温”是温习的意思，“故”和“新”是相对的概念。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1307",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "诗词鉴赏"
+    ],
+    "subject": "chinese",
+    "stem": "请补全苏轼《水调歌头》中的名句：但愿人长久，____。",
+    "stem_image": null,
+    "options": null,
+    "answer": "千里共婵娟",
+    "explanation": "苏轼《水调歌头·明月几时有》的最后两句“但愿人长久，千里共婵娟”，表达了对远方亲人的美好祝愿。“婵娟”指月亮，意为希望亲人都能长久平安，即使相隔千里也能共赏同一轮明月。",
+    "hint": "这首词写的是中秋望月思念亲人，最后的祝愿和月亮有关。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1308",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": [
+      "chinese",
+      "名著导读",
+      "三国演义"
+    ],
+    "subject": "chinese",
+    "stem": "《三国演义》中，“三顾茅庐”讲的是____去请诸葛亮出山的故事。",
+    "stem_image": null,
+    "options": null,
+    "answer": "刘备",
+    "explanation": "“三顾茅庐”是《三国演义》中的著名故事。刘备为了请诸葛亮出山辅佐自己，三次亲自到隆中诸葛亮的草庐拜访，最终感动了诸葛亮，诸葛亮同意出山相助，并提出了著名的“隆中对”战略。",
+    "hint": "这位蜀国的君主以礼贤下士、求贤若渴著称。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1309",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 5,
+    "tags": [
+      "chinese",
+      "议论文要素"
+    ],
+    "subject": "chinese",
+    "stem": "议论文中常见的论证方法有举例论证、道理论证、对比论证和____论证。",
+    "stem_image": null,
+    "options": null,
+    "answer": "比喻",
+    "explanation": "议论文四种常见的论证方法：举例论证（用事实说话）、道理论证（引用名言或讲道理）、对比论证（正反对比突出观点）、比喻论证（用比喻使道理更通俗易懂）。",
+    "hint": "这种论证方法用打比方的方式，使抽象的道理更加形象易懂。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1310",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "名著导读",
+      "西游记"
+    ],
+    "subject": "chinese",
+    "stem": "《西游记》中，猪八戒的法号是“悟能”。",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "A",
+    "explanation": "正确。唐僧的三个徒弟法号分别是：孙悟空（悟空）、猪悟能（八戒）、沙悟净（沙僧）。猪八戒原名猪刚鬣，被观音菩萨点化后法号“悟能”，唐僧又给他取了别号“八戒”。",
+    "hint": "唐僧的三个徒弟法号都有一个“悟”字。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1311",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 7,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "诗词鉴赏"
+    ],
+    "subject": "chinese",
+    "stem": "李白被称为“诗圣”，杜甫被称为“诗仙”。",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "explanation": "说反了。李白被称为“诗仙”，因为他的诗歌飘逸洒脱、想象丰富；杜甫被称为“诗圣”，因为他的诗歌关注社会现实、忧国忧民，艺术成就极高。",
+    "hint": "李白的诗风飘逸豪放如“仙”，杜甫的诗歌沉郁顿挫似“圣”。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

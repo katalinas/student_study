@@ -1,0 +1,702 @@
+[
+  {
+    "id": "words_g_091",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["鲁迅"],
+    "source": "鲁迅《自嘲》",
+    "author": "鲁迅",
+    "original_text": "横眉冷对千夫指，俯首甘为孺子牛。",
+    "display_text": "横眉冷对千夫指，___甘为孺子牛。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "俯首",
+        "options": ["俯首", "低头", "弯腰", "屈身"],
+        "hint": "低下头，表示谦逊和甘愿"
+      }
+    ],
+    "appreciation": "赏析：\"俯首\"与\"横眉\"形成鲜明对比——对敌人横眉冷对，对人民甘心俯首。\"低头\"太口语，\"弯腰\"太卑微，\"屈身\"有被迫感。\"俯首\"既有谦逊，又有主动选择的意味，展现了鲁迅的伟大人格。",
+    "context": "鲁迅1932年所作，\"横眉冷对\"与\"俯首甘为\"对仗工整，是中国知识分子精神品格的写照。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_092",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["鲁迅"],
+    "source": "鲁迅《故乡》",
+    "author": "鲁迅",
+    "original_text": "其实地上本没有路，走的人多了，也便成了路。",
+    "display_text": "其实地上本没有路，走的人多了，也便___了路。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "成",
+        "options": ["成", "变", "有", "出"],
+        "hint": "变成、形成的意思"
+      }
+    ],
+    "appreciation": "赏析：\"成\"字简洁而有哲理——路不是天然存在的，是人\"走出来\"的。\"变\"不如\"成\"有创造感，\"有\"太平淡，\"出\"语法不通。一个\"成\"字揭示了实践出真知的道理：没有路也能走出路来。",
+    "context": "鲁迅《故乡》结尾的名句，用\"路\"比喻希望和出路，激励人们勇于开拓、敢为人先。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_093",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["鲁迅"],
+    "source": "鲁迅《纪念刘和珍君》",
+    "author": "鲁迅",
+    "original_text": "沉默呵，沉默呵！不在沉默中爆发，就在沉默中灭亡。",
+    "display_text": "沉默呵，沉默呵！不在沉默中___，就在沉默中灭亡。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "爆发",
+        "options": ["爆发", "觉醒", "反抗", "崛起"],
+        "hint": "像火山一样突然猛烈地发作"
+      }
+    ],
+    "appreciation": "赏析：\"爆发\"与\"灭亡\"形成最极端的二选一——沉默的结局只有两种：要么爆发出力量，要么走向毁灭。\"觉醒\"太温和，\"反抗\"太具体，\"崛起\"太乐观。\"爆发\"的猛烈感写出了压迫到极点必然反弹的历史规律。",
+    "context": "鲁迅悼念学生刘和珍君时所写，用最尖锐的语言揭示了沉默的危险性，震撼人心。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_094",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["鲁迅"],
+    "source": "鲁迅《热风》",
+    "author": "鲁迅",
+    "original_text": "愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。",
+    "display_text": "愿中国青年都摆脱___，只是向上走，不必听自暴自弃者流的话。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "冷气",
+        "options": ["冷气", "束缚", "困境", "迷茫"],
+        "hint": "冰冷消极的风气和氛围"
+      }
+    ],
+    "appreciation": "赏析：\"冷气\"比喻社会中消极、冷漠、悲观的风气。\"束缚\"太具体，\"困境\"太物质，\"迷茫\"只写个人。\"冷气\"用触觉的寒冷来写精神的消沉，形象而深刻。鲁迅希望青年不被消极氛围感染，保持向上的热情。",
+    "context": "鲁迅写给中国青年的寄语，至今仍被广泛引用，是作文中论述\"青年精神\"的绝佳素材。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_095",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["冰心"],
+    "source": "冰心《繁星·春水》",
+    "author": "冰心",
+    "original_text": "成功的花，人们只惊羡她现时的明艳！然而当初她的芽儿，浸透了奋斗的泪泉，洒遍了牺牲的血雨。",
+    "display_text": "成功的花，人们只___她现时的明艳！",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "惊羡",
+        "options": ["惊羡", "欣赏", "赞美", "羡慕"],
+        "hint": "又惊讶又羡慕"
+      }
+    ],
+    "appreciation": "赏析：\"惊羡\"是\"惊讶\"与\"羡慕\"的结合，比单纯的\"欣赏\"\"赞美\"\"羡慕\"更有层次感。人们看到成功时既震惊于它的美丽，又艳羡于它的成就，但却忽视了背后的辛酸。\"惊羡\"一词暗含了对人们只看表面的微妙批评。",
+    "context": "冰心《繁星·春水》中的哲理小诗，用花的比喻揭示了成功背后的艰辛付出。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_096",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["冰心"],
+    "source": "冰心《繁星》",
+    "author": "冰心",
+    "original_text": "墙角的花，你孤芳自赏时，天地便小了。",
+    "display_text": "墙角的花，你___自赏时，天地便小了。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "孤芳",
+        "options": ["孤芳", "独自", "默默", "悄然"],
+        "hint": "孤独地欣赏自己的芬芳"
+      }
+    ],
+    "appreciation": "赏析：\"孤芳自赏\"是一个成语，形容自以为了不起、独自欣赏自己。\"独自\"太平淡，\"默默\"写安静不写自负，\"悄然\"只写无声。\"孤芳\"二字既写出了花的孤独，又暗讽了自我封闭的狭隘。",
+    "context": "冰心用极简的语言告诫人们不要封闭自我、固步自封，要走出舒适区去看更广阔的世界。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_097",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["冰心"],
+    "source": "冰心《寄小读者》",
+    "author": "冰心",
+    "original_text": "爱在左，同情在右，走在生命路的两旁，随时撒种，随时开花。",
+    "display_text": "爱在左，同情在右，走在生命路的两旁，随时撒种，随时___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "开花",
+        "options": ["开花", "收获", "成长", "微笑"],
+        "hint": "种子长大后的结果"
+      }
+    ],
+    "appreciation": "赏析：\"开花\"与\"撒种\"前后呼应，构成完整的生命比喻——播撒爱与同情的种子，它们就会开出美丽的花。\"收获\"太功利，\"成长\"太笼统，\"微笑\"与\"种\"不搭。\"开花\"既是自然过程的延续，又是美好结果的象征。",
+    "context": "冰心\"爱的哲学\"的代表作品，用朴素优美的语言倡导博爱精神，影响了几代中国读者。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_098",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["朱自清"],
+    "source": "朱自清《匆匆》",
+    "author": "朱自清",
+    "original_text": "燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。",
+    "display_text": "燕子去了，有再来的时候；杨柳枯了，有再___的时候；桃花谢了，有再开的时候。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "青",
+        "options": ["青", "绿", "生", "活"],
+        "hint": "杨柳恢复绿色的状态"
+      }
+    ],
+    "appreciation": "赏析：\"青\"在此用作动词，意为变青变绿，比\"绿\"更有古典韵味。\"生\"太笼统，\"活\"太口语。\"青\"字一语双关——既写柳条变绿，又暗合\"青春\"之\"青\"，与全文感叹时光流逝的主题遥相呼应。",
+    "context": "朱自清《匆匆》中的排比名句，以自然界的循环反衬时间的一去不复返。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_099",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["朱自清"],
+    "source": "朱自清《荷塘月色》",
+    "author": "朱自清",
+    "original_text": "月光如流水一般，静静地泻在这一片叶子和花上。",
+    "display_text": "月光如流水一般，静静地___在这一片叶子和花上。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "泻",
+        "options": ["泻", "洒", "照", "落"],
+        "hint": "像水流倾泻而下"
+      }
+    ],
+    "appreciation": "赏析：\"泻\"字神妙——既承接前文\"如流水\"的比喻，又写出了月光从高处向下流淌的动态感。\"洒\"太碎太轻，\"照\"太直白无诗意，\"落\"缺少流动感。\"泻\"字让月光有了液态的质感，仿佛能听到月光流淌的声音。",
+    "context": "朱自清《荷塘月色》中的经典描写，\"泻\"字被选入语文课本，是\"炼字\"的范例。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_100",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["朱自清"],
+    "source": "朱自清《背影》",
+    "author": "朱自清",
+    "original_text": "我看见他戴着黑布小帽，穿着黑布大马褂，深青布棉袍，蹒跚地走到铁道边。",
+    "display_text": "我看见他戴着黑布小帽，穿着黑布大马褂，深青布棉袍，___地走到铁道边。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "蹒跚",
+        "options": ["蹒跚", "缓慢", "艰难", "摇晃"],
+        "hint": "形容因年老或腿脚不便而走路不稳的样子"
+      }
+    ],
+    "appreciation": "赏析：\"蹒跚\"精准地写出了父亲年迈体胖、腿脚不便的步态，比\"缓慢\"更有画面感，比\"艰难\"更具体，比\"摇晃\"更贴切。\"蹒跚\"一词让读者仿佛亲眼看到了那个为儿子买橘子而艰难前行的父亲背影。",
+    "context": "朱自清《背影》中最动人的段落，\"蹒跚\"一词承载了父爱的深沉与苍老的无奈。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_101",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["泰戈尔中译"],
+    "source": "泰戈尔《飞鸟集》（郑振铎译）",
+    "author": "泰戈尔",
+    "original_text": "生如夏花之绚烂，死如秋叶之静美。",
+    "display_text": "生如夏花之绚烂，死如秋叶之___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "静美",
+        "options": ["静美", "飘零", "凋零", "安详"],
+        "hint": "安静而美好"
+      }
+    ],
+    "appreciation": "赏析：\"静美\"写出了面对死亡的从容与优雅——不是凋零的凄凉，而是安静的美丽。\"飘零\"\"凋零\"都带有悲伤色彩，\"安详\"只写安静不写美。\"静美\"二字将死亡升华为一种美学境界，与\"绚烂\"形成对比互补。",
+    "context": "泰戈尔《飞鸟集》中最著名的诗句之一，郑振铎的中译堪称经典，\"绚烂\"与\"静美\"的对比影响了无数读者。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_102",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["泰戈尔中译"],
+    "source": "泰戈尔《飞鸟集》",
+    "author": "泰戈尔",
+    "original_text": "天空没有留下翅膀的痕迹，但我已经飞过。",
+    "display_text": "天空没有留下翅膀的___，但我已经飞过。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "痕迹",
+        "options": ["痕迹", "影子", "印记", "羽毛"],
+        "hint": "经过后留下的标记或迹象"
+      }
+    ],
+    "appreciation": "赏析：\"痕迹\"既指物理上的印痕，也暗喻存在过的证据。\"影子\"太瞬间，\"印记\"与天空搭配不自然，\"羽毛\"太具体。\"没有痕迹，但已飞过\"表达了一种超脱的哲理：重要的不是被记住，而是经历本身。",
+    "context": "泰戈尔这首诗表达了不求功名、重在过程的人生态度，常被引用在关于\"意义\"的讨论中。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_103",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["泰戈尔中译"],
+    "source": "泰戈尔《吉檀迦利》",
+    "author": "泰戈尔",
+    "original_text": "不是槌的打击，乃是水的载歌载舞，使鹅卵石臻于完美。",
+    "display_text": "不是槌的打击，乃是水的载歌载舞，使鹅卵石___于完美。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "臻",
+        "options": ["臻", "达", "趋", "至"],
+        "hint": "到达、达到（完善的程度），文言用字"
+      }
+    ],
+    "appreciation": "赏析：\"臻\"比\"达\"\"趋\"\"至\"都更文雅精致，且\"臻于完美\"是固定搭配，有\"日臻完善\"的文化底蕴。全句用\"水的载歌载舞\"对比\"槌的打击\"，表达温柔的力量胜过粗暴，润物无声胜过强行改变。",
+    "context": "泰戈尔的智慧诗篇，以鹅卵石的形成比喻教育和成长——温和持久的影响胜过粗暴的塑造。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_104",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["纪伯伦中译"],
+    "source": "纪伯伦《先知》",
+    "author": "纪伯伦",
+    "original_text": "你的孩子其实不是你的孩子，他们是生命对于自身渴望而诞生的孩子。",
+    "display_text": "你的孩子其实不是你的孩子，他们是生命对于自身___而诞生的孩子。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "渴望",
+        "options": ["渴望", "需要", "期待", "延续"],
+        "hint": "强烈地想要、盼望"
+      }
+    ],
+    "appreciation": "赏析：\"渴望\"比\"需要\"更有情感力度，比\"期待\"更有迫切感，比\"延续\"更有精神性。\"生命对自身的渴望\"将孩子的诞生升华为生命本身的意志，而非父母的意愿，深刻而震撼。",
+    "context": "纪伯伦《先知》中关于\"孩子\"的名篇，提倡尊重孩子的独立人格，影响了全世界的教育理念。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_105",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["纪伯伦中译"],
+    "source": "纪伯伦《沙与沫》",
+    "author": "纪伯伦",
+    "original_text": "一粒沙中看世界，一朵花中见天国。",
+    "display_text": "一粒沙中看世界，一朵花中见___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "天国",
+        "options": ["天国", "美好", "宇宙", "真理"],
+        "hint": "天堂、极乐世界"
+      }
+    ],
+    "appreciation": "赏析：\"天国\"为全句注入了神圣和宏大的意境——从一朵小花中看到天国的美好，体现了\"以小见大\"的哲学思想。\"美好\"太笼统，\"宇宙\"太科学，\"真理\"太抽象。\"天国\"的神圣感让平凡的花朵获得了超越性的意义。",
+    "context": "此句也常被归于威廉·布莱克，表达了\"一花一世界\"的哲理，在东西方文化中都有深远影响。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_106",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["纪伯伦中译"],
+    "source": "纪伯伦《先知》",
+    "author": "纪伯伦",
+    "original_text": "你们可以荫庇他们的身体，却不能荫庇他们的灵魂。",
+    "display_text": "你们可以___他们的身体，却不能___他们的灵魂。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "荫庇",
+        "options": ["荫庇", "保护", "遮挡", "照顾"],
+        "hint": "像大树的树荫一样庇护"
+      }
+    ],
+    "appreciation": "赏析：\"荫庇\"源于大树荫蔽之意，比\"保护\"更有诗意，比\"遮挡\"更有温情，比\"照顾\"更有力量。全句的精妙在于\"身体\"与\"灵魂\"的对比——父母能保护孩子的身体，但灵魂必须由孩子自己去成长。",
+    "context": "纪伯伦关于亲子关系的哲理名言，强调父母应该引导而非控制孩子的精神成长。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_107",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["莎士比亚中译"],
+    "source": "莎士比亚《哈姆雷特》",
+    "author": "莎士比亚",
+    "original_text": "生存还是毁灭，这是一个值得考虑的问题。",
+    "display_text": "___还是毁灭，这是一个值得考虑的问题。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "生存",
+        "options": ["生存", "活着", "存在", "继续"],
+        "hint": "与\"毁灭\"相对的概念"
+      }
+    ],
+    "appreciation": "赏析：\"生存\"比\"活着\"更有哲学深度——它不仅是活着，更是有尊严、有意义地存在。\"存在\"太抽象，\"继续\"太轻描淡写。\"生存\"与\"毁灭\"构成最根本的人生选择，体现了哈姆雷特内心的终极拷问。",
+    "context": "莎士比亚四大悲剧之一《哈姆雷特》中最著名的独白，被誉为世界文学中最深刻的哲学叩问。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_108",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["莎士比亚中译"],
+    "source": "莎士比亚《威尼斯商人》",
+    "author": "莎士比亚",
+    "original_text": "慈悲不是出于勉强，它是像甘霖一样从天上降下尘世。",
+    "display_text": "慈悲不是出于勉强，它是像___一样从天上降下尘世。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "甘霖",
+        "options": ["甘霖", "雨水", "礼物", "阳光"],
+        "hint": "久旱后的好雨，比喻珍贵的恩泽"
+      }
+    ],
+    "appreciation": "赏析：\"甘霖\"不仅是雨水，更是久旱之后的甘甜雨露，暗示慈悲之珍贵。\"雨水\"太平常，\"礼物\"太物质，\"阳光\"方向相反。\"甘霖从天降下\"既写出了慈悲的自然和纯粹，又暗含了它的珍贵和滋润。",
+    "context": "莎士比亚通过鲍西娅之口论述慈悲的本质，这段独白被认为是英语文学中最美的散文之一。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_109",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["莎士比亚中译"],
+    "source": "莎士比亚《皆大欢喜》",
+    "author": "莎士比亚",
+    "original_text": "世界是一个舞台，所有的男男女女不过是一些演员。",
+    "display_text": "世界是一个___，所有的男男女女不过是一些演员。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "舞台",
+        "options": ["舞台", "剧场", "故事", "游戏"],
+        "hint": "演员表演的地方"
+      }
+    ],
+    "appreciation": "赏析：\"舞台\"将世界比作表演的场所，人生如戏——每个人都在扮演自己的角色。\"剧场\"偏向观众视角，\"故事\"只写叙事，\"游戏\"太轻佻。\"舞台\"兼具宏大感和戏剧性，完美呈现了莎翁\"人生如戏\"的经典隐喻。",
+    "context": "莎士比亚最著名的隐喻之一，\"All the world's a stage\"影响了西方文化对人生的理解方式。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_110",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["其他"],
+    "source": "林语堂",
+    "author": "林语堂",
+    "original_text": "人生不过如此，且行且珍惜。自己永远是自己的主角。",
+    "display_text": "人生不过如此，且行且___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "珍惜",
+        "options": ["珍惜", "快乐", "努力", "感恩"],
+        "hint": "重视和爱惜"
+      }
+    ],
+    "appreciation": "赏析：\"珍惜\"与\"行\"并列——一边走一边珍惜，表达了在人生旅途中要懂得珍惜当下的智慧。\"快乐\"太肤浅，\"努力\"太用力，\"感恩\"太单一。\"且行且珍惜\"五字节奏优美，将旅行与珍惜合为一体。",
+    "context": "林语堂提倡\"快乐哲学\"，主张以从容优雅的态度面对人生，\"且行且珍惜\"成为广泛使用的人生格言。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_111",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["其他"],
+    "source": "杨绛《我们仨》",
+    "author": "杨绛",
+    "original_text": "我们曾如此渴望命运的波澜，到最后才发现，人生最曼妙的风景，竟是内心的淡定与从容。",
+    "display_text": "人生最曼妙的风景，竟是内心的淡定与___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "从容",
+        "options": ["从容", "平静", "坚强", "自由"],
+        "hint": "不慌不忙、镇定自若"
+      }
+    ],
+    "appreciation": "赏析：\"从容\"与\"淡定\"并列，两者互补——\"淡定\"偏向心态，\"从容\"偏向气度。\"平静\"太被动，\"坚强\"太刚硬，\"自由\"方向不同。\"淡定与从容\"写出了历经世事后的通透与优雅。",
+    "context": "杨绛先生百岁时的感悟，经历了一个世纪的风雨后，回归内心的平和，格外有说服力。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_112",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["其他"],
+    "source": "海明威《老人与海》",
+    "author": "海明威",
+    "original_text": "一个人可以被毁灭，但不能被打败。",
+    "display_text": "一个人可以被毁灭，但不能被___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "打败",
+        "options": ["打败", "消灭", "征服", "忽视"],
+        "hint": "在精神上输掉"
+      }
+    ],
+    "appreciation": "赏析：\"打败\"特指精神上的屈服。\"毁灭\"是肉体的消亡，\"打败\"是灵魂的投降——肉体可以被摧毁，但精神永不屈服。\"消灭\"与\"毁灭\"重复，\"征服\"不如\"打败\"直接，\"忽视\"意思不通。这是人类尊严的最高宣言。",
+    "context": "海明威《老人与海》的核心精神，老渔夫圣地亚哥虽然失去了鱼，但精神上永远是胜利者。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_113",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["其他"],
+    "source": "三毛散文",
+    "author": "三毛",
+    "original_text": "一个人至少拥有一个梦想，有一个理由去坚强。",
+    "display_text": "一个人至少拥有一个梦想，有一个理由去___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "坚强",
+        "options": ["坚强", "奋斗", "活着", "微笑"],
+        "hint": "刚强有力，不轻易屈服"
+      }
+    ],
+    "appreciation": "赏析：\"坚强\"是梦想赋予人的最重要力量——不是奋斗的冲劲，不是活着的惯性，而是面对困难时不屈不挠的意志。\"奋斗\"太用力，\"活着\"太消极，\"微笑\"太轻松。\"坚强\"一词道出了梦想的真正意义：让人有力量面对一切。",
+    "context": "三毛的人生态度影响了几代人，她的文字温暖而有力，\"梦想让人坚强\"是她一生的写照。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_114",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["其他"],
+    "source": "汪国真诗歌",
+    "author": "汪国真",
+    "original_text": "既然选择了远方，便只顾风雨兼程。",
+    "display_text": "既然选择了远方，便只顾___兼程。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "风雨",
+        "options": ["风雨", "日夜", "星夜", "披荆"],
+        "hint": "比喻困难和阻碍，两个自然现象"
+      }
+    ],
+    "appreciation": "赏析：\"风雨\"在此既是实指旅途中的风雨天气，也是虚指人生中的困难险阻。\"日夜\"只写时间，\"星夜\"太浪漫，\"披荆\"虽有力但不如\"风雨\"自然。\"风雨兼程\"四字写出了不畏艰难、勇往直前的坚定决心。",
+    "context": "汪国真是中国当代最受欢迎的诗人之一，这首诗激励了无数追梦的年轻人。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_115",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["其他"],
+    "source": "余华《活着》",
+    "author": "余华",
+    "original_text": "人是为活着本身而活着的，而不是为了活着之外的任何事物所活着。",
+    "display_text": "人是为活着___而活着的，而不是为了活着之外的任何事物所活着。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "本身",
+        "options": ["本身", "意义", "目的", "价值"],
+        "hint": "事物自己、自身"
+      }
+    ],
+    "appreciation": "赏析：\"本身\"是全句的哲学核心——活着不需要理由，活着本身就是目的。\"意义\"\"目的\"\"价值\"都是外在的附加，而\"本身\"指向存在本身的价值。这种存在主义的朴素表达，让\"活着\"获得了最纯粹的尊严。",
+    "context": "余华《活着》是中国当代文学的经典之作，以福贵的一生诠释了\"活着\"这两个字的全部重量。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

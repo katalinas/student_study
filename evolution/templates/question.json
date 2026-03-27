@@ -1,0 +1,59 @@
+{
+  "_template_doc": "题目数据模板 - 复制此文件并填写具体内容",
+  "_usage": "支持 subtype: choice | fill_blank | true_false | matching | drag_order",
+
+  "id": "{module}_{q}_{序号}",
+  "module": "{intellect|tech|logic|general|moral}",
+  "type": "question",
+  "subtype": "{choice|fill_blank|true_false|matching|drag_order}",
+  "grade_min": 1,
+  "grade_max": 3,
+  "difficulty": 1,
+  "tags": [],
+  "subject": "{math|chinese|english|science|...}",
+
+  "_choice_fields": {
+    "stem": "题目文本",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "选项A", "image": null},
+      {"label": "B", "text": "选项B", "image": null},
+      {"label": "C", "text": "选项C", "image": null},
+      {"label": "D", "text": "选项D", "image": null}
+    ],
+    "answer": "A"
+  },
+
+  "_fill_blank_fields": {
+    "stem": "填空题文本，空白用___表示",
+    "blanks": [
+      {"position": 0, "answer": "正确答案", "accept_variants": ["变体1"]}
+    ]
+  },
+
+  "_true_false_fields": {
+    "stem": "判断题文本",
+    "answer": true
+  },
+
+  "_matching_fields": {
+    "stem": "连线题说明",
+    "left_items": [{"id": "L1", "text": "左1", "image": null}],
+    "right_items": [{"id": "R1", "text": "右1", "image": null}],
+    "correct_pairs": [{"left": "L1", "right": "R1"}]
+  },
+
+  "_drag_order_fields": {
+    "stem": "排序题说明",
+    "items": [{"id": "I1", "text": "项1", "image": null}],
+    "correct_order": ["I1"]
+  },
+
+  "explanation": "答案解释，语言适配目标年龄段",
+  "hint": "提示信息（可选）",
+  "time_limit_seconds": 30,
+  "points": 10,
+  "version": 1,
+  "created_at": "YYYY-MM-DD",
+  "updated_at": "YYYY-MM-DD"
+}

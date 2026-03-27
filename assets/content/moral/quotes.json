@@ -1,0 +1,142 @@
+[
+  {
+    "id": "quote_001",
+    "text": "学而时习之，不亦说乎？",
+    "source": "《论语·学而》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_002",
+    "text": "三人行，必有我师焉。",
+    "source": "《论语·述而》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_003",
+    "text": "温故而知新，可以为师矣。",
+    "source": "《论语·为政》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_004",
+    "text": "知之为知之，不知为不知，是知也。",
+    "source": "《论语·为政》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_005",
+    "text": "己所不欲，勿施于人。",
+    "source": "《论语·颜渊》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_006",
+    "text": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+    "source": "唐·李白《静夜思》",
+    "grade_min": 1,
+    "grade_max": 6
+  },
+  {
+    "id": "quote_007",
+    "text": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+    "source": "唐·孟浩然《春晓》",
+    "grade_min": 1,
+    "grade_max": 6
+  },
+  {
+    "id": "quote_008",
+    "text": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+    "source": "唐·王之涣《登鹳雀楼》",
+    "grade_min": 2,
+    "grade_max": 6
+  },
+  {
+    "id": "quote_009",
+    "text": "锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。",
+    "source": "唐·李绅《悯农》",
+    "grade_min": 1,
+    "grade_max": 6
+  },
+  {
+    "id": "quote_010",
+    "text": "海内存知己，天涯若比邻。",
+    "source": "唐·王勃《送杜少府之任蜀州》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_011",
+    "text": "会当凌绝顶，一览众山小。",
+    "source": "唐·杜甫《望岳》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_012",
+    "text": "但愿人长久，千里共婵娟。",
+    "source": "宋·苏轼《水调歌头》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_013",
+    "text": "生当作人杰，死亦为鬼雄。",
+    "source": "宋·李清照《夏日绝句》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_014",
+    "text": "山重水复疑无路，柳暗花明又一村。",
+    "source": "宋·陆游《游山西村》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_015",
+    "text": "问渠那得清如许？为有源头活水来。",
+    "source": "宋·朱熹《观书有感》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_016",
+    "text": "少壮不努力，老大徒伤悲。",
+    "source": "汉乐府《长歌行》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_017",
+    "text": "书山有路勤为径，学海无涯苦作舟。",
+    "source": "谚语（出自韩愈《古今贤文》）",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_018",
+    "text": "一寸光阴一寸金，寸金难买寸光阴。",
+    "source": "谚语",
+    "grade_min": 2,
+    "grade_max": 6
+  },
+  {
+    "id": "quote_019",
+    "text": "读书破万卷，下笔如有神。",
+    "source": "唐·杜甫《奉赠韦左丞丈二十二韵》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "quote_020",
+    "text": "世上无难事，只怕有心人。",
+    "source": "谚语",
+    "grade_min": 1,
+    "grade_max": 6
+  }
+]

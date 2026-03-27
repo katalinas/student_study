@@ -1,0 +1,542 @@
+[
+  {
+    "id": "intellect_q_1100",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "成语理解"
+    ],
+    "subject": "chinese",
+    "stem": "成语“画蛇添足”的意思是什么？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "画画的时候要注意细节"
+      },
+      {
+        "label": "B",
+        "text": "做了多余的事情，反而不好"
+      },
+      {
+        "label": "C",
+        "text": "蛇长出了脚，变得更厉害"
+      },
+      {
+        "label": "D",
+        "text": "做事情要有创意"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“画蛇添足”出自《战国策》，讲的是有人画蛇画好后又给蛇添上脚，结果反而输了。比喻做了多余的事情，反而把事情弄糟。",
+    "hint": "蛇本来就没有脚，给它添上脚是多余的。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1101",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "成语理解"
+    ],
+    "subject": "chinese",
+    "stem": "下面哪个成语形容做事非常专心？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "守株待兔"
+      },
+      {
+        "label": "B",
+        "text": "掩耳盗铃"
+      },
+      {
+        "label": "C",
+        "text": "专心致志"
+      },
+      {
+        "label": "D",
+        "text": "亡羊补牢"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“专心致志”意思是把全部心思集中到一件事上，形容做事非常专心。出自《孟子·告子上》。",
+    "hint": "看看哪个成语里有“专心”两个字。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1102",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "近义词反义词"
+    ],
+    "subject": "chinese",
+    "stem": "“美丽”的近义词是下面哪一个？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "丑陋"
+      },
+      {
+        "label": "B",
+        "text": "漂亮"
+      },
+      {
+        "label": "C",
+        "text": "普通"
+      },
+      {
+        "label": "D",
+        "text": "难看"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“美丽”和“漂亮”都表示好看、外形出众，是一对近义词。而“丑陋”“难看”是它的反义词。",
+    "hint": "近义词是意思相近的词，想想哪个词和“美丽”意思差不多。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1103",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "近义词反义词"
+    ],
+    "subject": "chinese",
+    "stem": "“寒冷”的反义词是什么？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "凉快"
+      },
+      {
+        "label": "B",
+        "text": "温暖"
+      },
+      {
+        "label": "C",
+        "text": "冰冻"
+      },
+      {
+        "label": "D",
+        "text": "清凉"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“寒冷”表示温度很低、很冷，它的反义词是“温暖”，表示温度适宜、暖和。“凉快”和“清凉”也带有凉意，不是反义词。",
+    "hint": "反义词是意思相反的词，“寒冷”的反面是什么感觉？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1104",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "阅读理解"
+    ],
+    "subject": "chinese",
+    "stem": "阅读短文：\n\n小燕子从南方飞回来了，它看到柳树发了新芽，桃花开了，小草也从地里钻了出来。小燕子高兴地叫着：“春天来了！春天来了！”\n\n请问：短文中提到了哪些春天的景象？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "下雪了、河水结冰了"
+      },
+      {
+        "label": "B",
+        "text": "柳树发芽、桃花开了、小草长出来了"
+      },
+      {
+        "label": "C",
+        "text": "树叶变黄了、果子熟了"
+      },
+      {
+        "label": "D",
+        "text": "荷花开了、知了在叫"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文中明确写到“柳树发了新芽，桃花开了，小草也从地里钻了出来”，这些都是春天的典型景象。A是冬天的景象，C是秋天的景象，D是夏天的景象。",
+    "hint": "仔细读短文中描写的景物有哪些。",
+    "time_limit_seconds": 45,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1105",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "修辞手法",
+      "比喻"
+    ],
+    "subject": "chinese",
+    "stem": "“弯弯的月亮像一条小船。”这句话用了什么修辞手法？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "拟人"
+      },
+      {
+        "label": "B",
+        "text": "比喻"
+      },
+      {
+        "label": "C",
+        "text": "夸张"
+      },
+      {
+        "label": "D",
+        "text": "排比"
+      }
+    ],
+    "answer": "B",
+    "explanation": "这句话把“弯弯的月亮”比作“小船”，用了“像”这个比喻词，属于比喻（明喻）。比喻是把一种事物比作另一种事物，使描写更加生动形象。",
+    "hint": "注意句子中的“像”字，它通常是哪种修辞手法的标志？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1106",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "修辞手法",
+      "拟人"
+    ],
+    "subject": "chinese",
+    "stem": "下面哪一句使用了拟人的修辞手法？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "天上的星星像宝石一样闪闪发光。"
+      },
+      {
+        "label": "B",
+        "text": "春风轻轻地抚摸着大地。"
+      },
+      {
+        "label": "C",
+        "text": "教室里安静得连一根针掉在地上都能听见。"
+      },
+      {
+        "label": "D",
+        "text": "长城像一条巨龙蜿蜒在山岭之间。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“春风轻轻地抚摸着大地”把春风当作人来写，“抚摸”是人的动作，所以是拟人。A和D是比喻（用了“像”），C是夸张。",
+    "hint": "拟人是把事物当作人来写，看看哪句话里的事物做了人的动作。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1107",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "阅读理解"
+    ],
+    "subject": "chinese",
+    "stem": "阅读短文：\n\n蚂蚁是一种非常勤劳的昆虫。它们总是成群结队地出去寻找食物。找到食物后，蚂蚁会排成长长的队伍，把食物一点一点搬回巢穴。遇到搬不动的大块食物，它们就会一起合作。\n\n蚂蚁搬食物时最突出的特点是什么？",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "它们喜欢独自行动"
+      },
+      {
+        "label": "B",
+        "text": "它们非常团结、善于合作"
+      },
+      {
+        "label": "C",
+        "text": "它们只搬小块食物"
+      },
+      {
+        "label": "D",
+        "text": "它们搬食物速度很快"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文中说蚂蚁“成群结队”“排成长长的队伍”“一起合作”，这些都体现了蚂蚁非常团结、善于合作的特点。",
+    "hint": "注意短文中反复出现的描写蚂蚁一起行动的词语。",
+    "time_limit_seconds": 45,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1108",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "成语理解"
+    ],
+    "subject": "chinese",
+    "stem": "请填写成语：亡羊补____",
+    "stem_image": null,
+    "options": null,
+    "answer": "牢",
+    "explanation": "“亡羊补牢”意思是羊丢了之后再修补羊圈，比喻出了问题后及时补救还不算晚。出自《战国策·楚策》。",
+    "hint": "这个成语和修补羊圈有关。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1109",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 2,
+    "tags": [
+      "chinese",
+      "近义词反义词"
+    ],
+    "subject": "chinese",
+    "stem": "请写出“高兴”的反义词：____",
+    "stem_image": null,
+    "options": null,
+    "answer": "难过",
+    "explanation": "“高兴”表示心情愉快、开心，它的反义词是“难过”（也可以说“伤心”“悲伤”），表示心情不好、不快乐。",
+    "hint": "想一想心情不好的时候用什么词来形容。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1110",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "成语理解"
+    ],
+    "subject": "chinese",
+    "stem": "请将下列成语与它们的意思连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "守株待兔"
+      },
+      {
+        "id": "L2",
+        "text": "掩耳盗铃"
+      },
+      {
+        "id": "L3",
+        "text": "刻舟求剑"
+      },
+      {
+        "id": "L4",
+        "text": "拔苗助长"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "自己欺骗自己"
+      },
+      {
+        "id": "R2",
+        "text": "不知变通，死守经验"
+      },
+      {
+        "id": "R3",
+        "text": "急于求成，反而坏事"
+      },
+      {
+        "id": "R4",
+        "text": "不劳而获，心存侥幸"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R4"
+      },
+      {
+        "left": "L2",
+        "right": "R1"
+      },
+      {
+        "left": "L3",
+        "right": "R2"
+      },
+      {
+        "left": "L4",
+        "right": "R3"
+      }
+    ],
+    "answer": null,
+    "explanation": "守株待兔：农夫守在树桩旁等兔子撞上来，比喻不劳而获。掩耳盗铃：捂住耳朵偷铃铛，比喻自欺欺人。刻舟求剑：在船上刻记号找掉落的剑，比喻不知变通。拔苗助长：把禾苗拔高帮它长，比喻急于求成反而坏事。",
+    "hint": "想一想每个成语故事讲了什么道理。",
+    "time_limit_seconds": 60,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1111",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 3,
+    "grade_max": 4,
+    "difficulty": 3,
+    "tags": [
+      "chinese",
+      "修辞手法"
+    ],
+    "subject": "chinese",
+    "stem": "请将下列句子与对应的修辞手法连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "太阳像一个大火球。"
+      },
+      {
+        "id": "L2",
+        "text": "小鸟在枝头唱着欢快的歌。"
+      },
+      {
+        "id": "L3",
+        "text": "飞流直下三千尺。"
+      },
+      {
+        "id": "L4",
+        "text": "他跑得比兔子还快。"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "比喻"
+      },
+      {
+        "id": "R2",
+        "text": "拟人"
+      },
+      {
+        "id": "R3",
+        "text": "夸张"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R1"
+      },
+      {
+        "left": "L2",
+        "right": "R2"
+      },
+      {
+        "left": "L3",
+        "right": "R3"
+      },
+      {
+        "left": "L4",
+        "right": "R3"
+      }
+    ],
+    "answer": null,
+    "explanation": "“太阳像一个大火球”用“像”把太阳比作火球，是比喻。“小鸟唱歌”把小鸟当人来写，是拟人。“三千尺”和“比兔子还快”都是极度夸大事实，属于夸张。",
+    "hint": "比喻常用“像”“好像”等词；拟人把事物当人来写；夸张是把事物说得特别大或特别小。",
+    "time_limit_seconds": 60,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

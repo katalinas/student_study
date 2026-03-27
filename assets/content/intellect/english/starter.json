@@ -1,0 +1,478 @@
+[
+  {
+    "id": "intellect_q_1400",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "字母认读"
+    ],
+    "subject": "english",
+    "stem": "Which letter comes after “C” in the alphabet?",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "B"
+      },
+      {
+        "label": "B",
+        "text": "D"
+      },
+      {
+        "label": "C",
+        "text": "E"
+      },
+      {
+        "label": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "B",
+    "explanation": "英文字母表的顺序是 A, B, C, D, E...，所以 C 后面的字母是 D。",
+    "hint": "唱一唱字母歌：A, B, C, ___...",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1401",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "颜色单词"
+    ],
+    "subject": "english",
+    "stem": "The sky is usually ____. (天空通常是什么颜色？)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "red"
+      },
+      {
+        "label": "B",
+        "text": "blue"
+      },
+      {
+        "label": "C",
+        "text": "green"
+      },
+      {
+        "label": "D",
+        "text": "yellow"
+      }
+    ],
+    "answer": "B",
+    "explanation": "天空通常是蓝色的，蓝色的英文是 blue。red 是红色，green 是绿色，yellow 是黄色。",
+    "hint": "想一想晴天的时候，抬头看天空是什么颜色。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1402",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "数字1-20"
+    ],
+    "subject": "english",
+    "stem": "How do you say the number “8” in English?",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "six"
+      },
+      {
+        "label": "B",
+        "text": "seven"
+      },
+      {
+        "label": "C",
+        "text": "eight"
+      },
+      {
+        "label": "D",
+        "text": "nine"
+      }
+    ],
+    "answer": "C",
+    "explanation": "数字 8 的英文是 eight。six 是 6，seven 是 7，nine 是 9。",
+    "hint": "数一数：six(6), seven(7), ______(8), nine(9)。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1403",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "动物单词"
+    ],
+    "subject": "english",
+    "stem": "A “cat” is a ____. (“cat”是什么？)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "一种水果"
+      },
+      {
+        "label": "B",
+        "text": "一种动物（猫）"
+      },
+      {
+        "label": "C",
+        "text": "一种颜色"
+      },
+      {
+        "label": "D",
+        "text": "一种玩具"
+      }
+    ],
+    "answer": "B",
+    "explanation": "cat 是英文“猫”的意思，是一种常见的宠物动物。",
+    "hint": "这种小动物会“喵喵”叫，很多人喜欢养它作为宠物。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1404",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "简单问候语"
+    ],
+    "subject": "english",
+    "stem": "When you meet a friend in the morning, you should say:",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Good night!"
+      },
+      {
+        "label": "B",
+        "text": "Good morning!"
+      },
+      {
+        "label": "C",
+        "text": "Goodbye!"
+      },
+      {
+        "label": "D",
+        "text": "Thank you!"
+      }
+    ],
+    "answer": "B",
+    "explanation": "早上见到朋友要说 “Good morning!”（早上好）。“Good night” 是晚安，“Goodbye” 是再见，“Thank you” 是谢谢。",
+    "hint": "morning 是早上的意思，早上见面应该说什么？",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1405",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "动物单词"
+    ],
+    "subject": "english",
+    "stem": "Which animal says “woof woof”? (哪种动物会“汪汪”叫？)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "cat"
+      },
+      {
+        "label": "B",
+        "text": "bird"
+      },
+      {
+        "label": "C",
+        "text": "dog"
+      },
+      {
+        "label": "D",
+        "text": "fish"
+      }
+    ],
+    "answer": "C",
+    "explanation": "狗（dog）会“汪汪”叫，在英文中用 “woof woof” 表示狗叫声。cat 是猫，bird 是鸟，fish 是鱼。",
+    "hint": "这种动物是人类最忠实的朋友，会摇尾巴。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1406",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "颜色单词"
+    ],
+    "subject": "english",
+    "stem": "请将颜色英文单词与中文意思连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "red"
+      },
+      {
+        "id": "L2",
+        "text": "green"
+      },
+      {
+        "id": "L3",
+        "text": "yellow"
+      },
+      {
+        "id": "L4",
+        "text": "white"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "绿色"
+      },
+      {
+        "id": "R2",
+        "text": "红色"
+      },
+      {
+        "id": "R3",
+        "text": "白色"
+      },
+      {
+        "id": "R4",
+        "text": "黄色"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R2"
+      },
+      {
+        "left": "L2",
+        "right": "R1"
+      },
+      {
+        "left": "L3",
+        "right": "R4"
+      },
+      {
+        "left": "L4",
+        "right": "R3"
+      }
+    ],
+    "answer": null,
+    "explanation": "red = 红色，green = 绿色，yellow = 黄色，white = 白色。这些都是最基本的颜色单词。",
+    "hint": "red 听起来像“瑞德”，是红色；green 是绿色，草地是 green 的。",
+    "time_limit_seconds": 45,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1407",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "matching",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "数字1-20"
+    ],
+    "subject": "english",
+    "stem": "请将数字与对应的英文单词连线。",
+    "stem_image": null,
+    "left_items": [
+      {
+        "id": "L1",
+        "text": "3"
+      },
+      {
+        "id": "L2",
+        "text": "5"
+      },
+      {
+        "id": "L3",
+        "text": "10"
+      },
+      {
+        "id": "L4",
+        "text": "7"
+      }
+    ],
+    "right_items": [
+      {
+        "id": "R1",
+        "text": "five"
+      },
+      {
+        "id": "R2",
+        "text": "ten"
+      },
+      {
+        "id": "R3",
+        "text": "three"
+      },
+      {
+        "id": "R4",
+        "text": "seven"
+      }
+    ],
+    "correct_pairs": [
+      {
+        "left": "L1",
+        "right": "R3"
+      },
+      {
+        "left": "L2",
+        "right": "R1"
+      },
+      {
+        "left": "L3",
+        "right": "R2"
+      },
+      {
+        "left": "L4",
+        "right": "R4"
+      }
+    ],
+    "answer": null,
+    "explanation": "3 = three，5 = five，10 = ten，7 = seven。记住这些基本数字的英文拼写很重要。",
+    "hint": "ten 是最容易记的，因为它很短，就是 10 的意思。",
+    "time_limit_seconds": 45,
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1408",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "字母认读"
+    ],
+    "subject": "english",
+    "stem": "The English alphabet has 26 letters. (英文字母表一共有26个字母。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "正确！英文字母表一共有 26 个字母，从 A 到 Z。",
+    "hint": "唱一唱字母歌，从 A 一直唱到 Z，数一数有多少个。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "intellect_q_1409",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 1,
+    "grade_max": 2,
+    "difficulty": 1,
+    "tags": [
+      "english",
+      "简单问候语"
+    ],
+    "subject": "english",
+    "stem": "“Goodbye” means “你好” in Chinese. (“Goodbye”的中文意思是“你好”。)",
+    "stem_image": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "正确 (True)"
+      },
+      {
+        "label": "B",
+        "text": "错误 (False)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "错误！“Goodbye” 的意思是“再见”，不是“你好”。“你好”用英语说是 “Hello” 或 “Hi”。",
+    "hint": "“Goodbye” 是你要离开的时候说的话。",
+    "time_limit_seconds": 20,
+    "points": 10,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

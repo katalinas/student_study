@@ -1,0 +1,327 @@
+[
+  {
+    "id": "tech_e_301",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["tech", "optics", "光的传播", "手影"],
+    "title": "光的直线传播（手影）",
+    "category": "光学实验",
+    "cover_image": null,
+    "description": "在暗室中使用手电筒和白墙，通过做手影游戏来验证光沿直线传播的特性，探究影子大小与距离的关系。",
+    "learning_goals": [
+      "理解光在均匀介质中沿直线传播的原理",
+      "探究物体与光源距离对影子大小的影响规律"
+    ],
+    "components": [
+      {"id": "flashlight", "name": "手电筒", "icon": "flashlight.png", "count": 1},
+      {"id": "white_wall", "name": "白色墙面或白纸板", "icon": "wall.png", "count": 1},
+      {"id": "cardboard", "name": "硬纸板（各种形状）", "icon": "cardboard.png", "count": 3},
+      {"id": "ruler", "name": "直尺", "icon": "ruler.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "拉上窗帘使房间变暗，将手电筒固定在桌面上对准白墙，打开手电筒。",
+        "validation": "light_source_ready"
+      },
+      {
+        "order": 2,
+        "instruction": "将手伸到手电筒和墙壁之间，做出各种手势（如鸟、兔子、狗），观察墙上的影子形状。",
+        "validation": "shadow_observed"
+      },
+      {
+        "order": 3,
+        "instruction": "保持手势不变，将手靠近手电筒，观察影子变大；将手远离手电筒靠近墙壁，观察影子变小。记录不同距离下影子的大小。",
+        "validation": "distance_effect_recorded"
+      },
+      {
+        "order": 4,
+        "instruction": "用不同形状的硬纸板替代手，验证任何不透明物体都能形成影子，且影子形状与物体轮廓一致。",
+        "validation": "shape_correspondence_verified"
+      },
+      {
+        "order": 5,
+        "instruction": "尝试用两个手电筒从不同方向照射同一只手，观察出现两个影子的现象。思考：为什么太阳下的影子只有一个？",
+        "validation": "two_source_experiment"
+      }
+    ],
+    "success_condition": "two_source_experiment",
+    "fun_facts": [
+      "皮影戏是中国非物质文化遗产，已有两千多年历史，正是利用了光沿直线传播形成影子的原理。",
+      "日食就是月球挡住了太阳光形成的巨大'手影'，月球的影子投射到地球表面。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "手靠近光源时，墙上的影子会怎样变化？",
+        "options": ["变大", "变小", "不变"],
+        "answer": 0
+      }
+    ],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_302",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "optics", "三棱镜", "光谱", "色散"],
+    "title": "三棱镜分光",
+    "category": "光学实验",
+    "cover_image": null,
+    "description": "让一束白光通过三棱镜，观察白光被分解为红、橙、黄、绿、蓝、靛、紫七种颜色的光谱现象，理解白光是复色光。",
+    "learning_goals": [
+      "了解白光是由多种颜色的光混合而成的",
+      "认识光的色散现象和原理",
+      "理解不同颜色的光折射率不同"
+    ],
+    "components": [
+      {"id": "prism", "name": "玻璃三棱镜", "icon": "prism.png", "count": 1},
+      {"id": "flashlight", "name": "强光手电筒", "icon": "flashlight.png", "count": 1},
+      {"id": "white_paper", "name": "白色卡纸", "icon": "paper.png", "count": 1},
+      {"id": "slit_card", "name": "带细缝的黑色卡纸", "icon": "slit.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "拉上窗帘使房间变暗。将带细缝的黑色卡纸放在手电筒前面，让手电筒光线通过细缝形成一条细细的光束。",
+        "validation": "light_beam_formed"
+      },
+      {
+        "order": 2,
+        "instruction": "将三棱镜放在光束路径上，缓慢旋转三棱镜的角度，直到在另一侧的白纸上看到彩色光带。",
+        "validation": "spectrum_visible"
+      },
+      {
+        "order": 3,
+        "instruction": "调整白纸的距离和角度，使彩色光谱尽量清晰，观察并记录从上到下依次是红、橙、黄、绿、蓝、靛、紫。",
+        "validation": "colors_identified"
+      },
+      {
+        "order": 4,
+        "instruction": "尝试用手遮挡光谱中的某些颜色，观察剩余颜色的组合效果。思考：如果去掉所有颜色的光，会怎样？",
+        "validation": "color_blocking_tested"
+      }
+    ],
+    "success_condition": "color_blocking_tested",
+    "fun_facts": [
+      "1666年，22岁的牛顿在家中做了这个三棱镜实验，第一次证明了白光是由七种颜色的光组成的，这是光学史上最重要的实验之一。",
+      "紫光的折射角最大、红光最小，所以在光谱中紫色在最外侧，红色在最内侧——彩虹的颜色顺序也是如此。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "白光通过三棱镜后分成七种颜色，这说明白光是：",
+        "options": ["一种单色光", "由多种颜色的光混合而成的复色光", "一种无色的光"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_303",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "optics", "凸透镜", "成像", "焦点"],
+    "title": "凸透镜成像",
+    "category": "光学实验",
+    "cover_image": null,
+    "description": "使用放大镜（凸透镜）探究物体在不同距离处成像的规律，发现放大实像、缩小实像和放大虚像三种成像情况。",
+    "learning_goals": [
+      "理解凸透镜的聚焦原理和焦点、焦距的概念",
+      "探究物距与像的大小、正倒、虚实的关系",
+      "了解凸透镜在照相机、放大镜和投影仪中的应用"
+    ],
+    "components": [
+      {"id": "magnifier", "name": "放大镜（凸透镜）", "icon": "magnifier.png", "count": 1},
+      {"id": "candle", "name": "小蜡烛", "icon": "candle.png", "count": 1},
+      {"id": "white_screen", "name": "白色纸屏", "icon": "screen.png", "count": 1},
+      {"id": "ruler", "name": "长直尺（50cm）", "icon": "ruler.png", "count": 1},
+      {"id": "lighter", "name": "打火机（由大人操作）", "icon": "lighter.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "先测定凸透镜的焦距：在阳光下（或用远处灯光），移动凸透镜，在纸上找到最小最亮的光斑，测量光斑到透镜的距离即为焦距f。",
+        "validation": "focal_length_measured"
+      },
+      {
+        "order": 2,
+        "instruction": "在暗室中点燃蜡烛（由大人操作），将蜡烛、凸透镜、白色纸屏依次摆在直尺上，凸透镜在中间。",
+        "validation": "optical_bench_set"
+      },
+      {
+        "order": 3,
+        "instruction": "将蜡烛放在距透镜大于2倍焦距的位置，移动纸屏直到出现清晰的像。观察：像是缩小、倒立的实像（照相机原理）。",
+        "validation": "reduced_image_found"
+      },
+      {
+        "order": 4,
+        "instruction": "将蜡烛移到距透镜1倍焦距和2倍焦距之间，移动纸屏找到清晰的像。观察：像是放大、倒立的实像（投影仪原理）。",
+        "validation": "magnified_image_found"
+      },
+      {
+        "order": 5,
+        "instruction": "将蜡烛移到距透镜小于1倍焦距的位置，透过透镜直接观察蜡烛。观察：看到放大、正立的虚像（放大镜原理）。",
+        "validation": "virtual_image_observed"
+      }
+    ],
+    "success_condition": "virtual_image_observed",
+    "fun_facts": [
+      "人眼的晶状体就是一个凸透镜，它能自动调节厚薄来对焦。近视眼是因为晶状体太厚，像成在视网膜前方。",
+      "世界上最大的光学望远镜——欧洲极大望远镜（E-ELT），主镜直径达39.3米，由798块六角形镜片组成。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "照相机利用的是凸透镜的哪种成像原理？",
+        "options": ["物距大于2倍焦距时成缩小倒立实像", "物距在1到2倍焦距间成放大倒立实像", "物距小于焦距时成放大正立虚像"],
+        "answer": 0
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_304",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "optics", "小孔成像", "暗箱"],
+    "title": "小孔成像",
+    "category": "光学实验",
+    "cover_image": null,
+    "description": "用一个带小孔的纸盒制作简易暗箱，观察蜡烛通过小孔在屏幕上形成倒立像的现象，验证光的直线传播原理。",
+    "learning_goals": [
+      "验证光沿直线传播的性质",
+      "理解小孔成像是倒立实像的原因",
+      "了解小孔成像是照相机的前身"
+    ],
+    "components": [
+      {"id": "shoebox", "name": "鞋盒或纸盒", "icon": "box.png", "count": 1},
+      {"id": "tracing_paper", "name": "半透明描图纸", "icon": "paper.png", "count": 1},
+      {"id": "pin", "name": "大头针", "icon": "pin.png", "count": 1},
+      {"id": "tape", "name": "胶带", "icon": "tape.png", "count": 1},
+      {"id": "candle", "name": "蜡烛", "icon": "candle.png", "count": 1},
+      {"id": "lighter", "name": "打火机（由大人操作）", "icon": "lighter.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在鞋盒的一端用大头针小心地扎一个直径约2毫米的小孔。",
+        "validation": "pinhole_made"
+      },
+      {
+        "order": 2,
+        "instruction": "在鞋盒的另一端剪掉纸板，贴上半透明的描图纸作为'屏幕'。",
+        "validation": "screen_attached"
+      },
+      {
+        "order": 3,
+        "instruction": "在暗室中请大人点燃蜡烛，将小孔一端对准蜡烛，从描图纸（屏幕）一端观察。",
+        "validation": "setup_complete"
+      },
+      {
+        "order": 4,
+        "instruction": "调整鞋盒与蜡烛的距离，在描图纸上观察到一个倒立的蜡烛火焰像。尝试改变距离，观察像的大小变化。",
+        "validation": "inverted_image_seen"
+      },
+      {
+        "order": 5,
+        "instruction": "尝试将小孔扎大一些，观察像是否变得更模糊。再扎一个新的更小的孔，对比像的清晰度。思考：为什么孔越小像越清晰？",
+        "validation": "hole_size_compared"
+      }
+    ],
+    "success_condition": "hole_size_compared",
+    "fun_facts": [
+      "小孔成像原理最早由中国古代学者墨子在《墨经》中记录，距今已有2400多年，比西方早了近1800年。",
+      "世界上最早的照相机就是基于小孔成像原理制作的'暗箱'（Camera Obscura），camera这个词在拉丁语中就是'暗室'的意思。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "小孔成像中，屏幕上的像是什么样的？",
+        "options": ["正立且放大的", "倒立的", "和物体完全一样的"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_305",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["tech", "optics", "彩虹", "水雾", "光谱"],
+    "title": "彩虹制造（水雾+阳光）",
+    "category": "光学实验",
+    "cover_image": null,
+    "description": "在晴天的户外，背对太阳用喷雾器喷出细密的水雾，在水雾中观察人造彩虹，理解彩虹形成的光学原理。",
+    "learning_goals": [
+      "了解彩虹是阳光经过水滴折射和反射后形成的",
+      "理解彩虹出现的条件：光源、水滴和特定角度"
+    ],
+    "components": [
+      {"id": "spray_bottle", "name": "喷雾瓶", "icon": "spray.png", "count": 1},
+      {"id": "water", "name": "清水", "icon": "water.png", "count": 1},
+      {"id": "garden_hose", "name": "花园水管（可选）", "icon": "hose.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "选择一个阳光明媚的日子，在户外找一个太阳光充足的位置。确保你背对太阳站立。",
+        "validation": "position_set"
+      },
+      {
+        "order": 2,
+        "instruction": "用喷雾瓶装满清水，对着前方空中（太阳的对面方向）喷出细密的水雾。调整喷雾的角度和方向。",
+        "validation": "mist_sprayed"
+      },
+      {
+        "order": 3,
+        "instruction": "仔细观察水雾中出现的彩虹。尝试改变喷雾的角度，找到彩虹最清晰的位置（通常在视线与阳光约42°角处）。",
+        "validation": "rainbow_visible"
+      },
+      {
+        "order": 4,
+        "instruction": "观察彩虹的颜色顺序：外圈到内圈依次是红、橙、黄、绿、蓝、靛、紫。和三棱镜实验的光谱对比是否一致。",
+        "validation": "colors_noted"
+      }
+    ],
+    "success_condition": "colors_noted",
+    "fun_facts": [
+      "其实每个人看到的彩虹都是不同的！因为彩虹是特定角度下的光学现象，你和你的朋友站在不同位置，看到的是不同水滴产生的彩虹。",
+      "有时候你能看到两条彩虹——外面较暗的叫'霓'（副虹），它的颜色顺序和主虹刚好相反。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "要在户外用水雾制造彩虹，你应该怎样站？",
+        "options": ["面对太阳喷水雾", "背对太阳向前方喷水雾", "在阴天喷水雾"],
+        "answer": 1
+      }
+    ],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

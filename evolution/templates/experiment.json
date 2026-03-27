@@ -1,0 +1,58 @@
+{
+  "_template_doc": "虚拟实验数据模板 - 复制此文件并填写具体内容",
+
+  "id": "tech_e_{序号}",
+  "module": "tech",
+  "type": "experiment",
+  "grade_min": 3,
+  "grade_max": 6,
+  "difficulty": 2,
+  "tags": [],
+
+  "title": "实验标题",
+  "category": "{electronics|mechanics|chemistry|biology|optics}",
+  "cover_image": "assets/images/tech/{文件名}.png",
+  "description": "实验简介（1-2句话）",
+
+  "learning_goals": [
+    "目标1",
+    "目标2"
+  ],
+
+  "components": [
+    {
+      "id": "{component_id}",
+      "name": "器材名称",
+      "icon": "{icon_file}.png",
+      "count": 1
+    }
+  ],
+
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "操作说明",
+      "validation": "{validation_key}"
+    }
+  ],
+
+  "success_condition": "{最终验证条件key}",
+
+  "fun_facts": [
+    "趣味知识1",
+    "趣味知识2"
+  ],
+
+  "follow_up_questions": [
+    {
+      "stem": "思考题",
+      "options": ["选项A", "选项B", "选项C"],
+      "answer": 0
+    }
+  ],
+
+  "points": 20,
+  "version": 1,
+  "created_at": "YYYY-MM-DD",
+  "updated_at": "YYYY-MM-DD"
+}

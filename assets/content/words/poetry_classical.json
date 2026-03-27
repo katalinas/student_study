@@ -1,0 +1,842 @@
+[
+  {
+    "id": "words_g_001",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["唐诗"],
+    "source": "唐·孟浩然《春晓》",
+    "author": "孟浩然",
+    "original_text": "春眠不觉晓，处处闻啼鸟。",
+    "display_text": "春眠不觉晓，处处闻___鸟。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "啼",
+        "options": ["啼", "叫", "鸣", "唱"],
+        "hint": "形容鸟的叫声，带有悲切婉转之意"
+      }
+    ],
+    "appreciation": "赏析：\"啼\"字极为精妙，既写鸟声婉转动听，又暗含春光流逝的淡淡惆怅。若用\"叫\"则过于直白粗俗，\"鸣\"虽雅但缺少情感色彩，\"唱\"则拟人过度。\"啼\"字一举兼得声音的美感与情感的深度。",
+    "context": "这是孟浩然最著名的五言绝句，写春天早晨醒来后的所见所闻，语言朴素自然却意境深远。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_002",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["唐诗"],
+    "source": "唐·王维《使至塞上》",
+    "author": "王维",
+    "original_text": "大漠孤烟直，长河落日圆。",
+    "display_text": "大漠孤烟___，长河落日圆。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "直",
+        "options": ["直", "升", "起", "飘"],
+        "hint": "形容烟的形态，一个字写出沙漠的辽阔"
+      }
+    ],
+    "appreciation": "赏析：\"直\"字堪称千古绝妙。沙漠无风，烽烟笔直上升，一个\"直\"字写出了大漠的空旷寂寥和烽烟的孤独挺立。若用\"升\"只写动作，\"起\"太平淡，\"飘\"则破坏了画面的静穆感。王国维赞此句为\"千古壮观\"。",
+    "context": "王维出使边塞途中所作，以画入诗，被苏轼赞为\"诗中有画，画中有诗\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_003",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["唐诗"],
+    "source": "唐·李白《静夜思》",
+    "author": "李白",
+    "original_text": "举头望明月，低头思故乡。",
+    "display_text": "___头望明月，低头思故乡。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "举",
+        "options": ["举", "抬", "仰", "昂"],
+        "hint": "一个动作，与\"低头\"对仗"
+      }
+    ],
+    "appreciation": "赏析：\"举\"与\"低\"形成完美对仗，\"举头\"比\"抬头\"更有庄重感，暗示一种不经意的仰望动作。\"仰\"太刻意，\"昂\"则过于夸张。一\"举\"一\"低\"之间，望月思乡的情感自然流淌。",
+    "context": "李白最广为传诵的思乡诗，语言极简却情感真挚，几乎每个中国人都会背诵。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_004",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["唐诗"],
+    "source": "唐·杜甫《春夜喜雨》",
+    "author": "杜甫",
+    "original_text": "随风潜入夜，润物细无声。",
+    "display_text": "随风___入夜，润物细无声。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "潜",
+        "options": ["潜", "悄", "暗", "轻"],
+        "hint": "形容春雨悄悄来到，像潜伏一样"
+      }
+    ],
+    "appreciation": "赏析：\"潜\"字是拟人化的神来之笔，把春雨写成一个善解人意的精灵，悄悄地、不知不觉地随风而来。\"悄\"只写安静，\"暗\"偏消极，\"轻\"仅写力度。唯有\"潜\"字兼具动作的隐秘和意图的温柔。",
+    "context": "杜甫在成都草堂时所作，\"喜\"字点明全诗感情基调，赞美春雨的及时和无私。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_005",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["唐诗"],
+    "source": "唐·李商隐《无题》",
+    "author": "李商隐",
+    "original_text": "春蚕到死丝方尽，蜡炬成灰泪始干。",
+    "display_text": "春蚕到死丝方___，蜡炬成灰泪始干。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "尽",
+        "options": ["尽", "完", "断", "绝"],
+        "hint": "表示丝线全部吐完，与\"干\"字对仗"
+      }
+    ],
+    "appreciation": "赏析：\"尽\"与\"干\"对仗工整，\"丝\"谐音\"思\"，表达思念至死不渝。\"完\"太口语化，\"断\"暗示中途而止，\"绝\"过于决绝。\"尽\"字既写蚕丝吐完的自然过程，又暗喻感情的倾尽所有，一语双关。",
+    "context": "李商隐《无题》诗中最著名的一联，后世常用来赞美老师或奉献精神，\"丝\"与\"思\"的双关是理解全诗的关键。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_006",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["唐诗"],
+    "source": "唐·白居易《赋得古原草送别》",
+    "author": "白居易",
+    "original_text": "野火烧不尽，春风吹又生。",
+    "display_text": "野火烧不尽，春风吹又___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "生",
+        "options": ["生", "长", "发", "绿"],
+        "hint": "表示草重新生长出来"
+      }
+    ],
+    "appreciation": "赏析：\"生\"字写出了小草顽强的生命力，与\"尽\"形成鲜明对比——火烧不尽，风吹又生。\"长\"偏慢，\"发\"太书面，\"绿\"只写颜色。\"生\"字简洁有力，包含从无到有的生命奇迹。",
+    "context": "白居易十六岁时的应试之作，展现了少年才子的非凡文采。\"离离原上草\"开篇即成千古名句。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_007",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["唐诗"],
+    "source": "唐·王之涣《登鹳雀楼》",
+    "author": "王之涣",
+    "original_text": "欲穷千里目，更上一层楼。",
+    "display_text": "欲___千里目，更上一层楼。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "穷",
+        "options": ["穷", "望", "极", "尽"],
+        "hint": "意思是穷尽、看遍，不是贫穷"
+      }
+    ],
+    "appreciation": "赏析：\"穷\"字在此意为\"穷尽\"，表达想要看遍千里风光的强烈愿望。\"望\"太直白平淡，\"极\"与\"目\"搭配不够自然，\"尽\"意思相近但缺少\"穷\"的力度感。\"穷千里目\"三字暗含不满足于现状、不断追求的进取精神。",
+    "context": "五言绝句的巅峰之作，前两句写景，后两句说理，\"更上一层楼\"已成为激励人不断进取的经典名言。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_008",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["唐诗"],
+    "source": "唐·杜甫《望岳》",
+    "author": "杜甫",
+    "original_text": "会当凌绝顶，一览众山小。",
+    "display_text": "会当___绝顶，一览众山小。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "凌",
+        "options": ["凌", "登", "上", "攀"],
+        "hint": "有凌驾、超越之意，比普通的\"登\"更有气势"
+      }
+    ],
+    "appreciation": "赏析：\"凌\"字气势非凡，不仅写登上山顶，更有凌驾、超越的豪迈之感。\"登\"只是到达，\"上\"过于平淡，\"攀\"强调艰难。\"凌\"字一出，少年杜甫俯瞰天下的壮志豪情跃然纸上。",
+    "context": "杜甫青年时代的名作，写登泰山的雄心壮志，与晚年沉郁顿挫的风格迥然不同。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_009",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["唐诗"],
+    "source": "唐·王昌龄《出塞》",
+    "author": "王昌龄",
+    "original_text": "但使龙城飞将在，不教胡马度阴山。",
+    "display_text": "但使龙城飞将在，不___胡马度阴山。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "教",
+        "options": ["教", "让", "许", "容"],
+        "hint": "使令的意思，读jiào，比\"让\"更有力"
+      }
+    ],
+    "appreciation": "赏析：\"教\"（jiào）在此为使令义，语气坚定而不容置疑。\"让\"太口语化，\"许\"太温和，\"容\"有容忍之意但力度不足。\"不教\"二字掷地有声，写出了保家卫国的坚定决心。",
+    "context": "被誉为唐人七绝的压卷之作，表达了诗人对边防安定的渴望和对名将的追慕。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_010",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["唐诗"],
+    "source": "唐·李白《行路难》",
+    "author": "李白",
+    "original_text": "长风破浪会有时，直挂云帆济沧海。",
+    "display_text": "长风破浪会有时，直挂云帆___沧海。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "济",
+        "options": ["济", "渡", "越", "过"],
+        "hint": "意为渡过，比\"渡\"更有文学韵味"
+      }
+    ],
+    "appreciation": "赏析：\"济\"字雅致而有力，在古文中为渡过之意，比\"渡\"更显文学气质，比\"越\"更切合水上航行，比\"过\"过于口语。\"济沧海\"三字大气磅礴，表达了诗人乘风破浪、纵横四海的豪情壮志。",
+    "context": "李白在政治上受挫后所作，虽历经坎坷但不失信心，\"长风破浪\"化用南朝宗悫的典故。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_011",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["唐诗"],
+    "source": "唐·刘禹锡《酬乐天扬州初逢席上见赠》",
+    "author": "刘禹锡",
+    "original_text": "沉舟侧畔千帆过，病树前头万木春。",
+    "display_text": "沉舟侧畔千帆过，病树前头万木___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "春",
+        "options": ["春", "新", "荣", "青"],
+        "hint": "名词作动词，表示焕发春天的生机"
+      }
+    ],
+    "appreciation": "赏析：\"春\"字用作动词，意为焕发生机，新颖别致。\"新\"太直白，\"荣\"只写繁茂，\"青\"仅写颜色。\"万木春\"以春天的蓬勃对比病树的衰败，寓意新事物必将取代旧事物，蕴含积极向上的哲理。",
+    "context": "刘禹锡被贬二十三年后与白居易重逢时的酬答之作，展现了诗人豁达乐观的胸襟。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_012",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["唐诗"],
+    "source": "唐·贺知章《咏柳》",
+    "author": "贺知章",
+    "original_text": "不知细叶谁裁出，二月春风似剪刀。",
+    "display_text": "不知细叶谁___出，二月春风似剪刀。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "裁",
+        "options": ["裁", "剪", "切", "割"],
+        "hint": "与下句\"剪刀\"呼应，像裁衣服一样"
+      }
+    ],
+    "appreciation": "赏析：\"裁\"字精妙地将春风比作巧手裁缝，与下句\"剪刀\"构成完整的比喻体系。\"剪\"与下文重复，\"切\"太粗糙，\"割\"缺少精巧感。\"裁\"字兼具精细与艺术感，将柳叶的纤细精致写得栩栩如生。",
+    "context": "贺知章的咏物名篇，以奇特的想象把春风比作剪刀，新颖贴切，千古传诵。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_013",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["宋词"],
+    "source": "宋·苏轼《水调歌头》",
+    "author": "苏轼",
+    "original_text": "但愿人长久，千里共婵娟。",
+    "display_text": "但愿人长久，千里共___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "婵娟",
+        "options": ["婵娟", "明月", "清辉", "月色"],
+        "hint": "指美好的月亮，两个字，比直说\"明月\"更有诗意"
+      }
+    ],
+    "appreciation": "赏析：\"婵娟\"一词形容月亮的美好姿态，比直说\"明月\"含蓄优美得多，\"清辉\"只写光芒，\"月色\"太平淡。\"婵娟\"二字音韵婉转，既是月亮的美称，又暗喻美好的事物，升华了全词的意境。",
+    "context": "苏轼在中秋之夜思念弟弟苏辙所作，被誉为中秋词中的千古绝唱，表达了对亲人的美好祝愿。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_014",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["宋词"],
+    "source": "宋·李清照《如梦令》",
+    "author": "李清照",
+    "original_text": "知否，知否？应是绿肥红瘦。",
+    "display_text": "知否，知否？应是绿肥红___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "瘦",
+        "options": ["瘦", "少", "残", "落"],
+        "hint": "与\"肥\"对比，形容花瓣凋零"
+      }
+    ],
+    "appreciation": "赏析：\"瘦\"字出人意料地用来形容花，以人的体态写花的凋零，新颖而传神。\"少\"太直白，\"残\"过于凄凉，\"落\"只写动作。\"绿肥红瘦\"四字将雨后叶茂花稀的景象写得活灵活现，成为文学史上的经典意象。",
+    "context": "李清照早期词作，记一次饮酒后询问花事的情景，\"绿肥红瘦\"四字历来被誉为神来之笔。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_015",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["宋词"],
+    "source": "宋·辛弃疾《青玉案·元夕》",
+    "author": "辛弃疾",
+    "original_text": "众里寻他千百度，蓦然回首，那人却在灯火阑珊处。",
+    "display_text": "众里寻他千百度，___回首，那人却在灯火阑珊处。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "蓦然",
+        "options": ["蓦然", "忽然", "猛然", "突然"],
+        "hint": "突然、不经意间的意思，比\"忽然\"更文雅"
+      }
+    ],
+    "appreciation": "赏析：\"蓦然\"比\"忽然\"\"猛然\"\"突然\"都更有文学韵味，带有不经意、出乎意料的微妙感觉。它写出了苦苦寻找之后偶然发现的惊喜，有一种\"踏破铁鞋无觅处\"的顿悟之美。",
+    "context": "辛弃疾元宵词名作，王国维将\"蓦然回首\"句列为治学的第三重境界，比喻经过艰苦探索后的豁然开朗。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_016",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["宋词"],
+    "source": "宋·陆游《卜算子·咏梅》",
+    "author": "陆游",
+    "original_text": "零落成泥碾作尘，只有香如故。",
+    "display_text": "零落成泥碾作尘，只有___如故。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "香",
+        "options": ["香", "魂", "心", "情"],
+        "hint": "梅花最突出的特征之一"
+      }
+    ],
+    "appreciation": "赏析：\"香\"字写梅花即使零落成泥、碾作尘土，芳香依然不改，象征高洁品格的不可摧毁。\"魂\"太抽象，\"心\"太直白，\"情\"与梅花特质不符。\"香\"是梅花的本质特征，以\"香如故\"三字写出了至死不渝的风骨。",
+    "context": "陆游以梅花自喻，表达自己虽遭打击但志节不改的坚贞品格，\"香如故\"三字感人至深。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_017",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["宋词"],
+    "source": "宋·苏轼《念奴娇·赤壁怀古》",
+    "author": "苏轼",
+    "original_text": "大江东去，浪淘尽，千古风流人物。",
+    "display_text": "大江东去，浪___尽，千古风流人物。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "淘",
+        "options": ["淘", "洗", "冲", "卷"],
+        "hint": "像淘金一样筛选、冲刷"
+      }
+    ],
+    "appreciation": "赏析：\"淘\"字化用淘金意象，将历史比作大浪淘沙，风流人物如金沙般被时光冲刷筛选。\"洗\"太轻描淡写，\"冲\"只有力度无深意，\"卷\"过于猛烈。\"淘\"字兼具冲刷与筛选双重含义，写出了历史长河的无情与壮阔。",
+    "context": "苏轼在黄州时游赤壁所作，开豪放词派先河，气势磅礴，被誉为\"千古绝唱\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_018",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["宋词"],
+    "source": "宋·岳飞《满江红》",
+    "author": "岳飞",
+    "original_text": "三十功名尘与土，八千里路云和月。",
+    "display_text": "三十功名尘与土，八千里路___和月。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "云",
+        "options": ["云", "风", "星", "山"],
+        "hint": "与\"月\"并列，描写征途上的风景"
+      }
+    ],
+    "appreciation": "赏析：\"云和月\"写出了将士长年征战、风餐露宿的艰辛——白天看云，夜晚望月，日夜兼程。\"风\"虽也写自然，但缺少画面感；\"星\"与\"月\"意象重叠；\"山\"太实在。\"云和月\"虚实结合，兼具壮美与苍凉。",
+    "context": "岳飞的千古绝唱，表达了收复失地的壮志和精忠报国的决心，\"莫等闲，白了少年头\"至今激励后人。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_019",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["宋词"],
+    "source": "宋·柳永《雨霖铃》",
+    "author": "柳永",
+    "original_text": "今宵酒醒何处？杨柳岸，晓风残月。",
+    "display_text": "今宵酒醒何处？杨柳岸，晓风___月。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "残",
+        "options": ["残", "冷", "寒", "孤"],
+        "hint": "形容黎明时分即将消逝的月亮"
+      }
+    ],
+    "appreciation": "赏析：\"残\"字写天将亮时月亮西沉、光芒暗淡的景象，与离别的凄凉心情完美契合。\"冷\"\"寒\"写温度而非形态，\"孤\"虽写孤独但与月亮搭配不如\"残\"自然。\"残月\"是古典诗词中经典的愁苦意象，一字尽写离情。",
+    "context": "柳永最著名的离别词，\"杨柳岸，晓风残月\"被誉为千古名句，以景写情，情景交融。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_020",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["宋词"],
+    "source": "宋·晏殊《浣溪沙》",
+    "author": "晏殊",
+    "original_text": "无可奈何花落去，似曾相识燕归来。",
+    "display_text": "无可奈何花落去，似曾相识燕___来。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "归",
+        "options": ["归", "飞", "回", "来"],
+        "hint": "燕子回到旧巢，有回归故里的意味"
+      }
+    ],
+    "appreciation": "赏析：\"归\"字含有回归故里的深意，暗示燕子年年回来，但去年的花已不再。\"飞\"只写动作，\"回\"太口语，\"来\"虽有但缺少归属感。\"燕归来\"与\"花落去\"对仗精工，一去一来之间写尽了时光流逝的无奈与慰藉。",
+    "context": "晏殊婉约词的代表作，此联被王国维称为\"天然奇偶\"，不可人工雕琢而得。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_021",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["宋词"],
+    "source": "宋·秦观《鹊桥仙》",
+    "author": "秦观",
+    "original_text": "两情若是久长时，又岂在朝朝暮暮。",
+    "display_text": "两情若是___长时，又岂在朝朝暮暮。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "久",
+        "options": ["久", "永", "长", "天"],
+        "hint": "形容时间长远，一个字"
+      }
+    ],
+    "appreciation": "赏析：\"久\"字朴素却意义深远，表达爱情贵在持久而非朝夕相守。\"永\"太绝对，\"长\"与后面\"长时\"重复，\"天\"意思不通。\"久长\"二字平实中见深情，道出了跨越时空的爱情观，千年来安慰了无数相思之人。",
+    "context": "秦观以牛郎织女的故事写离别之情，\"两情若是久长时\"一句反转了传统的悲叹，成为爱情名言。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_022",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["宋词"],
+    "source": "宋·李清照《声声慢》",
+    "author": "李清照",
+    "original_text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+    "display_text": "寻寻觅觅，冷冷清清，凄凄惨惨___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "戚戚",
+        "options": ["戚戚", "切切", "瑟瑟", "默默"],
+        "hint": "形容忧愁悲伤的样子，叠词"
+      }
+    ],
+    "appreciation": "赏析：\"戚戚\"形容忧愁悲苦的心情，与前面六组叠词层层递进——从动作（寻觅）到环境（冷清）再到心情（凄惨戚）。\"切切\"偏急切，\"瑟瑟\"写发抖，\"默默\"写沉默。七组叠词一气呵成，被誉为词史上最精彩的开篇。",
+    "context": "李清照晚年流亡中所作，连用十四个叠字开篇，前无古人后无来者，尽写丧夫亡国之痛。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_023",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["诗经"],
+    "source": "《诗经·关雎》",
+    "author": "佚名",
+    "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。",
+    "display_text": "关关雎鸠，在河之洲。___淑女，君子好逑。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "窈窕",
+        "options": ["窈窕", "美丽", "贤良", "温柔"],
+        "hint": "形容女子体态优美，两个字"
+      }
+    ],
+    "appreciation": "赏析：\"窈窕\"形容女子体态优美、举止娴雅，既写外在美又含内在美。\"美丽\"太现代直白，\"贤良\"只写品德，\"温柔\"只写性格。\"窈窕\"二字音韵优美，画面感强，自古就是形容女子美好的最佳词语。",
+    "context": "《诗经》开篇第一首，也是中国最早的爱情诗。\"窈窕淑女，君子好逑\"几千年来被广泛引用。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_024",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["诗经"],
+    "source": "《诗经·蒹葭》",
+    "author": "佚名",
+    "original_text": "蒹葭苍苍，白露为霜。所谓伊人，在水一方。",
+    "display_text": "蒹葭苍苍，白露为霜。所谓伊人，在水___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "一方",
+        "options": ["一方", "那边", "对岸", "中央"],
+        "hint": "指水的另一边，两个字"
+      }
+    ],
+    "appreciation": "赏析：\"一方\"看似平淡，实则妙不可言。它不说具体方位，只说\"那一方\"，营造出可望而不可即的朦胧之美。\"那边\"太口语，\"对岸\"太具体，\"中央\"后文才出现。\"在水一方\"的模糊性恰恰是诗歌最动人的地方。",
+    "context": "《诗经》中最美的抒情诗之一，以蒹葭起兴，写对远方之人的追寻，意境朦胧缥缈。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_025",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["楚辞"],
+    "source": "战国·屈原《离骚》",
+    "author": "屈原",
+    "original_text": "路漫漫其修远兮，吾将上下而求索。",
+    "display_text": "路漫漫其修远兮，吾将上下而___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "求索",
+        "options": ["求索", "探寻", "追寻", "奋斗"],
+        "hint": "表示不懈追求和探索，两个字"
+      }
+    ],
+    "appreciation": "赏析：\"求索\"二字铿锵有力，\"求\"是追求，\"索\"是探索，合在一起表达不懈追寻真理的决心。\"探寻\"\"追寻\"都缺少\"索\"的执着力度，\"奋斗\"过于现代。\"求索\"成为中华民族追求真理精神的文化符号。",
+    "context": "屈原《离骚》中最著名的名句，表达了诗人不顾路途艰辛、坚持追求理想的坚定信念。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_026",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["楚辞"],
+    "source": "战国·屈原《九歌·少司命》",
+    "author": "屈原",
+    "original_text": "悲莫悲兮生别离，乐莫乐兮新相知。",
+    "display_text": "悲莫悲兮生别离，乐莫乐兮新___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "相知",
+        "options": ["相知", "相逢", "相聚", "相识"],
+        "hint": "指彼此了解、心意相通"
+      }
+    ],
+    "appreciation": "赏析：\"相知\"比\"相逢\"\"相聚\"\"相识\"层次更深——不仅是见面、在一起，而是心灵相通、彼此理解。以\"新相知\"之乐对\"生别离\"之悲，写出了人生中最深刻的两种情感体验。",
+    "context": "屈原《九歌》中的名句，写人生离合之感，\"相知\"一词后来成为中国文化中友情和知己的代名词。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_027",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["元曲"],
+    "source": "元·马致远《天净沙·秋思》",
+    "author": "马致远",
+    "original_text": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。",
+    "display_text": "枯藤老树昏鸦，小桥流水人家，古道西风___马。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "瘦",
+        "options": ["瘦", "老", "病", "疲"],
+        "hint": "形容马的形态，暗示旅途艰辛"
+      }
+    ],
+    "appreciation": "赏析：\"瘦\"字看似写马，实则写人。一匹瘦骨嶙峋的马暗示了旅人的困顿憔悴和旅途的漫长艰辛。\"老\"不如\"瘦\"有画面感，\"病\"太沉重，\"疲\"只写状态。\"瘦\"字一出，马的形象跃然纸上，旅人的凄苦不言自明。",
+    "context": "被誉为\"秋思之祖\"，全曲二十八字勾勒出一幅萧瑟的秋日黄昏旅途图，意境深远。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_028",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["元曲"],
+    "source": "元·张养浩《山坡羊·潼关怀古》",
+    "author": "张养浩",
+    "original_text": "兴，百姓苦；亡，百姓苦。",
+    "display_text": "兴，百姓苦；___，百姓苦。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "亡",
+        "options": ["亡", "败", "衰", "乱"],
+        "hint": "与\"兴\"相对，指朝代灭亡"
+      }
+    ],
+    "appreciation": "赏析：\"亡\"与\"兴\"形成最简洁有力的对比——朝代兴盛，大兴土木百姓受苦；朝代灭亡，战乱流离百姓更苦。\"败\"\"衰\"\"乱\"都不如\"亡\"来得彻底和震撼。两个\"苦\"字首尾呼应，道尽千年历史的残酷真相。",
+    "context": "张养浩路过潼关时所作，以极简的语言揭示了一个深刻的历史规律，被誉为元曲中的思想巅峰。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_029",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["元曲"],
+    "source": "元·白朴《天净沙·秋》",
+    "author": "白朴",
+    "original_text": "孤村落日残霞，轻烟老树寒鸦，一点飞鸿影下。",
+    "display_text": "孤村落日残霞，轻烟老树___鸦，一点飞鸿影下。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "寒",
+        "options": ["寒", "老", "暮", "归"],
+        "hint": "形容乌鸦在寒冷中的状态，一个字"
+      }
+    ],
+    "appreciation": "赏析：\"寒\"字不仅写天气寒冷，更写出乌鸦在秋日黄昏中的凄冷孤寂之感。\"老\"与前面\"老树\"重复，\"暮\"写时间而非感受，\"归\"是动作而非状态。\"寒鸦\"成为古典诗词中秋冬萧索的经典意象。",
+    "context": "白朴与马致远同为元曲大家，此曲同写秋景但视角不同，以\"飞鸿\"带来一丝生气。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_030",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["元曲"],
+    "source": "元·关汉卿《南吕·四块玉·别情》",
+    "author": "关汉卿",
+    "original_text": "自送别，心难舍，一点相思几时绝？",
+    "display_text": "自送别，心难舍，一点相思几时___？",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "绝",
+        "options": ["绝", "灭", "消", "尽"],
+        "hint": "指断绝、了结，问相思何时才能结束"
+      }
+    ],
+    "appreciation": "赏析：\"绝\"字力度最强，表达相思之情无法断绝的无奈。\"灭\"过于激烈，\"消\"太轻飘，\"尽\"虽意近但不如\"绝\"有决断感。以反问\"几时绝\"收束，暗示这份相思永远不会消失，余韵悠长。",
+    "context": "关汉卿是元曲四大家之首，此小令语言质朴直白却深情动人，展现了元曲直抒胸臆的特色。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "words_g_031",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["自然描写"],
+    "source": "散文",
+    "author": "",
+    "original_text": "生活不是等待暴风雨过去，而是学会在雨中起舞。",
+    "display_text": "生活不是等待暴风雨过去，而是学会在雨中___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "起舞",
+        "options": ["起舞", "奔跑", "行走", "微笑"],
+        "hint": "一种优美而积极的姿态"
+      }
+    ],
+    "appreciation": "赏析：\"起舞\"将面对困难的态度升华为一种艺术般的优雅。\"奔跑\"有积极感但缺少美感，\"行走\"太平淡，\"微笑\"虽乐观但不够有力。\"起舞\"把逆境中的从容化为一种美的享受，从被动等待变为主动创造。",
+    "context": "这是一句广为流传的人生格言，常见于《读者》《意林》等杂志，鼓励人以积极态度面对困境。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_032",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["自然描写"],
+    "source": "散文",
+    "author": "",
+    "original_text": "阳光透过树叶的缝隙，在地面上洒下斑驳的光影。",
+    "display_text": "阳光透过树叶的缝隙，在地面上洒下___的光影。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "斑驳",
+        "options": ["斑驳", "美丽", "零散", "闪烁"],
+        "hint": "形容光影交错、深浅不一的样子"
+      }
+    ],
+    "appreciation": "赏析：\"斑驳\"二字精准描绘了阳光穿过树叶后形成的明暗交错的光影效果。\"美丽\"过于笼统，\"零散\"只写分布，\"闪烁\"写动态而非形态。\"斑驳\"兼具视觉质感和文学韵味，一词胜千言。",
+    "context": "自然描写中常用的高级词汇，善用\"斑驳\"可以让景物描写更加生动传神。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_033",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["自然描写"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "晨雾像一层薄纱，温柔地笼罩着沉睡的小镇。",
+    "display_text": "晨雾像一层薄纱，温柔地___着沉睡的小镇。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "笼罩",
+        "options": ["笼罩", "覆盖", "包裹", "遮挡"],
+        "hint": "像罩子一样把事物围住，有朦胧感"
+      }
+    ],
+    "appreciation": "赏析：\"笼罩\"有轻柔朦胧之感，与\"薄纱\"\"温柔\"\"沉睡\"形成统一的意境。\"覆盖\"太厚重，\"包裹\"太紧实，\"遮挡\"有阻隔意。\"笼罩\"恰到好处地写出了晨雾若有若无、亦真亦幻的美感。",
+    "context": "自然描写中描绘雾气的经典写法，\"笼罩\"常与雾、烟、暮色等搭配使用。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_034",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["自然描写"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "秋叶纷飞，像一只只金色的蝴蝶在空中翩翩起舞。",
+    "display_text": "秋叶纷飞，像一只只金色的蝴蝶在空中___起舞。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "翩翩",
+        "options": ["翩翩", "慢慢", "轻轻", "缓缓"],
+        "hint": "形容轻盈飞舞的样子，叠词"
+      }
+    ],
+    "appreciation": "赏析：\"翩翩\"专门形容轻盈飞舞的姿态，比\"慢慢\"\"轻轻\"\"缓缓\"更具画面感和动态美。它不仅写了速度（轻盈），还写了姿态（优美），让落叶的飘零有了舞蹈般的美感。",
+    "context": "比喻是作文中最常用的修辞手法，好的比喻需要本体与喻体之间有形态上的相似性。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_035",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["自然描写"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "大海在月光下波光粼粼，像铺满了碎银。",
+    "display_text": "大海在月光下___，像铺满了碎银。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "波光粼粼",
+        "options": ["波光粼粼", "波涛汹涌", "碧波荡漾", "水光潋滟"],
+        "hint": "形容水面闪闪发光的样子，四字词语"
+      }
+    ],
+    "appreciation": "赏析：\"波光粼粼\"精准对应后文\"碎银\"的比喻——粼粼如鳞片般的光点正像碎银。\"波涛汹涌\"太猛烈，\"碧波荡漾\"写白天的颜色，\"水光潋滟\"虽美但不如\"粼粼\"有闪烁的质感。",
+    "context": "写月色下的海景，\"波光粼粼\"是描写夜晚水面最常用的四字词语，形象生动。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_036",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["自然描写"],
+    "source": "散文",
+    "author": "",
+    "original_text": "远山如黛，近水含烟，整个村庄宛如一幅水墨画。",
+    "display_text": "远山如___，近水含烟，整个村庄宛如一幅水墨画。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "黛",
+        "options": ["黛", "墨", "烟", "画"],
+        "hint": "一种青黑色的颜料，古代女子画眉用"
+      }
+    ],
+    "appreciation": "赏析：\"黛\"是一种青黑色，古代女子用来画眉，用来形容远山颜色既准确又有文化底蕴。\"墨\"虽也可用但缺少\"黛\"的细腻感，\"烟\"与下文重复，\"画\"与后文重复。\"如黛\"二字让远山有了女性般的柔美。",
+    "context": "\"远山如黛\"是中国古典文学中描绘山色的经典表达，常出现在诗词和高考作文中。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_037",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["自然描写"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "雪花簌簌落下，给大地披上了一层银装素裹。",
+    "display_text": "雪花___落下，给大地披上了一层银装素裹。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "簌簌",
+        "options": ["簌簌", "纷纷", "慢慢", "悄悄"],
+        "hint": "拟声词，形容雪花飘落的细微声音"
+      }
+    ],
+    "appreciation": "赏析：\"簌簌\"是拟声词，写出了雪花落下时细微而密集的声响，让读者不仅\"看到\"雪落，还\"听到\"雪落。\"纷纷\"只写视觉，\"慢慢\"写速度，\"悄悄\"写安静。\"簌簌\"调动了听觉，使描写更加立体。",
+    "context": "好的写景文要调动多种感官，拟声词是调动听觉的重要手段，\"簌簌\"常形容风吹叶落或雪落。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_038",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["自然描写"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "夕阳如血，将天际渲染成一幅绚丽的油画。",
+    "display_text": "夕阳如血，将天际___成一幅绚丽的油画。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "渲染",
+        "options": ["渲染", "涂抹", "变成", "装扮"],
+        "hint": "一种绘画技法，用水墨或颜料烘托效果"
+      }
+    ],
+    "appreciation": "赏析：\"渲染\"本是国画技法，用于此处将天空比作画布，夕阳比作画笔，化自然为艺术。\"涂抹\"太粗糙，\"变成\"太直白，\"装扮\"有拟人感但不如\"渲染\"的文化厚度。\"渲染\"一词让整个画面有了艺术的高级感。",
+    "context": "用艺术术语来描写自然景物是一种高级写法，常见于优秀作文和文学作品中。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_039",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["人生感悟"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "时间是最好的良药，也是最残酷的审判官。",
+    "display_text": "时间是最好的___，也是最残酷的审判官。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "良药",
+        "options": ["良药", "老师", "朋友", "见证"],
+        "hint": "能治愈伤痛的东西"
+      }
+    ],
+    "appreciation": "赏析：\"良药\"与\"审判官\"形成鲜明对比，一个治愈，一个审判。\"老师\"\"朋友\"虽也可形容时间但缺少对比的张力，\"见证\"不构成矛盾。\"良药\"暗示时间能抚平伤痛，而\"审判官\"暗示时间能揭示真相，一句话写尽时间的两面性。",
+    "context": "这种\"是A也是B\"的句式是议论文和杂志体常用的句式，能制造思辨性和张力感。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_040",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["人生感悟"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "成长就是不断地告别，也是不断地重逢。",
+    "display_text": "成长就是不断地告别，也是不断地___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "重逢",
+        "options": ["重逢", "开始", "前进", "收获"],
+        "hint": "与\"告别\"对应，再次相遇的意思"
+      }
+    ],
+    "appreciation": "赏析：\"重逢\"与\"告别\"形成完美对仗，告别旧事物的同时必然遇见新事物。\"开始\"太笼统，\"前进\"太单向，\"收获\"只写得到。\"重逢\"暗示生命是一个循环——失去了也会再得到，温暖而充满希望。",
+    "context": "《读者》杂志常见的哲理短句风格，用简洁的语言表达深刻的人生体悟。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_041",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["人生感悟"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "每一次跌倒都是为了让你学会更优雅地站起来。",
+    "display_text": "每一次跌倒都是为了让你学会更___地站起来。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "优雅",
+        "options": ["优雅", "坚强", "勇敢", "快速"],
+        "hint": "从容不迫、有风度的样子"
+      }
+    ],
+    "appreciation": "赏析：\"优雅\"出人意料——跌倒后通常说\"坚强\"或\"勇敢\"地站起来，但\"优雅\"提升了境界，意味着不仅站起来，还要从容而有风度。\"快速\"只求速度，其他选项太常规。\"优雅\"把挫折后的重新开始变成了一种人格的升华。",
+    "context": "好的写作追求\"陌生化\"效果，在读者预期之外选择一个更高级的词语，能产生惊喜感。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_042",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["人生感悟"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "真正的强大不是从不跌倒，而是每次跌倒后都能重新站起来。",
+    "display_text": "真正的强大不是从不跌倒，而是每次跌倒后都能___站起来。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "重新",
+        "options": ["重新", "马上", "勉强", "慢慢"],
+        "hint": "再一次、从头再来的意思"
+      }
+    ],
+    "appreciation": "赏析：\"重新\"意味着完全的重启和不计前嫌，比\"马上\"的仓促、\"勉强\"的无奈、\"慢慢\"的迟疑都更有力。\"重新站起来\"包含了从失败中汲取教训后焕然一新的意味，是真正强者的姿态。",
+    "context": "\"不是A而是B\"的转折句式是议论文的黄金句式，能清晰地表达作者的核心观点。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_043",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["人生感悟"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "人生如逆旅，你我皆行人。",
+    "display_text": "人生如___，你我皆行人。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "逆旅",
+        "options": ["逆旅", "旅途", "征程", "戏台"],
+        "hint": "旅馆的古称，比喻人生短暂如寄居旅店"
+      }
+    ],
+    "appreciation": "赏析：\"逆旅\"是旅馆的古称，化用苏轼\"人生如逆旅\"之意，将人生比作暂住的旅店，暗示生命的短暂与匆匆。\"旅途\"\"征程\"太常见，\"戏台\"虽有哲理但意境不同。\"逆旅\"二字古雅深邃，让读者在古典意韵中思考人生。",
+    "context": "化用古诗词的语句能大幅提升文章的文化品位，此句源自苏轼《临江仙》。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_044",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["人生感悟"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "所有的光芒都需要时间才能被看见。",
+    "display_text": "所有的___都需要时间才能被看见。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "光芒",
+        "options": ["光芒", "努力", "才华", "成功"],
+        "hint": "比喻人身上闪耀的东西，像光一样"
+      }
+    ],
+    "appreciation": "赏析：\"光芒\"是一个美妙的比喻词，把人的才华、努力、价值都比作光芒。\"努力\"\"才华\"太具体，\"成功\"太功利。\"光芒\"包容了一切美好的特质，且\"需要时间被看见\"暗喻不要急于求成。",
+    "context": "用比喻词替代具体词汇是提升语言表达力的重要技巧，\"光芒\"比\"努力\"更有画面感和诗意。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_045",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["人生感悟"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "世界以痛吻我，我要报之以歌。",
+    "display_text": "世界以痛吻我，我要报之以___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "歌",
+        "options": ["歌", "笑", "泪", "爱"],
+        "hint": "一种积极的回应方式，用美好回应苦难"
+      }
+    ],
+    "appreciation": "赏析：\"歌\"代表着最积极昂扬的生命态度——面对苦难不是以笑掩饰，不是以泪示弱，而是以歌回应，把苦难转化为艺术和力量。\"笑\"有点勉强，\"泪\"消极，\"爱\"虽美但不如\"歌\"有力。\"以歌\"写出了浪漫主义的抗争精神。",
+    "context": "此句化用泰戈尔诗意，在《读者》等杂志中广为引用，体现了面对苦难的崇高态度。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_046",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["人生感悟"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "星星发亮是为了让每一个人有一天都能找到属于自己的星星。",
+    "display_text": "星星___是为了让每一个人有一天都能找到属于自己的星星。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "发亮",
+        "options": ["发亮", "闪烁", "出现", "存在"],
+        "hint": "星星最基本的特性，发出光芒"
+      }
+    ],
+    "appreciation": "赏析：\"发亮\"用最朴素的词语写出最温暖的道理——星星之所以发光，仿佛是为了引路。\"闪烁\"只写外在现象，\"出现\"\"存在\"太抽象。\"发亮\"的朴素感与全句的童话般的温暖完美契合，简单中见深意。",
+    "context": "化用《小王子》风格，用童话般的语言传达人生哲理，这种写法适合在作文开头使用。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_047",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["情感表达"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "母亲的爱像春天的细雨，无声地滋润着我成长。",
+    "display_text": "母亲的爱像春天的细雨，无声地___着我成长。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "滋润",
+        "options": ["滋润", "陪伴", "浇灌", "推动"],
+        "hint": "像雨水润泽大地一样，让事物生长"
+      }
+    ],
+    "appreciation": "赏析：\"滋润\"与\"细雨\"的比喻完美呼应，写出了母爱润物无声的特点。\"陪伴\"虽温暖但与\"细雨\"比喻脱节，\"浇灌\"太粗糙，\"推动\"缺少温情。\"滋润\"既贴合比喻又传达了母爱无处不在的温柔。",
+    "context": "写亲情时使用比喻要注意前后一致——既然比作\"细雨\"，动词就要选择与水有关的词。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_048",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["情感表达"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "有些话，说出来是故事；留在心里，是一辈子的牵挂。",
+    "display_text": "有些话，说出来是故事；留在心里，是一辈子的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "牵挂",
+        "options": ["牵挂", "回忆", "秘密", "遗憾"],
+        "hint": "放不下的思念和惦记"
+      }
+    ],
+    "appreciation": "赏析：\"牵挂\"写出了话留在心里时那种放不下、忘不掉的绵长情感。\"回忆\"太中性，\"秘密\"太孤独，\"遗憾\"太消极。\"牵挂\"兼具温暖与惆怅，最能表达欲说还休的复杂情感。",
+    "context": "短句中用分号分隔两个对比场景，\"说出来\"与\"留在心里\"的对照是高级的写作技巧。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_049",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["情感表达"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "真正的友情不是形影不离，而是即使天各一方也心意相通。",
+    "display_text": "真正的友情不是形影不离，而是即使天各一方也___相通。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "心意",
+        "options": ["心意", "心灵", "感情", "思想"],
+        "hint": "内心的想法和感受"
+      }
+    ],
+    "appreciation": "赏析：\"心意\"包含了想法与情感的双重含义，比\"心灵\"更具体，比\"感情\"更含蓄，比\"思想\"更温暖。\"心意相通\"四字写出了真正友情的本质——不需要时刻在一起，只需要彼此懂得。",
+    "context": "写友情的文章中，\"不是A而是B\"的句式可以澄清常见误解，表达更深层的理解。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_050",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["情感表达"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "那些年少时许下的诺言，像种子一样埋在了心底。",
+    "display_text": "那些年少时许下的诺言，像___一样埋在了心底。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "种子",
+        "options": ["种子", "石头", "宝藏", "星星"],
+        "hint": "可以发芽生长的东西"
+      }
+    ],
+    "appreciation": "赏析：\"种子\"这个比喻暗示诺言虽然被\"埋\"起来了，但有朝一日可能发芽开花。\"石头\"太沉重无生机，\"宝藏\"太珍贵但无生长感，\"星星\"与\"埋\"矛盾。\"种子\"既与\"埋\"搭配自然，又蕴含着希望和未来的可能。",
+    "context": "选择比喻的喻体时，要考虑与上下文动词的搭配是否自然——\"埋\"最适合搭配\"种子\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_051",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["情感表达"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "思念是一种很玄的东西，如影随形，无处遁逃。",
+    "display_text": "思念是一种很玄的东西，如影随形，无处___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "遁逃",
+        "options": ["遁逃", "躲藏", "逃避", "回避"],
+        "hint": "比\"逃避\"更文雅的说法，意为逃跑隐匿"
+      }
+    ],
+    "appreciation": "赏析：\"遁逃\"比\"躲藏\"\"逃避\"\"回避\"更有文学性和力度感——\"遁\"有隐匿消失之意，暗示想彻底摆脱但不可能。配合\"如影随形\"，写出了思念无处不在、无法逃脱的缠绵。",
+    "context": "用高级词汇替代常见词汇是提升语言品质的重要方法，\"遁逃\"比\"逃避\"高一个层次。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_052",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["情感表达"],
+    "source": "散文",
+    "author": "",
+    "original_text": "爷爷的笑容像冬日里的暖阳，温暖而慈祥。",
+    "display_text": "爷爷的笑容像冬日里的___，温暖而慈祥。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "暖阳",
+        "options": ["暖阳", "火炉", "棉被", "热茶"],
+        "hint": "冬天里让人感到温暖的太阳"
+      }
+    ],
+    "appreciation": "赏析：\"暖阳\"是最适合形容长辈慈爱笑容的喻体——温暖、明亮、令人安心。\"火炉\"太强烈，\"棉被\"不够明亮，\"热茶\"格局太小。\"冬日暖阳\"的温度感和光亮感完美契合了慈祥笑容给人的温暖和希望。",
+    "context": "写人物描写时，选择比喻要考虑人物的性格特点和给读者的情感传递。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_053",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["情感表达"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "最深的孤独不是一个人独处，而是在人群中找不到共鸣。",
+    "display_text": "最深的孤独不是一个人独处，而是在人群中找不到___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "共鸣",
+        "options": ["共鸣", "朋友", "温暖", "归属"],
+        "hint": "心灵上的相互理解和回应"
+      }
+    ],
+    "appreciation": "赏析：\"共鸣\"是一个音乐隐喻——当两个频率相同的事物相遇时会产生共振。用于此处，表达的是心灵深处的理解和回应。\"朋友\"太表面，\"温暖\"太笼统，\"归属\"偏理性。\"共鸣\"写出了灵魂层面的沟通渴望。",
+    "context": "深层次的情感表达需要选择有\"厚度\"的词语，\"共鸣\"比\"理解\"更有文学张力。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_054",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["哲理思辨"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "所有的偶然背后，都藏着必然的逻辑。",
+    "display_text": "所有的偶然背后，都藏着___的逻辑。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "必然",
+        "options": ["必然", "深层", "命运", "隐藏"],
+        "hint": "与\"偶然\"相对的概念"
+      }
+    ],
+    "appreciation": "赏析：\"必然\"与\"偶然\"构成哲学上的经典对立，简洁而深刻地揭示了事物的规律性。\"深层\"太模糊，\"命运\"太宿命，\"隐藏\"只写状态。\"偶然与必然\"的辩证关系是议论文的高级思维方式。",
+    "context": "哲理性短句适合用在议论文的开头或结尾，能体现作者的思维深度。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_055",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["哲理思辨"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "懂得放下，不是认输，而是一种更高层次的拥有。",
+    "display_text": "懂得放下，不是认输，而是一种更高层次的___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "拥有",
+        "options": ["拥有", "成熟", "自由", "智慧"],
+        "hint": "与\"放下\"形成悖论——放下反而得到更多"
+      }
+    ],
+    "appreciation": "赏析：\"拥有\"与\"放下\"构成精妙的悖论——放下即拥有，失去即获得。\"成熟\"\"自由\"\"智慧\"都说得通但缺少\"拥有\"与\"放下\"之间的思辨张力。这个悖论式的表达让读者在瞬间获得思维的冲击。",
+    "context": "悖论式表达是高级写作技巧——看似矛盾的两个概念放在一起，反而揭示了更深层的真理。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_056",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["哲理思辨"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "沉默有时候是最好的语言，它包含了所有说不出的深情。",
+    "display_text": "沉默有时候是最好的___，它包含了所有说不出的深情。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "语言",
+        "options": ["语言", "态度", "选择", "表达"],
+        "hint": "与\"沉默\"形成反义但又统一的概念"
+      }
+    ],
+    "appreciation": "赏析：\"语言\"与\"沉默\"看似矛盾实则统一——沉默本身就是一种无声的语言，这个悖论式的表达比直说\"态度\"\"选择\"\"表达\"都更有深度和美感。\"此时无声胜有声\"正是此意。",
+    "context": "矛盾修辞（oxymoron）是一种重要的修辞手法，\"沉默是语言\"与\"分别是重逢\"异曲同工。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_057",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["哲理思辨"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "一个人的格局，决定了他所能看到的风景。",
+    "display_text": "一个人的___，决定了他所能看到的风景。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "格局",
+        "options": ["格局", "眼光", "能力", "身高"],
+        "hint": "指一个人的胸怀、视野和境界"
+      }
+    ],
+    "appreciation": "赏析：\"格局\"一词含义丰富，包括视野、胸怀、思维高度等多个维度，比\"眼光\"更全面，比\"能力\"更深层，比\"身高\"太字面。\"格局决定风景\"用比喻手法将抽象的人生境界具象化，读之令人深思。",
+    "context": "\"A决定B\"的因果句式简洁有力，适合用在作文的总结性段落中。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_058",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["哲理思辨"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "读书不是为了雄辩和驳斥，而是为了思考和权衡。",
+    "display_text": "读书不是为了雄辩和驳斥，而是为了思考和___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "权衡",
+        "options": ["权衡", "判断", "记忆", "模仿"],
+        "hint": "比较不同方面，审慎地做出评估"
+      }
+    ],
+    "appreciation": "赏析：\"权衡\"比\"判断\"更审慎，比\"记忆\"更主动，比\"模仿\"更独立。\"权\"与\"衡\"都是秤的部件，暗喻读书应如天平般公正地衡量不同观点，而非急于表态。与\"思考\"并列，强调读书的本质是理性的自我提升。",
+    "context": "此句化用培根《论读书》的意旨，适合用在关于读书、学习主题的作文中。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_059",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["哲理思辨"],
+    "source": "模仿《意林》风格",
+    "author": "",
+    "original_text": "每一朵花都有自己的花期，不必羡慕别人的绽放。",
+    "display_text": "每一朵花都有自己的___，不必羡慕别人的绽放。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "花期",
+        "options": ["花期", "时间", "命运", "颜色"],
+        "hint": "花朵开放的特定时节"
+      }
+    ],
+    "appreciation": "赏析：\"花期\"是全句的核心隐喻——每个人都有属于自己的成长节奏和绽放时机。\"时间\"太笼统，\"命运\"太宿命，\"颜色\"脱离主旨。\"花期\"一词精准地传达了\"不急不躁，静待花开\"的人生态度。",
+    "context": "借物喻理是中国文学的传统手法，用\"花期\"比喻人生的黄金时期，自然而深刻。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_060",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 6,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["哲理思辨"],
+    "source": "模仿《读者》风格",
+    "author": "",
+    "original_text": "真正的自律不是束缚，而是通往自由的唯一途径。",
+    "display_text": "真正的自律不是束缚，而是通往___的唯一途径。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "自由",
+        "options": ["自由", "成功", "幸福", "完美"],
+        "hint": "与\"束缚\"相反的状态"
+      }
+    ],
+    "appreciation": "赏析：\"自由\"与\"束缚\"形成对比，同时\"自律\"通往\"自由\"构成又一组看似矛盾实则统一的关系。\"成功\"太功利，\"幸福\"太笼统，\"完美\"不可达。\"自律即自由\"的哲学思辨，让读者在矛盾中领悟真理。",
+    "context": "康德说\"自由即自律\"，这种哲学思辨型的短句是考场作文的得分利器。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "moral_quote_021",
+    "text": "大漠孤烟直，长河落日圆。",
+    "source": "唐·王维《使至塞上》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_022",
+    "text": "飞流直下三千尺，疑是银河落九天。",
+    "source": "唐·李白《望庐山瀑布》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_023",
+    "text": "两个黄鹂鸣翠柳，一行白鹭上青天。",
+    "source": "唐·杜甫《绝句》",
+    "grade_min": 1,
+    "grade_max": 6
+  },
+  {
+    "id": "moral_quote_024",
+    "text": "独在异乡为异客，每逢佳节倍思亲。",
+    "source": "唐·王维《九月九日忆山东兄弟》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_025",
+    "text": "谁言寸草心，报得三春晖。",
+    "source": "唐·孟郊《游子吟》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_026",
+    "text": "黑发不知勤学早，白首方悔读书迟。",
+    "source": "唐·颜真卿《劝学》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_027",
+    "text": "春蚕到死丝方尽，蜡炬成灰泪始干。",
+    "source": "唐·李商隐《无题》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_028",
+    "text": "野火烧不尽，春风吹又生。",
+    "source": "唐·白居易《赋得古原草送别》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_029",
+    "text": "天生我材必有用，千金散尽还复来。",
+    "source": "唐·李白《将进酒》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_030",
+    "text": "随风潜入夜，润物细无声。",
+    "source": "唐·杜甫《春夜喜雨》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_031",
+    "text": "明月几时有？把酒问青天。",
+    "source": "宋·苏轼《水调歌头·明月几时有》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_032",
+    "text": "人生自古谁无死？留取丹心照汗青。",
+    "source": "宋·文天祥《过零丁洋》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_033",
+    "text": "莫等闲，白了少年头，空悲切。",
+    "source": "宋·岳飞《满江红》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_034",
+    "text": "不畏浮云遮望眼，自缘身在最高层。",
+    "source": "宋·王安石《登飞来峰》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_035",
+    "text": "千磨万击还坚劲，任尔东西南北风。",
+    "source": "清·郑燮《竹石》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_036",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语·为政》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_037",
+    "text": "见贤思齐焉，见不贤而内自省也。",
+    "source": "《论语·里仁》",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_038",
+    "text": "敏而好学，不耻下问。",
+    "source": "《论语·公冶长》",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_039",
+    "text": "岁寒，然后知松柏之后凋也。",
+    "source": "《论语·子罕》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_040",
+    "text": "志士仁人，无求生以害仁，有杀身以成仁。",
+    "source": "《论语·卫灵公》",
+    "grade_min": 6,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_041",
+    "text": "天行健，君子以自强不息；地势坤，君子以厚德载物。",
+    "source": "《周易》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_042",
+    "text": "千里之行，始于足下。",
+    "source": "《老子·第六十四章》",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_043",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "战国·屈原《离骚》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_044",
+    "text": "老骥伏枥，志在千里；烈士暮年，壮心不已。",
+    "source": "三国·曹操《龟虽寿》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_045",
+    "text": "先天下之忧而忧，后天下之乐而乐。",
+    "source": "宋·范仲淹《岳阳楼记》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_046",
+    "text": "横眉冷对千夫指，俯首甘为孺子牛。",
+    "source": "近代·鲁迅《自嘲》",
+    "grade_min": 5,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_047",
+    "text": "为中华之崛起而读书。",
+    "source": "近代·周恩来",
+    "grade_min": 3,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_048",
+    "text": "世界上最快乐的事，莫过于为理想而奋斗。",
+    "source": "近代·苏格拉底（引用）",
+    "grade_min": 4,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_049",
+    "text": "虚心使人进步，骄傲使人落后。",
+    "source": "近代·毛泽东",
+    "grade_min": 2,
+    "grade_max": 9
+  },
+  {
+    "id": "moral_quote_050",
+    "text": "我们是国家的主人，应该处处为国家着想。",
+    "source": "近代·雷锋",
+    "grade_min": 2,
+    "grade_max": 9
+  }
+]

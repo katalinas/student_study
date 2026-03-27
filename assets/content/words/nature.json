@@ -1,0 +1,734 @@
+[
+  {
+    "id": "words_g_001",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["春天", "自然", "花"],
+    "source_style": "散文",
+    "original_text": "春风拂过大地，花园里姹紫嫣红，美不胜收。",
+    "display_text": "春风拂过大地，花园里___，美不胜收。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "姹紫嫣红",
+        "accept_variants": ["万紫千红", "五彩缤纷"],
+        "hint": "形容各种颜色的花朵，四字成语",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写春天花朵盛开的经典散文句式",
+    "appreciation": "赏析：\"姹紫嫣红\"出自明代汤显祖《牡丹亭》，\"姹\"意为美丽，\"嫣\"意为娇艳。四个字浓缩了春天百花争艳的绚烂景象，色彩感极强，比\"五颜六色\"更具文学韵味。",
+    "related_words": ["百花齐放", "繁花似锦", "花团锦簇"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_002",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 2,
+    "tags": ["春天", "自然", "柳树"],
+    "source_style": "读者",
+    "original_text": "沿着小溪漫步，忽然柳暗花明，一片桃花林映入眼帘。",
+    "display_text": "沿着小溪漫步，忽然___，一片桃花林映入眼帘。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "柳暗花明",
+        "accept_variants": ["豁然开朗"],
+        "hint": "比喻绝境中出现转机，与陆游诗句有关",
+        "word_type": "成语"
+      }
+    ],
+    "context": "化用陆游《游山西村》\"柳暗花明又一村\"",
+    "appreciation": "赏析：\"柳暗花明\"出自陆游诗句，本义指绿柳成荫、繁花似锦的景色，后引申为比喻在困境中遇到转机。此处取其本义，写出了沿溪行走时景色突变的惊喜感，一\"暗\"一\"明\"形成鲜明对比。",
+    "related_words": ["峰回路转", "豁然开朗", "别有洞天"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_003",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["春天", "自然", "生机"],
+    "source_style": "散文",
+    "original_text": "三月的校园春意盎然，到处洋溢着生命的气息。",
+    "display_text": "三月的校园___，到处洋溢着生命的气息。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "春意盎然",
+        "accept_variants": ["生机勃勃", "春色满园"],
+        "hint": "形容春天的气息非常浓厚，四字成语",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写校园春景的常见写作手法",
+    "appreciation": "赏析：\"盎然\"意为气氛浓厚的样子，\"春意盎然\"整体描绘出春天的生机充盈四溢、无处不在的状态。与\"到处洋溢\"形成语义呼应，增强了春天蓬勃生命力的表达效果。",
+    "related_words": ["万物复苏", "生机盎然", "欣欣向荣"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_004",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["春天", "自然", "雨"],
+    "source_style": "散文",
+    "original_text": "春雨如丝，润物无声，田野里的麦苗贪婪地吮吸着甘霖。",
+    "display_text": "春雨如丝，___，田野里的麦苗贪婪地吮吸着甘霖。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "润物无声",
+        "accept_variants": ["润物细无声"],
+        "hint": "化用杜甫诗句，形容春雨悄悄滋润万物",
+        "word_type": "成语"
+      }
+    ],
+    "context": "化用杜甫《春夜喜雨》\"随风潜入夜，润物细无声\"",
+    "appreciation": "赏析：\"润物无声\"化用杜甫名句，以拟人手法赋予春雨温柔细腻的品格。\"润\"字传神地写出了春雨滋养万物的功效，\"无声\"又突出了它润泽大地时的悄然与谦逊，体现了春雨\"不张扬\"的美好品质。",
+    "related_words": ["细雨绵绵", "春风化雨", "和风细雨"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_005",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["春天", "自然", "燕子"],
+    "source_style": "读者",
+    "original_text": "春日迟迟，卉木萋萋，燕子呢喃，衔泥筑巢，好一幅莺歌燕舞的画卷。",
+    "display_text": "春日迟迟，卉木萋萋，燕子呢喃，衔泥筑巢，好一幅___的画卷。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "莺歌燕舞",
+        "accept_variants": ["鸟语花香"],
+        "hint": "形容春天鸟儿欢快的场景，含\"莺\"和\"燕\"",
+        "word_type": "成语"
+      }
+    ],
+    "context": "以古风笔法描写春日燕归的场景",
+    "appreciation": "赏析：\"莺歌燕舞\"以黄莺鸣唱、燕子飞舞来描绘春天的热闹景象，兼用\"歌\"\"舞\"二字赋予鸟儿人的行为，拟人手法使画面灵动而富有生命力。与前文\"呢喃\"\"衔泥\"呼应，由近及远，由实入虚。",
+    "related_words": ["鸟语花香", "草长莺飞", "燕语呢喃"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_006",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["夏天", "自然", "太阳"],
+    "source_style": "散文",
+    "original_text": "七月盛夏，骄阳似火，大地被烤得滚烫。",
+    "display_text": "七月盛夏，___，大地被烤得滚烫。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "骄阳似火",
+        "accept_variants": ["烈日炎炎", "赤日炎炎"],
+        "hint": "形容太阳非常猛烈，像火一样",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写夏天酷热天气的常用表达",
+    "appreciation": "赏析：\"骄阳似火\"运用比喻修辞，将强烈的阳光比作火焰，\"骄\"字赋予太阳傲慢、不可一世的个性，形象地表现了盛夏酷热的感受。与后文\"烤得滚烫\"形成因果呼应。",
+    "related_words": ["烈日当空", "汗流浃背", "挥汗如雨"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_007",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["夏天", "自然", "蝉"],
+    "source_style": "散文",
+    "original_text": "午后的树林里蝉鸣阵阵，此起彼伏，仿佛一场盛大的夏日音乐会。",
+    "display_text": "午后的树林里___，此起彼伏，仿佛一场盛大的夏日音乐会。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "蝉鸣阵阵",
+        "accept_variants": ["蝉声阵阵", "蝉噪林逾静"],
+        "hint": "形容蝉叫声一阵接一阵",
+        "word_type": "名词"
+      }
+    ],
+    "context": "以听觉描写渲染夏日午后的氛围",
+    "appreciation": "赏析：\"蝉鸣阵阵\"通过听觉描写渲染夏日氛围，叠词\"阵阵\"强化了声音的节奏感和连续性。后文以\"音乐会\"作比，化平凡的蝉鸣为艺术享受，体现了作者对自然之声的敏锐感受力和审美情趣。",
+    "related_words": ["蝉噪林逾静", "知了声声", "夏虫鸣唱"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_008",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["夏天", "自然", "树"],
+    "source_style": "散文",
+    "original_text": "校园里绿树成荫，同学们在大树下乘凉嬉戏。",
+    "display_text": "校园里___，同学们在大树下乘凉嬉戏。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "绿树成荫",
+        "accept_variants": ["绿树成阴", "浓荫蔽日"],
+        "hint": "形容树木枝叶茂密，遮住了阳光",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写夏天校园景色的温馨场景",
+    "appreciation": "赏析：\"绿树成荫\"以简洁四字概括了夏天树木繁茂、浓荫遮地的景象。\"成荫\"二字表现了树冠交织覆盖的效果，暗含树木的生长力量。与后文\"乘凉嬉戏\"构成环境与人物活动的和谐画面。",
+    "related_words": ["浓荫蔽日", "枝繁叶茂", "郁郁葱葱"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_009",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["夏天", "自然", "荷花"],
+    "source_style": "散文",
+    "original_text": "荷塘月色下，接天莲叶无穷碧，映日荷花别样红。",
+    "display_text": "荷塘月色下，接天莲叶无穷碧，___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "映日荷花别样红",
+        "accept_variants": ["荷花别样红"],
+        "hint": "杨万里的诗句，描写荷花在阳光映照下的颜色",
+        "word_type": "名词"
+      }
+    ],
+    "context": "引用杨万里《晓出净慈寺送林子方》名句",
+    "appreciation": "赏析：\"映日荷花别样红\"中，\"映日\"点明了阳光的映照，\"别样\"一词妙在言有尽而意无穷——不说\"格外红\"\"特别红\"，而用\"别样\"暗示那红色有着与众不同的韵味，留给读者无限想象空间。",
+    "related_words": ["出水芙蓉", "亭亭玉立", "香远益清"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_010",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["夏天", "自然", "雷雨"],
+    "source_style": "读者",
+    "original_text": "乌云翻涌，电闪雷鸣，夏日的暴风骤雨来得气势磅礴，去得干脆利落。",
+    "display_text": "乌云翻涌，___，夏日的暴风骤雨来得气势磅礴，去得干脆利落。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "电闪雷鸣",
+        "accept_variants": ["雷电交加", "雷声隆隆"],
+        "hint": "形容打雷闪电同时出现的场景",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写夏日雷暴的壮观场面",
+    "appreciation": "赏析：\"电闪雷鸣\"将视觉（闪电）与听觉（雷声）结合，调动多种感官描写暴风雨来临前的紧张氛围。全句以\"翻涌\"\"磅礴\"\"干脆利落\"等词营造出夏日雷雨的豪迈气势，节奏感强烈。",
+    "related_words": ["暴风骤雨", "倾盆大雨", "雷霆万钧"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_011",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["秋天", "自然", "红叶"],
+    "source_style": "散文",
+    "original_text": "深秋时节，漫山遍野层林尽染，如同大自然打翻了调色盘。",
+    "display_text": "深秋时节，漫山遍野___，如同大自然打翻了调色盘。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "层林尽染",
+        "accept_variants": ["五彩斑斓"],
+        "hint": "形容秋天山林树叶变色的壮观景象，毛泽东词中曾用到",
+        "word_type": "成语"
+      }
+    ],
+    "context": "化用毛泽东《沁园春·长沙》\"看万山红遍，层林尽染\"",
+    "appreciation": "赏析：\"层林尽染\"出自毛泽东词作，\"层\"字写出了山林的层次感，\"尽\"字强调了秋色的全面与彻底，\"染\"字极为传神——仿佛有一位神奇的画家挥笔将山林一层一层地涂上了斑斓的色彩，化静为动。",
+    "related_words": ["漫山红遍", "霜叶如花", "金风送爽"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_012",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["秋天", "自然", "天空"],
+    "source_style": "散文",
+    "original_text": "秋高气爽的日子里，蓝天白云下，孩子们在草地上放风筝。",
+    "display_text": "___的日子里，蓝天白云下，孩子们在草地上放风筝。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "秋高气爽",
+        "accept_variants": ["天高云淡", "金秋送爽"],
+        "hint": "形容秋天天空高远、空气清爽",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写秋天舒适宜人的天气",
+    "appreciation": "赏析：\"秋高气爽\"是描写秋天最经典的成语之一。\"高\"写天空的辽阔高远，\"爽\"写空气的清新凉爽，四个字便勾勒出秋天独有的舒朗气质。与后文放风筝的欢快场景形成完美的情景交融。",
+    "related_words": ["天高云淡", "金风玉露", "碧空如洗"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_013",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["秋天", "自然", "丰收"],
+    "source_style": "散文",
+    "original_text": "金秋十月，果园里硕果累累，弥漫着香甜的气息。",
+    "display_text": "金秋十月，果园里___，弥漫着香甜的气息。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "硕果累累",
+        "accept_variants": ["果实累累", "瓜果飘香"],
+        "hint": "形容丰收时果实很多很大的样子",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写秋天丰收景象的写作常用句式",
+    "appreciation": "赏析：\"硕果累累\"中\"硕\"意为大而丰满，\"累累\"形容果实一串接一串、一个挨一个的样子。此词不仅写出了果实的饱满，更隐含了一整个生长季节的努力与积累，常被引申为形容成就丰厚。",
+    "related_words": ["瓜果飘香", "五谷丰登", "春华秋实"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_014",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["秋天", "自然", "落叶"],
+    "source_style": "读者",
+    "original_text": "秋风萧瑟，落叶纷飞，金黄的银杏叶铺满了林间小路，踩上去沙沙作响。",
+    "display_text": "秋风萧瑟，___，金黄的银杏叶铺满了林间小路，踩上去沙沙作响。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "落叶纷飞",
+        "accept_variants": ["落叶缤纷", "黄叶飘零"],
+        "hint": "形容树叶纷纷飘落的景象",
+        "word_type": "成语"
+      }
+    ],
+    "context": "以秋叶描写秋天萧瑟之美的散文片段",
+    "appreciation": "赏析：\"落叶纷飞\"以动态描写渲染秋意，\"纷飞\"二字写出了落叶在风中旋转飘舞的姿态。全句调动了视觉（金黄色彩）和听觉（沙沙声响），多感官结合的写法使秋天的画面栩栩如生、可感可触。",
+    "related_words": ["秋风扫落叶", "一叶知秋", "枫叶如丹"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_015",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["秋天", "自然", "月亮"],
+    "source_style": "读者",
+    "original_text": "中秋之夜，一轮皓月当空，银辉洒满大地，万籁俱寂中唯闻秋虫低吟。",
+    "display_text": "中秋之夜，一轮皓月当空，银辉洒满大地，___中唯闻秋虫低吟。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "万籁俱寂",
+        "accept_variants": ["万籁无声", "寂静无声"],
+        "hint": "形容周围一切声响都静下来了",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写中秋夜色的静谧之美",
+    "appreciation": "赏析：\"万籁俱寂\"中\"籁\"指自然界的各种声响，\"俱寂\"意为全部安静。此处运用反衬手法——以万物的寂静来衬托秋虫低吟之声，\"蝉噪林逾静，鸟鸣山更幽\"的意境，使宁静的中秋夜更加生动可感。",
+    "related_words": ["夜深人静", "寂静无声", "鸦雀无声"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_016",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 1,
+    "tags": ["冬天", "自然", "雪"],
+    "source_style": "散文",
+    "original_text": "一夜之间，大地银装素裹，放眼望去，好一个洁白的世界。",
+    "display_text": "一夜之间，大地___，放眼望去，好一个洁白的世界。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "银装素裹",
+        "accept_variants": ["白雪皑皑", "粉妆玉砌"],
+        "hint": "形容雪后大地被白雪覆盖的美丽景象",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写雪后景色的经典散文表达",
+    "appreciation": "赏析：\"银装素裹\"运用比喻，将白雪比作银色的服装和素白的包裹。\"装\"和\"裹\"两个动词赋予大自然穿衣打扮的人格化特征，使冬天的雪景不再冰冷萧条，反而有了一种庄重典雅的美感。",
+    "related_words": ["粉妆玉砌", "白雪皑皑", "冰清玉洁"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_017",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["冬天", "自然", "寒冷"],
+    "source_style": "散文",
+    "original_text": "北方的冬天冰天雪地，但孩子们依然在雪地里欢快地打雪仗。",
+    "display_text": "北方的冬天___，但孩子们依然在雪地里欢快地打雪仗。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "冰天雪地",
+        "accept_variants": ["天寒地冻", "滴水成冰"],
+        "hint": "形容非常寒冷的天气，到处是冰和雪",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写北方冬天严寒与童趣的对比",
+    "appreciation": "赏析：\"冰天雪地\"以\"冰\"修饰天空，以\"雪\"修饰大地，天地之间都被冰雪笼罩，极写严寒之甚。但作者笔锋一转，用\"但\"字引出孩子们的欢快，以冰雪的酷寒反衬童年的热情，形成温暖而动人的对比。",
+    "related_words": ["天寒地冻", "滴水成冰", "寒气逼人"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_018",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["冬天", "自然", "风"],
+    "source_style": "散文",
+    "original_text": "寒风凛冽的冬夜，窗外风声呼啸，屋内炉火却温暖如春。",
+    "display_text": "___的冬夜，窗外风声呼啸，屋内炉火却温暖如春。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "寒风凛冽",
+        "accept_variants": ["朔风凛冽", "北风呼啸"],
+        "hint": "形容冬天的寒风非常刺骨",
+        "word_type": "成语"
+      }
+    ],
+    "context": "以冬夜寒风与室内温暖的对比来表现家的温馨",
+    "appreciation": "赏析：\"寒风凛冽\"中\"凛冽\"意为极其寒冷、刺骨。这个词与\"温暖如春\"形成鲜明对比，通过冷暖的强烈反差来突出家的温暖与安宁。这种对比手法是散文中常见的情感表达技巧。",
+    "related_words": ["朔风怒号", "风刀霜剑", "冷风刺骨"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_019",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["冬天", "自然", "梅花"],
+    "source_style": "读者",
+    "original_text": "腊月里，百花凋零，唯有梅花傲雪凌霜，在风雪中绽放出最绚烂的生命。",
+    "display_text": "腊月里，百花凋零，唯有梅花___，在风雪中绽放出最绚烂的生命。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "傲雪凌霜",
+        "accept_variants": ["凌寒独放", "傲骨铮铮"],
+        "hint": "形容不畏严寒、在风雪中挺立的品格",
+        "word_type": "成语"
+      }
+    ],
+    "context": "以梅花象征坚韧不屈的精神",
+    "appreciation": "赏析：\"傲雪凌霜\"将梅花人格化，\"傲\"字赋予了梅花高傲不屈的精神，\"凌\"字写出了它凌驾于风霜之上的气概。百花凋零与梅花独放形成反衬，\"唯有\"二字更突显了梅花的独特与珍贵，托物言志，赞美坚韧品格。",
+    "related_words": ["凌寒独放", "冰肌玉骨", "暗香浮动"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_020",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["冬天", "自然", "雪景"],
+    "source_style": "读者",
+    "original_text": "纷纷扬扬的大雪过后，千里冰封，万里雪飘，天地之间浑然一体。",
+    "display_text": "纷纷扬扬的大雪过后，___，___，天地之间浑然一体。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "千里冰封",
+        "accept_variants": [],
+        "hint": "毛泽东词中的名句，形容冰雪覆盖千里",
+        "word_type": "成语"
+      },
+      {
+        "position": 1,
+        "answer": "万里雪飘",
+        "accept_variants": [],
+        "hint": "与前一空对仗，形容大雪飘飞万里",
+        "word_type": "成语"
+      }
+    ],
+    "context": "化用毛泽东《沁园春·雪》开篇名句",
+    "appreciation": "赏析：\"千里冰封，万里雪飘\"出自毛泽东《沁园春·雪》，以\"千里\"\"万里\"极言空间之辽阔，\"冰封\"写静态的冰雪凝结，\"雪飘\"写动态的雪花飞舞，一静一动，气势恢宏，展现了北国冬天壮美苍茫的宏大画卷。",
+    "related_words": ["大雪纷飞", "白雪茫茫", "玉树琼枝"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_021",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["山水", "自然", "水"],
+    "source_style": "散文",
+    "original_text": "夕阳西下，湖面波光粼粼，像撒了一层碎金。",
+    "display_text": "夕阳西下，湖面___，像撒了一层碎金。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "波光粼粼",
+        "accept_variants": ["波光潋滟", "金光闪闪"],
+        "hint": "形容水面在阳光下闪烁的样子",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写夕阳映照湖面的诗意景色",
+    "appreciation": "赏析：\"波光粼粼\"中\"粼粼\"是叠词，模拟了光影在水面跳跃的视觉效果。后文\"碎金\"的比喻进一步将抽象的光影具象化，使读者仿佛亲眼看到了夕阳余晖洒落湖面时金光点点的瑰丽景象。",
+    "related_words": ["水光潋滟", "碧波荡漾", "金波闪烁"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_022",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["山水", "自然", "山"],
+    "source_style": "散文",
+    "original_text": "远处崇山峻岭连绵起伏，在晨雾中若隐若现，宛如一幅水墨画。",
+    "display_text": "远处___连绵起伏，在晨雾中若隐若现，宛如一幅水墨画。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "崇山峻岭",
+        "accept_variants": ["群山叠嶂", "峰峦叠嶂"],
+        "hint": "形容高大险峻的山岭",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写远山晨雾的山水散文",
+    "appreciation": "赏析：\"崇山峻岭\"中\"崇\"意为高大，\"峻\"意为陡峭。四字便将山的高耸与险峻刻画入微。后文\"若隐若现\"\"水墨画\"的描写增添了朦胧美感，由实入虚，使自然山水具有了艺术的意境。",
+    "related_words": ["峰峦叠嶂", "巍峨壮观", "山峦起伏"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_023",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["山水", "自然", "云雾"],
+    "source_style": "读者",
+    "original_text": "清晨的山谷里云雾缭绕，仿佛置身于仙境一般。",
+    "display_text": "清晨的山谷里___，仿佛置身于仙境一般。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "云雾缭绕",
+        "accept_variants": ["烟雾缭绕", "雾气弥漫"],
+        "hint": "形容云和雾环绕飘荡的景象",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写山间晨雾的梦幻场景",
+    "appreciation": "赏析：\"云雾缭绕\"中\"缭绕\"意为回旋环绕，生动刻画了云雾在山间盘旋飘荡、缠绵不散的动态美。与\"仙境\"的比喻相得益彰，营造出一种超凡脱俗、如梦如幻的意境，引发读者对自然之美的向往。",
+    "related_words": ["烟波浩渺", "雾锁山头", "薄雾轻笼"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_024",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 3,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["山水", "自然", "瀑布"],
+    "source_style": "散文",
+    "original_text": "瀑布从悬崖上飞流直下，水花四溅，发出震耳欲聋的轰鸣声。",
+    "display_text": "瀑布从悬崖上飞流直下，水花四溅，发出___的轰鸣声。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "震耳欲聋",
+        "accept_variants": ["振聋发聩", "响彻云霄"],
+        "hint": "形容声音大得几乎要把耳朵震聋",
+        "word_type": "成语"
+      }
+    ],
+    "context": "描写瀑布壮观景象的写景片段",
+    "appreciation": "赏析：\"震耳欲聋\"以夸张手法写瀑布的轰鸣，\"欲\"字用得妙——不说\"已经\"震聋，而说\"将要\"震聋，恰到好处地表达了声势之大，同时保留了文学表达的分寸感。与\"飞流直下\"\"水花四溅\"构成视听结合的立体描写。",
+    "related_words": ["声如洪钟", "响彻云霄", "惊天动地"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_025",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_cloze",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 4,
+    "tags": ["山水", "自然", "星空"],
+    "source_style": "读者",
+    "original_text": "仰望苍穹，繁星璀璨，银河横贯天际，那是宇宙写给大地的情书。",
+    "display_text": "仰望苍穹，___，银河横贯天际，那是宇宙写给大地的情书。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "繁星璀璨",
+        "accept_variants": ["星光灿烂", "群星闪耀"],
+        "hint": "形容天上的星星非常多且明亮",
+        "word_type": "成语"
+      }
+    ],
+    "context": "以诗意笔法描写星空的壮丽",
+    "appreciation": "赏析：\"繁星璀璨\"中\"繁\"写数量之多，\"璀璨\"写光芒之盛，将夜空的壮丽浓缩在四个字中。更妙的是结尾的比喻——将银河星空比作\"宇宙写给大地的情书\"，赋予了自然以浪漫的情感色彩，这种修辞手法在《读者》式散文中尤为常见。",
+    "related_words": ["星罗棋布", "满天星斗", "星河灿烂"],
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

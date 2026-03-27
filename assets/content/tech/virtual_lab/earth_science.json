@@ -1,0 +1,276 @@
+[
+  {
+    "id": "tech_e_501",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 2,
+    "tags": ["tech", "earth_science", "火山", "模拟", "地质"],
+    "title": "火山喷发模拟",
+    "category": "地球科学实验",
+    "cover_image": null,
+    "description": "用小苏打、醋、红色颜料和沙土模型模拟火山喷发过程，观察'岩浆'从火山口涌出并沿山坡流下的壮观场景，理解火山活动的基本原理。",
+    "learning_goals": [
+      "了解火山喷发的基本原理——地球内部压力释放",
+      "认识火山的基本结构：火山口、火山锥、岩浆通道",
+      "通过模拟实验理解化学反应产气产生的压力效果"
+    ],
+    "components": [
+      {"id": "clay", "name": "黏土或湿沙", "icon": "clay.png", "count": 1},
+      {"id": "small_bottle", "name": "小塑料瓶", "icon": "bottle.png", "count": 1},
+      {"id": "baking_soda", "name": "小苏打", "icon": "soda.png", "count": 1},
+      {"id": "vinegar", "name": "白醋", "icon": "vinegar.png", "count": 1},
+      {"id": "red_dye", "name": "红色食用色素", "icon": "dye.png", "count": 1},
+      {"id": "dish_soap", "name": "洗洁精", "icon": "soap.png", "count": 1},
+      {"id": "tray", "name": "大托盘", "icon": "tray.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "将小塑料瓶放在大托盘中央，用黏土或湿沙围绕瓶子堆成火山锥形状，让瓶口露出作为'火山口'。",
+        "validation": "volcano_shaped"
+      },
+      {
+        "order": 2,
+        "instruction": "在瓶中加入2勺小苏打、几滴红色食用色素和少量洗洁精（洗洁精会让'岩浆'产生更多泡沫效果）。",
+        "validation": "ingredients_added"
+      },
+      {
+        "order": 3,
+        "instruction": "缓慢倒入白醋，观察红色泡沫从'火山口'涌出并沿着'山坡'流下的壮观景象。",
+        "validation": "eruption_observed"
+      },
+      {
+        "order": 4,
+        "instruction": "观察'岩浆'流动的路径——它总是沿着低洼处流下。对比真实火山的岩浆流动特征。思考：为什么住在火山附近的居民要沿侧面逃跑而不是沿着山谷跑？",
+        "validation": "flow_pattern_analyzed"
+      }
+    ],
+    "success_condition": "flow_pattern_analyzed",
+    "fun_facts": [
+      "地球上目前约有1500座活火山，每年大约有50-70座火山发生不同程度的喷发。",
+      "公元79年，维苏威火山喷发埋没了古罗马城市庞贝，火山灰将整座城市'封存'了近1700年，为考古学提供了珍贵的历史资料。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "火山喷发的根本原因是什么？",
+        "options": ["地球表面温度过高", "地球内部高温高压的岩浆寻找出口释放压力", "太阳的热量加热了山体"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_502",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "earth_science", "水循环", "蒸发", "凝结"],
+    "title": "水循环模拟",
+    "category": "地球科学实验",
+    "cover_image": null,
+    "description": "用透明容器、热水和冰块模拟自然界的水循环过程，观察蒸发、凝结和降水三个基本环节，理解地球上水的循环运动。",
+    "learning_goals": [
+      "理解水循环的三个基本环节：蒸发、凝结、降水",
+      "观察温差导致水蒸气凝结成水滴的过程",
+      "认识水循环对地球生态系统的重要作用"
+    ],
+    "components": [
+      {"id": "glass_bowl", "name": "大透明玻璃碗", "icon": "bowl.png", "count": 1},
+      {"id": "small_cup", "name": "小杯子", "icon": "cup.png", "count": 1},
+      {"id": "plastic_wrap", "name": "保鲜膜", "icon": "wrap.png", "count": 1},
+      {"id": "ice", "name": "冰块", "icon": "ice.png", "count": 5},
+      {"id": "hot_water", "name": "温热水", "icon": "water.png", "count": 1},
+      {"id": "food_dye", "name": "蓝色食用色素", "icon": "dye.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在大玻璃碗中倒入约3厘米深的温热水，滴入几滴蓝色食用色素使水变蓝（代表海洋）。将空的小杯子放在碗中央。",
+        "validation": "ocean_prepared"
+      },
+      {
+        "order": 2,
+        "instruction": "用保鲜膜完全封住碗口，确保密封。在保鲜膜上方正对小杯子的位置放上几块冰块。",
+        "validation": "sealed_with_ice"
+      },
+      {
+        "order": 3,
+        "instruction": "将装置放在温暖的地方（阳光下或暖气旁），等待15-30分钟。观察保鲜膜内侧出现水雾和小水滴。",
+        "validation": "condensation_visible"
+      },
+      {
+        "order": 4,
+        "instruction": "继续观察，保鲜膜内侧的水滴会逐渐汇聚变大，受冰块位置影响，水滴沿保鲜膜向中间滑落，滴入下方的小杯子中。",
+        "validation": "precipitation_observed"
+      },
+      {
+        "order": 5,
+        "instruction": "仔细观察小杯子中收集到的水——它是无色透明的！蓝色食用色素留在了碗底的'海洋'中。这说明蒸发过程中水变纯净了，就像自然界的蒸馏过程。",
+        "validation": "purification_noted"
+      }
+    ],
+    "success_condition": "purification_noted",
+    "fun_facts": [
+      "地球上的水总量几乎不变——你今天喝的水，也许亿万年前曾被恐龙喝过！水在地球上不停地循环利用。",
+      "全球每天约有10000亿吨的水从海洋蒸发到空中，其中约90%会以降雨的形式回到海洋。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "实验中保鲜膜内侧出现水滴，模拟的是水循环中的哪个环节？",
+        "options": ["蒸发", "凝结（形成云）", "降水"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_503",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 3,
+    "tags": ["tech", "earth_science", "气象", "天气", "测量"],
+    "title": "简易气象站",
+    "category": "地球科学实验",
+    "cover_image": null,
+    "description": "利用日常材料制作简易的温度计读数板、风向标和雨量计，建立一个小型气象观测站，连续记录一周的天气数据。",
+    "learning_goals": [
+      "了解气象观测的基本要素：温度、风向、降水量",
+      "学会使用简易工具进行气象数据的测量和记录",
+      "培养持续观测和数据记录的科学习惯"
+    ],
+    "components": [
+      {"id": "thermometer", "name": "温度计", "icon": "thermometer.png", "count": 1},
+      {"id": "straw", "name": "吸管", "icon": "straw.png", "count": 1},
+      {"id": "cardboard", "name": "硬纸板", "icon": "cardboard.png", "count": 1},
+      {"id": "pin", "name": "大头针", "icon": "pin.png", "count": 1},
+      {"id": "pencil_eraser", "name": "带橡皮头的铅笔", "icon": "pencil.png", "count": 1},
+      {"id": "plastic_bottle", "name": "塑料瓶（直筒型）", "icon": "bottle.png", "count": 1},
+      {"id": "ruler", "name": "直尺", "icon": "ruler.png", "count": 1},
+      {"id": "notebook", "name": "气象记录本", "icon": "notebook.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "制作风向标：将硬纸板剪成箭头形和尾翼形，分别插在吸管两端。找到吸管的平衡点，用大头针穿过平衡点固定在铅笔橡皮头上，确保能自由旋转。",
+        "validation": "wind_vane_made"
+      },
+      {
+        "order": 2,
+        "instruction": "制作雨量计：将塑料瓶上部1/3剪下倒扣在下部作为漏斗。在瓶身外侧用直尺和标记笔画上刻度线（每5毫米一格）。",
+        "validation": "rain_gauge_made"
+      },
+      {
+        "order": 3,
+        "instruction": "将温度计、风向标和雨量计放置在户外合适位置：温度计放在通风避免阳光直射处，风向标放在开阔处，雨量计放在没有遮挡的平地上。",
+        "validation": "station_deployed"
+      },
+      {
+        "order": 4,
+        "instruction": "每天早中晚三次记录温度、风向、降水量，同时记录天气状况（晴、多云、阴、雨等）。连续记录一周。",
+        "validation": "week_data_collected"
+      },
+      {
+        "order": 5,
+        "instruction": "一周后整理数据，制作简单的气温折线图和天气统计表。分析：这一周的天气有什么规律？温度和天气状况之间有什么关系？",
+        "validation": "data_analyzed"
+      }
+    ],
+    "success_condition": "data_analyzed",
+    "fun_facts": [
+      "全世界有超过10000个气象观测站在24小时不间断地工作，它们的数据汇总后才能做出准确的天气预报。",
+      "气象卫星每30分钟就能拍摄一张覆盖地球大部分区域的云图，帮助气象学家追踪台风和暴风雨的移动路径。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "制作简易雨量计时，为什么要在瓶身画上刻度线？",
+        "options": ["为了让雨量计更漂亮", "为了准确测量和记录降水量", "为了知道瓶子装了多少水可以喝"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_504",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 3,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "earth_science", "岩石", "分类", "地质"],
+    "title": "岩石分类观察",
+    "category": "地球科学实验",
+    "cover_image": null,
+    "description": "收集不同种类的岩石样本，通过观察颜色、纹理、硬度、光泽等特征，学习岩石的三大类别——岩浆岩、沉积岩和变质岩的区分方法。",
+    "learning_goals": [
+      "认识岩石的三大类别：岩浆岩、沉积岩和变质岩",
+      "学会通过观察外观特征对岩石进行初步分类",
+      "了解不同类型岩石的形成过程"
+    ],
+    "components": [
+      {"id": "rocks", "name": "各种岩石样本（至少6种）", "icon": "rock.png", "count": 6},
+      {"id": "magnifier", "name": "放大镜", "icon": "magnifier.png", "count": 1},
+      {"id": "nail", "name": "铁钉（测硬度）", "icon": "nail.png", "count": 1},
+      {"id": "vinegar", "name": "白醋（测碳酸盐）", "icon": "vinegar.png", "count": 1},
+      {"id": "notebook", "name": "观察记录本", "icon": "notebook.png", "count": 1},
+      {"id": "dropper", "name": "滴管", "icon": "dropper.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "从户外收集至少6块不同的岩石，或使用岩石标本。编号后逐一观察每块岩石的颜色、光泽（是否发亮）和表面纹理。",
+        "validation": "visual_observation_done"
+      },
+      {
+        "order": 2,
+        "instruction": "用放大镜仔细观察岩石内部结构：是否能看到明显的颗粒？颗粒大小是否均匀？是否有层状纹理？是否有气孔？",
+        "validation": "structure_examined"
+      },
+      {
+        "order": 3,
+        "instruction": "硬度测试：用铁钉在岩石表面轻轻刻划。能被轻易划出痕迹的较软（如石灰岩），不容易划出痕迹的较硬（如花岗岩）。",
+        "validation": "hardness_tested"
+      },
+      {
+        "order": 4,
+        "instruction": "在每块岩石上滴几滴白醋。如果冒小泡泡（有嘶嘶声），说明含有碳酸盐成分，很可能是石灰岩（沉积岩）。",
+        "validation": "acid_test_done"
+      },
+      {
+        "order": 5,
+        "instruction": "根据观察结果进行分类：有气孔或结晶颗粒的可能是岩浆岩（如玄武岩、花岗岩）；有层状纹理或化石的是沉积岩（如石灰岩、砂岩）；有弯曲条纹或片状结构的是变质岩（如大理石、板岩）。",
+        "validation": "classification_complete"
+      }
+    ],
+    "success_condition": "classification_complete",
+    "fun_facts": [
+      "地球上最古老的岩石约有40亿年的历史，来自加拿大北部的阿卡斯塔片麻岩，几乎和地球本身一样古老。",
+      "大理石其实是石灰岩经过高温高压变质形成的——很多著名的雕塑和建筑都是用大理石制作的，比如米开朗基罗的《大卫》。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "在岩石上滴白醋后冒出气泡，这块岩石最可能是哪种类型？",
+        "options": ["花岗岩（岩浆岩）", "石灰岩（沉积岩）", "板岩（变质岩）"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

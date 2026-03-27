@@ -1,0 +1,411 @@
+[
+  {
+    "id": "tech_e_201",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "chemistry", "酸碱", "指示剂"],
+    "title": "酸碱指示剂变色",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "利用紫甘蓝汁液制作天然酸碱指示剂，分别加入醋、柠檬汁、肥皂水、小苏打水等不同液体，观察颜色变化，理解酸碱性的概念。",
+    "learning_goals": [
+      "了解酸性物质和碱性物质的基本概念",
+      "学会用天然指示剂检测溶液的酸碱性",
+      "观察并记录不同溶液使指示剂呈现的颜色变化"
+    ],
+    "components": [
+      {"id": "purple_cabbage", "name": "紫甘蓝叶", "icon": "cabbage.png", "count": 3},
+      {"id": "hot_water", "name": "热水（60°C）", "icon": "water.png", "count": 1},
+      {"id": "cups", "name": "透明塑料杯", "icon": "cup.png", "count": 6},
+      {"id": "vinegar", "name": "白醋", "icon": "vinegar.png", "count": 1},
+      {"id": "lemon_juice", "name": "柠檬汁", "icon": "lemon.png", "count": 1},
+      {"id": "soap_water", "name": "肥皂水", "icon": "soap.png", "count": 1},
+      {"id": "baking_soda_water", "name": "小苏打水", "icon": "soda.png", "count": 1},
+      {"id": "pure_water", "name": "纯净水", "icon": "water.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "将紫甘蓝叶撕碎放入杯中，加入热水浸泡10分钟，直到水变成深紫色，过滤出紫甘蓝汁液。",
+        "validation": "liquid_purple"
+      },
+      {
+        "order": 2,
+        "instruction": "在5个透明杯中分别倒入等量的紫甘蓝汁液（约50毫升）。",
+        "validation": "five_cups_ready"
+      },
+      {
+        "order": 3,
+        "instruction": "在第1杯中加入白醋，在第2杯中加入柠檬汁，观察颜色变化并记录。",
+        "validation": "acid_color_change"
+      },
+      {
+        "order": 4,
+        "instruction": "在第3杯中加入纯净水（对照组），在第4杯中加入肥皂水，在第5杯中加入小苏打水，观察颜色变化并记录。",
+        "validation": "base_color_change"
+      },
+      {
+        "order": 5,
+        "instruction": "将5个杯子按颜色从红到蓝排列，对比观察，总结酸性物质和碱性物质使指示剂分别变成什么颜色。",
+        "validation": "color_spectrum_arranged"
+      }
+    ],
+    "success_condition": "color_spectrum_arranged",
+    "fun_facts": [
+      "紫甘蓝汁液含有花青素，它是一种天然的酸碱指示剂，在酸性环境下呈红色，在碱性环境下呈蓝绿色。",
+      "人的胃液pH值约为1.5-3.5，属于强酸性，这就是为什么空腹喝柠檬水会不舒服的原因。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "如果将紫甘蓝汁液滴入牛奶中，最可能呈现什么颜色？",
+        "options": ["红色（酸性）", "紫色（中性）", "蓝绿色（碱性）"],
+        "answer": 0
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_202",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "chemistry", "化学反应", "产气"],
+    "title": "小苏打和醋反应（产气）",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "将小苏打（碳酸氢钠）与白醋混合，观察剧烈冒泡现象，理解酸碱中和反应会产生二氧化碳气体，并用气球捕获生成的气体。",
+    "learning_goals": [
+      "认识酸和碱反应会产生新物质（化学变化）",
+      "了解二氧化碳气体的基本性质",
+      "学会通过实验现象推断化学反应的发生"
+    ],
+    "components": [
+      {"id": "baking_soda", "name": "小苏打", "icon": "soda.png", "count": 1},
+      {"id": "vinegar", "name": "白醋", "icon": "vinegar.png", "count": 1},
+      {"id": "bottle", "name": "塑料瓶（500ml）", "icon": "bottle.png", "count": 1},
+      {"id": "balloon", "name": "气球", "icon": "balloon.png", "count": 2},
+      {"id": "spoon", "name": "量勺", "icon": "spoon.png", "count": 1},
+      {"id": "funnel", "name": "小漏斗", "icon": "funnel.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在塑料瓶中倒入约100毫升白醋。",
+        "validation": "vinegar_in_bottle"
+      },
+      {
+        "order": 2,
+        "instruction": "用漏斗将2勺小苏打装入气球中。",
+        "validation": "soda_in_balloon"
+      },
+      {
+        "order": 3,
+        "instruction": "小心地将气球套在瓶口上，注意不要让小苏打掉入瓶中。",
+        "validation": "balloon_attached"
+      },
+      {
+        "order": 4,
+        "instruction": "将气球提起，让小苏打全部落入醋中，观察瓶内剧烈冒泡和气球膨胀的现象。",
+        "validation": "reaction_observed"
+      },
+      {
+        "order": 5,
+        "instruction": "等反应结束后，小心取下气球并扎紧，尝试用这个充满二氧化碳的气球去靠近点燃的蜡烛（需大人协助），观察蜡烛是否熄灭。",
+        "validation": "co2_property_tested"
+      }
+    ],
+    "success_condition": "co2_property_tested",
+    "fun_facts": [
+      "这个反应的化学方程式是：NaHCO₃ + CH₃COOH → CH₃COONa + H₂O + CO₂↑，产生了醋酸钠、水和二氧化碳。",
+      "灭火器的原理和这个实验类似——利用化学反应快速产生大量二氧化碳来隔绝氧气，从而灭火。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "小苏打和醋混合后气球膨胀，说明反应产生了什么？",
+        "options": ["氧气", "二氧化碳气体", "水蒸气"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_203",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["tech", "chemistry", "灭火器", "二氧化碳"],
+    "title": "制作简易灭火器",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "利用小苏打和醋反应产生二氧化碳的原理，制作一个简易灭火器，体验化学知识在消防安全中的实际应用。",
+    "learning_goals": [
+      "理解灭火器的基本工作原理——隔绝氧气",
+      "掌握二氧化碳不助燃的性质",
+      "体会化学知识在日常安全中的重要应用"
+    ],
+    "components": [
+      {"id": "plastic_bottle", "name": "带盖塑料瓶（500ml）", "icon": "bottle.png", "count": 1},
+      {"id": "baking_soda", "name": "小苏打", "icon": "soda.png", "count": 1},
+      {"id": "vinegar", "name": "白醋", "icon": "vinegar.png", "count": 1},
+      {"id": "straw", "name": "弯头吸管", "icon": "straw.png", "count": 1},
+      {"id": "clay", "name": "橡皮泥", "icon": "clay.png", "count": 1},
+      {"id": "candle", "name": "小蜡烛", "icon": "candle.png", "count": 3},
+      {"id": "lighter", "name": "打火机（由大人操作）", "icon": "lighter.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在瓶盖上钻一个小孔，将弯头吸管穿过小孔，用橡皮泥密封吸管和瓶盖之间的缝隙，确保气密性。",
+        "validation": "nozzle_assembled"
+      },
+      {
+        "order": 2,
+        "instruction": "在塑料瓶中倒入约200毫升白醋。",
+        "validation": "vinegar_added"
+      },
+      {
+        "order": 3,
+        "instruction": "用纸巾包裹3勺小苏打，做成一个小纸包，放入瓶中但暂时不要让它接触醋。",
+        "validation": "soda_packet_ready"
+      },
+      {
+        "order": 4,
+        "instruction": "请大人点燃3支蜡烛，排成一排。迅速拧紧瓶盖并摇晃瓶子，使小苏打与醋充分反应。",
+        "validation": "reaction_started"
+      },
+      {
+        "order": 5,
+        "instruction": "将吸管出口对准蜡烛火焰，依次'喷射'，观察蜡烛是否被'吹灭'。注意：这是二氧化碳使火焰熄灭，而非风力。",
+        "validation": "candles_extinguished"
+      }
+    ],
+    "success_condition": "candles_extinguished",
+    "fun_facts": [
+      "真正的灭火器分为多种类型：干粉灭火器、CO₂灭火器、泡沫灭火器等，分别适用于不同类型的火灾。",
+      "二氧化碳的密度比空气大约1.5倍，所以它会像'隐形毯子'一样覆盖在火焰上，隔绝氧气。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "简易灭火器能熄灭蜡烛的主要原因是什么？",
+        "options": ["二氧化碳隔绝了氧气", "醋液浇灭了火焰", "吸管吹出的风力"],
+        "answer": 0
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_204",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["tech", "chemistry", "浮力", "密度", "盐水"],
+    "title": "盐水浮力实验",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "通过向清水中逐渐加入食盐，观察鸡蛋从沉底到悬浮再到漂浮的过程，直观理解液体密度对浮力的影响。",
+    "learning_goals": [
+      "理解浮力与液体密度的关系",
+      "观察物体在不同密度液体中的沉浮状态变化",
+      "学会通过控制变量法进行科学探究"
+    ],
+    "components": [
+      {"id": "glass_cup", "name": "透明玻璃杯（500ml）", "icon": "glass.png", "count": 3},
+      {"id": "egg", "name": "生鸡蛋", "icon": "egg.png", "count": 1},
+      {"id": "salt", "name": "食盐", "icon": "salt.png", "count": 1},
+      {"id": "spoon", "name": "搅拌勺", "icon": "spoon.png", "count": 1},
+      {"id": "water", "name": "清水", "icon": "water.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "在三个玻璃杯中分别倒入等量清水（约400毫升）。将鸡蛋轻轻放入第一个杯中，观察并记录——鸡蛋沉入水底。",
+        "validation": "egg_sinks"
+      },
+      {
+        "order": 2,
+        "instruction": "在第二个杯中加入3勺食盐并搅拌溶解，放入鸡蛋，观察鸡蛋的位置。如果仍然下沉，继续加盐直到鸡蛋悬浮在水中间。",
+        "validation": "egg_suspends"
+      },
+      {
+        "order": 3,
+        "instruction": "在第三个杯中加入大量食盐（约8-10勺）并搅拌溶解，放入鸡蛋，观察鸡蛋浮在水面上。",
+        "validation": "egg_floats"
+      },
+      {
+        "order": 4,
+        "instruction": "将三个杯子并排比较，记录鸡蛋在清水、中等盐水、高浓度盐水中的不同状态。思考：为什么盐水能让鸡蛋浮起来？",
+        "validation": "comparison_complete"
+      }
+    ],
+    "success_condition": "comparison_complete",
+    "fun_facts": [
+      "死海的含盐量高达33.7%，是普通海水的近10倍，人可以轻松漂浮在水面上，就像躺在床上一样。",
+      "潜水艇就是通过改变自身密度（注水或排水）来实现上浮和下沉的，原理和这个实验完全相同。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "鸡蛋能在盐水中浮起来，主要原因是什么？",
+        "options": ["盐水的密度大于鸡蛋的密度", "盐水的温度比清水高", "食盐使鸡蛋变轻了"],
+        "answer": 0
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_205",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 2,
+    "tags": ["tech", "chemistry", "淀粉", "碘", "鉴定"],
+    "title": "淀粉遇碘变蓝",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "使用碘酒检测日常食物中是否含有淀粉。将碘酒分别滴在馒头、土豆、苹果、鸡蛋白等食物上，观察哪些食物会变蓝，学习淀粉的鉴定方法。",
+    "learning_goals": [
+      "掌握碘液检验淀粉的经典方法",
+      "了解哪些常见食物含有淀粉",
+      "培养科学实验中的观察和记录能力"
+    ],
+    "components": [
+      {"id": "iodine", "name": "碘酒（碘伏）", "icon": "iodine.png", "count": 1},
+      {"id": "dropper", "name": "滴管", "icon": "dropper.png", "count": 1},
+      {"id": "bread", "name": "馒头片", "icon": "bread.png", "count": 1},
+      {"id": "potato", "name": "土豆切片", "icon": "potato.png", "count": 1},
+      {"id": "apple", "name": "苹果切片", "icon": "apple.png", "count": 1},
+      {"id": "egg_white", "name": "煮鸡蛋白", "icon": "egg.png", "count": 1},
+      {"id": "rice", "name": "米饭", "icon": "rice.png", "count": 1},
+      {"id": "plate", "name": "白色瓷盘", "icon": "plate.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "将馒头片、土豆片、苹果片、鸡蛋白、米饭分别摆放在白色瓷盘上，做好标记。",
+        "validation": "samples_arranged"
+      },
+      {
+        "order": 2,
+        "instruction": "用滴管吸取碘酒，分别在每种食物上滴1-2滴，注意每次滴的量要相同。",
+        "validation": "iodine_applied"
+      },
+      {
+        "order": 3,
+        "instruction": "等待约30秒，仔细观察每种食物表面的颜色变化。将变蓝的和不变蓝的分别记录下来。",
+        "validation": "color_observed"
+      },
+      {
+        "order": 4,
+        "instruction": "总结实验结果：馒头、土豆、米饭滴碘后变蓝（含淀粉），苹果和鸡蛋白不变蓝（不含淀粉或含量极少）。",
+        "validation": "results_summarized"
+      }
+    ],
+    "success_condition": "results_summarized",
+    "fun_facts": [
+      "淀粉遇碘变蓝的原理是：碘分子钻进了淀粉螺旋结构的'隧道'里，形成了一种蓝色的包合物。",
+      "法医会用碘熏法提取犯罪现场的指纹——因为手指油脂能吸附碘蒸气，指纹就会显现出来。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "以下哪种食物滴上碘酒后最可能变蓝？",
+        "options": ["红烧肉", "蒸红薯", "煎鸡蛋"],
+        "answer": 1
+      }
+    ],
+    "points": 20,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "tech_e_206",
+    "module": "tech",
+    "type": "experiment",
+    "grade_min": 5,
+    "grade_max": 9,
+    "difficulty": 3,
+    "tags": ["tech", "chemistry", "氧化", "生锈", "铁"],
+    "title": "铁钉生锈观察",
+    "category": "化学实验",
+    "cover_image": null,
+    "description": "设置对照实验，将铁钉分别放在干燥环境、纯水中和盐水中，观察一周内的变化，探究铁生锈需要哪些条件。",
+    "learning_goals": [
+      "了解铁生锈是铁与水和氧气共同作用的氧化反应",
+      "学会设计对照实验来探究影响因素",
+      "培养长期观察和记录实验数据的习惯"
+    ],
+    "components": [
+      {"id": "iron_nail", "name": "普通铁钉", "icon": "nail.png", "count": 4},
+      {"id": "test_tube", "name": "密封玻璃瓶", "icon": "tube.png", "count": 4},
+      {"id": "water", "name": "清水", "icon": "water.png", "count": 1},
+      {"id": "salt_water", "name": "盐水", "icon": "saltwater.png", "count": 1},
+      {"id": "oil", "name": "食用油", "icon": "oil.png", "count": 1},
+      {"id": "desiccant", "name": "干燥剂", "icon": "desiccant.png", "count": 1},
+      {"id": "notebook", "name": "观察记录本", "icon": "notebook.png", "count": 1}
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "准备4个密封玻璃瓶，分别标记为A、B、C、D。在每个瓶中放入一枚铁钉。",
+        "validation": "bottles_labeled"
+      },
+      {
+        "order": 2,
+        "instruction": "A瓶：加入干燥剂并密封（干燥无水环境）；B瓶：加入清水淹没铁钉一半；C瓶：加入盐水淹没铁钉一半；D瓶：加入食用油完全淹没铁钉（隔绝空气）。",
+        "validation": "conditions_set"
+      },
+      {
+        "order": 3,
+        "instruction": "将4个瓶子放在相同的室温环境下。每天在固定时间观察铁钉表面的变化，在记录本上画图或拍照记录。",
+        "validation": "daily_observation"
+      },
+      {
+        "order": 4,
+        "instruction": "一周后对比4枚铁钉的状态。预期结果：A（几乎不生锈）、B（少量锈斑）、C（明显生锈）、D（几乎不生锈）。",
+        "validation": "week_comparison"
+      },
+      {
+        "order": 5,
+        "instruction": "分析实验结果：生锈需要水和氧气同时存在，盐分会加速生锈。思考日常生活中有哪些防锈方法。",
+        "validation": "analysis_complete"
+      }
+    ],
+    "success_condition": "analysis_complete",
+    "fun_facts": [
+      "每年因铁制品生锈造成的经济损失约占全球钢铁产量的10%，相当于数千亿美元。",
+      "不锈钢之所以'不锈'，是因为添加了铬元素，铬在表面形成致密的氧化膜，阻止了内部的铁继续被氧化。"
+    ],
+    "follow_up_questions": [
+      {
+        "stem": "以下哪种情况下铁钉最容易生锈？",
+        "options": ["密封在装有干燥剂的瓶中", "浸泡在盐水中并暴露在空气中", "完全浸没在食用油中"],
+        "answer": 1
+      }
+    ],
+    "points": 25,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]

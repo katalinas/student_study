@@ -1,0 +1,702 @@
+[
+  {
+    "id": "words_g_116",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他做事总是持之以恒，从不半途而废。",
+    "display_text": "他做事总是___，从不半途而废。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "持之以恒",
+        "options": ["持之以恒", "三心二意", "好高骛远", "画蛇添足"],
+        "hint": "坚持不懈、长久不变"
+      }
+    ],
+    "appreciation": "赏析：\"持之以恒\"与\"半途而废\"构成反义对比，强调了做事坚持到底的品质。\"三心二意\"形容不专心但不涉及坚持，\"好高骛远\"写目标不切实际，\"画蛇添足\"写多此一举。只有\"持之以恒\"与\"从不半途而废\"语义完全对应。",
+    "context": "在作文中使用成语时，要注意与前后文的语义呼应——反义成语对比是常见的写作手法。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_117",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "春天来了，公园里百花齐放，美不胜收。",
+    "display_text": "春天来了，公园里___，美不胜收。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "百花齐放",
+        "options": ["百花齐放", "万马奔腾", "鸟语花香", "春暖花开"],
+        "hint": "各种花同时开放"
+      }
+    ],
+    "appreciation": "赏析：\"百花齐放\"专门描写各种花竞相开放的盛况，与\"美不胜收\"完美搭配。\"万马奔腾\"写的不是花，\"鸟语花香\"包含了声音和花两个元素太杂，\"春暖花开\"偏重气候。\"百花齐放\"纯粹写花的繁盛，最为贴切。",
+    "context": "选择成语要注意语境的精准匹配——这里单纯写花的景象，就要选纯粹写花的成语。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_118",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "面对困难，他临危不惧，沉着冷静地想出了解决办法。",
+    "display_text": "面对困难，他___，沉着冷静地想出了解决办法。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "临危不惧",
+        "options": ["临危不惧", "胆小如鼠", "犹豫不决", "心惊胆战"],
+        "hint": "面临危险时不害怕"
+      }
+    ],
+    "appreciation": "赏析：\"临危不惧\"与后文\"沉着冷静\"语义衔接——因为不畏惧，所以才能冷静思考。\"胆小如鼠\"意思相反，\"犹豫不决\"写犹豫不写勇敢，\"心惊胆战\"写害怕。只有\"临危不惧\"能引出后面的冷静应对。",
+    "context": "成语在句中要起到承上启下的作用——\"临危不惧\"承接\"面对困难\"，引出\"沉着冷静\"。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_119",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这篇文章写得妙笔生花，让人读后回味无穷。",
+    "display_text": "这篇文章写得___，让人读后回味无穷。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "妙笔生花",
+        "options": ["妙笔生花", "天花乱坠", "花言巧语", "走马观花"],
+        "hint": "形容写文章写得非常好"
+      }
+    ],
+    "appreciation": "赏析：\"妙笔生花\"专门形容文笔精妙、文章写得好。\"天花乱坠\"形容说话夸大或不切实际，带贬义；\"花言巧语\"指虚伪的好话，完全贬义；\"走马观花\"写粗略观看。只有\"妙笔生花\"是对写作的正面评价。",
+    "context": "成语使用最常见的错误就是褒贬不分——\"天花乱坠\"\"花言巧语\"都含贬义，不能用来赞美文章。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_120",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "老师对我们的关怀无微不至，像母亲一样温暖。",
+    "display_text": "老师对我们的关怀___，像母亲一样温暖。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "无微不至",
+        "options": ["无微不至", "无所不能", "无可奈何", "无中生有"],
+        "hint": "没有哪个细微之处照顾不到"
+      }
+    ],
+    "appreciation": "赏析：\"无微不至\"形容关怀极其周到细致，每个微小的地方都顾及到了。\"无所不能\"写能力而非关怀，\"无可奈何\"写无奈，\"无中生有\"写捏造。\"无微不至\"精准描述了细致入微的关爱。",
+    "context": "\"无\"字开头的成语很多，容易混淆——要准确区分\"无微不至\"\"无所不能\"等不同含义。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_121",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他的演讲声情并茂，台下观众无不为之动容。",
+    "display_text": "他的演讲___，台下观众无不为之动容。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "声情并茂",
+        "options": ["声情并茂", "口若悬河", "夸夸其谈", "滔滔不绝"],
+        "hint": "声音和感情都很丰富动人"
+      }
+    ],
+    "appreciation": "赏析：\"声情并茂\"说的是声音和情感都很丰富，既有好的表达技巧又有真挚的感情。\"口若悬河\"只写说话流利，\"夸夸其谈\"是贬义，\"滔滔不绝\"只写话多。\"声情并茂\"兼顾了\"声\"和\"情\"两个维度，最能引出听众\"动容\"的反应。",
+    "context": "描写演讲、朗诵等场景时，\"声情并茂\"是最常用也最贴切的成语。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_122",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这个问题看似简单，实则错综复杂，需要仔细分析。",
+    "display_text": "这个问题看似简单，实则___，需要仔细分析。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "错综复杂",
+        "options": ["错综复杂", "一目了然", "轻而易举", "迎刃而解"],
+        "hint": "形容事物交织在一起，非常复杂"
+      }
+    ],
+    "appreciation": "赏析：\"错综复杂\"与\"看似简单\"形成转折，\"错\"为交错，\"综\"为交织，写出了问题的复杂程度。\"一目了然\"\"轻而易举\"\"迎刃而解\"都表示简单容易，与\"实则\"后应有的转折矛盾。",
+    "context": "\"看似...实则...\"句式中，成语要与前后的转折关系匹配，这是成语使用中的语境逻辑。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_123",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "考试前他废寝忘食地复习，终于取得了好成绩。",
+    "display_text": "考试前他___地复习，终于取得了好成绩。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "废寝忘食",
+        "options": ["废寝忘食", "心不在焉", "无精打采", "得过且过"],
+        "hint": "顾不上吃饭睡觉，形容非常刻苦"
+      }
+    ],
+    "appreciation": "赏析：\"废寝忘食\"形容学习刻苦到忘了吃饭睡觉，与\"终于取得好成绩\"构成因果——因为刻苦所以成功。\"心不在焉\"\"无精打采\"\"得过且过\"都是消极表现，不可能引出好成绩。",
+    "context": "成语与句子的因果逻辑要一致——\"废寝忘食\"是原因，\"好成绩\"是结果。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_124",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这幅画栩栩如生，远远看去仿佛真的一样。",
+    "display_text": "这幅画___，远远看去仿佛真的一样。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "栩栩如生",
+        "options": ["栩栩如生", "惟妙惟肖", "活灵活现", "画龙点睛"],
+        "hint": "形容画作或雕塑像活的一样"
+      }
+    ],
+    "appreciation": "赏析：\"栩栩如生\"专门形容艺术作品逼真生动，如同活的一样。\"惟妙惟肖\"偏重模仿得像，\"活灵活现\"更常用于描述讲述和表演，\"画龙点睛\"写的是画关键一笔。\"栩栩如生\"最适合形容画作的逼真。",
+    "context": "同义近义成语之间有细微差别——\"栩栩如生\"适合画作雕塑，\"活灵活现\"适合描述表演。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_125",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他在比赛中力挽狂澜，帮助球队反败为胜。",
+    "display_text": "他在比赛中___，帮助球队反败为胜。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "力挽狂澜",
+        "options": ["力挽狂澜", "袖手旁观", "隔岸观火", "推波助澜"],
+        "hint": "用力挽回危急的局面"
+      }
+    ],
+    "appreciation": "赏析：\"力挽狂澜\"比喻以巨大的力量挽回危险的局势，与\"反败为胜\"完美对应。\"袖手旁观\"\"隔岸观火\"都写不参与，\"推波助澜\"写推动而非挽回。\"力挽狂澜\"的\"力\"和\"狂澜\"写出了形势的危急和个人的担当。",
+    "context": "\"力挽狂澜\"常用于描写在关键时刻挺身而出、扭转局面的人物，是写作中的高频成语。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_126",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他们俩志趣相投，一见如故，很快成了好朋友。",
+    "display_text": "他们俩志趣相投，___，很快成了好朋友。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "一见如故",
+        "options": ["一见如故", "素不相识", "形影不离", "两小无猜"],
+        "hint": "第一次见面就像老朋友一样"
+      }
+    ],
+    "appreciation": "赏析：\"一见如故\"写初次见面就十分投缘，仿佛是旧相识。\"素不相识\"写不认识，与\"成了好朋友\"矛盾；\"形影不离\"写已经很亲密，不适合初识场景；\"两小无猜\"写青梅竹马。\"一见如故\"精准写出了初次相遇的投缘。",
+    "context": "\"一见如故\"适用于初次见面的场景，与\"志趣相投\"搭配使用，逻辑清晰——因为志趣相投，所以一见如故。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_127",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "雨过天晴，天空出现了一道彩虹，同学们欢呼雀跃。",
+    "display_text": "雨过天晴，天空出现了一道彩虹，同学们___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "欢呼雀跃",
+        "options": ["欢呼雀跃", "愁眉苦脸", "不以为然", "视而不见"],
+        "hint": "高兴得又叫又跳"
+      }
+    ],
+    "appreciation": "赏析：\"欢呼雀跃\"精准写出了孩子们看到彩虹时又喊又跳的欢乐场景。\"愁眉苦脸\"意思完全相反，\"不以为然\"太冷淡，\"视而不见\"太漠然。\"欢呼\"写声音，\"雀跃\"写动作，声形兼备。",
+    "context": "好的成语能同时调动多个感官——\"欢呼\"是听觉，\"雀跃\"是视觉，比单说\"高兴\"丰富得多。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_128",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这座古镇历史悠久，街道两旁的建筑古色古香。",
+    "display_text": "这座古镇历史悠久，街道两旁的建筑___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "古色古香",
+        "options": ["古色古香", "富丽堂皇", "金碧辉煌", "焕然一新"],
+        "hint": "具有古代的色彩和情调"
+      }
+    ],
+    "appreciation": "赏析：\"古色古香\"写出了建筑的古朴韵味和历史感，与\"历史悠久\"的定位一致。\"富丽堂皇\"\"金碧辉煌\"写华丽而非古朴，\"焕然一新\"写翻新，与\"古\"矛盾。\"古色古香\"兼顾了\"色\"（外观）和\"香\"（韵味），形神兼备。",
+    "context": "描写古镇、古建筑等场景时，\"古色古香\"是最常用的成语，注意不要与写现代建筑的成语混用。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_129",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这两种方案各有千秋，很难取舍。",
+    "display_text": "这两种方案___，很难取舍。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "各有千秋",
+        "options": ["各有千秋", "截然不同", "天壤之别", "大同小异"],
+        "hint": "各自都有各自的优点"
+      }
+    ],
+    "appreciation": "赏析：\"各有千秋\"表示各自有各自的优点和特色，所以才\"难以取舍\"。\"截然不同\"只说不同不说优劣，\"天壤之别\"差距太大不会难取舍，\"大同小异\"差不多就不用选了。只有\"各有千秋\"能导致\"难以取舍\"的结果。",
+    "context": "成语的使用要与句子的结论逻辑一致——\"各有千秋\"是原因，\"难以取舍\"是结果。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_130",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "知识就像海洋一样浩瀚无垠，我们要不断学习。",
+    "display_text": "知识就像海洋一样___，我们要不断学习。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "浩瀚无垠",
+        "options": ["浩瀚无垠", "一望无际", "深不可测", "波涛汹涌"],
+        "hint": "广大辽阔，没有边际"
+      }
+    ],
+    "appreciation": "赏析：\"浩瀚无垠\"写海洋的广阔无边，比喻知识的无穷无尽。\"一望无际\"更适合平原草原，\"深不可测\"写深度不写广度，\"波涛汹涌\"写海面的动态而非知识的特点。\"浩瀚\"二字的宏大感与\"知识的海洋\"最为匹配。",
+    "context": "\"知识的海洋\"是经典比喻，配套使用的成语要与\"海洋\"的特征吻合——广阔、无边。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_131",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "经过反复实验，他终于茅塞顿开，找到了问题的答案。",
+    "display_text": "经过反复实验，他终于___，找到了问题的答案。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "茅塞顿开",
+        "options": ["茅塞顿开", "一筹莫展", "不知所措", "恍然大悟"],
+        "hint": "原来被堵塞的思路突然打开了"
+      }
+    ],
+    "appreciation": "赏析：\"茅塞顿开\"形容思路突然被打开，有了透彻的理解。\"一筹莫展\"\"不知所措\"都写困惑无策，\"恍然大悟\"也可以但不如\"茅塞顿开\"形象——\"茅塞\"是堵塞，\"顿开\"是突然打开，有画面感。与\"反复实验\"后的豁然贯通最为匹配。",
+    "context": "\"茅塞顿开\"与\"恍然大悟\"意思接近，但\"茅塞顿开\"更强调从困惑到明白的突然转变过程。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_132",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "小明学习成绩名列前茅，是全班同学学习的榜样。",
+    "display_text": "小明学习成绩___，是全班同学学习的榜样。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "名列前茅",
+        "options": ["名列前茅", "一落千丈", "不相上下", "每况愈下"],
+        "hint": "排名在前面"
+      }
+    ],
+    "appreciation": "赏析：\"名列前茅\"指名次排在前面，与后文\"是榜样\"逻辑吻合——因为成绩好才能成为榜样。\"一落千丈\"写退步，\"不相上下\"写并列，\"每况愈下\"写越来越差。\"前茅\"本指古代军队前哨的旗帜，后引申为排名靠前。",
+    "context": "\"名列前茅\"中的\"茅\"不是茅草的意思，而是古代行军时前哨用茅草做的旗帜，了解成语典故有助于准确运用。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_133",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这对姐妹长得一模一样，简直是如出一辙。",
+    "display_text": "这对姐妹长得一模一样，简直是___。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "如出一辙",
+        "options": ["如出一辙", "大相径庭", "迥然不同", "千差万别"],
+        "hint": "好像从同一个车辙里出来的，形容非常相似"
+      }
+    ],
+    "appreciation": "赏析：\"如出一辙\"比喻事物极其相似，仿佛同一个车辙碾出来的。\"大相径庭\"\"迥然不同\"\"千差万别\"都表示差异很大，与\"一模一样\"矛盾。\"辙\"是车轮的印痕，\"如出一辙\"的比喻生动形象。",
+    "context": "注意\"如出一辙\"虽然写相似，但更常用于事物、方法的相似，用于写人的外貌相似也是可以的。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_134",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他虽然身处逆境，却始终自强不息，最终获得了成功。",
+    "display_text": "他虽然身处逆境，却始终___，最终获得了成功。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "自强不息",
+        "options": ["自强不息", "自暴自弃", "怨天尤人", "随波逐流"],
+        "hint": "自己努力向上，永不停歇"
+      }
+    ],
+    "appreciation": "赏析：\"自强不息\"出自《周易》\"天行健，君子以自强不息\"，是中华民族精神的核心表达。\"自暴自弃\"\"怨天尤人\"\"随波逐流\"都是消极态度，与\"成功\"矛盾。\"自强不息\"四字蕴含了在逆境中不屈奋斗的精神力量。",
+    "context": "\"自强不息\"源自《周易》，有深厚的文化底蕴，是写\"逆境成长\"主题作文的核心成语。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_135",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "同学们对这次春游翘首以盼，期待已久。",
+    "display_text": "同学们对这次春游___，期待已久。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "翘首以盼",
+        "options": ["翘首以盼", "不屑一顾", "漠不关心", "忧心忡忡"],
+        "hint": "抬起头来盼望，形容殷切期待"
+      }
+    ],
+    "appreciation": "赏析：\"翘首以盼\"形象地写出了抬头翘望、急切等待的姿态，与\"期待已久\"语义呼应。\"不屑一顾\"写看不起，\"漠不关心\"写不在乎，\"忧心忡忡\"写担忧。\"翘首\"这个动作让期待变得可视化，生动传神。",
+    "context": "带有动作描写的成语（如\"翘首\"\"摩拳擦掌\"）比纯抽象的成语更有画面感。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_136",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这件事需要大家同心协力，才能做好。",
+    "display_text": "这件事需要大家___，才能做好。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "同心协力",
+        "options": ["同心协力", "各自为政", "分道扬镳", "同床异梦"],
+        "hint": "齐心合力，共同努力"
+      }
+    ],
+    "appreciation": "赏析：\"同心协力\"强调心往一处想、劲往一处使，与\"才能做好\"构成条件关系。\"各自为政\"写各做各的，\"分道扬镳\"写分开行动，\"同床异梦\"写貌合神离。\"同心\"写意愿统一，\"协力\"写行动配合，缺一不可。",
+    "context": "写团队合作的文章中，\"同心协力\"\"齐心协力\"\"众志成城\"是三个常用的近义成语，可以根据语气强度选择。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_137",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 3,
+    "grade_max": 6,
+    "difficulty": 1,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "海底世界五彩缤纷，鱼儿在珊瑚间穿梭嬉戏。",
+    "display_text": "海底世界___，鱼儿在珊瑚间穿梭嬉戏。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "五彩缤纷",
+        "options": ["五彩缤纷", "暗无天日", "一片狼藉", "死气沉沉"],
+        "hint": "形容颜色繁多，非常好看"
+      }
+    ],
+    "appreciation": "赏析：\"五彩缤纷\"形容色彩繁多艳丽，完美描绘了海底世界珊瑚和鱼群的多彩画面。\"暗无天日\"写黑暗，\"一片狼藉\"写凌乱，\"死气沉沉\"写沉闷。\"五彩\"写颜色之多，\"缤纷\"写繁花纷呈的热闹感。",
+    "context": "\"五彩缤纷\"\"五颜六色\"\"色彩斑斓\"是三个写颜色丰富的近义成语，\"五彩缤纷\"最为文雅。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_138",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他的话一针见血，直接指出了问题的要害。",
+    "display_text": "他的话___，直接指出了问题的要害。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "一针见血",
+        "options": ["一针见血", "拐弯抹角", "含糊其辞", "闪烁其词"],
+        "hint": "一针就见到血，比喻说话直中要害"
+      }
+    ],
+    "appreciation": "赏析：\"一针见血\"比喻说话简洁有力、直指核心。\"拐弯抹角\"写说话绕弯子，\"含糊其辞\"写说话不清楚，\"闪烁其词\"写说话躲闪。\"一针见血\"的比喻来自医学（针灸一针入血脉），形象地写出了一语中的的精准感。",
+    "context": "\"一针见血\"常用于褒义语境，表达对直率、精准言论的赞赏。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_139",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 4,
+    "grade_max": 7,
+    "difficulty": 2,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "这本书的内容引人入胜，让人爱不释手。",
+    "display_text": "这本书的内容___，让人爱不释手。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "引人入胜",
+        "options": ["引人入胜", "味同嚼蜡", "枯燥无味", "不堪入目"],
+        "hint": "非常吸引人，把人引入美妙的境界"
+      }
+    ],
+    "appreciation": "赏析：\"引人入胜\"形容内容精彩，能把读者带入其中无法自拔，与\"爱不释手\"因果呼应。\"味同嚼蜡\"\"枯燥无味\"都写无趣，\"不堪入目\"写低劣。\"引人\"是吸引人，\"入胜\"是进入佳境，一步一步把读者拉进故事。",
+    "context": "评价文学作品的成语很多，\"引人入胜\"适合写情节吸引人，\"发人深省\"适合写启发思考。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  },
+  {
+    "id": "words_g_140",
+    "module": "words",
+    "type": "word_game",
+    "subtype": "fill_word",
+    "grade_min": 5,
+    "grade_max": 8,
+    "difficulty": 3,
+    "tags": ["成语运用"],
+    "source": "语文教材",
+    "author": "",
+    "original_text": "他胸有成竹地走上讲台，开始了精彩的演讲。",
+    "display_text": "他___地走上讲台，开始了精彩的演讲。",
+    "blanks": [
+      {
+        "position": 0,
+        "answer": "胸有成竹",
+        "options": ["胸有成竹", "忐忑不安", "手足无措", "心惊胆战"],
+        "hint": "心里已经有了完整的计划，形容非常自信"
+      }
+    ],
+    "appreciation": "赏析：\"胸有成竹\"典出宋代画家文与可画竹的故事——画竹前心中已有完整的竹子形象。比喻做事前已有充分准备和把握。\"忐忑不安\"\"手足无措\"\"心惊胆战\"都写紧张，与\"精彩演讲\"矛盾。有准备才有自信，有自信才有精彩。",
+    "context": "\"胸有成竹\"是最常被考到的成语之一，不仅要知道意思，还要知道它的典故——北宋画家文与可善画竹。",
+    "points": 15,
+    "version": 1,
+    "created_at": "2026-03-27",
+    "updated_at": "2026-03-27"
+  }
+]
