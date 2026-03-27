@@ -91,8 +91,26 @@
 | 内容索引 | `content_registry/moral.md` |
 | 数据路径 | `assets/content/moral/` |
 | 题目类型 | 阅读 + 简单问答 |
-| 预计条目 | 200+ |
+| 预计条目 | 350+ |
 | 集成方式 | 融入签到流程，非独立Tab |
+
+---
+
+### MOD-006: 好词好句 (words)
+
+| 属性 | 值 |
+|------|------|
+| ID | `words` |
+| 路径 | `features/words/` |
+| 权重 | ★★☆ (新增特色模块) |
+| 状态 | `alpha` |
+| 年级范围 | 3-9 |
+| 子模块 | poetry_classical, prose_modern, composition_phrases, famous_quotes, idiom_usage, reading_excerpts, ancient_wisdom |
+| 依赖 | core/content |
+| 内容索引 | `content_registry/words.md` |
+| 数据路径 | `assets/content/words/` |
+| 题目类型 | 填词选择 (fill_word) |
+| 预计条目 | 500+ |
 
 ---
 

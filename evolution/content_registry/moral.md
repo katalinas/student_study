@@ -9,7 +9,8 @@
 | daily_quote | 80 / 100 | 1-9 | `active` |
 | story_reader | 31 / 60 | 1-9 | `active` |
 | tradition | 18 / 40 | 1-9 | `active` |
-| **合计** | **129 / 200** | - | - |
+| values | 110 / 150 | 3-9 | `active` |
+| **合计** | **329 / 350** | - | - |
 
 ## daily_quote（每日名句）
 
@@ -35,3 +36,13 @@
 |------|--------|------|
 | `tradition/festivals.json` | 8 | 传统节日习俗 |
 | `tradition/classics.json` | 10 | 经典文献导读（论语、道德经、孟子、大学、中庸、弟子规、三字经、千字文、声律启蒙、增广贤文） |
+
+## values（三观教育）
+
+| 文件 | 条目数 | 内容 |
+|------|--------|------|
+| `values/worldview.json` | 22 | 世界观教育：认识世界、科学精神、自然规律、宇宙观 |
+| `values/life_outlook.json` | 22 | 人生观教育：人生意义、理想追求、挫折教育、成长心态 |
+| `values/core_values.json` | 22 | 价值观教育：诚信、公平、正义、责任、感恩、奉献 |
+| `values/attitudes.json` | 22 | 态度与品格：勤奋、自律、合作、尊重、宽容、坚韧 |
+| `values/role_models.json` | 22 | 榜样力量：古今中外杰出人物的品德故事与精神传承 |

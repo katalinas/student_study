@@ -9,8 +9,8 @@
 ```json
 {
   "id": "string         // 全局唯一ID，格式: {module}_{type}_{序号}",
-  "module": "string     // 所属模块ID: intellect|tech|logic|general|moral",
-  "type": "string       // 内容类型: question|story|experiment|card|game",
+  "module": "string     // 所属模块ID: intellect|tech|logic|general|moral|words",
+  "type": "string       // 内容类型: question|story|experiment|card|game|word_game",
   "grade_min": "number  // 最低适用年级 1-9",
   "grade_max": "number  // 最高适用年级 1-9",
   "difficulty": "number // 难度 1-5 (⭐ 到 ⭐⭐⭐⭐⭐)",
@@ -341,13 +341,59 @@
 
 ---
 
+## TYPE-6: 填词选择 (word_game)
+
+```json
+{
+  "id": "words_w_001",
+  "module": "words",
+  "type": "word_game",
+  "subtype": "fill_word",
+  "grade_min": 3,
+  "grade_max": 6,
+  "difficulty": 2,
+  "tags": ["poetry", "tang_dynasty"],
+  "category": "poetry_classical",
+  "source": "李白《静夜思》",
+  "context": "床前明月光，疑是地上___。",
+  "blank_position": 7,
+  "answer": "霜",
+  "options": ["霜", "雪", "露", "冰"],
+  "explanation": "出自李白《静夜思》：'床前明月光，疑是地上霜。'此句将月光比作地上的白霜，表达诗人的思乡之情。",
+  "hint": "月光洒在地上，看起来像什么白色的东西？",
+  "full_text": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+  "author": "李白",
+  "dynasty": "唐",
+  "points": 10,
+  "version": 1,
+  "created_at": "2026-03-27",
+  "updated_at": "2026-03-27"
+}
+```
+
+### 字段说明
+
+| 字段 | 类型 | 必填 | 说明 |
+|------|------|------|------|
+| `category` | string | 是 | 子模块分类: poetry_classical, prose_modern, composition_phrases, famous_quotes, idiom_usage, reading_excerpts, ancient_wisdom |
+| `source` | string | 是 | 出处（作者+作品名） |
+| `context` | string | 是 | 带空格的原文，`___` 标记填空位置 |
+| `blank_position` | number | 是 | 空格在原文中的字符位置 |
+| `answer` | string | 是 | 正确答案（单字或词语） |
+| `options` | [string] | 是 | 4个选项，包含正确答案 |
+| `full_text` | string | 否 | 完整原文（答题后展示） |
+| `author` | string | 否 | 作者 |
+| `dynasty` | string | 否 | 朝代（古文类适用） |
+
+---
+
 ## 内容 ID 编码规则
 
 ```
 {module}_{type_prefix}_{sequential_number}
 
-module:       intellect | tech | logic | general | moral
-type_prefix:  q (question) | s (story) | e (experiment) | c (card) | g (game)
+module:       intellect | tech | logic | general | moral | words
+type_prefix:  q (question) | s (story) | e (experiment) | c (card) | g (game) | w (word_game)
 number:       001-999, 按模块递增
 
 示例:
@@ -355,6 +401,7 @@ number:       001-999, 按模块递增
   tech_e_015       → 科技模块第15个实验
   logic_g_003      → 逻辑模块第3个游戏
   moral_s_042      → 德育模块第42个故事
+  words_w_001      → 好词好句模块第1条填词
 ```
 
 ## 添加新内容检查清单
