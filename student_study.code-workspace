@@ -1,0 +1,148 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.selectionHighlight": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "dart.lineLength": 80
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      // ── Install & Setup ──────────────────────────────────────
+      {
+        "command": "flutter pub get",
+        "cwd": "${workspaceFolder}",
+        "name": "⚙️ Install Dependencies (pub get)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "dart run build_runner build --delete-conflicting-outputs",
+        "cwd": "${workspaceFolder}",
+        "name": "🔨 Code Generation (build_runner)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "dart run build_runner watch --delete-conflicting-outputs",
+        "cwd": "${workspaceFolder}",
+        "name": "👁️ Code Generation Watch (build_runner watch)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+
+      // ── Run Development ──────────────────────────────────────
+      {
+        "command": "flutter run -d windows --debug",
+        "cwd": "${workspaceFolder}",
+        "name": "🖥️ Run Windows (debug)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "flutter run -d android --debug",
+        "cwd": "${workspaceFolder}",
+        "name": "📱 Run Android (debug)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "bash ops/scripts/run_dev.sh",
+        "cwd": "${workspaceFolder}",
+        "name": "🚀 Run Dev (auto-detect platform)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+
+      // ── Debug (Dart debugger) ────────────────────────────────
+      {
+        "name": "🔬 Debug Windows",
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart",
+        "deviceId": "windows"
+      },
+      {
+        "name": "📲 Debug Android",
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart",
+        "deviceId": "android"
+      },
+
+      // ── Build ────────────────────────────────────────────────
+      {
+        "command": "bash ops/scripts/build.sh --platform windows --mode release",
+        "cwd": "${workspaceFolder}",
+        "name": "📦 Build Windows (release)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "bash ops/scripts/build.sh --platform android --mode release",
+        "cwd": "${workspaceFolder}",
+        "name": "📦 Build Android APK (release)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "bash ops/scripts/build.sh --platform all --mode release",
+        "cwd": "${workspaceFolder}",
+        "name": "📦 Build All (release)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+
+      // ── Quality ──────────────────────────────────────────────
+      {
+        "command": "flutter test",
+        "cwd": "${workspaceFolder}",
+        "name": "🧪 Run Tests",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "dart analyze",
+        "cwd": "${workspaceFolder}",
+        "name": "🔍 Dart Analyze",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "flutter clean && flutter pub get",
+        "cwd": "${workspaceFolder}",
+        "name": "🧹 Clean & Reinstall",
+        "request": "launch",
+        "type": "node-terminal"
+      }
+    ],
+    "compounds": [
+      {
+        "name": "🚀 Dev Windows (with codegen watch)",
+        "configurations": [
+          "👁️ Code Generation Watch (build_runner watch)",
+          "🔬 Debug Windows"
+        ]
+      },
+      {
+        "name": "📱 Dev Android (with codegen watch)",
+        "configurations": [
+          "👁️ Code Generation Watch (build_runner watch)",
+          "📲 Debug Android"
+        ]
+      }
+    ]
+  }
+}

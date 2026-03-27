@@ -185,10 +185,15 @@ final GoRouter appRouter = GoRouter(
       parentNavigatorKey: _rootNavigatorKey,
       builder: (context, state) {
         final categoryId = state.pathParameters['categoryId']!;
-        final categoryName = (state.extra as String?) ?? '好词好句';
+        final extra = state.extra as Map<String, dynamic>?;
+        final categoryName = extra?['name'] as String? ?? '好词好句';
+        final assetPath = extra?['assetPath'] as String? ??
+            'assets/content/words/$categoryId.json';
+        final themeColor = extra?['color'] as Color? ?? AppColors.moral;
         return WordGameScreen(
-          categoryId: categoryId,
           categoryName: categoryName,
+          assetPath: assetPath,
+          themeColor: themeColor,
         );
       },
     ),
