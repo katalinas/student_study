@@ -126,7 +126,7 @@ class _ParentScreenState extends ConsumerState<ParentScreen> {
 
   /// 加载孩子的学习统计数据。
   void _loadLearningStats() {
-    final user = ref.read(activeUserProvider).valueOrNull;
+    final user = ref.read(activeUserProvider).value;
     if (user == null) return;
 
     final prefs = ref.read(sharedPreferencesProvider);

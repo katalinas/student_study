@@ -59,7 +59,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
 
   /// 加载当前用户资料填充表单。
   void _loadCurrentUser() {
-    final user = ref.read(activeUserProvider).valueOrNull;
+    final user = ref.read(activeUserProvider).value;
     if (user == null) return;
 
     setState(() {
@@ -81,7 +81,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
 
     setState(() => _isSaving = true);
 
-    final user = ref.read(activeUserProvider).valueOrNull;
+    final user = ref.read(activeUserProvider).value;
     if (user == null) {
       setState(() => _isSaving = false);
       return;
@@ -125,7 +125,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
     );
 
     if (confirmed == true && mounted) {
-      final user = ref.read(activeUserProvider).valueOrNull;
+      final user = ref.read(activeUserProvider).value;
       if (user != null) {
         await ref.read(activeUserProvider.notifier).deleteUser(user.id);
       }

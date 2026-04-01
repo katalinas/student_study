@@ -184,8 +184,9 @@ class QuizState {
 ///   (ref) => QuizEngine(),
 /// );
 /// ```
-class QuizEngine extends StateNotifier<QuizState> {
-  QuizEngine() : super(const QuizState());
+class QuizEngine extends Notifier<QuizState> {
+  @override
+  QuizState build() => const QuizState();
 
   /// 记录测验开始时的实际时间。
   DateTime? _startTime;
@@ -405,4 +406,4 @@ class QuizEngine extends StateNotifier<QuizState> {
 /// engine.startQuiz(questions);
 /// ```
 final quizEngineProvider =
-    StateNotifierProvider<QuizEngine, QuizState>((ref) => QuizEngine());
+    NotifierProvider<QuizEngine, QuizState>(QuizEngine.new);

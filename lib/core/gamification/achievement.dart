@@ -268,27 +268,30 @@ class AchievementState {
 }
 
 /// 成就系统状态管理器。
-class AchievementNotifier extends StateNotifier<AchievementState> {
-  AchievementNotifier(this._prefs, this._userId)
-      : super(AchievementState.initial()) {
-    _load();
-  }
+class AchievementNotifier extends Notifier<AchievementState> {
+  late SharedPreferences _prefs;
+  late String _userId;
 
-  final SharedPreferences _prefs;
-  final String _userId;
+  @override
+  AchievementState build() {
+    _prefs = ref.watch(sharedPreferencesProvider);
+    final user = ref.watch(activeUserProvider).value;
+    _userId = user?.id ?? 'default';
+    return _loadState();
+  }
 
   /// 存储键
   String get _storageKey => 'achievements_$_userId';
 
-  /// 从 SharedPreferences 加载
-  void _load() {
+  /// 从 SharedPreferences 加载，返回加载的状态或默认状态
+  AchievementState _loadState() {
     final raw = _prefs.getString(_storageKey);
-    if (raw == null || raw.isEmpty) return;
+    if (raw == null || raw.isEmpty) return AchievementState.initial();
     try {
       final json = jsonDecode(raw) as List<dynamic>;
-      state = AchievementState.fromJson(json);
+      return AchievementState.fromJson(json);
     } catch (_) {
-      // 数据损坏时保持默认状态
+      return AchievementState.initial();
     }
   }
 
@@ -417,9 +420,6 @@ class AchievementNotifier extends StateNotifier<AchievementState> {
 
 /// 成就系统提供者
 final achievementProvider =
-    StateNotifierProvider<AchievementNotifier, AchievementState>((ref) {
-  final prefs = ref.watch(sharedPreferencesProvider);
-  final user = ref.watch(activeUserProvider).valueOrNull;
-  final userId = user?.id ?? 'default';
-  return AchievementNotifier(prefs, userId);
-});
+    NotifierProvider<AchievementNotifier, AchievementState>(
+  AchievementNotifier.new,
+);

@@ -99,7 +99,7 @@ class DifficultyState {
 // ---------------------------------------------------------------------------
 
 /// 根据学习者的表现管理自适应难度调整。
-class AdaptiveDifficultyEngine extends StateNotifier<DifficultyState> {
+class AdaptiveDifficultyEngine extends Notifier<DifficultyState> {
   AdaptiveDifficultyEngine({
     int initialDifficulty = 1,
     this.upgradeThreshold = 3,
@@ -110,7 +110,12 @@ class AdaptiveDifficultyEngine extends StateNotifier<DifficultyState> {
         assert(upgradeThreshold >= 1),
         assert(downgradeThreshold >= 1),
         assert(minDifficulty < maxDifficulty),
-        super(DifficultyState(currentDifficulty: initialDifficulty));
+        _initialDifficulty = initialDifficulty;
+
+  final int _initialDifficulty;
+
+  @override
+  DifficultyState build() => DifficultyState(currentDifficulty: _initialDifficulty);
 
   /// 提升难度所需的连续正确次数。
   final int upgradeThreshold;
@@ -239,8 +244,8 @@ class AdaptiveDifficultyEngine extends StateNotifier<DifficultyState> {
 /// final filtered = engine.filterByDifficulty(allQuestions);
 /// ```
 final adaptiveDifficultyProvider =
-    StateNotifierProvider<AdaptiveDifficultyEngine, DifficultyState>(
-  (ref) => AdaptiveDifficultyEngine(),
+    NotifierProvider<AdaptiveDifficultyEngine, DifficultyState>(
+  AdaptiveDifficultyEngine.new,
 );
 
 /// 创建自定义阈值引擎的便捷提供者。
@@ -253,9 +258,8 @@ final adaptiveDifficultyProvider =
 ///   ),
 /// );
 /// ```
-final customDifficultyProvider = StateNotifierProvider.family<
+final customDifficultyProvider = Provider.family<
     AdaptiveDifficultyEngine,
-    DifficultyState,
     ({int initialDifficulty, int upgradeThreshold, int downgradeThreshold})>(
   (ref, params) => AdaptiveDifficultyEngine(
     initialDifficulty: params.initialDifficulty,

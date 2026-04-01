@@ -78,7 +78,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   void _initTracker() {
-    final user = ref.read(activeUserProvider).valueOrNull;
+    final user = ref.read(activeUserProvider).value;
     if (user == null) return;
 
     final prefs = ref.read(sharedPreferencesProvider);

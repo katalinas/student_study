@@ -162,30 +162,33 @@ class WrongAnswerBookState {
 }
 
 /// 错题本状态管理器。
-class WrongAnswerBookNotifier extends StateNotifier<WrongAnswerBookState> {
-  WrongAnswerBookNotifier(this._prefs, this._userId)
-      : super(const WrongAnswerBookState()) {
-    _load();
-  }
+class WrongAnswerBookNotifier extends Notifier<WrongAnswerBookState> {
+  late SharedPreferences _prefs;
+  late String _userId;
 
-  final SharedPreferences _prefs;
-  final String _userId;
+  @override
+  WrongAnswerBookState build() {
+    _prefs = ref.watch(sharedPreferencesProvider);
+    final user = ref.watch(activeUserProvider).value;
+    _userId = user?.id ?? 'default';
+    return _loadState();
+  }
 
   /// 存储键
   String get _storageKey => 'wrong_answers_$_userId';
 
-  /// 从 SharedPreferences 加载
-  void _load() {
+  /// 从 SharedPreferences 加载，返回状态
+  WrongAnswerBookState _loadState() {
     final raw = _prefs.getString(_storageKey);
-    if (raw == null || raw.isEmpty) return;
+    if (raw == null || raw.isEmpty) return const WrongAnswerBookState();
     try {
       final json = jsonDecode(raw) as List<dynamic>;
       final answers = json
           .map((item) => WrongAnswer.fromJson(item as Map<String, dynamic>))
           .toList();
-      state = WrongAnswerBookState(answers: answers);
+      return WrongAnswerBookState(answers: answers);
     } catch (_) {
-      // 数据损坏时保持空状态
+      return const WrongAnswerBookState();
     }
   }
 
@@ -245,9 +248,6 @@ class WrongAnswerBookNotifier extends StateNotifier<WrongAnswerBookState> {
 
 /// 错题本提供者
 final wrongAnswerBookProvider =
-    StateNotifierProvider<WrongAnswerBookNotifier, WrongAnswerBookState>((ref) {
-  final prefs = ref.watch(sharedPreferencesProvider);
-  final user = ref.watch(activeUserProvider).valueOrNull;
-  final userId = user?.id ?? 'default';
-  return WrongAnswerBookNotifier(prefs, userId);
-});
+    NotifierProvider<WrongAnswerBookNotifier, WrongAnswerBookState>(
+  WrongAnswerBookNotifier.new,
+);

@@ -89,7 +89,7 @@ class ActiveUserNotifier extends AsyncNotifier<UserProfile?> {
     await repo.deleteUser(id);
     ref.invalidate(usersListProvider);
 
-    final current = state.valueOrNull;
+    final current = state.value;
     if (current != null && current.id == id) {
       state = const AsyncData(null);
     }

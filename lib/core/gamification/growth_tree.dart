@@ -172,27 +172,30 @@ class GrowthTreeState {
 }
 
 /// 成长树状态管理器，负责状态变更和持久化。
-class GrowthTreeNotifier extends StateNotifier<GrowthTreeState> {
-  GrowthTreeNotifier(this._prefs, this._userId)
-      : super(const GrowthTreeState()) {
-    _load();
-  }
+class GrowthTreeNotifier extends Notifier<GrowthTreeState> {
+  late SharedPreferences _prefs;
+  late String _userId;
 
-  final SharedPreferences _prefs;
-  final String _userId;
+  @override
+  GrowthTreeState build() {
+    _prefs = ref.watch(sharedPreferencesProvider);
+    final user = ref.watch(activeUserProvider).value;
+    _userId = user?.id ?? 'default';
+    return _loadState();
+  }
 
   /// 存储键
   String get _storageKey => 'growth_tree_$_userId';
 
-  /// 从 SharedPreferences 加载状态
-  void _load() {
+  /// 从 SharedPreferences 加载状态，返回加载的状态或默认状态
+  GrowthTreeState _loadState() {
     final raw = _prefs.getString(_storageKey);
-    if (raw == null || raw.isEmpty) return;
+    if (raw == null || raw.isEmpty) return const GrowthTreeState();
     try {
       final json = jsonDecode(raw) as Map<String, dynamic>;
-      state = GrowthTreeState.fromJson(json);
+      return GrowthTreeState.fromJson(json);
     } catch (_) {
-      // 数据损坏时保持默认状态
+      return const GrowthTreeState();
     }
   }
 
@@ -228,9 +231,6 @@ class GrowthTreeNotifier extends StateNotifier<GrowthTreeState> {
 
 /// 成长树状态提供者
 final growthTreeProvider =
-    StateNotifierProvider<GrowthTreeNotifier, GrowthTreeState>((ref) {
-  final prefs = ref.watch(sharedPreferencesProvider);
-  final user = ref.watch(activeUserProvider).valueOrNull;
-  final userId = user?.id ?? 'default';
-  return GrowthTreeNotifier(prefs, userId);
-});
+    NotifierProvider<GrowthTreeNotifier, GrowthTreeState>(
+  GrowthTreeNotifier.new,
+);

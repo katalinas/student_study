@@ -79,7 +79,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
   /// 从 ProgressTracker 中加载用户统计数据。
   void _loadStats() {
-    final user = ref.read(activeUserProvider).valueOrNull;
+    final user = ref.read(activeUserProvider).value;
     if (user == null) return;
 
     final prefs = ref.read(sharedPreferencesProvider);

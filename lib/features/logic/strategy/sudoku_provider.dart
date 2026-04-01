@@ -168,24 +168,30 @@ class SudokuState {
 ///
 /// 负责处理：选择单元格、放置/擦除数字、使用提示、
 /// 冲突检测、完成判定和计时更新。
-class SudokuNotifier extends StateNotifier<SudokuState> {
-  SudokuNotifier()
-      : super(SudokuState(
-          grid: _generateEmptyGrid(4),
-          solution: _generateEmptyGrid(4),
-          initialGrid: _generateEmptyGrid(4),
-          difficulty: SudokuDifficulty.easy4x4,
-        )) {
-    // 初始化时加载默认难度的谜题
-    reset(SudokuDifficulty.easy4x4);
+class SudokuNotifier extends Notifier<SudokuState> {
+  @override
+  SudokuState build() {
+    // 在 build 中注册 dispose 回调
+    ref.onDispose(() {
+      _timer?.cancel();
+      _timer = null;
+    });
+    // 生成初始谜题
+    final puzzle = _generatePuzzle(SudokuDifficulty.easy4x4);
+    final initialState = SudokuState(
+      grid: _deepCopy(puzzle.initial),
+      solution: puzzle.solution,
+      initialGrid: _deepCopy(puzzle.initial),
+      difficulty: SudokuDifficulty.easy4x4,
+      hintsRemaining: 3,
+    );
+    // 启动计时器
+    _startTimer();
+    return initialState;
   }
 
   Timer? _timer;
 
-  /// 生成指定大小的空网格
-  static List<List<int>> _generateEmptyGrid(int size) {
-    return List.generate(size, (_) => List.filled(size, 0));
-  }
 
   /// 深拷贝二维整数列表
   static List<List<int>> _deepCopy(List<List<int>> source) {
@@ -318,11 +324,6 @@ class SudokuNotifier extends StateNotifier<SudokuState> {
     state = state.copyWith(elapsedSeconds: state.elapsedSeconds + 1);
   }
 
-  @override
-  void dispose() {
-    _stopTimer();
-    super.dispose();
-  }
 
   // -------------------------------------------------------------------------
   // 内部计时器管理
@@ -550,6 +551,4 @@ class _SudokuPuzzle {
 
 /// 数独游戏状态的全局提供者。
 final sudokuProvider =
-    StateNotifierProvider<SudokuNotifier, SudokuState>((ref) {
-  return SudokuNotifier();
-});
+    NotifierProvider<SudokuNotifier, SudokuState>(SudokuNotifier.new);

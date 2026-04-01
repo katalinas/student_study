@@ -269,15 +269,19 @@ class DailyTaskGenerator {
 }
 
 /// 每日任务状态管理器。
-class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
-  DailyTaskNotifier(this._prefs, this._userId, this._grade)
-      : super(DailyTaskState.empty()) {
-    _loadOrGenerate();
-  }
+class DailyTaskNotifier extends Notifier<DailyTaskState> {
+  late SharedPreferences _prefs;
+  late String _userId;
+  late int _grade;
 
-  final SharedPreferences _prefs;
-  final String _userId;
-  final int _grade;
+  @override
+  DailyTaskState build() {
+    _prefs = ref.watch(sharedPreferencesProvider);
+    final user = ref.watch(activeUserProvider).value;
+    _userId = user?.id ?? 'default';
+    _grade = user?.grade ?? 1;
+    return _loadOrGenerate();
+  }
 
   /// 存储键
   String get _storageKey => 'daily_tasks_$_userId';
@@ -288,8 +292,8 @@ class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
     return '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
   }
 
-  /// 加载或生成今日任务
-  void _loadOrGenerate() {
+  /// 加载或生成今日任务，返回状态
+  DailyTaskState _loadOrGenerate() {
     final today = _todayKey();
     final raw = _prefs.getString(_storageKey);
 
@@ -299,8 +303,7 @@ class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
         final loaded = DailyTaskState.fromJson(json);
         // 如果是今天生成的任务则直接使用
         if (loaded.generatedDate == today) {
-          state = loaded;
-          return;
+          return loaded;
         }
       } catch (_) {
         // 数据损坏时重新生成
@@ -308,11 +311,11 @@ class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
     }
 
     // 生成新的每日任务
-    _generateNewTasks();
+    return _buildNewTasks();
   }
 
-  /// 生成新的每日任务
-  void _generateNewTasks({
+  /// 生成新的每日任务状态（不保存）
+  DailyTaskState _buildNewTasks({
     Map<String, double> moduleProgress = const {},
     int streak = 0,
   }) {
@@ -321,10 +324,18 @@ class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
       moduleProgress: moduleProgress,
       streak: streak,
     );
-    state = DailyTaskState(
+    return DailyTaskState(
       tasks: tasks,
       generatedDate: _todayKey(),
     );
+  }
+
+  /// 生成新的每日任务
+  void _generateNewTasks({
+    Map<String, double> moduleProgress = const {},
+    int streak = 0,
+  }) {
+    state = _buildNewTasks(moduleProgress: moduleProgress, streak: streak);
     _save();
   }
 
@@ -357,10 +368,6 @@ class DailyTaskNotifier extends StateNotifier<DailyTaskState> {
 
 /// 每日任务提供者
 final dailyTaskProvider =
-    StateNotifierProvider<DailyTaskNotifier, DailyTaskState>((ref) {
-  final prefs = ref.watch(sharedPreferencesProvider);
-  final user = ref.watch(activeUserProvider).valueOrNull;
-  final userId = user?.id ?? 'default';
-  final grade = user?.grade ?? 1;
-  return DailyTaskNotifier(prefs, userId, grade);
-});
+    NotifierProvider<DailyTaskNotifier, DailyTaskState>(
+  DailyTaskNotifier.new,
+);
