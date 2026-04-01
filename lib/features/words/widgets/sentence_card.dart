@@ -60,7 +60,7 @@ class SentenceCard extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFFFFE0B2).withValues(alpha: 0.3),
+            color: const Color(0xFFFFE0B2).withValues(alpha:0.3),
             blurRadius: 8,
             offset: const Offset(0, 2),
           ),
@@ -166,8 +166,8 @@ class SentenceCard extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
         decoration: BoxDecoration(
           color: isCorrect
-              ? AppColors.success.withValues(alpha: 0.1)
-              : AppColors.error.withValues(alpha: 0.1),
+              ? AppColors.success.withValues(alpha:0.1)
+              : AppColors.error.withValues(alpha:0.1),
           borderRadius: BorderRadius.circular(6),
           border: Border(
             bottom: BorderSide(

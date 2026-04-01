@@ -380,7 +380,7 @@ class _WordGameScreenState extends ConsumerState<WordGameScreen> {
                 gradient: LinearGradient(
                   colors: [
                     widget.themeColor,
-                    widget.themeColor.withValues(alpha: 0.7),
+                    widget.themeColor.withValues(alpha:0.7),
                   ],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
@@ -400,7 +400,7 @@ class _WordGameScreenState extends ConsumerState<WordGameScreen> {
                   Text(
                     '总积分',
                     style: theme.textTheme.bodyMedium?.copyWith(
-                      color: Colors.white.withValues(alpha: 0.8),
+                      color: Colors.white.withValues(alpha:0.8),
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -581,17 +581,17 @@ class _OptionChip extends StatelessWidget {
     IconData? trailingIcon;
 
     if (isCorrect) {
-      backgroundColor = AppColors.success.withValues(alpha: 0.1);
+      backgroundColor = AppColors.success.withValues(alpha:0.1);
       borderColor = AppColors.success;
       textColor = AppColors.success;
       trailingIcon = Icons.check_circle_rounded;
     } else if (isWrong) {
-      backgroundColor = AppColors.error.withValues(alpha: 0.1);
+      backgroundColor = AppColors.error.withValues(alpha:0.1);
       borderColor = AppColors.error;
       textColor = AppColors.error;
       trailingIcon = Icons.cancel_rounded;
     } else if (isSelected) {
-      backgroundColor = AppColors.primary.withValues(alpha: 0.08);
+      backgroundColor = AppColors.primary.withValues(alpha:0.08);
       borderColor = AppColors.primary;
       textColor = AppColors.primary;
     } else {
@@ -660,7 +660,7 @@ class _StatItem extends StatelessWidget {
         Text(
           label,
           style: theme.textTheme.bodySmall?.copyWith(
-            color: Colors.white.withValues(alpha: 0.7),
+            color: Colors.white.withValues(alpha:0.7),
           ),
         ),
       ],
@@ -706,8 +706,8 @@ class _SummaryItem extends StatelessWidget {
                 height: 24,
                 decoration: BoxDecoration(
                   color: isCorrect
-                      ? AppColors.success.withValues(alpha: 0.1)
-                      : AppColors.error.withValues(alpha: 0.1),
+                      ? AppColors.success.withValues(alpha:0.1)
+                      : AppColors.error.withValues(alpha:0.1),
                   shape: BoxShape.circle,
                 ),
                 child: Icon(
@@ -751,7 +751,7 @@ class _SummaryItem extends StatelessWidget {
               child: Text(
                 '——$source',
                 style: theme.textTheme.labelSmall?.copyWith(
-                  color: AppColors.textSecondary.withValues(alpha: 0.7),
+                  color: AppColors.textSecondary.withValues(alpha:0.7),
                   fontStyle: FontStyle.italic,
                 ),
               ),

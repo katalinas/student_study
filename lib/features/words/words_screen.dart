@@ -195,7 +195,7 @@ class _WordsScreenState extends ConsumerState<WordsScreen> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFFE91E63).withValues(alpha: 0.3),
+            color: const Color(0xFFE91E63).withValues(alpha:0.3),
             blurRadius: 12,
             offset: const Offset(0, 4),
           ),
@@ -208,7 +208,7 @@ class _WordsScreenState extends ConsumerState<WordsScreen> {
             width: 56,
             height: 56,
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.2),
+              color: Colors.white.withValues(alpha:0.2),
               shape: BoxShape.circle,
             ),
             child: const Icon(
@@ -234,7 +234,7 @@ class _WordsScreenState extends ConsumerState<WordsScreen> {
                 Text(
                   '品味语言之美，积累写作素材',
                   style: theme.textTheme.bodyMedium?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.85),
+                    color: Colors.white.withValues(alpha:0.85),
                   ),
                 ),
               ],
@@ -336,12 +336,12 @@ class _CategoryCard extends StatelessWidget {
 
     return Card(
       elevation: 1,
-      shadowColor: category.color.withValues(alpha: 0.2),
+      shadowColor: category.color.withValues(alpha:0.2),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
         onTap: onTap,
-        splashColor: category.color.withValues(alpha: 0.1),
+        splashColor: category.color.withValues(alpha:0.1),
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Row(
@@ -351,7 +351,7 @@ class _CategoryCard extends StatelessWidget {
                 width: 48,
                 height: 48,
                 decoration: BoxDecoration(
-                  color: category.color.withValues(alpha: 0.12),
+                  color: category.color.withValues(alpha:0.12),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(
@@ -390,7 +390,7 @@ class _CategoryCard extends StatelessWidget {
                   vertical: 4,
                 ),
                 decoration: BoxDecoration(
-                  color: category.color.withValues(alpha: 0.1),
+                  color: category.color.withValues(alpha:0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
@@ -404,7 +404,7 @@ class _CategoryCard extends StatelessWidget {
               const SizedBox(width: 8),
               Icon(
                 Icons.chevron_right_rounded,
-                color: AppColors.textSecondary.withValues(alpha: 0.5),
+                color: AppColors.textSecondary.withValues(alpha:0.5),
               ),
             ],
           ),

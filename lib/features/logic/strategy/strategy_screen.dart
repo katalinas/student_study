@@ -154,7 +154,7 @@ class StrategyScreen extends ConsumerWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.2),
+              color: Colors.white.withValues(alpha:0.2),
               borderRadius: BorderRadius.circular(10),
             ),
             child: const Icon(
@@ -180,7 +180,7 @@ class StrategyScreen extends ConsumerWidget {
                 Text(
                   '挑战经典策略游戏',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.85),
+                    color: Colors.white.withValues(alpha:0.85),
                   ),
                 ),
               ],
@@ -228,12 +228,12 @@ class _GameCard extends StatelessWidget {
           color: AppColors.surface,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: game.color.withValues(alpha: 0.2),
+            color: game.color.withValues(alpha:0.2),
             width: 1.5,
           ),
           boxShadow: [
             BoxShadow(
-              color: game.color.withValues(alpha: 0.08),
+              color: game.color.withValues(alpha:0.08),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -245,7 +245,7 @@ class _GameCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
-                color: game.color.withValues(alpha: 0.1),
+                color: game.color.withValues(alpha:0.1),
                 borderRadius: BorderRadius.circular(14),
               ),
               child: Icon(game.icon, color: game.color, size: 28),
@@ -281,7 +281,7 @@ class _GameCard extends StatelessWidget {
             // 右侧箭头
             Icon(
               Icons.chevron_right_rounded,
-              color: game.color.withValues(alpha: 0.5),
+              color: game.color.withValues(alpha:0.5),
               size: 24,
             ),
           ],

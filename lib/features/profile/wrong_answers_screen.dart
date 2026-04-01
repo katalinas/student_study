@@ -175,7 +175,7 @@ class _WrongAnswerCardState extends ConsumerState<_WrongAnswerCard> {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(
-                      color: _moduleColor(answer.moduleId).withValues(alpha: 0.15),
+                      color: _moduleColor(answer.moduleId).withValues(alpha:0.15),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
@@ -203,8 +203,8 @@ class _WrongAnswerCardState extends ConsumerState<_WrongAnswerCard> {
                         const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(
                       color: answer.isResolved
-                          ? AppColors.success.withValues(alpha: 0.15)
-                          : AppColors.warning.withValues(alpha: 0.15),
+                          ? AppColors.success.withValues(alpha:0.15)
+                          : AppColors.warning.withValues(alpha:0.15),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
@@ -328,9 +328,9 @@ class _AnswerRow extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
             decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.08),
+              color: color.withValues(alpha:0.08),
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: color.withValues(alpha: 0.3)),
+              border: Border.all(color: color.withValues(alpha:0.3)),
             ),
             child: Text(
               value,

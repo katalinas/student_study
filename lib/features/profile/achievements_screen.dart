@@ -177,12 +177,12 @@ class _AchievementBadge extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           color: isUnlocked
-              ? AppColors.xpGold.withValues(alpha: 0.08)
-              : AppColors.divider.withValues(alpha: 0.3),
+              ? AppColors.xpGold.withValues(alpha:0.08)
+              : AppColors.divider.withValues(alpha:0.3),
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
             color: isUnlocked
-                ? AppColors.achievementStar.withValues(alpha: 0.4)
+                ? AppColors.achievementStar.withValues(alpha:0.4)
                 : AppColors.divider,
             width: 1.5,
           ),
@@ -196,7 +196,7 @@ class _AchievementBadge extends StatelessWidget {
               height: 48,
               decoration: BoxDecoration(
                 color: isUnlocked
-                    ? AppColors.achievementStar.withValues(alpha: 0.2)
+                    ? AppColors.achievementStar.withValues(alpha:0.2)
                     : AppColors.divider,
                 shape: BoxShape.circle,
               ),
@@ -205,7 +205,7 @@ class _AchievementBadge extends StatelessWidget {
                 size: 24,
                 color: isUnlocked
                     ? AppColors.achievementStar
-                    : AppColors.textSecondary.withValues(alpha: 0.5),
+                    : AppColors.textSecondary.withValues(alpha:0.5),
               ),
             ),
             const SizedBox(height: 8),

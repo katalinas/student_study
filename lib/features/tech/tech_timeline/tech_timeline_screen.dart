@@ -346,7 +346,7 @@ class _TimelineItem extends StatelessWidget {
   Widget _buildCard(BuildContext context, ThemeData theme) {
     return Card(
       elevation: isExpanded ? 4 : 1,
-      shadowColor: AppColors.tech.withValues(alpha: 0.2),
+      shadowColor: AppColors.tech.withValues(alpha:0.2),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
         side: isExpanded
@@ -421,7 +421,7 @@ class _TimelineItem extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: AppColors.techLight.withValues(alpha: 0.3),
+                      color: AppColors.techLight.withValues(alpha:0.3),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Column(

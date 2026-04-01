@@ -82,7 +82,7 @@ class SudokuScreen extends ConsumerWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.2),
+              color: Colors.white.withValues(alpha:0.2),
               borderRadius: BorderRadius.circular(10),
             ),
             child: const Icon(
@@ -164,7 +164,7 @@ class SudokuScreen extends ConsumerWidget {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
           decoration: BoxDecoration(
-            color: const Color(0xFF5C6BC0).withValues(alpha: 0.1),
+            color: const Color(0xFF5C6BC0).withValues(alpha:0.1),
             borderRadius: BorderRadius.circular(20),
           ),
           child: Row(
@@ -194,7 +194,7 @@ class SudokuScreen extends ConsumerWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
             decoration: BoxDecoration(
-              color: AppColors.error.withValues(alpha: 0.1),
+              color: AppColors.error.withValues(alpha:0.1),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Row(
@@ -241,10 +241,10 @@ class SudokuScreen extends ConsumerWidget {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: const Color(0xFF5C6BC0).withValues(alpha: 0.1),
+              color: const Color(0xFF5C6BC0).withValues(alpha:0.1),
               borderRadius: BorderRadius.circular(12),
               border: Border.all(
-                color: const Color(0xFF5C6BC0).withValues(alpha: 0.3),
+                color: const Color(0xFF5C6BC0).withValues(alpha:0.3),
                 width: 1.5,
               ),
             ),
@@ -506,9 +506,9 @@ class _SudokuGrid extends ConsumerWidget {
     // 根据单元格状态确定背景颜色
     Color backgroundColor;
     if (isSelected) {
-      backgroundColor = const Color(0xFF5C6BC0).withValues(alpha: 0.15);
+      backgroundColor = const Color(0xFF5C6BC0).withValues(alpha:0.15);
     } else if (hasConflict) {
-      backgroundColor = AppColors.error.withValues(alpha: 0.12);
+      backgroundColor = AppColors.error.withValues(alpha:0.12);
     } else if (isFixed) {
       backgroundColor = Colors.grey.shade100;
     } else {
@@ -536,13 +536,13 @@ class _SudokuGrid extends ConsumerWidget {
           border: Border(
             right: BorderSide(
               color: isRightBoxEdge
-                  ? const Color(0xFF5C6BC0).withValues(alpha: 0.6)
+                  ? const Color(0xFF5C6BC0).withValues(alpha:0.6)
                   : Colors.grey.shade300,
               width: isRightBoxEdge ? 2 : 0.5,
             ),
             bottom: BorderSide(
               color: isBottomBoxEdge
-                  ? const Color(0xFF5C6BC0).withValues(alpha: 0.6)
+                  ? const Color(0xFF5C6BC0).withValues(alpha:0.6)
                   : Colors.grey.shade300,
               width: isBottomBoxEdge ? 2 : 0.5,
             ),
@@ -616,7 +616,7 @@ class _ActionButton extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: effectiveColor.withValues(alpha: 0.1),
+              color: effectiveColor.withValues(alpha:0.1),
               borderRadius: BorderRadius.circular(14),
             ),
             child: Icon(icon, color: effectiveColor, size: 24),

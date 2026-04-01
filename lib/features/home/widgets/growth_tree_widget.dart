@@ -494,7 +494,7 @@ class _GrowthTreePainter extends CustomPainter {
       canvas.drawCircle(Offset(fx, fy), 5, paint);
       // 果实高光
       final highlightPaint = Paint()
-        ..color = Colors.white.withValues(alpha: 0.4)
+        ..color = Colors.white.withValues(alpha:0.4)
         ..style = PaintingStyle.fill;
       canvas.drawCircle(Offset(fx - 1.5, fy - 1.5), 2, highlightPaint);
     }

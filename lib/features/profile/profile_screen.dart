@@ -188,7 +188,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
         // 头像
         CircleAvatar(
           radius: 44,
-          backgroundColor: AppColors.primary.withValues(alpha: 0.12),
+          backgroundColor: AppColors.primary.withValues(alpha:0.12),
           child: Icon(
             avatarIcon,
             size: 44,
@@ -210,7 +210,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
           decoration: BoxDecoration(
-            color: AppColors.gradeColors[user.grade - 1].withValues(alpha: 0.12),
+            color: AppColors.gradeColors[user.grade - 1].withValues(alpha:0.12),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Text(
@@ -384,7 +384,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
           child: LinearProgressIndicator(
             value: progress,
             minHeight: 6,
-            backgroundColor: info.color.withValues(alpha: 0.12),
+            backgroundColor: info.color.withValues(alpha:0.12),
             valueColor: AlwaysStoppedAnimation<Color>(info.color),
           ),
         ),
@@ -424,7 +424,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                 return Container(
                   decoration: BoxDecoration(
                     color: theme.colorScheme.surfaceContainerHighest
-                        .withValues(alpha: 0.5),
+                        .withValues(alpha:0.5),
                     borderRadius: BorderRadius.circular(14),
                   ),
                   child: Column(
@@ -434,14 +434,14 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                         Icons.lock_outline,
                         size: 28,
                         color: theme.colorScheme.onSurfaceVariant
-                            .withValues(alpha: 0.4),
+                            .withValues(alpha:0.4),
                       ),
                       const SizedBox(height: 4),
                       Text(
                         '未解锁',
                         style: theme.textTheme.labelSmall?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant
-                              .withValues(alpha: 0.5),
+                              .withValues(alpha:0.5),
                         ),
                       ),
                     ],

@@ -94,7 +94,7 @@ class _TrueFalseButton extends StatelessWidget {
       // 未提交状态
       if (isSelected) {
         return _ButtonVisual(
-          backgroundColor: baseColor.withValues(alpha: 0.15),
+          backgroundColor: baseColor.withValues(alpha:0.15),
           borderColor: baseColor,
           textColor: baseColor,
           borderWidth: 2.5,
@@ -112,7 +112,7 @@ class _TrueFalseButton extends StatelessWidget {
     final isCorrectAnswer = correctAnswer == value;
     if (isCorrectAnswer) {
       return _ButtonVisual(
-        backgroundColor: AppColors.success.withValues(alpha: 0.15),
+        backgroundColor: AppColors.success.withValues(alpha:0.15),
         borderColor: AppColors.success,
         textColor: AppColors.success,
         borderWidth: 2.5,
@@ -120,7 +120,7 @@ class _TrueFalseButton extends StatelessWidget {
     }
     if (isSelected && !isCorrectAnswer) {
       return _ButtonVisual(
-        backgroundColor: AppColors.error.withValues(alpha: 0.15),
+        backgroundColor: AppColors.error.withValues(alpha:0.15),
         borderColor: AppColors.error,
         textColor: AppColors.error,
         borderWidth: 2.5,

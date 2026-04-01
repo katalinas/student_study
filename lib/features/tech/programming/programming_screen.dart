@@ -101,8 +101,8 @@ class ProgrammingScreen extends ConsumerWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            AppColors.tech.withValues(alpha: 0.1),
-            AppColors.techLight.withValues(alpha: 0.3),
+            AppColors.tech.withValues(alpha:0.1),
+            AppColors.techLight.withValues(alpha:0.3),
           ],
         ),
         borderRadius: BorderRadius.circular(16),
@@ -114,7 +114,7 @@ class ProgrammingScreen extends ConsumerWidget {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: AppColors.tech.withValues(alpha: 0.15),
+              color: AppColors.tech.withValues(alpha:0.15),
               borderRadius: BorderRadius.circular(14),
             ),
             child: const Icon(
@@ -161,9 +161,9 @@ class ProgrammingScreen extends ConsumerWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            AppColors.tech.withValues(alpha: 0.08),
-            AppColors.techLight.withValues(alpha: 0.2),
-            AppColors.tech.withValues(alpha: 0.05),
+            AppColors.tech.withValues(alpha:0.08),
+            AppColors.techLight.withValues(alpha:0.2),
+            AppColors.tech.withValues(alpha:0.05),
           ],
         ),
         borderRadius: BorderRadius.circular(16),
@@ -177,7 +177,7 @@ class ProgrammingScreen extends ConsumerWidget {
             child: Icon(
               Icons.laptop_mac_rounded,
               size: 64,
-              color: AppColors.tech.withValues(alpha: 0.15),
+              color: AppColors.tech.withValues(alpha:0.15),
             ),
           ),
           Positioned(
@@ -186,7 +186,7 @@ class ProgrammingScreen extends ConsumerWidget {
             child: Icon(
               Icons.code_rounded,
               size: 40,
-              color: AppColors.tech.withValues(alpha: 0.12),
+              color: AppColors.tech.withValues(alpha:0.12),
             ),
           ),
           // 文字内容
@@ -199,7 +199,7 @@ class ProgrammingScreen extends ConsumerWidget {
                 Text(
                   '更多精彩内容',
                   style: theme.textTheme.titleSmall?.copyWith(
-                    color: AppColors.tech.withValues(alpha: 0.6),
+                    color: AppColors.tech.withValues(alpha:0.6),
                     fontWeight: FontWeight.w600,
                   ),
                 ),
@@ -207,7 +207,7 @@ class ProgrammingScreen extends ConsumerWidget {
                 Text(
                   '持续更新中，敬请期待...',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: AppColors.textSecondary.withValues(alpha: 0.7),
+                    color: AppColors.textSecondary.withValues(alpha:0.7),
                   ),
                 ),
               ],
@@ -233,7 +233,7 @@ class _TrackCard extends StatelessWidget {
 
     return Card(
       elevation: 2,
-      shadowColor: track.color.withValues(alpha: 0.2),
+      shadowColor: track.color.withValues(alpha:0.2),
       margin: const EdgeInsets.only(bottom: 12),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(14),
@@ -248,7 +248,7 @@ class _TrackCard extends StatelessWidget {
               width: 52,
               height: 52,
               decoration: BoxDecoration(
-                color: track.color.withValues(alpha: 0.12),
+                color: track.color.withValues(alpha:0.12),
                 borderRadius: BorderRadius.circular(14),
               ),
               child: Icon(
@@ -281,7 +281,7 @@ class _TrackCard extends StatelessWidget {
                           vertical: 3,
                         ),
                         decoration: BoxDecoration(
-                          color: AppColors.secondary.withValues(alpha: 0.12),
+                          color: AppColors.secondary.withValues(alpha:0.12),
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: Text(

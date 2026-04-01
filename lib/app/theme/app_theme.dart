@@ -260,7 +260,7 @@ abstract final class AppTheme {
         filled: true,
         fillColor: isLight
             ? AppColors.surface
-            : AppColors.darkSurface.withValues(alpha: 0.5),
+            : AppColors.darkSurface.withValues(alpha:0.5),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(_smallRadius),
           borderSide: BorderSide(color: colorScheme.outline),
@@ -300,7 +300,7 @@ abstract final class AppTheme {
         height: 72,
         elevation: 4,
         backgroundColor: isLight ? AppColors.surface : AppColors.darkSurface,
-        indicatorColor: AppColors.primary.withValues(alpha: 0.15),
+        indicatorColor: AppColors.primary.withValues(alpha:0.15),
         labelTextStyle: WidgetStatePropertyAll(
           AppTextStyles.labelSmall.copyWith(
             color: isLight ? AppColors.textPrimary : AppColors.darkTextPrimary,

@@ -75,7 +75,7 @@ class _FillBlankInputState extends State<FillBlankInput> {
               width: 2,
             ),
             color: widget.isSubmitted
-                ? _borderColor().withValues(alpha: 0.05)
+                ? _borderColor().withValues(alpha:0.05)
                 : Colors.white,
           ),
           child: Row(
@@ -92,7 +92,7 @@ class _FillBlankInputState extends State<FillBlankInput> {
                   decoration: InputDecoration(
                     hintText: widget.hint ?? '请输入答案',
                     hintStyle: theme.textTheme.bodyLarge?.copyWith(
-                      color: AppColors.textSecondary.withValues(alpha: 0.6),
+                      color: AppColors.textSecondary.withValues(alpha:0.6),
                     ),
                     contentPadding: const EdgeInsets.symmetric(
                       horizontal: 16,

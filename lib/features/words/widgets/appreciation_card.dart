@@ -86,10 +86,10 @@ class _AppreciationCardState extends State<AppreciationCard>
 
     return Container(
       decoration: BoxDecoration(
-        color: headerColor.withValues(alpha: 0.05),
+        color: headerColor.withValues(alpha:0.05),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: headerColor.withValues(alpha: 0.2),
+          color: headerColor.withValues(alpha:0.2),
           width: 1,
         ),
       ),
@@ -162,7 +162,7 @@ class _AppreciationCardState extends State<AppreciationCard>
         children: [
           // 分隔线
           Divider(
-            color: AppColors.divider.withValues(alpha: 0.5),
+            color: AppColors.divider.withValues(alpha:0.5),
             height: 1,
           ),
           const SizedBox(height: 12),
@@ -190,7 +190,7 @@ class _AppreciationCardState extends State<AppreciationCard>
                   Icon(
                     Icons.info_outline_rounded,
                     size: 16,
-                    color: AppColors.textSecondary.withValues(alpha: 0.6),
+                    color: AppColors.textSecondary.withValues(alpha:0.6),
                   ),
                   const SizedBox(width: 8),
                   Expanded(

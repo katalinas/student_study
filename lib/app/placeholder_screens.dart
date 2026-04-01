@@ -29,7 +29,7 @@ class PlaceholderScreen extends StatelessWidget {
             Icon(
               icon ?? Icons.construction_rounded,
               size: 64,
-              color: displayColor.withValues(alpha: 0.5),
+              color: displayColor.withValues(alpha:0.5),
             ),
             const SizedBox(height: 16),
             Text(
@@ -43,7 +43,7 @@ class PlaceholderScreen extends StatelessWidget {
             Text(
               '即将上线',
               style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                color: theme.colorScheme.onSurface.withValues(alpha:0.6),
               ),
             ),
           ],

@@ -209,7 +209,7 @@ class _ParentScreenState extends ConsumerState<ParentScreen> {
             Icon(
               Icons.lock_outline,
               size: 56,
-              color: theme.colorScheme.primary.withValues(alpha: 0.6),
+              color: theme.colorScheme.primary.withValues(alpha:0.6),
             ),
             const SizedBox(height: 16),
             Text(

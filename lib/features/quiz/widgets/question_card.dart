@@ -72,7 +72,7 @@ class QuestionCard extends StatelessWidget {
                     vertical: 4,
                   ),
                   decoration: BoxDecoration(
-                    color: AppColors.xpGold.withValues(alpha: 0.15),
+                    color: AppColors.xpGold.withValues(alpha:0.15),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Text(

@@ -131,7 +131,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.2),
+              color: Colors.white.withValues(alpha:0.2),
               borderRadius: BorderRadius.circular(10),
             ),
             child: const Icon(
@@ -157,7 +157,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
                 Text(
                   '关卡 $_currentLevel/$_totalLevels',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.85),
+                    color: Colors.white.withValues(alpha:0.85),
                   ),
                 ),
               ],
@@ -292,17 +292,17 @@ class _LevelButton extends StatelessWidget {
 
     switch (status) {
       case _LevelStatus.completed:
-        backgroundColor = AppColors.success.withValues(alpha: 0.15);
+        backgroundColor = AppColors.success.withValues(alpha:0.15);
         borderColor = AppColors.success;
         textColor = AppColors.success;
         shadows = [];
       case _LevelStatus.current:
-        backgroundColor = const Color(0xFF43A047).withValues(alpha: 0.1);
+        backgroundColor = const Color(0xFF43A047).withValues(alpha:0.1);
         borderColor = const Color(0xFF43A047);
         textColor = const Color(0xFF43A047);
         shadows = [
           BoxShadow(
-            color: const Color(0xFF43A047).withValues(alpha: 0.4),
+            color: const Color(0xFF43A047).withValues(alpha:0.4),
             blurRadius: 8,
             spreadRadius: 1,
           ),
@@ -371,10 +371,10 @@ class _TrainingCard extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(
-          color: color.withValues(alpha: 0.08),
+          color: color.withValues(alpha:0.08),
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: color.withValues(alpha: 0.2),
+            color: color.withValues(alpha:0.2),
             width: 1.5,
           ),
         ),
@@ -384,7 +384,7 @@ class _TrainingCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: color.withValues(alpha: 0.15),
+                color: color.withValues(alpha:0.15),
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Icon(icon, color: color, size: 22),

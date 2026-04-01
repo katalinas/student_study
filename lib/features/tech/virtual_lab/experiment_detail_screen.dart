@@ -215,7 +215,7 @@ class _ExperimentDetailScreenState
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               decoration: BoxDecoration(
-                color: AppColors.tech.withValues(alpha: 0.12),
+                color: AppColors.tech.withValues(alpha:0.12),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Text(
@@ -236,7 +236,7 @@ class _ExperimentDetailScreenState
                 size: 18,
                 color: index < experiment.difficulty
                     ? AppColors.achievementStar
-                    : AppColors.textSecondary.withValues(alpha: 0.4),
+                    : AppColors.textSecondary.withValues(alpha:0.4),
               );
             }),
           ],
@@ -263,7 +263,7 @@ class _ExperimentDetailScreenState
                   width: 24,
                   height: 24,
                   decoration: BoxDecoration(
-                    color: AppColors.success.withValues(alpha: 0.12),
+                    color: AppColors.success.withValues(alpha:0.12),
                     shape: BoxShape.circle,
                   ),
                   child: Center(
@@ -317,7 +317,7 @@ class _ExperimentDetailScreenState
                     width: 48,
                     height: 48,
                     decoration: BoxDecoration(
-                      color: AppColors.secondary.withValues(alpha: 0.12),
+                      color: AppColors.secondary.withValues(alpha:0.12),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Icon(
@@ -340,7 +340,7 @@ class _ExperimentDetailScreenState
                     Text(
                       '${component.quantity}${component.unit ?? '个'}',
                       style: theme.textTheme.labelSmall?.copyWith(
-                        color: AppColors.textSecondary.withValues(alpha: 0.7),
+                        color: AppColors.textSecondary.withValues(alpha:0.7),
                         fontSize: 10,
                       ),
                     ),
@@ -375,12 +375,12 @@ class _ExperimentDetailScreenState
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
                   color: isCompleted
-                      ? AppColors.success.withValues(alpha: 0.06)
+                      ? AppColors.success.withValues(alpha:0.06)
                       : AppColors.background,
                   borderRadius: BorderRadius.circular(8),
                   border: Border.all(
                     color: isCompleted
-                        ? AppColors.success.withValues(alpha: 0.3)
+                        ? AppColors.success.withValues(alpha:0.3)
                         : AppColors.divider,
                   ),
                 ),
@@ -447,13 +447,13 @@ class _ExperimentDetailScreenState
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            AppColors.success.withValues(alpha: 0.15),
-            AppColors.achievementStar.withValues(alpha: 0.1),
+            AppColors.success.withValues(alpha:0.15),
+            AppColors.achievementStar.withValues(alpha:0.1),
           ],
         ),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: AppColors.success.withValues(alpha: 0.3),
+          color: AppColors.success.withValues(alpha:0.3),
           width: 1.5,
         ),
       ),
@@ -497,10 +497,10 @@ class _ExperimentDetailScreenState
             margin: const EdgeInsets.only(bottom: 8),
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: AppColors.achievementStar.withValues(alpha: 0.08),
+              color: AppColors.achievementStar.withValues(alpha:0.08),
               borderRadius: BorderRadius.circular(8),
               border: Border.all(
-                color: AppColors.achievementStar.withValues(alpha: 0.2),
+                color: AppColors.achievementStar.withValues(alpha:0.2),
               ),
             ),
             child: Row(
@@ -539,7 +539,7 @@ class _ExperimentDetailScreenState
             margin: const EdgeInsets.only(bottom: 8),
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: AppColors.techLight.withValues(alpha: 0.3),
+              color: AppColors.techLight.withValues(alpha:0.3),
               borderRadius: BorderRadius.circular(8),
             ),
             child: Row(
@@ -550,7 +550,7 @@ class _ExperimentDetailScreenState
                   width: 22,
                   height: 22,
                   decoration: BoxDecoration(
-                    color: AppColors.tech.withValues(alpha: 0.15),
+                    color: AppColors.tech.withValues(alpha:0.15),
                     shape: BoxShape.circle,
                   ),
                   child: Center(

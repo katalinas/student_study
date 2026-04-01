@@ -39,7 +39,7 @@ class IntellectModuleScreen extends StatelessWidget {
                     end: Alignment.bottomRight,
                     colors: [
                       AppColors.intellect,
-                      AppColors.intellect.withValues(alpha: 0.8),
+                      AppColors.intellect.withValues(alpha:0.8),
                     ],
                   ),
                 ),
@@ -138,7 +138,7 @@ class _SubjectCard extends StatelessWidget {
                 width: 64,
                 height: 64,
                 decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
+                  color: color.withValues(alpha:0.12),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Icon(icon, size: 32, color: color),
@@ -170,7 +170,7 @@ class _SubjectCard extends StatelessWidget {
                         vertical: 2,
                       ),
                       decoration: BoxDecoration(
-                        color: color.withValues(alpha: 0.08),
+                        color: color.withValues(alpha:0.08),
                         borderRadius: BorderRadius.circular(6),
                       ),
                       child: Text(

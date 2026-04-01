@@ -184,7 +184,7 @@ class _ExperimentCard extends StatelessWidget {
 
     return Card(
       elevation: 2,
-      shadowColor: color.withValues(alpha: 0.3),
+      shadowColor: color.withValues(alpha:0.3),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
       ),
@@ -205,7 +205,7 @@ class _ExperimentCard extends StatelessWidget {
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                    color.withValues(alpha: 0.7),
+                    color.withValues(alpha:0.7),
                     color,
                   ],
                 ),
@@ -213,7 +213,7 @@ class _ExperimentCard extends StatelessWidget {
               child: Center(
                 child: Icon(
                   _categoryIcon(experiment.category),
-                  color: Colors.white.withValues(alpha: 0.9),
+                  color: Colors.white.withValues(alpha:0.9),
                   size: 40,
                 ),
               ),
@@ -272,7 +272,7 @@ class _DifficultyStars extends StatelessWidget {
           size: 14,
           color: index < difficulty
               ? AppColors.achievementStar
-              : AppColors.textSecondary.withValues(alpha: 0.4),
+              : AppColors.textSecondary.withValues(alpha:0.4),
         );
       }),
     );
@@ -299,7 +299,7 @@ class _GradeRangeBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
       decoration: BoxDecoration(
-        color: AppColors.techLight.withValues(alpha: 0.5),
+        color: AppColors.techLight.withValues(alpha:0.5),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Text(

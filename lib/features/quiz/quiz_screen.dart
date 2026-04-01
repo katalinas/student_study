@@ -490,7 +490,7 @@ class _ExplanationCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final backgroundColor =
-        isCorrect ? AppColors.success.withValues(alpha: 0.1) : AppColors.error.withValues(alpha: 0.1);
+        isCorrect ? AppColors.success.withValues(alpha:0.1) : AppColors.error.withValues(alpha:0.1);
     final borderColor = isCorrect ? AppColors.success : AppColors.error;
     final icon = isCorrect ? Icons.check_circle : Icons.cancel;
     final title = isCorrect ? '回答正确！' : '回答错误';
@@ -499,7 +499,7 @@ class _ExplanationCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: backgroundColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: borderColor.withValues(alpha: 0.3)),
+        border: Border.all(color: borderColor.withValues(alpha:0.3)),
       ),
       padding: const EdgeInsets.all(16),
       child: Column(

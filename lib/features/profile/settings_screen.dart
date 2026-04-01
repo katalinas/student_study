@@ -142,18 +142,17 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
         children: [
           // 主题模式
           _buildSectionTitle(theme, '主题模式'),
-          RadioGroup<ThemeModeOption>(
-            groupValue: _themeMode,
-            onChanged: (value) {
-              if (value != null) _setThemeMode(value);
-            },
-            child: Column(
-              children: ThemeModeOption.values.map((option) {
-                return RadioListTile<ThemeModeOption>(
-                  title: Text(option.label),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: SegmentedButton<ThemeModeOption>(
+              segments: ThemeModeOption.values.map((option) {
+                return ButtonSegment<ThemeModeOption>(
                   value: option,
+                  label: Text(option.label),
                 );
               }).toList(),
+              selected: {_themeMode},
+              onSelectionChanged: (values) => _setThemeMode(values.first),
             ),
           ),
 
@@ -161,18 +160,17 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
 
           // 字体大小
           _buildSectionTitle(theme, '字体大小'),
-          RadioGroup<FontSizeOption>(
-            groupValue: _fontSize,
-            onChanged: (value) {
-              if (value != null) _setFontSize(value);
-            },
-            child: Column(
-              children: FontSizeOption.values.map((option) {
-                return RadioListTile<FontSizeOption>(
-                  title: Text(option.label),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: SegmentedButton<FontSizeOption>(
+              segments: FontSizeOption.values.map((option) {
+                return ButtonSegment<FontSizeOption>(
                   value: option,
+                  label: Text(option.label),
                 );
               }).toList(),
+              selected: {_fontSize},
+              onSelectionChanged: (values) => _setFontSize(values.first),
             ),
           ),
 

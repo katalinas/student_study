@@ -151,7 +151,7 @@ class LogicScreen extends ConsumerWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.2),
+              color: Colors.white.withValues(alpha:0.2),
               borderRadius: BorderRadius.circular(12),
             ),
             child: const Icon(
@@ -176,7 +176,7 @@ class LogicScreen extends ConsumerWidget {
                 Text(
                   '探索思维的奥秘',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.8),
+                    color: Colors.white.withValues(alpha:0.8),
                   ),
                 ),
               ],
@@ -245,7 +245,7 @@ class _DottedPathPainter extends CustomPainter {
     if (islandCount < 2) return;
 
     final paint = Paint()
-      ..color = AppColors.logic.withValues(alpha: 0.3)
+      ..color = AppColors.logic.withValues(alpha:0.3)
       ..strokeWidth = 2.5
       ..style = PaintingStyle.stroke;
 
@@ -378,19 +378,19 @@ class _IslandCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: isLocked
               ? Colors.grey.shade200
-              : island.color.withValues(alpha: 0.1),
+              : island.color.withValues(alpha:0.1),
           borderRadius: BorderRadius.circular(20),
           border: Border.all(
             color: isLocked
                 ? Colors.grey.shade300
-                : island.color.withValues(alpha: 0.4),
+                : island.color.withValues(alpha:0.4),
             width: 2,
           ),
           boxShadow: isLocked
               ? []
               : [
                   BoxShadow(
-                    color: island.color.withValues(alpha: 0.2),
+                    color: island.color.withValues(alpha:0.2),
                     blurRadius: 12,
                     offset: const Offset(0, 4),
                   ),
@@ -405,7 +405,7 @@ class _IslandCard extends StatelessWidget {
               decoration: BoxDecoration(
                 color: isLocked
                     ? Colors.grey.shade300
-                    : island.color.withValues(alpha: 0.15),
+                    : island.color.withValues(alpha:0.15),
                 shape: BoxShape.circle,
               ),
               child: Icon(

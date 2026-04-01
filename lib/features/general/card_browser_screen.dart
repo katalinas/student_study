@@ -455,7 +455,7 @@ class _CardBrowserScreenState extends ConsumerState<CardBrowserScreen> {
                   borderRadius: BorderRadius.circular(4),
                   color: isActive
                       ? activeColor
-                      : activeColor.withValues(alpha: 0.25),
+                      : activeColor.withValues(alpha:0.25),
                 ),
               );
             }),

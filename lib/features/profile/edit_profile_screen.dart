@@ -231,7 +231,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: isSelected
-                        ? AppColors.primary.withValues(alpha: 0.15)
+                        ? AppColors.primary.withValues(alpha:0.15)
                         : theme.colorScheme.surfaceContainerHighest,
                     border: isSelected
                         ? Border.all(color: AppColors.primary, width: 2.5)

@@ -36,13 +36,13 @@ class ModuleCard extends StatelessWidget {
 
     return Card(
       elevation: 2,
-      shadowColor: color.withValues(alpha: 0.3),
+      shadowColor: color.withValues(alpha:0.3),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
         onTap: onTap,
-        splashColor: color.withValues(alpha: 0.15),
-        highlightColor: color.withValues(alpha: 0.08),
+        splashColor: color.withValues(alpha:0.15),
+        highlightColor: color.withValues(alpha:0.08),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
           child: Column(
@@ -53,7 +53,7 @@ class ModuleCard extends StatelessWidget {
                 width: 56,
                 height: 56,
                 decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
+                  color: color.withValues(alpha:0.12),
                   shape: BoxShape.circle,
                 ),
                 child: Icon(icon, size: 28, color: color),
@@ -88,7 +88,7 @@ class ModuleCard extends StatelessWidget {
                 child: LinearProgressIndicator(
                   value: progress,
                   minHeight: 6,
-                  backgroundColor: color.withValues(alpha: 0.12),
+                  backgroundColor: color.withValues(alpha:0.12),
                   valueColor: AlwaysStoppedAnimation<Color>(color),
                 ),
               ),

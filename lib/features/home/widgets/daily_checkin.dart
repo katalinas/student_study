@@ -76,7 +76,7 @@ class DailyCheckIn extends StatelessWidget {
                     vertical: 4,
                   ),
                   decoration: BoxDecoration(
-                    color: AppColors.streakFlame.withValues(alpha: 0.15),
+                    color: AppColors.streakFlame.withValues(alpha:0.15),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -125,7 +125,7 @@ class DailyCheckIn extends StatelessWidget {
                 style: FilledButton.styleFrom(
                   backgroundColor: AppColors.moral,
                   disabledBackgroundColor:
-                      AppColors.moral.withValues(alpha: 0.4),
+                      AppColors.moral.withValues(alpha:0.4),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),

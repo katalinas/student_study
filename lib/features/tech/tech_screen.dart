@@ -109,7 +109,7 @@ class TechScreen extends ConsumerWidget {
               width: 52,
               height: 52,
               decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: 0.2),
+                color: Colors.white.withValues(alpha:0.2),
                 borderRadius: BorderRadius.circular(16),
               ),
               child: const Icon(
@@ -135,7 +135,7 @@ class TechScreen extends ConsumerWidget {
                   Text(
                     '探索科技世界的奥秘',
                     style: theme.textTheme.bodyMedium?.copyWith(
-                      color: Colors.white.withValues(alpha: 0.85),
+                      color: Colors.white.withValues(alpha:0.85),
                     ),
                   ),
                 ],
@@ -196,7 +196,7 @@ class _SubModuleCard extends StatelessWidget {
 
     return Card(
       elevation: 2,
-      shadowColor: info.color.withValues(alpha: 0.3),
+      shadowColor: info.color.withValues(alpha:0.3),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
       ),
@@ -213,7 +213,7 @@ class _SubModuleCard extends StatelessWidget {
                 width: 56,
                 height: 56,
                 decoration: BoxDecoration(
-                  color: info.color.withValues(alpha: 0.12),
+                  color: info.color.withValues(alpha:0.12),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Icon(

@@ -131,11 +131,11 @@ class _OptionButton extends StatelessWidget {
       case OptionState.idle:
         return Colors.white;
       case OptionState.selected:
-        return AppColors.primary.withValues(alpha: 0.08);
+        return AppColors.primary.withValues(alpha:0.08);
       case OptionState.correct:
-        return AppColors.success.withValues(alpha: 0.1);
+        return AppColors.success.withValues(alpha:0.1);
       case OptionState.incorrect:
-        return AppColors.error.withValues(alpha: 0.1);
+        return AppColors.error.withValues(alpha:0.1);
     }
   }
 

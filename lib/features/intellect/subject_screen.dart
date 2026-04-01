@@ -140,7 +140,7 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
                     end: Alignment.bottomRight,
                     colors: [
                       config.color,
-                      config.color.withValues(alpha: 0.7),
+                      config.color.withValues(alpha:0.7),
                     ],
                   ),
                 ),
@@ -214,7 +214,7 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
         return ChoiceChip(
           label: Text('$grade年级'),
           selected: isSelected,
-          selectedColor: gradeColor.withValues(alpha: 0.2),
+          selectedColor: gradeColor.withValues(alpha:0.2),
           backgroundColor: AppColors.background,
           side: BorderSide(
             color: isSelected ? gradeColor : AppColors.divider,
@@ -250,7 +250,7 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
               padding: const EdgeInsets.symmetric(vertical: 12),
               decoration: BoxDecoration(
                 color: isSelected
-                    ? accentColor.withValues(alpha: 0.12)
+                    ? accentColor.withValues(alpha:0.12)
                     : AppColors.background,
                 borderRadius: BorderRadius.circular(12),
                 border: Border.all(
@@ -300,7 +300,7 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
       label: Text(_isLoading ? '加载中...' : '开始答题'),
       style: FilledButton.styleFrom(
         backgroundColor: config.color,
-        disabledBackgroundColor: config.color.withValues(alpha: 0.5),
+        disabledBackgroundColor: config.color.withValues(alpha:0.5),
         padding: const EdgeInsets.symmetric(vertical: 18),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),

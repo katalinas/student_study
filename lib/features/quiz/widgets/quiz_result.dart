@@ -178,7 +178,7 @@ class _QuizResultState extends State<QuizResult>
                     AppColors.success,
                     AppColors.secondary,
                   ][i % 4]
-                      .withValues(alpha: 0.6),
+                      .withValues(alpha:0.6),
                 ),
               ),
             ),

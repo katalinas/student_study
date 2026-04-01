@@ -63,7 +63,7 @@ class DailyTasksWidget extends ConsumerWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
               decoration: BoxDecoration(
-                color: AppColors.xpGold.withValues(alpha: 0.15),
+                color: AppColors.xpGold.withValues(alpha:0.15),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Row(
@@ -132,7 +132,7 @@ class _TaskItem extends StatelessWidget {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                color: _moduleColor(task.moduleId).withValues(alpha: 0.15),
+                color: _moduleColor(task.moduleId).withValues(alpha:0.15),
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Icon(

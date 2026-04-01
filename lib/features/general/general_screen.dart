@@ -97,7 +97,7 @@ class GeneralScreen extends ConsumerWidget {
           width: 48,
           height: 48,
           decoration: BoxDecoration(
-            color: AppColors.general.withValues(alpha: 0.15),
+            color: AppColors.general.withValues(alpha:0.15),
             borderRadius: BorderRadius.circular(12),
           ),
           child: const Icon(
@@ -179,7 +179,7 @@ class _CategoryCard extends StatelessWidget {
                 width: 48,
                 height: 48,
                 decoration: BoxDecoration(
-                  color: category.color.withValues(alpha: 0.12),
+                  color: category.color.withValues(alpha:0.12),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(
@@ -218,7 +218,7 @@ class _CategoryCard extends StatelessWidget {
                   vertical: 4,
                 ),
                 decoration: BoxDecoration(
-                  color: category.color.withValues(alpha: 0.08),
+                  color: category.color.withValues(alpha:0.08),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Text(

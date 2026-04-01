@@ -107,8 +107,8 @@ class KnowledgeCard extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            data.categoryColor.withValues(alpha: 0.2),
-            data.categoryColor.withValues(alpha: 0.08),
+            data.categoryColor.withValues(alpha:0.2),
+            data.categoryColor.withValues(alpha:0.08),
           ],
         ),
       ),
@@ -116,7 +116,7 @@ class KnowledgeCard extends StatelessWidget {
         child: Icon(
           data.categoryIcon,
           size: 64,
-          color: data.categoryColor.withValues(alpha: 0.5),
+          color: data.categoryColor.withValues(alpha:0.5),
         ),
       ),
     );
@@ -152,7 +152,7 @@ class KnowledgeCard extends StatelessWidget {
           return Card(
             elevation: 0,
             color: theme.colorScheme.surfaceContainerHighest
-                .withValues(alpha: 0.3),
+                .withValues(alpha:0.3),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
             ),
@@ -225,7 +225,7 @@ class KnowledgeCard extends StatelessWidget {
                   color: color,
                 ),
               ),
-              backgroundColor: color.withValues(alpha: 0.1),
+              backgroundColor: color.withValues(alpha:0.1),
               side: BorderSide.none,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
