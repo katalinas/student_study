@@ -248,22 +248,7 @@ final adaptiveDifficultyProvider =
   AdaptiveDifficultyEngine.new,
 );
 
-/// 创建自定义阈值引擎的便捷提供者。
-///
-/// 示例：
-/// ```dart
-/// final custom = ref.watch(
-///   customDifficultyProvider(
-///     (initialDifficulty: 2, upgradeThreshold: 5, downgradeThreshold: 3),
-///   ),
-/// );
-/// ```
-final customDifficultyProvider = Provider.family<
-    AdaptiveDifficultyEngine,
-    ({int initialDifficulty, int upgradeThreshold, int downgradeThreshold})>(
-  (ref, params) => AdaptiveDifficultyEngine(
-    initialDifficulty: params.initialDifficulty,
-    upgradeThreshold: params.upgradeThreshold,
-    downgradeThreshold: params.downgradeThreshold,
-  ),
-);
+// customDifficultyProvider 已移除：
+// 原实现将 Notifier 包装在 Provider.family 中，无法通过 ref.read(...notifier)
+// 访问状态管理方法，属于错误用法。如需自定义阈值，请直接使用
+// NotifierProvider.family 模式或在使用处创建独立的 AdaptiveDifficultyEngine 实例。

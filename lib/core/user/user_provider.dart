@@ -67,10 +67,10 @@ class ActiveUserNotifier extends AsyncNotifier<UserProfile?> {
     ref.invalidate(usersListProvider);
   }
 
-  /// 清除活跃用户选择。
+  /// 清除活跃用户选择，通过仓库操作以保持键名一致。
   Future<void> clearActiveUser() async {
-    final prefs = ref.read(sharedPreferencesProvider);
-    await prefs.remove('active_user_id');
+    final repo = ref.read(userRepositoryProvider);
+    await repo.clearActiveUser();
     state = const AsyncData(null);
   }
 

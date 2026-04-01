@@ -194,7 +194,8 @@ class StrategyScreen extends ConsumerWidget {
   /// 导航至选中的游戏页面。
   void _navigateToGame(BuildContext context, _GameInfo game) {
     if (game.id == 'sudoku') {
-      context.push('/module/logic/strategy/sudoku');
+      // 使用已注册的路由 /module/logic/sudoku，避免导航到未注册路由崩溃
+      context.push('/module/logic/sudoku');
     }
     // 其他游戏待实现，点击暂不跳转
   }

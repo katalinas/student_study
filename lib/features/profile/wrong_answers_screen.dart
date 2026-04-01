@@ -16,13 +16,14 @@ class _WrongAnswersScreenState extends ConsumerState<WrongAnswersScreen>
     with SingleTickerProviderStateMixin {
   late final TabController _tabController;
 
-  /// 筛选标签：(显示名称, 模块标识, null 表示全部)
+  /// 筛选标签：(显示名称, 学科标识, null 表示全部)
+  /// 使用 subject 字段筛选，数学/语文/英语均属于 intellect 模块
   static const _tabs = [
     ('全部', null),
-    ('数学', 'intellect'),
-    ('语文', 'general'),
-    ('英语', 'tech'),
-    ('科学', 'moral'),
+    ('数学', 'math'),
+    ('语文', 'chinese'),
+    ('英语', 'english'),
+    ('科学', 'science'),
   ];
 
   @override
@@ -54,10 +55,13 @@ class _WrongAnswersScreenState extends ConsumerState<WrongAnswersScreen>
       body: TabBarView(
         controller: _tabController,
         children: _tabs.map((tab) {
-          final moduleId = tab.$2;
-          final answers = moduleId == null
+          final subject = tab.$2;
+          // 按 subject 字段筛选，null 表示显示全部
+          final answers = subject == null
               ? bookState.answers
-              : bookState.getByModule(moduleId);
+              : bookState.answers
+                  .where((a) => a.subject == subject)
+                  .toList();
           return _AnswerList(answers: answers);
         }).toList(),
       ),

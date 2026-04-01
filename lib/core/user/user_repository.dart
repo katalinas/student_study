@@ -100,6 +100,11 @@ class UserRepository {
     await _prefs.setString(_activeUserKey, id);
   }
 
+  /// 清除当前活跃用户的选择，统一通过仓库管理持久化键。
+  Future<void> clearActiveUser() async {
+    await _prefs.remove(_activeUserKey);
+  }
+
   // ---------------------------------------------------------------------------
   // 内部方法
   // ---------------------------------------------------------------------------

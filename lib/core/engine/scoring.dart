@@ -111,32 +111,38 @@ bool scoreDragOrder(List<String> order, List<String> correctOrder) {
 bool scoreQuestion(Question question, dynamic userAnswer) {
   switch (question.subtype) {
     case QuestionSubtype.choice:
-      return scoreChoice(
-        userAnswer as String,
-        question.answer as String,
-      );
+      // 类型不匹配时返回 false，避免强转崩溃
+      if (userAnswer is! String) return false;
+      if (question.answer is! String) return false;
+      return scoreChoice(userAnswer, question.answer as String);
 
     case QuestionSubtype.fillBlank:
+      // 类型不匹配时返回 false
+      if (userAnswer is! Map) return false;
       return scoreFillBlank(
-        (userAnswer as Map).cast<String, String>(),
+        userAnswer.cast<String, String>(),
         question.blanks,
       );
 
     case QuestionSubtype.trueFalse:
-      return scoreTrueFalse(
-        userAnswer as bool,
-        question.answer as bool,
-      );
+      // 类型不匹配时返回 false
+      if (userAnswer is! bool) return false;
+      if (question.answer is! bool) return false;
+      return scoreTrueFalse(userAnswer, question.answer as bool);
 
     case QuestionSubtype.matching:
+      // 类型不匹配时返回 false
+      if (userAnswer is! List) return false;
       return scoreMatching(
-        (userAnswer as List).cast<MatchPair>(),
+        userAnswer.cast<MatchPair>(),
         question.correctPairs,
       );
 
     case QuestionSubtype.dragOrder:
+      // 类型不匹配时返回 false
+      if (userAnswer is! List) return false;
       return scoreDragOrder(
-        (userAnswer as List).cast<String>(),
+        userAnswer.cast<String>(),
         question.correctOrder,
       );
   }

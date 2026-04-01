@@ -17,6 +17,7 @@ import 'package:student_study/features/profile/settings_screen.dart'
 import 'package:student_study/features/quiz/quiz_screen.dart';
 import 'package:student_study/features/words/words_screen.dart';
 import 'package:student_study/features/words/word_game_screen.dart';
+import 'package:student_study/features/logic/strategy/sudoku_screen.dart';
 import 'placeholder_screens.dart';
 import 'theme/colors.dart';
 
@@ -159,6 +160,22 @@ final GoRouter appRouter = GoRouter(
         // 回退到占位页面
         final moduleId = state.pathParameters['moduleId']!;
         return QuizScreen(moduleId: moduleId);
+      },
+    ),
+    // 数独游戏页面（全屏路由）
+    GoRoute(
+      path: '/module/logic/sudoku',
+      parentNavigatorKey: _rootNavigatorKey,
+      builder: (context, state) => const SudokuScreen(),
+    ),
+    // 虚拟实验室实验详情页面（全屏路由）
+    GoRoute(
+      path: '/module/tech/virtual_lab/experiment/:id',
+      parentNavigatorKey: _rootNavigatorKey,
+      builder: (context, state) {
+        // 实验详情页待实现，暂时展示占位页面
+        final id = state.pathParameters['id']!;
+        return PlaceholderScreen(title: '实验详情: $id');
       },
     ),
     // 百科卡片浏览页面（全屏路由）

@@ -210,13 +210,19 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
           decoration: BoxDecoration(
-            color: AppColors.gradeColors[user.grade - 1].withValues(alpha:0.12),
+            // 钳制索引，防止 grade 超出 gradeColors 范围导致 RangeError
+          color: AppColors.gradeColors[
+            (user.grade - 1).clamp(0, AppColors.gradeColors.length - 1)
+          ].withValues(alpha:0.12),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Text(
             '${user.grade}年级',
             style: theme.textTheme.labelMedium?.copyWith(
-              color: AppColors.gradeColors[user.grade - 1],
+              // 钳制索引，防止 grade 超出 gradeColors 范围导致 RangeError
+              color: AppColors.gradeColors[
+                (user.grade - 1).clamp(0, AppColors.gradeColors.length - 1)
+              ],
               fontWeight: FontWeight.w600,
             ),
           ),

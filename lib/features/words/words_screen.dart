@@ -8,9 +8,9 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import 'package:student_study/app/theme/colors.dart';
-import 'package:student_study/features/words/word_game_screen.dart';
 
 /// 好词好句分类信息。
 class _WordCategory {
@@ -121,16 +121,15 @@ class _WordsScreenState extends ConsumerState<WordsScreen> {
     }
   }
 
-  /// 导航到指定分类的填词游戏页面。
+  /// 导航到指定分类的填词游戏页面，使用 GoRouter 保持路由一致性。
   void _navigateToCategory(_WordCategory category) {
-    Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => WordGameScreen(
-          categoryName: category.name,
-          assetPath: category.assetPath,
-          themeColor: category.color,
-        ),
-      ),
+    context.push(
+      '/words/game/${category.id}',
+      extra: {
+        'name': category.name,
+        'assetPath': category.assetPath,
+        'color': category.color,
+      },
     );
   }
 

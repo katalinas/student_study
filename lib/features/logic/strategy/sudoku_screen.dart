@@ -295,7 +295,8 @@ class SudokuScreen extends ConsumerWidget {
           label: '检查',
           onTap: () {
             notifier.checkSolution();
-            _showCheckResult(context, state);
+            // 检查完成后读取最新状态，避免使用旧快照
+            _showCheckResult(context, ref.read(sudokuProvider));
           },
         ),
       ],

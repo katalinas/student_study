@@ -89,6 +89,9 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
   /// 是否正在加载题目。
   bool _isLoading = false;
 
+  /// 年级是否已从用户数据初始化，防止每次 build 重复触发
+  bool _gradeInitialized = false;
+
   @override
   void initState() {
     super.initState();
@@ -101,17 +104,20 @@ class _SubjectScreenState extends ConsumerState<SubjectScreen> {
     final theme = Theme.of(context);
     final config = _getSubjectConfig(widget.subjectId);
 
-    // 读取活跃用户的年级
+    // 只在首次 build 时从用户数据初始化年级，避免每次重建都触发 setState
     final activeUserAsync = ref.watch(activeUserProvider);
-    activeUserAsync.whenData((user) {
-      if (user != null && _selectedGrade == 1) {
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (mounted) {
-            setState(() => _selectedGrade = user.grade);
-          }
-        });
-      }
-    });
+    if (!_gradeInitialized) {
+      activeUserAsync.whenData((user) {
+        if (user != null) {
+          _gradeInitialized = true;
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            if (mounted) {
+              setState(() => _selectedGrade = user.grade);
+            }
+          });
+        }
+      });
+    }
 
     return Scaffold(
       body: CustomScrollView(

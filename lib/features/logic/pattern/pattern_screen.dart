@@ -255,8 +255,22 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
   void _startLevel(int level, _LevelStatus status) {
     if (status == _LevelStatus.locked) return;
 
-    // 导航至对应关卡的答题页面
-    context.push('/quiz/logic?level=$level&subject=pattern');
+    // 从已加载的题目中获取数据，通过 extra 传递给 QuizInteractionScreen
+    // 避免使用路由查询参数（router 不处理查询参数过滤逻辑）
+    final questionsAsync = ref.read(_patternQuestionsProvider);
+    // 使用 when 安全提取数据，避免访问不存在的 valueOrNull getter
+    final allQuestions = questionsAsync.when(
+      data: (q) => q,
+      loading: () => <Question>[],
+      error: (e, s) => <Question>[],
+    );
+    // 按关卡编号分页：每关取固定数量的题目
+    const questionsPerLevel = 5;
+    final start = ((level - 1) * questionsPerLevel).clamp(0, allQuestions.length);
+    final end = (start + questionsPerLevel).clamp(0, allQuestions.length);
+    final levelQuestions = allQuestions.sublist(start, end);
+
+    context.push('/quiz/logic', extra: levelQuestions.isNotEmpty ? levelQuestions : allQuestions);
   }
 }
 

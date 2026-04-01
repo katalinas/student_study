@@ -127,8 +127,9 @@ class _SubjectCard extends StatelessWidget {
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       clipBehavior: Clip.antiAlias,
+      // 移除 InkWell 的 onTap，由内部 FilledButton 统一处理点击，避免双重触发
       child: InkWell(
-        onTap: onTap,
+        onTap: null,
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Row(
@@ -184,7 +185,7 @@ class _SubjectCard extends StatelessWidget {
                   ],
                 ),
               ),
-              // "开始学习"箭头
+              // "开始学习"按钮，移除 onPressed 避免与外层 InkWell 重复触发
               Column(
                 children: [
                   FilledButton(

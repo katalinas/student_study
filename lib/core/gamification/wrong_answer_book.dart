@@ -67,10 +67,12 @@ class WrongAnswer {
   /// 是否到了该复习的时间
   bool get isReviewDue {
     if (isResolved) return false;
-    return DateTime.now().isAfter(nextReviewDate) ||
-        DateTime.now().day == nextReviewDate.day &&
-            DateTime.now().month == nextReviewDate.month &&
-            DateTime.now().year == nextReviewDate.year;
+    // 只调用一次 DateTime.now()，避免多次调用产生不一致的时间戳
+    final now = DateTime.now();
+    return now.isAfter(nextReviewDate) ||
+        now.day == nextReviewDate.day &&
+            now.month == nextReviewDate.month &&
+            now.year == nextReviewDate.year;
   }
 
   /// 获取下次复习的友好文本描述

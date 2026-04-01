@@ -99,7 +99,14 @@ class DailyTask {
         title: json['title'] as String,
         description: json['description'] as String,
         moduleId: json['moduleId'] as String,
-        taskType: TaskType.values[(json['taskType'] as int?) ?? 0],
+        taskType: () {
+          // 边界检查：索引超出范围时回退到 quiz，防止数据损坏崩溃
+          final index = (json['taskType'] as int?) ?? 0;
+          if (index < 0 || index >= TaskType.values.length) {
+            return TaskType.quiz;
+          }
+          return TaskType.values[index];
+        }(),
         targetCount: (json['targetCount'] as int?) ?? 1,
         currentCount: (json['currentCount'] as int?) ?? 0,
         points: (json['points'] as int?) ?? 10,
@@ -180,6 +187,11 @@ class DailyTaskGenerator {
     final rng = Random();
     final tasks = <DailyTask>[];
 
+    // 使用稳定的日期字符串生成任务 ID，避免因毫秒时间戳导致持久化失效
+    final now = DateTime.now();
+    final dateStr =
+        '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
+
     // 按进度升序排序模块（优先弱项）
     final sortedModules = List.of(_modules)
       ..sort((a, b) {
@@ -198,7 +210,8 @@ class DailyTaskGenerator {
       final target = _targetForGrade(grade, type);
 
       tasks.add(DailyTask(
-        id: 'daily_${module.$1}_${DateTime.now().millisecondsSinceEpoch}_$i',
+        // 使用稳定的日期字符串作为 ID，保证持久化后可复用
+        id: 'daily_${module.$1}_${dateStr}_$i',
         title: '${type.label}${module.$2}',
         description: _descriptionForType(type, module.$2, target),
         moduleId: module.$1,
@@ -212,7 +225,8 @@ class DailyTaskGenerator {
     if (streak >= 3) {
       final bonusModule = sortedModules[rng.nextInt(sortedModules.length)];
       tasks.add(DailyTask(
-        id: 'daily_bonus_${DateTime.now().millisecondsSinceEpoch}',
+        // 使用稳定的日期字符串作为 bonus 任务 ID
+        id: 'daily_bonus_$dateStr',
         title: '连续学习奖励',
         description: '连续学习$streak天奖励：完成${bonusModule.$2}的额外挑战',
         moduleId: bonusModule.$1,

@@ -207,11 +207,18 @@ class ContentLoader {
         return null;
       }
 
-      return rawList
-          .map((e) => ContentItem.fromJson(e as Map<String, dynamic>))
-          .toList();
+      // 逐条解析，跳过损坏的记录，保留有效数据
+      final items = <ContentItem>[];
+      for (final e in rawList) {
+        try {
+          items.add(ContentItem.fromJson(e as Map<String, dynamic>));
+        } catch (_) {
+          // 单条记录解析失败时跳过，不影响其他记录加载
+        }
+      }
+      return items;
     } catch (_) {
-      // 资源未找到或解析失败 -- 静默返回 null。
+      // 资源未找到或顶层解析失败 -- 静默返回 null。
       return null;
     }
   }

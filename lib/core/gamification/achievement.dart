@@ -58,16 +58,19 @@ class Achievement {
         currentCount: targetCount,
       );
 
-  /// 更新进度，返回新实例
+  /// 更新进度，返回新实例。
+  /// 已解锁的成就不会因进度更新而重新上锁。
   Achievement withProgress(int count) {
     final clamped = count.clamp(0, targetCount);
+    // 保留已解锁状态：一旦解锁就不再回退到锁定状态
+    final nowUnlocked = isUnlocked || clamped >= targetCount;
     return Achievement(
       id: id,
       name: name,
       description: description,
       iconName: iconName,
-      isUnlocked: clamped >= targetCount,
-      unlockedAt: clamped >= targetCount ? (unlockedAt ?? DateTime.now()) : null,
+      isUnlocked: nowUnlocked,
+      unlockedAt: nowUnlocked ? (unlockedAt ?? DateTime.now()) : null,
       targetCount: targetCount,
       currentCount: clamped,
     );
