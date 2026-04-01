@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  FLUTTER_VERSION: "3.41.x"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-android:
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: "temurin"
-          java-version: "17"
+          java-version: "21"
 
       - uses: subosito/flutter-action@v2
         with:
@@ -106,8 +106,6 @@ jobs:
         id: release_notes
         run: |
           VERSION="${GITHUB_REF_NAME}"
-
-          # Find the previous tag
           PREV_TAG=$(git tag --sort=-version:refname | grep -v "^${VERSION}$" | head -1 || true)
 
           NOTES_FILE="release_notes.md"
@@ -123,8 +121,8 @@ jobs:
             echo ""
             echo "## Artifacts"
             echo ""
-            echo "- **Android APK**: \`student-study-*-android.apk\`"
-            echo "- **Windows**: \`student-study-*-windows.zip\` (extract and run \`student_study.exe\`)"
+            echo "- **Android APK**: \`student-study-*-android.apk\` — 直接安装到安卓手机"
+            echo "- **Windows**: \`student-study-*-windows.zip\` — 解压后运行 \`student_study.exe\`"
             echo ""
             echo "---"
             echo ""
