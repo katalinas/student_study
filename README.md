@@ -115,35 +115,164 @@ student_study/
 └── .github/workflows/            # CI/CD 自动构建发布
 ```
 
-## CI/CD 自动发布
+## Git 工作流
 
-推送 `v*` 标签自动触发 GitHub Actions 构建：
+### 分支策略
+
+| 分支 | 用途 |
+|------|------|
+| `main` | 稳定发布分支，仅通过 PR 合并 |
+| `develop` | 日常开发分支 |
+| `feature/*` | 功能开发分支，从 develop 切出 |
+| `fix/*` | 问题修复分支 |
+| `content/*` | 内容更新分支 |
+
+### 日常开发流程
 
 ```bash
-git tag v1.0.1
-git push origin v1.0.1
+# 1. 从 develop 创建功能分支
+git checkout develop
+git pull origin develop
+git checkout -b feature/新功能名称
+
+# 2. 开发并提交
+git add .
+git commit -m "feat: 功能描述"
+
+# 3. 推送到远程
+git push origin feature/新功能名称
+
+# 4. 在 GitHub 上创建 Pull Request → develop
+
+# 5. 合并后删除功能分支
+git checkout develop
+git pull origin develop
+git branch -d feature/新功能名称
 ```
 
-自动产出：
-- Android APK — `student-study-*-android.apk`
-- Windows 安装包 — `student-study-*-windows.zip`
+### 提交规范
 
-发布产物自动附加到 GitHub Release 页面。
+```
+<type>: <描述>
 
-| CI 组件 | 版本 |
-|---------|------|
-| Node.js | 24 |
-| Java | 21 (Temurin) |
-| Flutter | 3.41.6 |
+type 类型：
+  feat     新功能
+  fix      修复 bug
+  content  内容更新（题目/故事/卡片）
+  refactor 代码重构
+  docs     文档更新
+  test     测试
+  chore    构建/依赖/配置
+  perf     性能优化
+```
+
+示例：
+```bash
+git commit -m "feat: 新增化学实验模块"
+git commit -m "content: 数学三年级新增30题"
+git commit -m "fix: 修复数独计分错误"
+```
+
+## 发布流程
+
+### 自动发布（推荐）
+
+推送 `v*` 格式的 tag 自动触发 GitHub Actions 构建并发布：
+
+```bash
+# 1. 确保 develop 分支代码最新且通过测试
+git checkout develop
+git pull origin develop
+flutter analyze    # 确保零错误
+flutter test       # 确保测试通过
+
+# 2. 创建版本 tag
+git tag -a v1.0.3 -m "v1.0.3 - 版本描述"
+
+# 3. 推送 tag 触发自动构建
+git push origin v1.0.3
+```
+
+GitHub Actions 自动执行：
+1. **Build Android** — 构建 APK (`student-study-*-android.apk`)
+2. **Build Windows** — 构建 Windows (`student-study-*-windows.zip`)
+3. **Create Release** — 创建 GitHub Release，附加构建产物
+
+构建完成后在 [Releases 页面](https://github.com/katalinas/student_study/releases) 下载。
+
+### 手动发布
+
+如果自动构建失败，可以手动操作：
+
+1. 本地构建：
+   ```bash
+   flutter build apk --release          # Android
+   flutter build windows --release      # Windows（需开发者模式）
+   ```
+2. 在 GitHub → Releases → Create new release
+3. 填写 Tag（如 `v1.0.4`）和 Release notes
+4. 上传构建产物到 Assets
+
+### 版本号规则
+
+```
+v主版本.次版本.修订号
+
+主版本  重大功能更新或架构变更（V1→V2）
+次版本  新功能或模块上线（V1.0→V1.1）
+修订号  Bug修复或内容更新（V1.0.0→V1.0.1）
+```
+
+### CI/CD 环境
+
+| 组件 | 版本 | 说明 |
+|------|------|------|
+| Node.js | 24 | GitHub Actions 运行时 |
+| Java | 21 (Temurin) | Android 构建 |
+| Flutter | 3.41.6 | 跨平台框架 |
+| Dart | 3.11.4 | 编程语言 |
+
+### CI 工作流文件
+
+| 文件 | 触发条件 | 功能 |
+|------|---------|------|
+| `.github/workflows/ci.yml` | push 到 main/develop, PR | 代码分析 + 测试 + 构建验证 |
+| `.github/workflows/release.yml` | push `v*` tag | 构建 APK + Windows + 创建 Release |
 
 ## 内容扩展指南
 
 项目设计了完整的演进体系，方便持续添加内容：
 
-1. 查看 `evolution/CONTENT_SCHEMA.md` 了解数据格式
-2. 参考 `evolution/templates/` 中的模板
-3. 在 `assets/content/{module}/` 添加 JSON 文件
-4. 更新 `evolution/content_registry/` 索引
+### 添加新题目
+
+```bash
+# 1. 了解数据格式
+cat evolution/CONTENT_SCHEMA.md
+
+# 2. 复制模板
+cp evolution/templates/question.json assets/content/{module}/new_questions.json
+
+# 3. 编辑内容，遵循 JSON Schema
+# 4. 更新内容索引
+vim evolution/content_registry/{module}.md
+
+# 5. 提交
+git add assets/content/ evolution/content_registry/
+git commit -m "content: {module}新增N题"
+```
+
+### 添加新模块
+
+```bash
+# 1. 使用模块提案模板
+cat evolution/templates/new_module.md
+
+# 2. 在 MODULES.md 注册
+# 3. 创建代码目录 lib/features/{module}/
+# 4. 创建数据目录 assets/content/{module}/
+# 5. 在 router.dart 注册路由
+# 6. 在 pubspec.yaml 添加 assets 路径
+```
 
 详见 [evolution/README.md](evolution/README.md)
 
