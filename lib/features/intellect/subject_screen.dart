@@ -38,7 +38,7 @@ _SubjectConfig _getSubjectConfig(String subjectId) {
       return const _SubjectConfig(
         name: '数学',
         icon: Icons.calculate_rounded,
-        color: Color(0xFF1565C0),
+        color: AppColors.intellect,
         subjectKey: 'math',
       );
     case 'chinese':

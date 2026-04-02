@@ -1,7 +1,7 @@
-/// 规律岛（模式识别训练）页面。
+/// 推理城（逻辑推理训练）页面。
 ///
 /// 提供20个关卡的选择界面以及专项训练入口，
-/// 用户可选择关卡进行模式识别类题目练习。
+/// 用户可选择关卡进行逻辑推理类题目练习。
 library;
 
 import 'package:flutter/material.dart';
@@ -16,11 +16,22 @@ import 'package:student_study/core/content/models/question.dart';
 // 内容加载器提供者
 // ---------------------------------------------------------------------------
 
-/// 模式识别题目的内容加载提供者。
-final _patternQuestionsProvider = FutureProvider<List<Question>>((ref) async {
+/// 逻辑推理题目的内容加载提供者。
+final _deductionQuestionsProvider =
+    FutureProvider<List<Question>>((ref) async {
   final loader = ContentLoader();
-  return loader.loadQuestions('logic', tag: 'pattern');
+  return loader.loadQuestions('logic', tag: 'deduction');
 });
+
+// ---------------------------------------------------------------------------
+// 主题色
+// ---------------------------------------------------------------------------
+
+/// 推理城模块的主题色。
+const _themeColor = Color(0xFFFF8A65);
+
+/// 主题色渐变的第二色。
+const _themeColorLight = Color(0xFFFFAB91);
 
 // ---------------------------------------------------------------------------
 // 关卡状态枚举
@@ -42,15 +53,15 @@ enum _LevelStatus {
 // 主页面
 // ---------------------------------------------------------------------------
 
-/// 规律岛主页面，展示关卡选择网格和专项训练入口。
-class PatternScreen extends ConsumerStatefulWidget {
-  const PatternScreen({super.key});
+/// 推理城主页面，展示关卡选择网格和专项训练入口。
+class DeductionScreen extends ConsumerStatefulWidget {
+  const DeductionScreen({super.key});
 
   @override
-  ConsumerState<PatternScreen> createState() => _PatternScreenState();
+  ConsumerState<DeductionScreen> createState() => _DeductionScreenState();
 }
 
-class _PatternScreenState extends ConsumerState<PatternScreen> {
+class _DeductionScreenState extends ConsumerState<DeductionScreen> {
   /// 当前已解锁到的最高关卡（从1开始计数），后续接入进度系统
   final int _currentLevel = 1;
 
@@ -67,7 +78,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
   @override
   Widget build(BuildContext context) {
     // 预加载题目数据，在用户选择关卡前完成内容准备
-    final questionsAsync = ref.watch(_patternQuestionsProvider);
+    final questionsAsync = ref.watch(_deductionQuestionsProvider);
 
     return Scaffold(
       body: SafeArea(
@@ -78,7 +89,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
               child: questionsAsync.when(
                 loading: () => const Center(
                   child: CircularProgressIndicator(
-                    color: Color(0xFF43A047),
+                    color: _themeColor,
                   ),
                 ),
                 error: (error, _) => Center(
@@ -103,7 +114,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
     );
   }
 
-  /// 构建页面顶部标题栏，显示岛屿名称和关卡进度。
+  /// 构建页面顶部标题栏，显示模块名称和关卡进度。
   Widget _buildHeader(BuildContext context) {
     final theme = Theme.of(context);
 
@@ -111,7 +122,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-          colors: [Color(0xFF43A047), Color(0xFF66BB6A)],
+          colors: [_themeColor, _themeColorLight],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -127,15 +138,15 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
           ),
           const SizedBox(width: 12),
 
-          // 岛屿图标
+          // 模块图标
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha:0.2),
+              color: Colors.white.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(10),
             ),
             child: const Icon(
-              Icons.pattern,
+              Icons.psychology_rounded,
               color: Colors.white,
               size: 24,
             ),
@@ -148,7 +159,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  '规律岛',
+                  '推理城',
                   style: theme.textTheme.titleMedium?.copyWith(
                     color: Colors.white,
                     fontWeight: FontWeight.w700,
@@ -157,7 +168,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
                 Text(
                   '关卡 $_currentLevel/$_totalLevels',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: Colors.white.withValues(alpha:0.85),
+                    color: Colors.white.withValues(alpha: 0.85),
                   ),
                 ),
               ],
@@ -206,7 +217,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
     );
   }
 
-  /// 构建"专项训练"区域，包含数字规律和图形规律两张训练卡片。
+  /// 构建"专项训练"区域，包含条件推理和排除法两张训练卡片。
   Widget _buildSpecialTrainingSection(BuildContext context) {
     final theme = Theme.of(context);
 
@@ -224,24 +235,24 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
           children: [
             Expanded(
               child: _TrainingCard(
-                title: '数字规律',
-                description: '练习数字序列的规律发现',
-                icon: Icons.looks_one_rounded,
-                color: const Color(0xFF26A69A),
+                title: '条件推理',
+                description: '练习根据已知条件进行逻辑推理',
+                icon: Icons.account_tree_rounded,
+                color: const Color(0xFF7E57C2),
                 onTap: () {
-                  // 导航至数字规律专项训练
+                  // 导航至条件推理专项训练
                 },
               ),
             ),
             const SizedBox(width: 12),
             Expanded(
               child: _TrainingCard(
-                title: '图形规律',
-                description: '练习图形变化的规律识别',
-                icon: Icons.category_rounded,
-                color: const Color(0xFF42A5F5),
+                title: '排除法',
+                description: '练习通过排除错误选项找到答案',
+                icon: Icons.filter_alt_rounded,
+                color: const Color(0xFF26A69A),
                 onTap: () {
-                  // 导航至图形规律专项训练
+                  // 导航至排除法专项训练
                 },
               ),
             ),
@@ -256,9 +267,7 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
     if (status == _LevelStatus.locked) return;
 
     // 从已加载的题目中获取数据，通过 extra 传递给 QuizInteractionScreen
-    // 避免使用路由查询参数（router 不处理查询参数过滤逻辑）
-    final questionsAsync = ref.read(_patternQuestionsProvider);
-    // 使用 when 安全提取数据，避免访问不存在的 valueOrNull getter
+    final questionsAsync = ref.read(_deductionQuestionsProvider);
     final allQuestions = questionsAsync.when(
       data: (q) => q,
       loading: () => <Question>[],
@@ -266,11 +275,15 @@ class _PatternScreenState extends ConsumerState<PatternScreen> {
     );
     // 按关卡编号分页：每关取固定数量的题目
     const questionsPerLevel = 5;
-    final start = ((level - 1) * questionsPerLevel).clamp(0, allQuestions.length);
+    final start =
+        ((level - 1) * questionsPerLevel).clamp(0, allQuestions.length);
     final end = (start + questionsPerLevel).clamp(0, allQuestions.length);
     final levelQuestions = allQuestions.sublist(start, end);
 
-    context.push('/quiz/logic', extra: levelQuestions.isNotEmpty ? levelQuestions : allQuestions);
+    context.push(
+      '/quiz/logic',
+      extra: levelQuestions.isNotEmpty ? levelQuestions : allQuestions,
+    );
   }
 }
 
@@ -306,17 +319,17 @@ class _LevelButton extends StatelessWidget {
 
     switch (status) {
       case _LevelStatus.completed:
-        backgroundColor = AppColors.success.withValues(alpha:0.15);
+        backgroundColor = AppColors.success.withValues(alpha: 0.15);
         borderColor = AppColors.success;
         textColor = AppColors.success;
         shadows = [];
       case _LevelStatus.current:
-        backgroundColor = const Color(0xFF43A047).withValues(alpha:0.1);
-        borderColor = const Color(0xFF43A047);
-        textColor = const Color(0xFF43A047);
+        backgroundColor = _themeColor.withValues(alpha: 0.1);
+        borderColor = _themeColor;
+        textColor = _themeColor;
         shadows = [
           BoxShadow(
-            color: const Color(0xFF43A047).withValues(alpha:0.4),
+            color: _themeColor.withValues(alpha: 0.4),
             blurRadius: 8,
             spreadRadius: 1,
           ),
@@ -385,10 +398,10 @@ class _TrainingCard extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(
-          color: color.withValues(alpha:0.08),
+          color: color.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: color.withValues(alpha:0.2),
+            color: color.withValues(alpha: 0.2),
             width: 1.5,
           ),
         ),
@@ -398,7 +411,7 @@ class _TrainingCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: color.withValues(alpha:0.15),
+                color: color.withValues(alpha: 0.15),
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Icon(icon, color: color, size: 22),

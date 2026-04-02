@@ -155,6 +155,29 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               _buildAchievements(theme),
               const SizedBox(height: 24),
 
+              // 学习资源按钮
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton.icon(
+                  onPressed: () => context.push('/resources'),
+                  icon: const Icon(
+                    Icons.language_rounded,
+                    color: AppColors.primary,
+                  ),
+                  label: const Text('学习资源'),
+                  style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    side: BorderSide(
+                      color: AppColors.primary.withValues(alpha: 0.4),
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 10),
+
               // 设置按钮
               SizedBox(
                 width: double.infinity,

@@ -30,7 +30,7 @@ const List<_CategoryInfo> _categories = [
     name: '天文地理',
     subtitle: '探索地球与宇宙',
     icon: Icons.public,
-    color: Color(0xFF1976D2),
+    color: AppColors.general,
     itemCount: 8,
   ),
   _CategoryInfo(

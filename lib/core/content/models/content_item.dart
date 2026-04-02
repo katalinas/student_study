@@ -50,9 +50,11 @@ sealed class ContentItem {
 
   /// 使用 `type` 标识符从 JSON 反序列化 [ContentItem]。
   ///
-  /// 如果 `type` 字段无法识别，抛出 [ArgumentError]。
-  factory ContentItem.fromJson(Map<String, dynamic> json) {
-    final type = json['type'] as String;
+  /// 不支持的类型（card/word_game/game 等）返回 `null`，
+  /// 由调用方过滤。
+  static ContentItem? tryFromJson(Map<String, dynamic> json) {
+    final type = json['type'] as String?;
+    if (type == null) return null;
     switch (type) {
       case 'question':
         return QuestionContent(Question.fromJson(json));
@@ -61,8 +63,16 @@ sealed class ContentItem {
       case 'experiment':
         return ExperimentContent(Experiment.fromJson(json));
       default:
-        throw ArgumentError('Unknown content type: $type');
+        // card, word_game, game 等类型不作为 ContentItem 处理
+        return null;
     }
+  }
+
+  /// 兼容旧调用方，内部委托给 [tryFromJson]。
+  factory ContentItem.fromJson(Map<String, dynamic> json) {
+    final item = tryFromJson(json);
+    if (item != null) return item;
+    throw ArgumentError('Unsupported content type: ${json['type']}');
   }
 
   /// 序列化为 JSON。委托给被包装模型的 toJson() 方法。

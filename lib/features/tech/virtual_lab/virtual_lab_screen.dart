@@ -107,7 +107,7 @@ class VirtualLabScreen extends ConsumerWidget {
               ),
               const SizedBox(height: 8),
               Text(
-                '实验内容正在准备中，敬请期待',
+                '请检查网络连接后重试',
                 style: theme.textTheme.bodySmall?.copyWith(
                   color: AppColors.textSecondary,
                 ),

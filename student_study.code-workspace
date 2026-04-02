@@ -52,6 +52,13 @@
         "type": "node-terminal"
       },
       {
+        "command": "flutter run -d chrome --debug",
+        "cwd": "${workspaceFolder}",
+        "name": "🌐 Run Web (Chrome debug)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
         "command": "flutter run -d android --debug",
         "cwd": "${workspaceFolder}",
         "name": "📱 Run Android (debug)",
@@ -75,6 +82,13 @@
         "deviceId": "windows"
       },
       {
+        "name": "🌐 Debug Web (Chrome)",
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart",
+        "deviceId": "chrome"
+      },
+      {
         "name": "📲 Debug Android",
         "type": "dart",
         "request": "launch",
@@ -94,6 +108,13 @@
         "command": "bash ops/scripts/build.sh --platform android --mode release",
         "cwd": "${workspaceFolder}",
         "name": "📦 Build Android APK (release)",
+        "request": "launch",
+        "type": "node-terminal"
+      },
+      {
+        "command": "flutter build web --release",
+        "cwd": "${workspaceFolder}",
+        "name": "📦 Build Web (release)",
         "request": "launch",
         "type": "node-terminal"
       },

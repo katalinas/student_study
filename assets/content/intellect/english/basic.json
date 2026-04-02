@@ -1,533 +1,410 @@
 [
   {
-    "id": "intellect_q_1500",
+    "id": "en_basic_q001",
     "module": "intellect",
     "type": "question",
     "subtype": "choice",
     "grade_min": 3,
-    "grade_max": 4,
+    "grade_max": 5,
     "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "家庭"
-    ],
+    "tags": ["english", "三单变化", "一般现在时"],
     "subject": "english",
-    "stem": "My father's mother is my ____.",
+    "stem": "Which sentence is correct?",
     "stem_image": null,
     "options": [
-      {
-        "label": "A",
-        "text": "aunt"
-      },
-      {
-        "label": "B",
-        "text": "sister"
-      },
-      {
-        "label": "C",
-        "text": "grandmother"
-      },
-      {
-        "label": "D",
-        "text": "mother"
-      }
+      {"label": "A", "text": "She go to school."},
+      {"label": "B", "text": "She goes to school."},
+      {"label": "C", "text": "She going to school."},
+      {"label": "D", "text": "She go school."}
+    ],
+    "answer": "B",
+    "explanation": "正确答案是B。英语中，当主语是第三人称单数（he/she/it）时，一般现在时的动词要加-s或-es，这叫'三单变化'。常见规则：直接加s（如goes, likes）、以s/sh/ch/x结尾加es（如watches）、辅音+y结尾变y为i加es（如studies）。记住口诀：he/she/it是三单，动词后面把s添。",
+    "hint": "主语是She（她），属于第三人称单数，动词需要变化。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q002",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "be动词", "基本句型"],
+    "subject": "english",
+    "stem": "There ____ three apples on the table.",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "is"},
+      {"label": "B", "text": "are"},
+      {"label": "C", "text": "am"},
+      {"label": "D", "text": "be"}
+    ],
+    "answer": "B",
+    "explanation": "There be句型中，be动词的单复数取决于后面紧跟的名词。three apples是复数，所以用are。口诀：'就近原则'——离be动词最近的名词决定用is还是are。比如：There is a book and two pens.（a book离得近，用is）。There be句型在日常英语中非常常用，表示'某处有某物'。",
+    "hint": "three apples是一个还是多个？复数用are，单数用is。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q003",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "词汇辨析", "可数名词"],
+    "subject": "english",
+    "stem": "\"I drank two waters.\" Is this sentence correct?（这句话正确吗？）",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "Correct（正确）"},
+      {"label": "B", "text": "Incorrect（不正确）"}
+    ],
+    "answer": "B",
+    "explanation": "water（水）是不可数名词，不能直接加s变复数。正确说法是'two glasses of water'（两杯水）或'two bottles of water'（两瓶水）。英语中常见不可数名词有：water, milk, bread, rice, homework等。记忆技巧：不可数名词需要借助量词——a cup of tea, a piece of bread, a bowl of rice。",
+    "hint": "想想water能不能像apple那样直接说two waters？水要怎么数？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q004",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "时态初步", "现在进行时"],
+    "subject": "english",
+    "stem": "Look! The children ____ in the park.",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "play"},
+      {"label": "B", "text": "plays"},
+      {"label": "C", "text": "are playing"},
+      {"label": "D", "text": "played"}
     ],
     "answer": "C",
-    "explanation": "爸爸的妈妈就是奶奶（祖母），英文是 grandmother。aunt 是阿姨/姑姑，sister 是姐妹，mother 是妈妈。",
-    "hint": "father 是爸爸，father's mother 就是爸爸的妈妈，也就是……",
+    "explanation": "句子开头有'Look!'（看！），提示正在发生的动作，要用现在进行时（am/is/are + doing）。children是复数，所以用are playing。现在进行时的信号词有：look, listen, now, right now等。动词变ing的规则：直接加ing（playing）、去e加ing（making）、双写末尾字母加ing（running）。",
+    "hint": "'Look!'说明事情正在发生，用什么时态表示'正在做'？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q005",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "日常对话", "礼貌用语"],
+    "subject": "english",
+    "stem": "A: Thank you very much! B: You're ____.",
+    "stem_image": null,
+    "options": [],
+    "answer": null,
+    "blanks": [
+      {
+        "id": "b1",
+        "correct_answer": "welcome",
+        "acceptable_answers": ["welcome", "Welcome"],
+        "hint": "别人说谢谢，你会怎么回答？You're w____."
+      }
+    ],
+    "explanation": "'You're welcome'是回应感谢的经典表达，意为'不客气'。英语中回应Thank you还有很多说法：No problem（没问题）、My pleasure（我的荣幸）、Not at all（一点也不）、Don't mention it（不用提）。在不同场合使用不同的回应方式，能让你的英语更地道自然。",
+    "hint": "这是最常见的回应'Thank you'的说法，以w开头。",
     "time_limit_seconds": 25,
     "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
   },
   {
-    "id": "intellect_q_1501",
+    "id": "en_basic_q006",
     "module": "intellect",
     "type": "question",
     "subtype": "choice",
     "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "食物"
-    ],
+    "grade_max": 5,
+    "difficulty": 3,
+    "tags": ["english", "词汇辨析", "介词"],
     "subject": "english",
-    "stem": "Which one is a fruit? (哪个是水果？)",
+    "stem": "My birthday is ____ July 15th.",
     "stem_image": null,
     "options": [
-      {
-        "label": "A",
-        "text": "bread"
-      },
-      {
-        "label": "B",
-        "text": "apple"
-      },
-      {
-        "label": "C",
-        "text": "rice"
-      },
-      {
-        "label": "D",
-        "text": "chicken"
-      }
+      {"label": "A", "text": "in"},
+      {"label": "B", "text": "on"},
+      {"label": "C", "text": "at"},
+      {"label": "D", "text": "to"}
     ],
     "answer": "B",
-    "explanation": "apple（苹果）是水果。bread 是面包，rice 是米饭，chicken 是鸡肉，它们都不是水果。",
-    "hint": "这种食物长在树上，红红的、圆圆的，很甜。",
-    "time_limit_seconds": 20,
+    "explanation": "具体到某一天用on，月份和年份用in，具体时刻用at。记忆口诀：'大in小at，有日on来把身翻'——大的时间段（年、月、季节）用in，小的时间点（几点几分）用at，有具体日期用on。例：in July（在七月）、on July 15th（在7月15日）、at 3 o'clock（在3点钟）。",
+    "hint": "July 15th是一个具体的日期，具体到'天'用哪个介词？",
+    "time_limit_seconds": 30,
     "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
   },
   {
-    "id": "intellect_q_1502",
+    "id": "en_basic_q007",
     "module": "intellect",
     "type": "question",
     "subtype": "choice",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "身体"
-    ],
+    "grade_min": 4,
+    "grade_max": 5,
+    "difficulty": 3,
+    "tags": ["english", "时态初步", "一般过去时"],
     "subject": "english",
-    "stem": "We use our ____ to see things. (我们用____来看东西。)",
+    "stem": "I ____ to the zoo yesterday.",
     "stem_image": null,
     "options": [
-      {
-        "label": "A",
-        "text": "ears"
-      },
-      {
-        "label": "B",
-        "text": "eyes"
-      },
-      {
-        "label": "C",
-        "text": "nose"
-      },
-      {
-        "label": "D",
-        "text": "mouth"
-      }
+      {"label": "A", "text": "go"},
+      {"label": "B", "text": "goes"},
+      {"label": "C", "text": "went"},
+      {"label": "D", "text": "going"}
+    ],
+    "answer": "C",
+    "explanation": "yesterday（昨天）表示过去的时间，要用一般过去时。go的过去式是went（不规则变化）。过去时的信号词有：yesterday, last week, ago, just now等。动词过去式分两种：规则变化（加ed，如played, watched）和不规则变化（需要记忆，如go→went, eat→ate, see→saw）。建议把常见不规则动词做成卡片反复记忆。",
+    "hint": "yesterday说明是过去发生的事，go的过去式不是加ed哦，它是不规则变化。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q008",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "语法选择", "冠词"],
+    "subject": "english",
+    "stem": "\"He is a honest boy.\" Is this sentence correct?（这句话正确吗？）",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "Correct（正确）"},
+      {"label": "B", "text": "Incorrect（不正确）"}
     ],
     "answer": "B",
-    "explanation": "我们用眼睛（eyes）来看东西。ears 是耳朵（用来听），nose 是鼻子（用来闻），mouth 是嘴巴（用来说话和吃东西）。",
-    "hint": "看东西需要用到脸上的哪个器官？",
-    "time_limit_seconds": 20,
+    "explanation": "应该是'an honest boy'。虽然honest以字母h开头，但h不发音，实际发音以元音/ɒ/开头，所以用an而不是a。a/an的选择看发音而非字母：a用在辅音音素前（a book, a university），an用在元音音素前（an apple, an hour, an honest boy）。注意：university虽以u开头但发/juː/辅音，所以用a。",
+    "hint": "a和an的选择不是看第一个字母，而是看第一个发音。honest的h发音了吗？",
+    "time_limit_seconds": 30,
     "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
   },
   {
-    "id": "intellect_q_1503",
+    "id": "en_basic_q009",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "词汇辨析", "反义词"],
+    "subject": "english",
+    "stem": "Hot is the opposite of ____.",
+    "stem_image": null,
+    "options": [],
+    "answer": null,
+    "blanks": [
+      {
+        "id": "b1",
+        "correct_answer": "cold",
+        "acceptable_answers": ["cold", "Cold"],
+        "hint": "hot是热的意思，它的反义词是什么？跟冬天的感觉有关。"
+      }
+    ],
+    "explanation": "hot（热的）的反义词是cold（冷的）。英语中常见反义词对：big-small, long-short, fast-slow, happy-sad, old-young, tall-short, light-heavy。学习反义词的好方法是成对记忆：每学一个新形容词，就查查它的反义词是什么，这样一次能记住两个词，效率翻倍。",
+    "hint": "想想夏天和冬天的感觉，一个是hot，另一个是？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q010",
     "module": "intellect",
     "type": "question",
     "subtype": "choice",
     "grade_min": 3,
-    "grade_max": 4,
+    "grade_max": 5,
     "difficulty": 2,
-    "tags": [
-      "english",
-      "简单句型"
-    ],
+    "tags": ["english", "日常对话", "问路"],
     "subject": "english",
-    "stem": "Choose the correct sentence: (选择正确的句子)",
+    "stem": "A: Excuse me, ____ is the library? B: It's next to the post office.",
     "stem_image": null,
     "options": [
+      {"label": "A", "text": "what"},
+      {"label": "B", "text": "where"},
+      {"label": "C", "text": "who"},
+      {"label": "D", "text": "when"}
+    ],
+    "answer": "B",
+    "explanation": "问地点用where（在哪里）。回答中说'next to the post office'（在邮局旁边），说明在问图书馆的位置。英语疑问词各有分工：what问事物、where问地点、who问人、when问时间、why问原因、how问方式。问路是非常实用的生活场景，常用句型：Where is...? / How can I get to...? / Could you tell me the way to...?",
+    "hint": "回答说的是图书馆的位置，所以问的是'在哪里'。",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q011",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 4,
+    "grade_max": 5,
+    "difficulty": 3,
+    "tags": ["english", "语法选择", "比较级"],
+    "subject": "english",
+    "stem": "Tom is ____ than his brother.",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "tall"},
+      {"label": "B", "text": "taller"},
+      {"label": "C", "text": "tallest"},
+      {"label": "D", "text": "more tall"}
+    ],
+    "answer": "B",
+    "explanation": "两者比较用比较级，标志词是than。tall是单音节形容词，比较级直接加er变成taller。规则：单音节加er/est（tall→taller→tallest）、多音节前加more/most（beautiful→more beautiful）、以e结尾加r/st（nice→nicer）、辅元辅结尾双写加er（big→bigger）。注意：不能说more tall，单音节词不用more。",
+    "hint": "than说明在两个人之间比较，tall应该变成什么形式？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q012",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "fill_blank",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "基本句型", "名词复数"],
+    "subject": "english",
+    "stem": "I have two ____. (foot的复数形式)",
+    "stem_image": null,
+    "options": [],
+    "answer": null,
+    "blanks": [
       {
-        "label": "A",
-        "text": "I am a student."
-      },
-      {
-        "label": "B",
-        "text": "I is a student."
-      },
-      {
-        "label": "C",
-        "text": "I are a student."
-      },
-      {
-        "label": "D",
-        "text": "I be a student."
+        "id": "b1",
+        "correct_answer": "feet",
+        "acceptable_answers": ["feet", "Feet"],
+        "hint": "foot的复数不是加s，它是不规则变化。"
       }
+    ],
+    "explanation": "foot（脚）的复数是feet，属于不规则变化。英语中有些名词复数不是加s，需要特别记忆：foot→feet, tooth→teeth, man→men, woman→women, child→children, mouse→mice, sheep→sheep（不变）。记忆技巧：把这些不规则复数编成顺口溜——'一只脚foot两只feet，一颗牙tooth两颗teeth'。",
+    "hint": "foot变复数不是加s，中间的oo会变成ee。",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q013",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 3,
+    "grade_max": 5,
+    "difficulty": 2,
+    "tags": ["english", "日常对话", "天气"],
+    "subject": "english",
+    "stem": "A: How's the weather today? B: ____",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "I'm fine, thanks."},
+      {"label": "B", "text": "It's sunny and warm."},
+      {"label": "C", "text": "I like summer."},
+      {"label": "D", "text": "It's Monday."}
+    ],
+    "answer": "B",
+    "explanation": "问天气用'How's the weather?'，回答要描述天气状况，用'It's + 天气形容词'。常见天气词汇：sunny（晴朗）、cloudy（多云）、rainy（下雨）、windy（刮风）、snowy（下雪）、hot（炎热）、cold（寒冷）。注意：A选项是回答'How are you?'的；D选项是回答星期几的，不能混淆。谈论天气是英语国家最常见的寒暄话题。",
+    "hint": "问的是天气怎么样，哪个选项在描述天气？",
+    "time_limit_seconds": 25,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q014",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "true_false",
+    "grade_min": 4,
+    "grade_max": 5,
+    "difficulty": 3,
+    "tags": ["english", "语法选择", "情态动词"],
+    "subject": "english",
+    "stem": "\"She can sings very well.\" Is this sentence correct?（这句话正确吗？）",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "Correct（正确）"},
+      {"label": "B", "text": "Incorrect（不正确）"}
+    ],
+    "answer": "B",
+    "explanation": "情态动词can后面要跟动词原形，不能加s。正确说法是'She can sing very well.'。这是一条重要规则：情态动词（can, may, must, should, will等）后面永远跟动词原形，不受主语人称影响。虽然She是三单要加s，但有了can就不用变了。类似的：He can swim.（不是He can swims.）",
+    "hint": "can后面的动词应该是什么形式？需要加s吗？",
+    "time_limit_seconds": 30,
+    "points": 10,
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
+  },
+  {
+    "id": "en_basic_q015",
+    "module": "intellect",
+    "type": "question",
+    "subtype": "choice",
+    "grade_min": 4,
+    "grade_max": 5,
+    "difficulty": 3,
+    "tags": ["english", "词汇辨析", "易混词"],
+    "subject": "english",
+    "stem": "Please ____ me your English book. I want to have a look.",
+    "stem_image": null,
+    "options": [
+      {"label": "A", "text": "show"},
+      {"label": "B", "text": "look"},
+      {"label": "C", "text": "see"},
+      {"label": "D", "text": "watch"}
     ],
     "answer": "A",
-    "explanation": "主语 I（我）后面要用 am。be 动词的搭配规则：I am, you are, he/she/it is。所以正确的说法是 \"I am a student.\"（我是一名学生。）",
-    "hint": "I 后面跟的 be 动词是什么形式？am, is, 还是 are？",
-    "time_limit_seconds": 25,
+    "explanation": "show me意为'给我看'，是'show+人+物'的句型，表示把东西展示给别人。look, see, watch虽然都和'看'有关，但用法不同：look强调动作（Look at the bird!看那只鸟！）、see强调结果（I can see a bird.我能看到一只鸟。）、watch强调持续观看（watch TV看电视）。区分这三个词是英语学习的重要一步。",
+    "hint": "'给我看看你的书'，哪个词表示'展示给某人看'？",
+    "time_limit_seconds": 35,
     "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1504",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "choice",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "简单句型"
-    ],
-    "subject": "english",
-    "stem": "____ is a teacher. (He/She/It)",
-    "stem_image": null,
-    "options": [
-      {
-        "label": "A",
-        "text": "He am"
-      },
-      {
-        "label": "B",
-        "text": "He is"
-      },
-      {
-        "label": "C",
-        "text": "He are"
-      },
-      {
-        "label": "D",
-        "text": "He be"
-      }
-    ],
-    "answer": "B",
-    "explanation": "He（他）后面要用 is。规则：I → am, He/She/It → is, You/We/They → are。所以 \"He is a teacher.\" 是正确的。",
-    "hint": "He, She, It 后面跟的 be 动词都是同一个形式。",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1505",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "choice",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "介词"
-    ],
-    "subject": "english",
-    "stem": "The cat is ____ the table. (猫在桌子下面。)",
-    "stem_image": null,
-    "options": [
-      {
-        "label": "A",
-        "text": "on"
-      },
-      {
-        "label": "B",
-        "text": "in"
-      },
-      {
-        "label": "C",
-        "text": "under"
-      },
-      {
-        "label": "D",
-        "text": "behind"
-      }
-    ],
-    "answer": "C",
-    "explanation": "\"在……下面\"用介词 under。on 是\"在……上面\"，in 是\"在……里面\"，behind 是\"在……后面\"。",
-    "hint": "中文说\"在桌子下面\"，想想\"下面\"对应的英文介词是什么。",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1506",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "choice",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "介词"
-    ],
-    "subject": "english",
-    "stem": "The book is ____ the bag. (书在书包里面。)",
-    "stem_image": null,
-    "options": [
-      {
-        "label": "A",
-        "text": "on"
-      },
-      {
-        "label": "B",
-        "text": "in"
-      },
-      {
-        "label": "C",
-        "text": "under"
-      },
-      {
-        "label": "D",
-        "text": "at"
-      }
-    ],
-    "answer": "B",
-    "explanation": "\"在……里面\"用介词 in。\"The book is in the bag.\" 意思是书在书包里面。",
-    "hint": "书包是一个封闭的空间，书在里面，应该用哪个介词？",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1507",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "fill_blank",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "食物"
-    ],
-    "subject": "english",
-    "stem": "I like to drink ____. (milk/水果) (我喜欢喝牛奶。请填英文单词)",
-    "stem_image": null,
-    "options": null,
-    "answer": "milk",
-    "explanation": "牛奶的英文是 milk。\"I like to drink milk.\" 意思是\"我喜欢喝牛奶。\"",
-    "hint": "牛奶是白色的液体，英文是 m 开头的四个字母。",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1508",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "fill_blank",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "简单句型"
-    ],
-    "subject": "english",
-    "stem": "She ____ a nurse. (用 am/is/are 填空)",
-    "stem_image": null,
-    "options": null,
-    "answer": "is",
-    "explanation": "She（她）是第三人称单数，后面用 is。\"She is a nurse.\" 意思是\"她是一名护士。\"规则：I → am, He/She/It → is, You/We/They → are。",
-    "hint": "She 和 He, It 一样，都是第三人称单数，用哪个 be 动词？",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1509",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "fill_blank",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "身体"
-    ],
-    "subject": "english",
-    "stem": "I have two ____ and two legs. (我有两只手和两条腿。请填英文单词)",
-    "stem_image": null,
-    "options": null,
-    "answer": "hands",
-    "explanation": "手的英文是 hand，两只手用复数形式 hands。\"I have two hands and two legs.\" 意思是\"我有两只手和两条腿。\"",
-    "hint": "手的英文是 hand，两只手需要加上复数的 s。",
-    "time_limit_seconds": 25,
-    "points": 10,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1510",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "matching",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "日常词汇",
-      "家庭"
-    ],
-    "subject": "english",
-    "stem": "请将家庭成员的英文单词与中文意思连线。",
-    "stem_image": null,
-    "left_items": [
-      {
-        "id": "L1",
-        "text": "father"
-      },
-      {
-        "id": "L2",
-        "text": "mother"
-      },
-      {
-        "id": "L3",
-        "text": "brother"
-      },
-      {
-        "id": "L4",
-        "text": "sister"
-      }
-    ],
-    "right_items": [
-      {
-        "id": "R1",
-        "text": "妈妈"
-      },
-      {
-        "id": "R2",
-        "text": "姐妹"
-      },
-      {
-        "id": "R3",
-        "text": "爸爸"
-      },
-      {
-        "id": "R4",
-        "text": "兄弟"
-      }
-    ],
-    "correct_pairs": [
-      {
-        "left": "L1",
-        "right": "R3"
-      },
-      {
-        "left": "L2",
-        "right": "R1"
-      },
-      {
-        "left": "L3",
-        "right": "R4"
-      },
-      {
-        "left": "L4",
-        "right": "R2"
-      }
-    ],
-    "answer": null,
-    "explanation": "father = 爸爸，mother = 妈妈，brother = 兄弟，sister = 姐妹。这些都是最基本的家庭成员称呼。",
-    "hint": "father 和 mother 分别是爸爸和妈妈，brother 和 sister 是兄弟姐妹。",
-    "time_limit_seconds": 45,
-    "points": 15,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
-  },
-  {
-    "id": "intellect_q_1511",
-    "module": "intellect",
-    "type": "question",
-    "subtype": "matching",
-    "grade_min": 3,
-    "grade_max": 4,
-    "difficulty": 2,
-    "tags": [
-      "english",
-      "介词"
-    ],
-    "subject": "english",
-    "stem": "请将介词与对应的中文意思连线。",
-    "stem_image": null,
-    "left_items": [
-      {
-        "id": "L1",
-        "text": "in"
-      },
-      {
-        "id": "L2",
-        "text": "on"
-      },
-      {
-        "id": "L3",
-        "text": "under"
-      },
-      {
-        "id": "L4",
-        "text": "behind"
-      }
-    ],
-    "right_items": [
-      {
-        "id": "R1",
-        "text": "在……上面"
-      },
-      {
-        "id": "R2",
-        "text": "在……后面"
-      },
-      {
-        "id": "R3",
-        "text": "在……里面"
-      },
-      {
-        "id": "R4",
-        "text": "在……下面"
-      }
-    ],
-    "correct_pairs": [
-      {
-        "left": "L1",
-        "right": "R3"
-      },
-      {
-        "left": "L2",
-        "right": "R1"
-      },
-      {
-        "left": "L3",
-        "right": "R4"
-      },
-      {
-        "left": "L4",
-        "right": "R2"
-      }
-    ],
-    "answer": null,
-    "explanation": "in = 在……里面，on = 在……上面，under = 在……下面，behind = 在……后面。这四个是最常用的方位介词。",
-    "hint": "in 表示在里面（inside），on 表示接触在上面，under 在下面，behind 在后面。",
-    "time_limit_seconds": 45,
-    "points": 15,
-    "version": 1,
-    "created_at": "2026-03-27",
-    "updated_at": "2026-03-27"
+    "version": 2,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-04-02"
   }
 ]

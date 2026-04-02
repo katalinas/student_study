@@ -42,12 +42,12 @@
 
 ## 平台支持
 
-| 平台 | 状态 |
-|------|------|
-| Windows | 支持 |
-| Android | 支持 |
-| iOS | 计划中 (V2.0) |
-| Web | 计划中 (V2.0) |
+| 平台 | 状态 | 备注 |
+|------|------|------|
+| Web (Chrome) | 支持 | 无需额外依赖，推荐开发调试 |
+| Windows | 支持 | 需要 Visual Studio C++ 工具链或开发者模式 |
+| Android | 支持 | 需要 Android SDK |
+| iOS | 计划中 (V2.0) | |
 
 ## 快速开始
 
@@ -55,23 +55,49 @@
 
 - Flutter 3.41.6+
 - Dart 3.11.4+
-- Android SDK（构建 Android）
-- Visual Studio 2022 + C++ 桌面开发（构建 Windows）
+- （可选）Android SDK — 构建 Android
+- （可选）Visual Studio 2022 + C++ 桌面开发 — 构建 Windows
+- （可选）GNU Make — 使用 Makefile 命令
 
-### 安装运行
+### 使用 Makefile（推荐）
 
 ```bash
 # 克隆项目
 git clone https://github.com/katalinas/student_study.git
 cd student_study
 
+# 首次初始化（安装依赖 + 代码生成）
+make setup
+
+# 运行 Web 版（最简单，无需额外工具链）
+make run
+
+# 运行 Windows 桌面版
+make run-win
+
+# 静态分析 + 测试
+make check
+
+# 查看所有可用命令
+make help
+```
+
+### 手动运行
+
+```bash
 # 安装依赖
 flutter pub get
 
-# 运行（Windows）
+# 代码生成（freezed / drift / json_serializable）
+dart run build_runner build --delete-conflicting-outputs
+
+# 运行 Web 版（推荐，无需开发者模式或 VS C++ 工具链）
+flutter run -d chrome
+
+# 运行 Windows 桌面版（需要开发者模式或管理员权限）
 flutter run -d windows
 
-# 运行（Android）
+# 运行 Android
 flutter run -d android
 
 # 静态分析
@@ -81,12 +107,35 @@ flutter analyze
 ### 构建发布
 
 ```bash
+# 构建 Web
+flutter build web --release          # 输出: build/web/
+
 # 构建 Android APK
-flutter build apk --release
+flutter build apk --release          # 输出: build/app/outputs/flutter-apk/
 
 # 构建 Windows
-flutter build windows --release
+flutter build windows --release      # 输出: build/windows/x64/runner/Release/
+
+# 或使用 Makefile
+make build                           # 构建 Web + APK
+make build-win                       # 构建 Windows
 ```
+
+### VSCode 启动配置
+
+打开 `student_study.code-workspace` 后，可在 VSCode 的 **Run and Debug** 面板中选择：
+
+| 配置 | 说明 |
+|------|------|
+| 🌐 Run Web (Chrome debug) | Web 开发调试 |
+| 🖥️ Run Windows (debug) | Windows 桌面调试 |
+| 📱 Run Android (debug) | Android 调试 |
+| 🔬 Debug Windows | 带断点的 Windows 调试 |
+| 🌐 Debug Web (Chrome) | 带断点的 Chrome 调试 |
+| 📦 Build Web (release) | 构建 Web 发布版 |
+| 🧪 Run Tests | 运行单元测试 |
+| 🔍 Dart Analyze | 静态分析 |
+| 🧹 Clean & Reinstall | 清理缓存重装依赖 |
 
 ## 项目结构
 

@@ -125,10 +125,17 @@ bool scoreQuestion(Question question, dynamic userAnswer) {
       );
 
     case QuestionSubtype.trueFalse:
-      // 类型不匹配时返回 false
       if (userAnswer is! bool) return false;
-      if (question.answer is! bool) return false;
-      return scoreTrueFalse(userAnswer, question.answer as bool);
+      // 兼容 JSON 中 answer 为 bool 或 "A"(正确)/"B"(错误) 的格式
+      final bool correctAnswer;
+      if (question.answer is bool) {
+        correctAnswer = question.answer as bool;
+      } else if (question.answer is String) {
+        correctAnswer = (question.answer as String) == 'A';
+      } else {
+        return false;
+      }
+      return scoreTrueFalse(userAnswer, correctAnswer);
 
     case QuestionSubtype.matching:
       // 类型不匹配时返回 false

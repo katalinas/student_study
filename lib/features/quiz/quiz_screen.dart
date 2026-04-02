@@ -228,9 +228,20 @@ class _QuizInteractionScreenState extends ConsumerState<QuizInteractionScreen> {
           },
         );
       case QuestionSubtype.trueFalse:
+        // 兼容 answer 为 bool 或 "A"(对)/"B"(错) 格式
+        final bool? correctBool;
+        if (!isAnswered) {
+          correctBool = null;
+        } else if (question.answer is bool) {
+          correctBool = question.answer as bool;
+        } else if (question.answer is String) {
+          correctBool = (question.answer as String) == 'A';
+        } else {
+          correctBool = null;
+        }
         return TrueFalseOptions(
           selectedAnswer: _selectedTrueFalse,
-          correctAnswer: isAnswered ? question.answer as bool? : null,
+          correctAnswer: correctBool,
           isSubmitted: isAnswered,
           onAnswerSelected: (value) {
             setState(() => _selectedTrueFalse = value);

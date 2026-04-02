@@ -9,6 +9,8 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+import 'package:student_study/core/content/asset_registry.dart'
+    show assetRegistry;
 import 'package:student_study/core/content/models/content_item.dart';
 import 'package:student_study/core/content/models/experiment.dart';
 import 'package:student_study/core/content/models/question.dart';
@@ -28,6 +30,8 @@ class ContentLoader {
   /// 以资源路径为键的内存缓存。
   final Map<String, List<ContentItem>> _cache = {};
 
+
+
   // -------------------------------------------------------------------------
   // 公共 API
   // -------------------------------------------------------------------------
@@ -36,13 +40,16 @@ class ContentLoader {
   ///
   /// 如果提供了 [grade]，则只返回年级范围包含该年级的题目。
   /// 如果提供了 [difficulty]，则只返回匹配难度的题目。
+  /// 如果提供了 [tag]，则只返回标签列表中包含该标签的题目。
   Future<List<Question>> loadQuestions(
     String module, {
     String? subject,
+    String? tag,
     int? grade,
     int? difficulty,
   }) async {
-    final items = await _loadModule(module);
+    // 按需加载：优先使用 "module/subject" 精确键
+    final items = await _loadModule(module, subject: subject);
 
     var questions = items
         .whereType<QuestionContent>()
@@ -51,6 +58,11 @@ class ContentLoader {
 
     if (subject != null) {
       questions = questions.where((q) => q.subject == subject).toList();
+    }
+
+    if (tag != null) {
+      questions =
+          questions.where((q) => q.tags.contains(tag)).toList();
     }
 
     if (grade != null) {
@@ -63,6 +75,60 @@ class ContentLoader {
     }
 
     return questions;
+  }
+
+  /// 加载指定 [module] 的所有卡片（card）类内容的原始 JSON。
+  ///
+  /// 卡片是知识科普类内容（如 AI 科普、航天知识），
+  /// 不属于 Question/Story/Experiment 类型。
+  Future<List<Map<String, dynamic>>> loadCards(
+    String module, {
+    String? category,
+  }) async {
+    final assetPaths = _findAssets(module);
+    final cards = <Map<String, dynamic>>[];
+
+    final results = await Future.wait(
+      assetPaths.map((path) => _tryLoadRawJson(path)),
+    );
+
+    for (final result in results) {
+      if (result != null) {
+        for (final item in result) {
+          if (item['type'] == 'card') {
+            if (category == null || item['category'] == category) {
+              cards.add(item);
+            }
+          }
+        }
+      }
+    }
+
+    return cards;
+  }
+
+  /// 加载原始 JSON 列表，不经过 ContentItem 解析。
+  Future<List<Map<String, dynamic>>?> _tryLoadRawJson(
+    String assetPath,
+  ) async {
+    try {
+      final jsonString = await _bundle.loadString(assetPath);
+      final decoded = json.decode(jsonString);
+
+      List<dynamic> rawList;
+      if (decoded is List) {
+        rawList = decoded;
+      } else if (decoded is Map<String, dynamic> &&
+          decoded.containsKey('data')) {
+        rawList = decoded['data'] as List<dynamic>;
+      } else {
+        return null;
+      }
+
+      return rawList.cast<Map<String, dynamic>>();
+    } catch (_) {
+      return null;
+    }
   }
 
   /// 加载指定 [module] 的所有 [Story] 项。
@@ -140,7 +206,9 @@ class ContentLoader {
   }
 
   /// 清除内存缓存。适用于测试或内存管理。
-  void clearCache() => _cache.clear();
+  void clearCache() {
+    _cache.clear();
+  }
 
   /// 清除特定模块的缓存。
   void clearModuleCache(String module) {
@@ -151,35 +219,44 @@ class ContentLoader {
   // 内部加载
   // -------------------------------------------------------------------------
 
-  /// 加载并缓存指定 [module] 的所有内容项。
+  /// 查找资源路径，优先使用精确键 "module/subject"。
+  List<String> _findAssets(String module, {String? subject}) {
+    if (subject != null) {
+      final key = '$module/$subject';
+      if (assetRegistry.containsKey(key)) {
+        return assetRegistry[key]!;
+      }
+    }
+    return assetRegistry[module] ?? const [];
+  }
+
+  /// 加载并缓存内容项。
   ///
-  /// 首先尝试从 `assets/content/{module}/content.json` 加载。
-  /// 如果失败则回退到加载各类型的独立文件。
-  Future<List<ContentItem>> _loadModule(String module) async {
-    final cacheKey = 'module:$module';
+  /// 使用 "module/subject" 精确键时只加载对应学科的文件，
+  /// 大幅减少 Web 平台的网络请求数。
+  Future<List<ContentItem>> _loadModule(
+    String module, {
+    String? subject,
+  }) async {
+    // 精确缓存键
+    final cacheKey = subject != null ? 'module:$module/$subject' : 'module:$module';
     if (_cache.containsKey(cacheKey)) {
       return _cache[cacheKey]!;
     }
 
+    final assetPaths = _findAssets(module, subject: subject);
     final items = <ContentItem>[];
 
-    // 首先尝试加载单个合并的内容文件。
-    final combinedItems =
-        await _tryLoadAsset('assets/content/$module/content.json');
-    if (combinedItems != null) {
-      items.addAll(combinedItems);
-    } else {
-      // 回退到并行加载各类型的独立文件。
-      final results = await Future.wait([
-        _tryLoadAsset('assets/content/$module/questions.json'),
-        _tryLoadAsset('assets/content/$module/stories.json'),
-        _tryLoadAsset('assets/content/$module/experiments.json'),
-      ]);
+    // 并行加载，每个文件 5 秒超时
+    final futures = assetPaths.map(
+      (path) => _tryLoadAsset(path)
+          .timeout(const Duration(seconds: 5), onTimeout: () => null),
+    );
+    final results = await Future.wait(futures);
 
-      for (final result in results) {
-        if (result != null) {
-          items.addAll(result);
-        }
+    for (final result in results) {
+      if (result != null) {
+        items.addAll(result);
       }
     }
 
@@ -207,18 +284,21 @@ class ContentLoader {
         return null;
       }
 
-      // 逐条解析，跳过损坏的记录，保留有效数据
+      // 逐条解析，跳过不支持的类型和损坏的记录
       final items = <ContentItem>[];
       for (final e in rawList) {
         try {
-          items.add(ContentItem.fromJson(e as Map<String, dynamic>));
+          final item =
+              ContentItem.tryFromJson(e as Map<String, dynamic>);
+          if (item != null) {
+            items.add(item);
+          }
         } catch (_) {
           // 单条记录解析失败时跳过，不影响其他记录加载
         }
       }
       return items;
     } catch (_) {
-      // 资源未找到或顶层解析失败 -- 静默返回 null。
       return null;
     }
   }

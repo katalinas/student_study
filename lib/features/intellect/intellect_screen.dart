@@ -69,7 +69,7 @@ class IntellectModuleScreen extends StatelessWidget {
                   name: '数学',
                   description: '培养逻辑思维与计算能力',
                   questionCount: 120,
-                  color: const Color(0xFF1565C0),
+                  color: AppColors.intellect,
                   onTap: () => context.push('/module/intellect/math'),
                 ),
                 const SizedBox(height: 16),

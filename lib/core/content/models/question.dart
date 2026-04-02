@@ -68,7 +68,7 @@ class QuestionOption {
 
   factory QuestionOption.fromJson(Map<String, dynamic> json) {
     return QuestionOption(
-      id: json['id'] as String,
+      id: (json['id'] ?? json['label']) as String,
       text: json['text'] as String,
       image: json['image'] as String?,
     );
@@ -364,6 +364,24 @@ class Question {
   // JSON 序列化
   // -------------------------------------------------------------------------
 
+  /// 解析选项列表，兼容两种 JSON 格式：
+  /// - 对象格式：`[{"label": "A", "text": "..."}, ...]`
+  /// - 字符串格式：`["选项文本1", "选项文本2", ...]`
+  static List<QuestionOption> _parseOptions(List<dynamic>? raw) {
+    if (raw == null || raw.isEmpty) return const [];
+    const labels = ['A', 'B', 'C', 'D', 'E', 'F'];
+    return raw.asMap().entries.map((entry) {
+      final e = entry.value;
+      if (e is Map<String, dynamic>) {
+        return QuestionOption.fromJson(e);
+      }
+      // 纯字符串选项，自动分配 A/B/C/D 标签
+      final label =
+          entry.key < labels.length ? labels[entry.key] : '${entry.key + 1}';
+      return QuestionOption(id: label, text: e.toString());
+    }).toList();
+  }
+
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
       id: json['id'] as String,
@@ -380,14 +398,26 @@ class Question {
       subject: json['subject'] as String,
       stem: json['stem'] as String,
       stemImage: json['stem_image'] as String?,
-      options: (json['options'] as List<dynamic>?)
-              ?.map((e) => QuestionOption.fromJson(e as Map<String, dynamic>))
-              .toList() ??
-          const [],
-      blanks: (json['blanks'] as List<dynamic>?)
-              ?.map((e) => BlankAnswer.fromJson(e as Map<String, dynamic>))
-              .toList() ??
-          const [],
+      options: _parseOptions(json['options'] as List<dynamic>?),
+      blanks: () {
+        final subtype = QuestionSubtype.fromJson(json['subtype'] as String);
+        var blanks = (json['blanks'] as List<dynamic>?)
+                ?.map((e) => BlankAnswer.fromJson(e as Map<String, dynamic>))
+                .toList() ??
+            const <BlankAnswer>[];
+        if (blanks.isEmpty &&
+            subtype == QuestionSubtype.fillBlank &&
+            json['answer'] is String) {
+          blanks = [
+            BlankAnswer(
+              id: 'b1',
+              correctAnswer: json['answer'] as String,
+              hint: json['hint'] as String?,
+            ),
+          ];
+        }
+        return blanks;
+      }(),
       answer: json['answer'],
       leftItems: (json['left_items'] as List<dynamic>?)
               ?.map((e) => MatchItem.fromJson(e as Map<String, dynamic>))

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'router.dart';
 import 'theme/app_theme.dart';
@@ -20,6 +21,11 @@ class StudentStudyApp extends StatelessWidget {
       supportedLocales: const [
         Locale('zh', 'CN'),
         Locale('en', 'US'),
+      ],
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
       ],
       routerConfig: appRouter,
     );

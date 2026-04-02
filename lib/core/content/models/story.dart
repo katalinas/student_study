@@ -25,8 +25,8 @@ class StorySection {
 
   factory StorySection.fromJson(Map<String, dynamic> json) {
     return StorySection(
-      id: json['id'] as String,
-      content: json['content'] as String,
+      id: (json['id'] ?? json['order']?.toString()) as String,
+      content: (json['content'] ?? json['text']) as String,
       image: json['image'] as String?,
       audio: json['audio'] as String?,
       type: json['type'] as String? ?? 'paragraph',

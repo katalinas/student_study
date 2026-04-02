@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   # Navigation
   go_router: ^17.1.0
@@ -36,6 +38,9 @@ dependencies:
 
   # Charts
   fl_chart: ^1.2.0
+
+  # URL Launcher
+  url_launcher: ^6.3.1
 
   # Utilities
   path_provider: ^2.1.5
@@ -72,6 +77,7 @@ flutter:
     - assets/content/tech/aerospace/
     - assets/content/tech/timeline/
     - assets/content/tech/science/
+    - assets/content/tech/new_tech/
     - assets/content/logic/
     - assets/content/general/
     - assets/content/moral/

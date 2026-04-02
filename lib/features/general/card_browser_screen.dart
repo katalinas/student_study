@@ -21,13 +21,13 @@ class _CategoryContent {
 final Map<String, _CategoryContent> _categoryContents = {
   'astronomy_geography': _CategoryContent(
     icon: Icons.public,
-    color: const Color(0xFF1976D2),
+    color: AppColors.primary,
     cards: [
       KnowledgeCardData(
         title: '太阳系的八大行星',
         summary: '太阳系由八颗行星组成，从离太阳最近到最远依次为：水星、金星、地球、火星、木星、土星、天王星和海王星。每颗行星都有独特的特征。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '类地行星': '水星、金星、地球和火星是类地行星，它们体积较小，主要由岩石和金属构成，表面坚硬。',
           '类木行星': '木星、土星、天王星和海王星是类木行星，它们体积巨大，主要由气体组成，没有固体表面。',
@@ -39,7 +39,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '地球的构造',
         summary: '地球由地壳、地幔和地核三大部分组成。地壳是我们生活的表面层，地幔是中间层，地核则在最深处，温度高达5000度以上。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '地壳': '地壳平均厚度约35公里，是地球最薄的一层，分为大陆地壳和海洋地壳。',
           '地幔': '地幔厚度约2900公里，占地球体积的82%，由半流体的岩浆物质组成。',
@@ -51,7 +51,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '四季的形成',
         summary: '四季的产生是因为地球的自转轴与公转轨道平面之间有23.5度的倾角。当北半球朝向太阳时是夏季，远离太阳时是冬季。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '夏至与冬至': '夏至日（6月21日左右）北半球白昼最长，冬至日（12月22日左右）白昼最短。',
           '春分与秋分': '春分和秋分时，全球昼夜几乎等长，各约12小时。',
@@ -62,7 +62,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '大洲与大洋',
         summary: '地球上有七大洲：亚洲、非洲、北美洲、南美洲、南极洲、欧洲和大洋洲；四大洋：太平洋、大西洋、印度洋和北冰洋。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '最大的洲': '亚洲是面积最大的洲，约4400万平方公里，占陆地面积的三分之一。',
           '最大的洋': '太平洋是面积最大的海洋，面积约1.65亿平方公里，比所有陆地面积加起来还大。',
@@ -73,7 +73,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '月亮的奥秘',
         summary: '月球是地球唯一的天然卫星，距离地球约38.4万公里。月球没有大气层，表面布满环形山，它影响着地球的潮汐。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '月相变化': '月球绕地球公转一周约29.5天，形成新月、上弦月、满月、下弦月等月相变化。',
           '潮汐作用': '月球的引力使海水产生潮汐现象，每天涨潮退潮各两次。',
@@ -84,7 +84,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '火山与地震',
         summary: '火山和地震是地球内部能量释放的表现。火山喷发时岩浆从地底涌出，地震则是地壳板块运动引起的振动。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '板块构造': '地球表面由十几个大大小小的板块组成，板块的碰撞和分离是火山、地震的主要原因。',
           '环太平洋火山带': '全球约75%的活火山和90%的地震发生在环太平洋火山带上。',
@@ -95,7 +95,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '天气与气候',
         summary: '天气是短时间内大气的状态，气候是一个地区长期的天气平均状况。风、雨、雪、雾等都是常见的天气现象。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '水循环': '太阳加热海水蒸发形成云，云中水汽凝结降雨，雨水汇入河流回到大海，形成水循环。',
           '气候带': '地球从赤道到两极分为热带、温带和寒带，各有不同的气候特征。',
@@ -106,7 +106,7 @@ final Map<String, _CategoryContent> _categoryContents = {
         title: '星座与导航',
         summary: '古人通过观察星空划分了88个星座。北极星位于北方天空，千百年来一直被用作导航的重要参考。',
         categoryIcon: Icons.public,
-        categoryColor: const Color(0xFF1976D2),
+        categoryColor: AppColors.primary,
         detailSections: {
           '黄道十二宫': '太阳在一年中经过的12个星座被称为黄道十二宫，包括白羊座、金牛座等。',
           '北斗七星': '北斗七星是大熊座的一部分，其斗柄指向可以判断季节。',

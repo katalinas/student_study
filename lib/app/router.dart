@@ -7,18 +7,30 @@ import 'package:student_study/features/general/general_screen.dart'
     as general_feature;
 import 'package:student_study/features/intellect/intellect_screen.dart';
 import 'package:student_study/features/intellect/subject_screen.dart';
+import 'package:student_study/features/logic/logic_screen.dart';
+import 'package:student_study/features/logic/deduction/deduction_screen.dart';
+import 'package:student_study/features/logic/pattern/pattern_screen.dart';
+import 'package:student_study/features/logic/spatial/spatial_screen.dart';
+import 'package:student_study/features/logic/strategy/strategy_screen.dart';
+import 'package:student_study/features/logic/strategy/sudoku_screen.dart';
 import 'package:student_study/features/parent/parent_screen.dart'
     as parent_feature;
 import 'package:student_study/features/profile/edit_profile_screen.dart';
+import 'package:student_study/features/profile/learning_resources_screen.dart';
 import 'package:student_study/features/profile/profile_screen.dart'
     as profile_feature;
 import 'package:student_study/features/profile/settings_screen.dart'
     as settings_feature;
 import 'package:student_study/features/quiz/quiz_screen.dart';
+import 'package:student_study/features/tech/tech_screen.dart';
+import 'package:student_study/features/tech/aerospace/aerospace_screen.dart';
+import 'package:student_study/features/tech/ai_intro/ai_intro_screen.dart';
+import 'package:student_study/features/tech/programming/programming_screen.dart';
+import 'package:student_study/features/tech/tech_timeline/tech_timeline_screen.dart';
+import 'package:student_study/features/tech/virtual_lab/experiment_detail_screen.dart';
+import 'package:student_study/features/tech/virtual_lab/virtual_lab_screen.dart';
 import 'package:student_study/features/words/words_screen.dart';
 import 'package:student_study/features/words/word_game_screen.dart';
-import 'package:student_study/features/logic/strategy/sudoku_screen.dart';
-import 'placeholder_screens.dart';
 import 'theme/colors.dart';
 
 final GlobalKey<NavigatorState> _rootNavigatorKey =
@@ -39,8 +51,47 @@ abstract final class AppRoutes {
   static const String quiz = '/quiz/:moduleId';
   static const String parent = '/parent';
   static const String settings = '/settings';
+  static const String resources = '/resources';
   static const String words = '/words';
   static const String wordGame = '/words/game/:categoryId';
+}
+
+/// 根据模块和子模块 ID 返回对应的真实页面组件。
+Widget _resolveSubModuleScreen(String moduleId, String subModuleId) {
+  switch (moduleId) {
+    case 'intellect':
+      return SubjectScreen(subjectId: subModuleId);
+    case 'tech':
+      return switch (subModuleId) {
+        'programming' => const ProgrammingScreen(),
+        'ai_intro' => const AiIntroScreen(),
+        'virtual_lab' => const VirtualLabScreen(),
+        'aerospace' => const AerospaceScreen(),
+        'tech_timeline' => const TechTimelineScreen(),
+        _ => const TechScreen(),
+      };
+    case 'logic':
+      return switch (subModuleId) {
+        'pattern' => const PatternScreen(),
+        'strategy' => const StrategyScreen(),
+        'spatial' => const SpatialScreen(),
+        'deduction' => const DeductionScreen(),
+        _ => const LogicScreen(),
+      };
+    default:
+      return const IntellectModuleScreen();
+  }
+}
+
+/// 根据模块 ID 返回对应的模块主页面。
+Widget _resolveModuleScreen(String moduleId) {
+  return switch (moduleId) {
+    'intellect' => const IntellectModuleScreen(),
+    'tech' => const TechScreen(),
+    'logic' => const LogicScreen(),
+    'general' => const general_feature.GeneralScreen(),
+    _ => const IntellectModuleScreen(),
+  };
 }
 
 /// 少年研学应用的主路由配置。
@@ -127,7 +178,7 @@ final GoRouter appRouter = GoRouter(
       parentNavigatorKey: _rootNavigatorKey,
       builder: (context, state) {
         final moduleId = state.pathParameters['moduleId']!;
-        return ModuleScreen(moduleId: moduleId);
+        return _resolveModuleScreen(moduleId);
       },
       routes: [
         GoRoute(
@@ -136,14 +187,7 @@ final GoRouter appRouter = GoRouter(
           builder: (context, state) {
             final moduleId = state.pathParameters['moduleId']!;
             final subModuleId = state.pathParameters['subModuleId']!;
-            // 智育模块的子模块使用学科详情页面
-            if (moduleId == 'intellect') {
-              return SubjectScreen(subjectId: subModuleId);
-            }
-            return SubModuleScreen(
-              moduleId: moduleId,
-              subModuleId: subModuleId,
-            );
+            return _resolveSubModuleScreen(moduleId, subModuleId);
           },
         ),
       ],
@@ -152,14 +196,13 @@ final GoRouter appRouter = GoRouter(
       path: '/quiz/:moduleId',
       parentNavigatorKey: _rootNavigatorKey,
       builder: (context, state) {
-        // 从 extra 参数获取题目列表
         final questions = state.extra as List<Question>?;
         if (questions != null && questions.isNotEmpty) {
           return QuizInteractionScreen(questions: questions);
         }
-        // 回退到占位页面
+        // 无题目时返回模块主页
         final moduleId = state.pathParameters['moduleId']!;
-        return QuizScreen(moduleId: moduleId);
+        return _resolveModuleScreen(moduleId);
       },
     ),
     // 数独游戏页面（全屏路由）
@@ -173,9 +216,8 @@ final GoRouter appRouter = GoRouter(
       path: '/module/tech/virtual_lab/experiment/:id',
       parentNavigatorKey: _rootNavigatorKey,
       builder: (context, state) {
-        // 实验详情页待实现，暂时展示占位页面
         final id = state.pathParameters['id']!;
-        return PlaceholderScreen(title: '实验详情: $id');
+        return ExperimentDetailScreen(experimentId: id);
       },
     ),
     // 百科卡片浏览页面（全屏路由）
@@ -223,6 +265,12 @@ final GoRouter appRouter = GoRouter(
       path: '/settings',
       parentNavigatorKey: _rootNavigatorKey,
       builder: (context, state) => const settings_feature.SettingsScreen(),
+    ),
+    // 学习资源页面（全屏路由）
+    GoRoute(
+      path: '/resources',
+      parentNavigatorKey: _rootNavigatorKey,
+      builder: (context, state) => const LearningResourcesScreen(),
     ),
   ],
 );
